@@ -88,6 +88,7 @@
     "animation_loading": false,
     "animation_loading_message": "mila",
     "animation_loading_message_size": 36,
+    "cart_type": "go_to_cart",
     "currency_code_enabled": false,
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
