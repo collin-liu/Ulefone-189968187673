@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_mjdaRJ": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (max-width: 991px) {#sec-block {margin-top: 0; }}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section-1\">\n    <div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-2.webp\" alt=\"\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-1.webp\" alt=\"\" loading=\"lazy\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-3.webp\" alt=\"\" loading=\"lazy\">\n    </div>\n    <div id=\"sec-block\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-02.webp\" alt=\"\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-01.webp\" alt=\"\" loading=\"lazy\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-03.webp\" alt=\"\" loading=\"lazy\">\n    </div>\n</div>"
+      }
+    },
+    "newsletter_whdjPa": {
+      "type": "newsletter",
+      "custom_css": [
+        "div#section-id-template--24655729033497__newsletter_whdjPa {background-color: #000;}",
+        ".inline-mini-form.inline-mini-form--arrow.cc-animate-init.-in.cc-animate-complete {color: #fff;}",
+        "b,strong {font-weight: bold; color: #fff;}",
+        ".inline-mini-form.inline-mini-form--arrow {color: #fff;}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text": "<h6><strong>Subscribe for sales alerts and exclusive discounts.</strong></h6>",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_PyRFhp": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".overlay {position: relative;}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"section-id-template--24655729033497__newsletter_whdjPa\" class=\"section-id-template--24655729033497__newsletter_whdjPa wide-container align-center use-standard-bg cc-animate-init -in cc-animate-complete\" data-cc-animate=\"\">\n\n  \n\n  <div class=\"overlay-type overlay \">\n    <div class=\"inner\">\n      <div>\n        <div class=\"overlay__content\">\n          \n          <form method=\"post\" action=\"/contact#newsletter-signup-template--24655729033497__newsletter_whdjPa\" id=\"newsletter-signup-template--24655729033497__newsletter_whdjPa\" accept-charset=\"UTF-8\" class=\"contact-form\"><input type=\"hidden\" name=\"form_type\" value=\"customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\">\n            \n\n            <h4 class=\"h2 line-1 cc-animate-init -in cc-animate-complete\" data-cc-animate=\"\">Subscribe to our newsletter</h4>\n\n            <div class=\"signup-form\">\n              \n                <input type=\"hidden\" name=\"newsletter\" value=\"true\">\n                <div class=\"rte align-center cc-animate-init -in cc-animate-complete\" data-cc-animate=\"\" data-cc-animate-delay=\"0.2s\" style=\"\"><p>Sign up to our newsletter and we'll keep you up to date with the latest arrivals</p></div>\n\n                <input type=\"hidden\" id=\"contact_tagstemplate--24655729033497__newsletter_whdjPa\" name=\"contact[tags]\" value=\"prospect,newsletter\">\n                <div class=\"inline-mini-form inline-mini-form--arrow cc-animate-init -in cc-animate-complete\" data-cc-animate=\"\" data-cc-animate-delay=\"0.4s\" style=\"\">\n                  <input type=\"email\" aria-label=\"Email\" placeholder=\"Email\" class=\"required\" value=\"\" id=\"mailinglist_emailtemplate--24655729033497__newsletter_whdjPa\" name=\"contact[email]\">\n                  <button class=\"compact no-hover\" type=\"submit\" aria-label=\"Subscribe\">\n                    <svg width=\"62px\" height=\"35px\" viewBox=\"0 0 62 35\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <title>Right arrow long</title>\n  <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\">\n    <g transform=\"translate(2.000000, 2.000000)\" stroke-width=\"4\">\n      <g transform=\"translate(41.000000, 0.000000)\">\n        <polyline points=\"-2.7385153e-12 30.8 15.4 15.4 -2.7385153e-12 -3.34373052e-13\"></polyline>\n      </g>\n      <line x1=\"54.5\" y1=\"15.5\" x2=\"0.5\" y2=\"15.5\" stroke-linejoin=\"round\"></line>\n    </g>\n  </g>\n</svg>\n\n                  </button>\n                </div>\n\n                \n              \n            </div>\n          </form>\n\n        </div>\n      </div>\n    </div>\n  </div>\n\n</div>"
+      }
+    },
+    "custom_liquid_CC6BNd": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".container-fluid {padding-right: 0; padding-left: 0;}",
+        "@media (max-width: 991px) {#sec-block {margin-top: 0; }}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section-3\">\n    <div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-4.webp\" alt=\"\" loading=\"lazy\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-5-title.webp\" alt=\"\" loading=\"lazy\">\n        <div class=\"container-fluid\">\n            <div class=\"col-md-6\">\n                <a href=\"https://www.ulefone.com/products/armor-29-pro-thermal-version\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-5-1.webp\" alt=\"\" loading=\"lazy\"></a>\n            </div>\n            <div class=\"col-md-6\">\n                <a href=\"https://www.ulefone.com/products/armor-29-pro\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-5-2.webp\" alt=\"\" loading=\"lazy\"></a>\n            </div>\n        </div>\n    </div>\n    <div id=\"sec-block\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-04.webp\" alt=\"\" loading=\"lazy\">\n        <a href=\"https://www.ulefone.com/products/armor-29-pro-thermal-version\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-05-1.webp\" alt=\"\" loading=\"lazy\"></a>\n        <a href=\"https://www.ulefone.com/products/armor-29-pro\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-ulefone-29-ultra-05-2.webp\" alt=\"\" loading=\"lazy\"></a>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_nhFeC4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": false,
+        "custom_liquid": "<div class=\"section section-4\" id=\"giveaway\">\n    <div class=\"title gradient-text\" style=\" text-align: center;padding: 2vw;\">\n        Giveaway\n    </div>\n    \n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_mjdaRJ",
+    "newsletter_whdjPa",
+    "custom_liquid_PyRFhp",
+    "custom_liquid_CC6BNd",
+    "custom_liquid_nhFeC4"
+  ]
+}

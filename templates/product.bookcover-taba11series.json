@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_ARJnh8": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Smart Book Cover for Tab A11 Series</div>\n                <ul class=\"nav fr\">\n\n                    <li class=\"tab current\"><a href=\"/products/smart-book-cover-for-tab-a11-series\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/products/smart-keyboard-for-tab-a11-series\">Smart Keyboard</a></li>\n                    <li class=\"tab\"><a href=\"/products/tpu-back-case-for-tab-a11-series\">TPU Back Case</a></li>\n                    <li class=\"tab\"><a href=\"/products/tempered-glass-for-tab-a11-series\">Tempered Glass</a></li>\n                    <li><a href=\"https://bit.ly/Smart-Book-Cover-TabA11Series\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-PC-1_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-PC-2_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-PC-3_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-PC-4_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-PC-5_240704.jpg\" style=\"width:100%;\">\n\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-M-1_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-M-2_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-M-3_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-M-4_240704.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-SmartBookCover-TabA11Accessories-M-5_240704.jpg\" style=\"width:100%;\">\n\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_ARJnh8"
+  ]
+}

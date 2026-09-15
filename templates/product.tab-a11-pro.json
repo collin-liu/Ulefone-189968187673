@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_EJPhVe": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Tab A11 Pro</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/tab-a11-pro\">Features</a></li>\n                    <!--<li><a href=\"/apps/pagefly/pf_preview?id=7f0cf11d-9403-49dc-a4c6-56b5bd309c71\">Keyboard</a></li>\n                    <li><a href=\"/a/pf_preview?id=8d25bc7c-3de2-4fff-92aa-5f6da41a4d9b\">Cover</a></li>\n                    <li><a href=\"/a/pf_preview?id=dddb9627-0067-4b58-8845-306ca484bd2d\">Case</a></li>-->\n                    <li><a href=\"https://www.ulefone.com/apps/pagefly/preview?id=56f08932-7079-4147-b439-e1a1848b35b4\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/Tab-A11-Pro\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-1_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-2_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-3_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-4_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-5_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-6.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-7_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-8_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-9_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-10_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-11_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-12_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-13_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-14_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-15_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-16_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-17_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-18_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-19_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-20_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-21_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-22_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-PC-23_240603.jpg\" style=\"width:100%;\">\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>2. 11 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>3. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>4. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>5. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The aforementioned video platforms support HD streaming playback. However, some features may be unavailable if software upgrade issues arise.</p>\n        <p>8. The software interfaces mentioned above are for demonstration purposes only. The actual APP interfaces may differ based on user interaction.</p>\n        <p>9. There are multiple virtual memory options available, with the maximum being 8GB, and it can be activated in the Settings based on your preference.</p>\n        <p>10. The mentioned microSD card is not included, and needs to be purchased separately. </p>\n        <p>11. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>12. Whether you can use VoLTE depends on the local carriers, not all of them support this function.</p>\n        <p>13. The mentioned smart keyboard case, TPU protective case, tablet stand cover and Armor Mount Max are not included, and need to be purchased separately.</p>\n        <p>14. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>15. The data on the page are theoretical values from Ulefone lab based on specific test environment (see details at specific description). In actual use, there may be slight differences due to product differences, software versions, use conditions and environmental factors, so please refer to actual situation as final.</p> \n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-1_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-2_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-3_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-4_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-5_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-6.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-7_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-8_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-9_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-10_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-11_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-12_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-13_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-14_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-15_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-16_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-17_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-18_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-19_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-20_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-21_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-22_240603.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TabA11Pro-M-23_240603.jpg\" style=\"width:100%;\">\n\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>2. 11 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>3. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>4. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>5. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The aforementioned video platforms support HD streaming playback. However, some features may be unavailable if software upgrade issues arise.</p>\n        <p>8. The software interfaces mentioned above are for demonstration purposes only. The actual APP interfaces may differ based on user interaction.</p>\n        <p>9. There are multiple virtual memory options available, with the maximum being 8GB, and it can be activated in the Settings based on your preference.</p>\n        <p>10. The mentioned microSD card is not included, and needs to be purchased separately. </p>\n        <p>11. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>12. Whether you can use VoLTE depends on the local carriers, not all of them support this function.</p>\n        <p>13. The mentioned smart keyboard case, TPU protective case, tablet stand cover and Armor Mount Max are not included, and need to be purchased separately.</p>\n        <p>14. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>15. The data on the page are theoretical values from Ulefone lab based on specific test environment (see details at specific description). In actual use, there may be slight differences due to product differences, software versions, use conditions and environmental factors, so please refer to actual situation as final.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_EJPhVe"
+  ]
+}

@@ -1,0 +1,415 @@
+{% schema %}
+{
+  "name": "Register Your Visit Form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "google_sheet_url",
+      "label": "Google Sheet Web App URL",
+      "default": "https://script.google.com/macros/s/AKfycbwFerB2fpGgAoOxJ-Lt7PR0l_zrqhkYWiqRcW-jIN478xDzTNWnv1eAM0I0FMwc1Ga5/exec"
+    },
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "Title",
+      "default": "Register Your Visit"
+    },
+    {
+      "type": "textarea",
+      "id": "form_subtitle",
+      "label": "Subtitle",
+      "default": "We warmly welcome you to visit our booth and join our exclusive new product launch event at IFA 2026."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Register Your Visit Form",
+      "category": "Form"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="rv-form-section">
+  <div class="rv-form-wrap">
+    <h2 class="rv-title">{{ section.settings.form_title }}</h2>
+    <p class="rv-subtitle">{{ section.settings.form_subtitle }}</p>
+
+    <form id="rv-form" novalidate>
+
+      <div class="rv-row">
+        <div class="rv-field">
+          <label for="rv-full-name">Full Name<span class="rv-required">*</span></label>
+          <input type="text" id="rv-full-name" name="full_name" required />
+        </div>
+        <div class="rv-field">
+          <label for="rv-company">Company / Organization<span class="rv-required">*</span></label>
+          <input type="text" id="rv-company" name="company" required />
+        </div>
+      </div>
+
+      <div class="rv-row">
+        <div class="rv-field">
+          <label for="rv-email">Email Address<span class="rv-required">*</span></label>
+          <input type="email" id="rv-email" name="email" required />
+        </div>
+        <div class="rv-field">
+          <label for="rv-phone">Phone Number</label>
+          <input type="tel" id="rv-phone" name="phone" />
+        </div>
+      </div>
+
+      <div class="rv-interests-block">
+        <label class="rv-interests-label">I am interested in<span class="rv-required">*</span></label>
+        <div class="rv-checkbox-grid">
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Visiting the Booth" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Visiting the Booth</span>
+          </label>
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Attending the New Product Launch Event" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Attending the New Product Launch Event</span>
+          </label>
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Distribution Partnership" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Distribution Partnership</span>
+          </label>
+
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Media Interview" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Media Interview</span>
+          </label>
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Product Review" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Product Review</span>
+          </label>
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Business Cooperation" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Business Cooperation</span>
+          </label>
+
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Supplier / Partner Meeting" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Supplier / Partner Meeting</span>
+          </label>
+          <label class="rv-checkbox-item">
+            <input type="checkbox" name="interests" value="Other" />
+            <span class="rv-checkbox-box"></span>
+            <span class="rv-checkbox-text">Other</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="rv-field rv-message-field">
+        <label for="rv-message">Message</label>
+        <textarea id="rv-message" name="message" rows="6"></textarea>
+      </div>
+
+      <button type="submit" class="rv-submit-btn" id="rv-submit-btn">Submit</button>
+      <div id="rv-form-message" class="rv-form-message"></div>
+    </form>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('rv-form');
+  const messageDiv = document.getElementById('rv-form-message');
+  const submitBtn = document.getElementById('rv-submit-btn');
+  const googleSheetUrl = "{{ section.settings.google_sheet_url }}";
+
+  // Local key used to remember which emails have already been submitted
+  // from this browser, so the same email cannot submit the same content twice.
+  const STORAGE_KEY = 'rv_submitted_emails';
+
+  function getSubmittedEmails() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveSubmittedEmail(email) {
+    try {
+      const list = getSubmittedEmails();
+      list.push(email.toLowerCase().trim());
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    } catch (e) {
+      /* localStorage unavailable, ignore */
+    }
+  }
+
+  function showMessage(text, isError) {
+    messageDiv.textContent = text;
+    messageDiv.style.color = isError ? '#c0392b' : '#1a7f37';
+  }
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    showMessage('', false);
+
+    const emailInput = form.querySelector('[name="email"]');
+    const email = emailInput.value.trim().toLowerCase();
+
+    // Basic required-field / native validation
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    // Require at least one interest to be checked
+    const checkedInterests = form.querySelectorAll('input[name="interests"]:checked');
+    if (checkedInterests.length === 0) {
+      showMessage('Please select at least one option in "I am interested in".', true);
+      return;
+    }
+
+    // Prevent the same email from submitting more than once (this browser)
+    const submittedEmails = getSubmittedEmails();
+    if (submittedEmails.includes(email)) {
+      showMessage('This email address has already submitted the form. Each email can only submit once.', true);
+      return;
+    }
+
+    const formData = new FormData(form);
+    const interests = Array.from(checkedInterests).map(cb => cb.value);
+
+    const data = {
+      full_name: formData.get('full_name'),
+      company: formData.get('company'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      interests: interests.join(', '),
+      message: formData.get('message')
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+
+    try {
+      await fetch(googleSheetUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      saveSubmittedEmail(email);
+      showMessage('Submitted successfully! Thank you for registering.', false);
+      form.reset();
+    } catch (err) {
+      showMessage('Submission failed, please try again.', true);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit';
+    }
+  });
+});
+</script>
+
+<style>
+  @media (min-width: 701px) {
+    .rv-subtitle {
+      max-width: 30vw;
+  }
+}
+.rv-form-section {
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.rv-form-wrap {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+.rv-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  color: #111;
+}
+
+.rv-subtitle {
+    text-align: center;
+    font-size: 1.52rem;
+    color: #333;
+    margin: 0 auto 36px;
+    line-height: 1.5;
+}
+
+.rv-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.rv-field label,
+.rv-interests-label {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 31px;
+}
+
+.rv-required {
+  color: #111;
+}
+
+.rv-field input,
+.rv-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+}
+
+.rv-field input:focus,
+.rv-field textarea:focus {
+  border-color: #f5c400;
+}
+
+.rv-message-field textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.rv-interests-block {
+  margin-bottom: 24px;
+}
+
+.rv-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 14px;
+}
+
+.rv-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #111;
+}
+
+.rv-checkbox-item input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.rv-checkbox-box {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  background: #fff;
+}
+
+.rv-checkbox-item input[type="checkbox"]:checked + .rv-checkbox-box {
+  background: #f5c400;
+  border-color: #f5c400;
+}
+
+.rv-checkbox-item input[type="checkbox"]:checked + .rv-checkbox-box::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #111;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.rv-submit-btn {
+  width: 100%;
+  padding: 16px;
+  margin-top: 8px;
+  background-color: #f5c400;
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.rv-submit-btn:hover {
+  background-color: #e0b400;
+}
+
+.rv-submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.rv-form-message {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+  min-height: 18px;
+}
+
+/* Mobile responsive */
+@media (max-width: 700px) {
+      #sec-block {
+        margin-top: 0;
+    }
+    .ifa-showcase-content {
+    text-align: center;
+}
+  .rv-title {
+    font-size: 28px;
+  }
+
+  .rv-subtitle {
+    font-size: 15px;
+  }
+
+  .rv-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .rv-checkbox-grid {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+  }
+
+  .rv-submit-btn {
+    font-size: 16px;
+    padding: 14px;
+  }
+}
+button:not(.hover-grow):not(.no-hover):not(input[type=submit].textbutton):not(button.textbutton):not([disabled=disabled]):not(.custom-dot):hover, input[type=submit]:not(.hover-grow):not(.no-hover):not(input[type=submit].textbutton):not(button.textbutton):not([disabled=disabled]):not(.custom-dot):hover, .button:not(.hover-grow):not(.no-hover):not(input[type=submit].textbutton):not(button.textbutton):not([disabled=disabled]):not(.custom-dot):hover {
+    background-color: #ffc600;
+    color: #000000;
+}
+</style>

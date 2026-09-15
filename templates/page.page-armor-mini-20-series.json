@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_YWT4iD": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    #sec-block {\n        margin-top: 0;\n    }\n\n    .amini20-2 {\n        position: absolute;\n        left: 18.5%;\n        top: 4.5%;\n    }\n\n    .amini20-1 {\n        width: 100%;\n    }\n\n    @media screen and (max-width: 1440px) {\n        .amini20-2 {\n            top: 4.1%;\n            width: 15%;\n        }\n    }\n\n    @media screen and (max-width: 1145px) {\n        .amini20-2 {\n            width: 11%;\n        }\n    }\n</style>\n<div id=\"gs\">\n    <div>\n        <a href=\"https://bit.ly/3zTMlWk\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-1.jpg\" style=\"width:100%;\"></a>\n    </div>\n    <div>\n        <a href=\"https://bit.ly/3zTMlWk\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-2.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zTMlWk\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-3.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zXcIum\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-4.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zXcIum\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-5.jpg\" style=\"width:100%;\"></a>\n        <div>\n            <div style=\"width: 50%; float: left;\">\n                <a href=\"https://bit.ly/3YhC7IB\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-6.jpg\" alt=\"\"></a>\n            </div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3zVXZjo\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-7.jpg\" alt=\"\"></a></div>\n\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NoimJ6\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-8.jpg\" alt=\"\"></a></div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NnAkLT\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-9.jpg\" alt=\"\"></a></div>\n\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NIPoEd\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-10.jpg\" alt=\"\"></a></div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3Nof0Wt\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-pc-11.jpg\" alt=\"\"></a></div>\n        </div>\n    </div>\n</div>\n<div id=\"sec-block\">\n    <div>\n        <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-1.jpg\" style=\"width:100%;\"></a>\n    </div>\n    <div>\n        <a href=\"https://bit.ly/3zTMlWk\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-2.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zTMlWk\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-3.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zXcIum\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-4.jpg\" style=\"width:100%;\"></a>\n        <a href=\"https://bit.ly/3zXcIum\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-5.jpg\" style=\"width:100%;\"></a>\n        <div>\n            <div style=\"width: 50%; float: left;\">\n                <a href=\"https://bit.ly/3YhC7IB\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-6.jpg\" alt=\"\"></a>\n            </div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3zVXZjo\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-7.jpg\" alt=\"\"></a></div>\n\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NoimJ6\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-8.jpg\" alt=\"\"></a></div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NnAkLT\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-9.jpg\" alt=\"\"></a></div>\n\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3NIPoEd\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-10.jpg\" alt=\"\"></a></div>\n            <div style=\"width: 50%; float: left;\"><a href=\"https://bit.ly/3Nof0Wt\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armormini20-ae-m-11.jpg\" alt=\"\"></a></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"giveaway\" name=\"giveaway\" style=\"width: 100%; float: left;\">\n    .\n    <div id=\"85103-j0t1i7xr\" class=\"sw_container\">\n        <script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script>\n    </div>\n</div>"
+      }
+    },
+    "image_with_text_overlay_9YKgeV": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/page-armormini20-ae-pc-1.jpg",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "pagefly_section_ze699q": {
+      "type": "pagefly-section",
+      "disabled": true,
+      "settings": {
+        "section_id": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_YWT4iD",
+    "image_with_text_overlay_9YKgeV",
+    "pagefly_section_ze699q"
+  ]
+}

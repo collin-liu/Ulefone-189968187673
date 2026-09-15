@@ -1,0 +1,930 @@
+@font-face {
+    font-family: MiSans-Demibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+}
+
+@font-face {
+    font-family: MiSans-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+}
+
+.ar-white {
+    color: #fff;
+}
+
+.ar-left {
+    text-align: left;
+}
+
+.ar-right {
+    text-align: right;
+}
+/*    .section-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 1.8vw auto;
+        width: 70%;
+    }*/
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+
+.section-slogan {
+    font-family: MiSans-Demibold;
+    font-size: 3.22vw;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    font-family: MiSans-Demibold;
+    font-size: 2.25vw;
+    font-weight: 500;
+}
+
+.section-text {
+    font-family: MiSans-Regular;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+}
+.section-medium {
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+@font-face {
+    font-family: MiSans-Semibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.ttf');
+}
+
+#featurescontent .section {
+    display: block;
+    clear: both;
+    /*    margin: auto;*/
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.section-1 {
+    height: 56.25vw;
+    margin-top: 2vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-1.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.section-2 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-2.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.section-3 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-3.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-3 .section-box {
+        width: 80vw;
+        margin: 4vw 47vw 0;
+    }
+
+    .section-3 .section-text {
+        width: 28%;
+        margin: 3vw 64.6vw;
+    }
+.section-4 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-4.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-4 .section-box {
+        margin: 4vw 8vw;
+    }
+
+    .section-4 .section-text {
+        width: 20vw;
+        margin: 3vw 8vw;
+    }
+.section-5 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-5.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-5 .section-box {
+        margin: 4vw 11vw;
+        width: 86%;
+        display: inline-block;
+    }
+    .section-5 .section-text {
+        width: 23vw;
+        margin: 4vw 69vw;
+    }
+.section-6 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-6.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-6 .section-content {
+        width: 36vw;
+        margin: 9vw 13vw;
+        text-align: center;
+    }
+
+.section-7 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-7.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-7 .section-box {
+        width: 93vw;
+        margin: 4vw 6vw;
+    }
+    .section-7 .section-text {
+        width: 26vw;
+        margin: 3vw 6vw;
+    }
+.section-8 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-8.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-8 .section-content {
+        margin-top: 1vw;
+    }
+    .section-8 .section-text {
+        width: 56vw;
+        text-align: center;
+        margin: 1vw auto;
+    }
+.section-9 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-9.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-9 .section-content {
+        width: 87vw;
+        text-align: center;
+        margin: 3vw auto;
+    }
+
+.section-10 {
+    height: 43.476vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-10.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-10 .section-content {
+        width: 53vw;
+        margin: 6vw auto;
+        text-align: center;
+    }
+
+.section-11 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-11.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-11 .section-content {
+        width: 71vw;
+        text-align: center;
+        margin: 4.5vw 8vw;
+    }
+
+.section-12 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-12.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-12 .section-content {
+        width: 50vw;
+        margin: 6vw auto;
+        text-align: center;
+    }
+
+.section-13 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-13.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-13 .section-content {
+        margin: 3vw 8vw;
+    }
+
+    .section-13 .subtitle2 {
+        width: 50vw;
+        margin: -14.6vw 49vw;
+    }
+
+.section-14 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-14.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-14 .section-box {
+        margin: 4vw 9vw;
+    }
+    .section-14 .section-text {
+        width: 30vw;
+        margin: 3vw 58vw;
+    }
+.section-15 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-15.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-15 .section-content {
+        width: 26vw;
+        text-align: center;
+        margin: 17.3vw 65vw;
+    }
+
+.section-16 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-16.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-16 .section-content {
+        width: 44vw;
+        margin: 6vw 2.5vw;
+    }
+.section-17 {
+    height: 43.28vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-17.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-17 .section-content {
+        width: 45vw;
+        margin: 4vw auto;
+        text-align: center;
+    }
+
+.section-18 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-18.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-18 .section-content {
+        margin: 1.5vw 7vw;
+    }
+
+.section-19 {
+    height: 48.085vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-19.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-19 .section-content {
+        width: 34vw;
+        margin: 11vw 13vw;
+    }
+
+.section-20 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-20.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-20 .section-content {
+        width: 33vw;
+        margin: 12vw 7vw;
+    }
+.section-slogan img {
+    width: 3vw;
+    margin: 0.5vw 1vw;
+}
+.section-21 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-21.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-21 .section-text {
+        width: 28vw;
+    }
+
+    .section-21 .subtitle2 {
+        margin: 8vw 0 0;
+    }
+
+    .section-21 .section-content {
+        width: 83vw;
+        margin: 1.5vw auto;
+        text-align: center;
+    }
+
+.section-22 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-22.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-22 .section-content {
+        width: 34vw;
+        margin: 17vw 56vw;
+    }
+.section-23 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-23.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-23 .section-content {
+        margin: 2vw 5vw;
+    }
+.section-24 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-24.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-24 .section-content {
+        margin: 6vw 9vw;
+        width: 30vw;
+    }
+
+.section-25 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-25.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-25 .section-content {
+        margin-top: 3vw;
+    }
+    .section-25 .section-text.ar-left {
+        width: 30vw;
+        margin: 7vw 58vw;
+    }
+.section-26 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-26.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-26 .section-content {
+        margin-top: 2vw;
+    }
+    .section-26 .section-text {
+        width: 47vw;
+        text-align: center;
+        margin: 1vw auto;
+    }
+.section-27 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-27.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-27 .section-content {
+        width: 40vw;
+        margin: 9vw 8.5vw;
+    }
+    .section-27 .section-text {
+        width: 29vw;
+        margin: 4vw 0;
+    }
+.section-28 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-28.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-28 .section-content {
+        width: 37vw;
+        margin: 10vw 6vw;
+    }
+.section-29 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-29.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-29 .section-content {
+        width: 90vw;
+        margin: 4.5vw auto;
+    }
+.section-30 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-30.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-30 .section-box {
+        margin-top: 3vw;
+    }
+.section-31 {
+    height: 61.523vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-31.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-31 .section-content {
+        margin-top: 3vw;
+    }
+
+.section-32 {
+    height: 58.125vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-32.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-32 .section-content {
+        width: 30vw;
+        margin: 17vw 14vw;
+    }
+
+.section-33 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-33.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-33 .section-content {
+        width: 34vw;
+        margin: 13vw 63vw;
+    }
+.section-34 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-34.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-34 .section-content {
+        width: 59vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+
+#sec-block {
+    margin-top: 0;
+}
+@media (min-width: 992px){
+.spec {
+        margin-top: 6%;
+    }
+
+}
+@media (max-width: 768px) {
+    div #faq_nav {
+        padding: 0 2vw;
+    }
+
+    .section-slogan {
+        font-size: 6vw;
+        margin-top: 1vw;
+    }
+
+    .section-subtitle {
+        font-size: 4.3vw;
+    }
+
+    .section-text {
+        font-size: 2.825vw;
+        margin-top: 1vw;
+        line-height: 1.25;
+    }
+
+    #featurescontent .section {
+        clear: both;
+       /* margin: auto;*/
+        width: 100%;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .section-1 {
+        height: 91.2vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-01.webp) no-repeat center;
+        background-size: 100% 100%;
+        margin-top: 5vw;
+    }
+
+    .section-2 {
+        height: 166.3vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-02.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-3 {
+        height: 178.61vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-03.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-3 .section-box {
+            width: 93vw;
+            margin: 9vw auto;
+        }
+        .section-3 .section-text {
+            width: 93%;
+            margin: 0 auto;
+        }
+    .section-4 {
+        height: 142.78vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-04.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-4 .section-box {
+            margin: 7vw auto;
+            width: 93vw;
+        }
+        .section-4 .section-text {
+            width: 93vw;
+            margin: 3vw auto;
+        }
+    .section-5 {
+        height: 151.57vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-05.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-5 .section-text {
+            width: 93vw;
+            margin: 2vw auto;
+        }
+
+        .section-5 .section-box {
+            margin: 6vw 3vw 0;
+            width: 93%;
+        }
+
+    .section-6 {
+        height: 136.11vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-06.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-7 {
+        height: 133.52vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-07.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-7 .section-box {
+            width: 92vw;
+            margin: 4vw auto;
+        }
+
+        .section-7 .section-text {
+            width: 92vw;
+            margin: 0 4vw;
+        }
+
+        .section-7 .section-content {
+            margin-top: 8vw;
+        }
+
+    .section-8 {
+        height: 203.98vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-08.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-8 .section-content {
+            margin-top: 9vw;
+        }
+        .section-8 .section-text {
+            width: 93vw;
+            text-align: center;
+            margin: 1vw auto;
+        }
+    .section-9 {
+        height: 132.78vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-09.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-9 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 14vw auto;
+        }
+
+    .section-10 {
+        height: 169.07vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-010.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-10 .section-content {
+            width: 92vw;
+            margin: 15vw auto;
+        }
+
+    .section-11 {
+        height: 107.13vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-011.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-11 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 11vw auto;
+        }
+
+    .section-12 {
+        height: 161.2vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-012.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-12 .section-content {
+            width: 93vw;
+            margin: 13vw auto;
+            text-align: center;
+        }
+    .section-medium {
+        font-size: 2.8vw;
+        font-weight: 500;
+    }
+    .section-13 {
+        height: 161.2vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-013.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-13 .section-content {
+            margin: 19vw auto;
+            width: 93vw;
+        }
+    .section-14 {
+        height: 176.02vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-014.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-14 .section-text {
+            width: 84vw;
+            margin: 3vw auto;
+            text-align: right;
+        }
+    .section-15 {
+        height: 89.35vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-015.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-15 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 9vw auto;
+        }
+
+    .section-16 {
+        height: 160.56vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-016.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-16 .section-content {
+            width: 92vw;
+            margin: 11vw auto;
+        }
+
+    .section-17 {
+        height: 159.35vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-017.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-17 .section-content {
+            width: 90vw;
+            margin: 8vw auto;
+        }
+
+    .section-18 {
+        height: 115.65vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-018.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-18 .section-content {
+            width: 92vw;
+            margin: 16vw auto;
+            text-align: center;
+        }
+
+    .section-19 {
+        height: 144.91vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-019.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-19 .section-content {
+            width: 92vw;
+            margin: 6vw auto;
+        }
+
+    .section-20 {
+        height: 163.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-020.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-20 .section-content {
+            width: 92vw;
+            margin: 10vw auto;
+        }
+    .section-slogan img {
+        width: 5vw;
+        margin: .5vw 1vw;
+    }
+    .section-21 {
+        height: 208.06vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-021.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-21 .subtitle2 {
+            margin: 9vw 7vw 0;
+            text-align: center;
+        }
+        .section-21 .section-content {
+            width: 92vw;
+            margin: 9vw auto;
+        }
+        .section-21 .section-text {
+            width: 86vw;
+            margin: 3.5vw auto;
+            text-align: center;
+        }
+
+    .section-22 {
+        height: 153.15vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-022.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-22 .section-content {
+            width: 93vw;
+            margin: 11vw auto;
+        }
+        .section-22 .section-text {
+            margin-top: 5vw;
+        }
+    .section-23 {
+        height: 164.26vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-023.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-23 .section-content {
+            width: 92vw;
+            margin: 12vw auto;
+        }
+        .section-23 .section-text {
+            margin-top: 5vw;
+        }
+    .section-24 {
+        height: 195.09vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-024.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-24 .section-content {
+            width: 92vw;
+            margin: 7vw auto;
+        }
+
+    .section-25 {
+        height: 179.17vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-025.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-25 .section-content {
+            width: 93vw;
+            margin: 7vw auto;
+        }
+        .section-25 .section-text.ar-left {
+            width: 93vw;
+            margin: 5vw auto;
+            text-align: center;
+        }
+    .section-26 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-026.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-26 .section-content {
+            width: 93%;
+            text-align: center;
+            margin: 7vw auto;
+        }
+        .section-26 .section-text {
+            width: 93vw;
+        }
+    .section-27 {
+        height: 168.24vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-027.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-27 .section-content {
+            width: 92vw;
+            margin: 7vw auto;
+        }
+        .section-27 .section-slogan, .section-27 .section-subtitle {
+            text-align: center;
+        }
+        .section-27 .section-text {
+            width: 90vw;
+            margin: 4vw auto;
+            text-align: center;
+        }
+    .section-28 {
+        height: 182.13vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-028.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-28 .section-box {
+            width: 93vw;
+            margin: 5vw auto 0;
+        }
+
+        .section-28 .section-content {
+            width: 93vw;
+            margin: 2vw 6vw;
+        }
+
+    .section-29 {
+        height: 120.65vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-029.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-29 .section-content {
+            width: 93%;
+            text-align: center;
+            margin: 10vw auto;
+        }
+        .section-29 .section-text {
+            margin-top: 7vw;
+        }
+    .section-30 {
+        height: 154.91vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-030.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-30 .section-box {
+            margin-top: 5vw;
+        }
+    .section-31 {
+        height: 187.22vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-031.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-31 .section-content {
+            width: 81vw;
+            margin: 6.5vw 11vw;
+        }
+
+        .section-31 .section-subtitle, .section-31 .section-slogan, .section-31 .section-text {
+            text-align: center;
+        }
+
+    .section-32 {
+        height: 161.11vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-032.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-32 .section-subtitle, .section-32 .section-slogan, .section-32 .section-text {
+            text-align: center;
+        }
+
+        .section-32 .section-content {
+            width: 93vw;
+            margin: 6.5vw 3vw;
+        }
+
+    .section-33 {
+        height: 144.63vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-033.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-33 .section-content {
+            width: 86vw;
+            margin: 8vw 19vw;
+        }
+        .section-33 .section-text {
+            margin: 8vw -13vw;
+            width: 90vw;
+        }
+    .section-34 {
+        height: 129.63vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-rugking-5-pro-034.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-34 .section-content {
+            width: 93vw;
+            margin: 3vw auto;
+        }
+}
+
+@media (max-width: 480px) {
+    .section-1 {
+        margin-top: 13vw;
+    }
+
+    .notes p {
+        font-size: .87rem;
+    }
+        .spec {
+        margin-top: 24.9999%;
+    }
+}

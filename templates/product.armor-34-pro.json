@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_liquid_qJAcmK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "{{ 'Armor-34-Pro.css' | asset_url | stylesheet_tag: preload: true }}\n<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor 34 Pro</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-34-pro\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/preview?id=ec931f08-fdba-4054-b86f-3f0e64b4cbb2\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/armor-34-pro\" class=\"button\" target=\"_blank\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"section-1\">\n    <div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-1.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-2-16.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n    </div>\n    <div id=\"sec-block\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-01.webp\" alt=\"Ulefone Armor 34 Pro\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-02-16.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n    </div>\n</div>\n<div class=\"section section-2\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Pocket Cinema Anywhere\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Built-in DLP Projector\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Integrated with 150 lumens high-bright DLP projector, Armor 34 Pro transforms into a portable projector. Enjoy crisp, clear projections on any surface, turning any location into your personal theater. Share movies, presentations, engineering drawings, or photos with ease, all on a stunning large display.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-4.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-04.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-3\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h5 class=\"section-title ar-left ar-white\">\n                As Large As 100\" Visuals\n            </h5>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Immersive big-screen is within reach. Cast from a distance of just 3 meters to effortlessly project a wide visual of up to 100 inches, enjoying clear and detailed images with 480P ultra-clear image like an IMAX theater.\n        </div>\n    </div>\n</div>\n<div class=\"section section-4\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Project Directly, Perfectly\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                True 100% Offset\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            The innovative 100% offset design means instant, unblocked projection simply by placing the device flat. Say goodbye to the hassle of lifts and enjoy a perfect cast every time.\n        </div>\n    </div>\n</div>\n<div class=\"section section-5\">\n    <div class=\"section-content section-content-right\">\n        <div class=\"section-box\">\n            <div class=\"subhead-title ar-left ar-white\">\n                Always Sharp, Always Ready\n            </div>\n            <div class=\"chapter-title ar-left ar-white\">\n                Smart Autofocus\n            </div>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Get a sharp, focused image the moment you project. Intelligent autofocus quickly identifies the distance, eliminating manual adjustments and ensuring your content is always clear and ready to enjoy.\n        </div>\n    </div>\n    <div class=\"section-content section-content-left\">\n        <div class=\"section-box\">\n            <div class=\"subhead-title ar-left ar-white\">\n                Flawless Projection, Every Time\n            </div>\n            <div class=\"chapter-title ar-left ar-white\">\n                ±40° Keystone Correction\n            </div>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Thanks for upward throw angle design, no matter the angle, achieve a perfect rectangular projection. Support for a manual vertical keystone adjustment of up to ±40°, resulting in a distortion-free image in any situation.\n        </div>\n    </div>\n</div>\n<div class=\"section section-6\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                One Key, Total Control\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                One-Touch Projection\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Instantly launch the projector and toggle ON or OFF with the dedicated key. Fine-tune brightness and direction in the intuitive app, and personalize your experience with customizable widgets. Truly convenient control at your fingertips.\n        </div>\n    </div>\n</div>\n<div class=\"section section-7\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Stay Cool, Cast Longer\n            </h4>\n            <div class=\"chapter-title ar-left ar-white\">\n                Double 2W Cooling Fans\n            </div>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            With dual 2W, 1300 RPM fans, the device actively cools itself, dynamically adjusting fan speed based on temperature. This intelligent system guarantees uninterrupted projection.\n        </div>\n    </div>\n</div>\n<div class=\"section section-8\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Heard Loud and Clear\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                98 dB Loudspeaker\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Complement your projection experience with the Armor 34 Pro's 98dB loudspeaker. Hear your projected content clearly and audibly.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-11.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-011.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-9\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Conquer 10 Days without A Charge\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                25500mAh Power Giant\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            With a colossal 25500mAh battery, dominate your day, night, and beyond, up to 10 days of non-stop energy for travel, adventures, or daily hustle. Never let a low battery hold you back again.\n        </div>\n    </div>\n</div>\n<div class=\"section section-10\">\n    <div class=\"section-content section-content-right\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Multi-Layer Safety Shield\n                Your Safety, Our Priority\n            </h3>\n        </div>\n    </div>\n    <div class=\"section-content section-content-left\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Approved for Air Travel\n                Fly Safe, Stay Charged\n            </h3>\n        </div>\n    </div>\n</div>\n<div class=\"section section-11\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-left\">\n                Solid-state Long Life Battery\n            </h3>\n        </div>\n    </div>\n</div>\n<div class=\"section section-12\">\n    <div class=\"section-content\">\n        <div class=\"section-box-1 col-md-6\">\n            <h4 class=\"section-subtitle ar-left\">\n                Emergency Power Bank\n            </h4>\n            <h3 class=\"section-slogan ar-left\">\n                10W Reverse Charging\n            </h3>\n        </div>\n        <div class=\"section-box-2 col-md-6\">\n            <h4 class=\"section-subtitle ar-left\">\n                Stop Waiting, Start Doing\n            </h4>\n            <h3 class=\"section-slogan ar-left\">\n                66W Fast Charging\n            </h3>\n        </div>\n    </div>\n</div>\n\n<div class=\"section section-13\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Versatile LED Light\n                Light up, Right from Your Phone\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            The high-intensity rear LED light is a beast in the wild. With a blazing 1100 lumens of brightness, 585 LEDs, and a 6.5W output, it’s powered by a mega 25500mAh battery,\n            outshining and outlasting traditional camping lanterns.\n        </div>\n    </div>\n</div>\n<div class=\"section section-14\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Multiple Lighting Modes\n                Adjustable Brightness and Duration\n            </h3>\n        </div>\n\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-18.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-018.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-15\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-offset-2 col-md-3\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Warning Light\n                Be Seen, Be Safe\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-2 col-md-4 ar-white ar-left\">\n            The Armor 34 Pro's red and blue warning lights and customizable alarms provide critical alerts for emergencies. One press activates the warning,\n            ensuring you’re always ready to signal for help.\n        </div>\n    </div>\n</div>\n<div class=\"section section-16\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Built for the Toughest\n            </h4>\n            <div class=\"chapter-title ar-left ar-white\">\n                IP69K · IP68 ·\n                MIL-STD-810H Certified\n            </div>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Armor 34 Pro achieves IP69K and IP68 ratings, offering great protection against dust, water, and high-pressure liquids. Certified by MIL-STD-810H, it withstands drops, shocks and the toughest conditions with ease.\n        </div>\n    </div>\n</div>\n<div class=\"section section-17\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Immersive Visuals, Unmatched\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                6.95-inch FHD+ Display\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Dive into a world of stunning visuals with the ultra-large 6.95-inch FHD+ display. Its 120Hz high refresh rate makes ultra-smooth motion, while vivid colors bring every moment to life. Low power consumption means longer enjoyment without compromise.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-22.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-022.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-18\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                1/1.3\" Ultra-large Sensor\n            </h4>\n            <div class=\"chapter-title ar-left ar-white\">\n                50MP Primary Camera\n            </div>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Unlock professional-grade photography with the 50MP primary camera. Ultra large 1/1.3\" camera sensor, capture more and see more. Capture stunning details, vivid colors, and low-light brilliance with every shot. Elevate your creativity and turn every moment into a masterpiece.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-24.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-024.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-19\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Wider Scenery and More Details\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                50MP Ultra-wide Macro Camera\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            The 50MP ultra-wide sensor keeps distant objects sharp even when images are enlarged. With its shocking 117.3° ultra-wide vision, it captures more wonderful moments in a single frame. The macro capability enhances clarity for small, distant objects, making it ideal for detailed long-distance shots.\n        </div>\n    </div>\n</div>\n<div class=\"section section-20\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                NightElf 3.0 Master Algorithm\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                64MP Night Vision Camera\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Darkness is effectively conquered by the OmniVision OV64B night vision camera, boasting ultra-high 64MP resolution, delivering more detailed images. Enhanced by Ulefone's advanced NightElf 3.0 technology and powered by upgraded 4 infrared LEDs, it captures clearer night shots even at longer distances.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-27.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-28.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-027.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-028.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-21\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-left ar-white\">\n                32MP HD Selfie Camera\n            </h3>\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Every Snap, Masterpiece\n            </h4>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Turn ordinary moments into extraordinary portraits with a single click. Effortless, yet stunning. Snap with ease, masterpiece every time. Video calls are clearer.\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-30.webp\" width=\"100%\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-34-Pro-030.webp\" alt=\"Ulefone Armor 34 Pro\" loading=\"lazy\">\n</div>\n<div class=\"section section-22\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                More Brilliant\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                AI-powered Shots\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Enhance photos with smart analysis and cloud algorithms, making photos ultra-clear. Skin pores, textures, and\n            details are amplified for stunning realism. Capture\n            brilliance, effortlessly.\n        </div>\n    </div>\n</div>\n<div class=\"section section-23\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Blistering Speeds, Lasting Power\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                MediaTek Dimensity 7300\n                Flagship SoC\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Armor 34 Pro delivers seamless performance powered by the MediaTek Dimensity 7300. Enjoy immersive gaming with the Arm Mali-G615 GPU, all fueled by a 2.5GHz Octa-Core processor and efficient 4nm technology.\n        </div>\n    </div>\n</div>\n<div class=\"section section-24\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Enhanced AI Performance\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                MediaTek NPU 655\n            </h3>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            The NPU 655 delivers twice the AI task efficiency compared to its predecessor, along with faster processing for AI-driven features like real-time image recognition, voice interactions, and AI-enhanced photography.\n        </div>\n    </div>\n</div>\n<div class=\"section section-25\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white\">\n                Your Most Capable AI Assistant\n            </h4>\n            <h3 class=\"section-slogan ar-white\">\n                Comes with Google Gemini  Advanced\n            </h3>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Imagine having a supercharged assistant that understands your needs and anticipates your next move. That's Gemini Advanced, now pre-installed. Elevate your workflow, ignite your creativity, and achieve more than ever before.\n        </div>\n    </div>\n</div>\n<div class=\"section section-26\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                One Tap Note-taking\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                AI Recorder\n            </h3>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Stop tedious note-taking. AI Recorder excels at capturing voice and video calls, especially during online meetings, delivering instant transcripts and summaries for smarter, faster follow-ups.\n        </div>\n    </div>\n</div>\n<div class=\"section section-27\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-offset-1 col-md-5\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Generous 512GB Storage\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Expansive 16GB RAM\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Lightning-fast multitasking is yours with 16GB of ultra large RAM and an extra 16GB of dynamic RAM. Store your entire digital\n            collection, HDR photos, high-res videos, and more on a massive 512GB of storage. Expand up to 2TB for even more space.\n        </div>\n    </div>\n</div>\n<div class=\"section section-28\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-6\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Instant. Anywhere.\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                5G Connected Speed\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            With 5G, everything is instant, download, stream, connect. No more buffering, no more lag, just uninterrupted speed.\n        </div>\n    </div>\n</div>\n\n<div class=\"section section-29\">\n    <!--<div class=\"section-content\">\n        <div class=\"section-box col-md-offset-1 col-md-5\">\n            <h4 class=\"section-subtitle ar-left\">\n                Protected. Powerful. Seamless.\n            </h4>\n            <h3 class=\"section-slogan ar-left\">\n                All-new Android 15\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-left\">\n            Protect what matters most with Android 15. Featuring advanced theft detection to keep your device safe and Private Space to secure your sensitive data, your privacy is paramount. Multitask like a pro with app pairing and enhanced large-screen optimization. Capture stunning moments with improved in-app camera controls.\n        </div>\n    </div>-->\n</div>\n<div class=\"section section-30\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-offset-1 col-md-5\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Stream in Stunning HD\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Widevine L1 Certified\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Take your streaming to the next level with Widevine L1 certification. Dive into the vivid world of high-definition streaming on your favorite platforms like Amazon Prime Video, Netflix, and Disney+.\n        </div>\n    </div>\n</div>\n<div class=\"section section-31\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan ar-white\">\n                More Additional Functionalities\n            </h3>\n        </div>\n    </div>\n</div>\n<div class=\"section section-32\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h3 class=\"section-slogan\">\n                Accessories Ecosystem\n                Gear Up, Go Beyond\n            </h3>\n        </div>\n    </div>\n</div>\n<div class=\"section section-33\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Engineered for Precision and Performance\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                uSmart Expansion Connector\n            </h3>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            Designed exclusively for seamless expansion connectivity, the uSmart Expansion Connector offers unparalleled stability and efficiency. Compatible with the uSmart E03, E02, E01 endoscopes and uSmart C01 microscope, it ensures reliable performance and enhanced workflow in demanding professional environments. uSmart 2.0 technology enables you to use the uSmart Connector while charging.\n        </div>\n    </div>\n</div>\n<div class=\"section section-34\">\n    <div class=\"section-content\">\n        <div class=\"section-box\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Faster Support, Smarter Assistance\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Service Center 2.0\n            </h3>\n        </div>\n        <div class=\"section-text ar-white ar-left\">\n            To elevate your experience, our Service Center app has been upgraded to Version 2.0. Enjoy lightning-fast responses, instant access to user manuals, FAQs, and explore the Ulefone brand, products, and accessory ecosystem. The all-new Customer Service APP is designed to make your life easier and more efficient.\n        </div>\n    </div>\n</div>\n<div class=\"section section-35\">\n    <div class=\"section-content\">\n        <div class=\"section-box col-md-offset-1 col-md-5\">\n            <h4 class=\"section-subtitle ar-white ar-left\">\n                Fortified to Thrive\n            </h4>\n            <h3 class=\"section-slogan ar-left ar-white\">\n                Unyielding Quality\n            </h3>\n        </div>\n        <div class=\"section-text col-md-offset-1 col-md-5 ar-white ar-left\">\n            Surviving extreme tests in the Ulefone lab, the Armor 34 Pro is a testament to resilience. Crafted with meticulous quality control, it’s not just built, it’s battle-ready for whatever life throws at it.\n        </div>\n    </div>\n</div>\n\n<div class=\"notes container\">\n    <h5 style=\"text-align: left;\">Notes:</h5>\n    <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n    <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n    <p>3. Armor 34 Pro is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.8 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor 34 Pro. Liquid damage not covered under warranty.</p>\n    <p>4. Armor 34 Pro has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put an Armor 34 Pro into water.</p>\n    <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n    <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n    <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n    <p>8. 6.95 inches is the diagonal length of the displays when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n    <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n    <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n    <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n    <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n    <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n    <p>14. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n    <p>15. The dynamic RAM can be activated in Settings at your will.</p>\n    <p>16. Datas are from Ulefone lab, the actual performance may vary.</p>\n    <p>17. Armor Molle Holster is sold separately.</p>\n    <p>18. For more devices that are compatible with uSmart Expansion Connector, refer to the  accessories list. Expansion devices require additional purchases.</p>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "custom_liquid_qJAcmK"
+  ]
+}

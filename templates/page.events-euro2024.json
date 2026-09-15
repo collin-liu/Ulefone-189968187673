@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_8kx9Eq": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-1-240626.png\" style=\"width:100%;\">\n</div>\n\n    <div id=\"sec-block\" style=\"margin-top: 0;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-1-240626.png\" style=\"width:100%;\">\n    </div>"
+      }
+    },
+    "custom_liquid_BtnRrX": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-2-240626.png\" style=\"width:100%;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-3-240703.jpg\" style=\"width:100%;\">\n</div>\n    <div id=\"sec-block\" style=\"margin-top: 0;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-2-240626.png\" style=\"width:100%;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-3-240703.jpg\" style=\"width:100%;\">\n    </div>"
+      }
+    },
+    "custom_liquid_nzaLgw": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"82122-32rmu19e\" class=\"sw_container\"></div><script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script>"
+      }
+    },
+    "newsletter_4Y46VR": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Enter your email to subscribe and receive Giveaway results",
+        "text": "",
+        "height_desktop": 300,
+        "height_mobile": 300,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_Bxjize": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n<br />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-5-240626.png\" style=\"width:100%;\">\n    <a href=\"https://bit.ly/45Go1m6\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-6-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3zf8dLc\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-7-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/45NH8e7\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-8-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/45DlQzT\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-9-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3xJruDT\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-10-240626.png\" style=\"width:100%;\"></a>\n    <div class=\"row\">\n        <div style=\"width:50%;float:left;\">\n            <a href=\"https://bit.ly/3xJruUp\" target=\"_blank\"><img style=\"width:100%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-11-240626.png\"></a>\n        </div>\n        <div style=\"width:50%;float:right;\">\n            <a href=\"https://bit.ly/45Efn7C\" target=\"_blank\"><img style=\"width:100%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-PC-12-240626.png\"></a>\n        </div>\n    </div>\n    </div>\n<div id=\"sec-block\">\n\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-5-240626.png\" style=\"width:100%;\">\n    <a href=\"https://bit.ly/45Go1m6\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-6-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3zf8dLc\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-7-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/45NH8e7\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-8-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/45DlQzT\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-9-240626.png\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3xJruDT\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-10-240626.png\" style=\"width:100%;\"></a>\n    <div class=\"row\">\n        <div style=\"width:50%;float:left;\">\n            <a href=\"https://bit.ly/3xJruUp\" target=\"_blank\"><img style=\"width:100%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-11-240626.png\"></a>\n        </div>\n        <div style=\"width:50%;float:right;\">\n            <a href=\"https://bit.ly/45Efn7C\" target=\"_blank\"><img style=\"width:100%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-Euro2024-M-12-240626.png\"></a>\n        </div>\n    </div>\n    </div>"
+      }
+    },
+    "collection_list_PF9fHz": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_RwyH33": {
+          "type": "collection",
+          "settings": {
+            "collection": "armor-series"
+          }
+        },
+        "collection_dAEF3t": {
+          "type": "collection",
+          "settings": {
+            "collection": "armor-x-series"
+          }
+        },
+        "collection_Nib9mK": {
+          "type": "collection",
+          "settings": {
+            "collection": "rugged-tablet"
+          }
+        },
+        "collection_D7etyC": {
+          "type": "collection",
+          "settings": {
+            "collection": "rugged-phones"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RwyH33",
+        "collection_dAEF3t",
+        "collection_Nib9mK",
+        "collection_D7etyC"
+      ],
+      "settings": {
+        "title": "More Rugged Devices",
+        "layout": "rows",
+        "grid": 4,
+        "grid_mobile": "2",
+        "show_view_all": false,
+        "alternate_bg_color": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_8kx9Eq",
+    "custom_liquid_BtnRrX",
+    "custom_liquid_nzaLgw",
+    "newsletter_4Y46VR",
+    "custom_liquid_Bxjize",
+    "collection_list_PF9fHz"
+  ]
+}

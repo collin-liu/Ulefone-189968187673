@@ -1,0 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-045d4cf8": {
+      "type": "pf-045d4cf8",
+      "settings": {
+        "pf_5c8b0799_code": "<div class=\"for_nav\">\r\n  <div id=\"faq_nav\" style=\"\">\r\n    <div class=\"wide\">\r\n      <div class=\"sub_nav\">\r\n        <div class=\"ProName fl\">Armor X32 Pro</div>\r\n        <ul class=\"nav fr\">\r\n          <li class=\"tab\"><a href=\"/products/armor-x32-pro\">Features</a></li>\r\n          <li class=\"tab\"><a href=\"/products/armor-case-for-armor-x32-series\">Case</a></li>\r\n          <li class=\"tab current\"><a href=\"/pages/armor-x32-pro-spec\">Specs</a></li>\r\n          <li><a href=\"https://bit.ly/armor-x32-pro\" class=\"button\">Buy Now</a></li>\r\n        </ul>\r\n        <div class=\"clear\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
+      }
+    }
+  },
+  "order": [
+    "pf-045d4cf8"
+  ]
+}

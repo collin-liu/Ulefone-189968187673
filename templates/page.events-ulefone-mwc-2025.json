@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_QX3n8W": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    #sec-block {\n        margin-top: 0;\n    }\n</style>\n<div id=\"gs\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-1.webp\">\n       \n    </div>\n\n</div>\n<div id=\"sec-block\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-01.webp\">\n       \n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_Kn7DxL": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".cc-animate-init.-in.cc-animate-complete {background-color: #000; padding: 3%;}",
+        "#countdown {display: flex; justify-content: center; font-family: Arial, sans-serif; font-size: 24px; color: #333; text-align: center;}",
+        "#countdown div {margin: 0 1%; padding: 1%; background-color: #f4f4f4; border-radius: 5px;}",
+        "@media (min-width: 992px) {#countdown div {width: 5%; }}",
+        "#countdown span {font-size: 36px; font-weight: bold;}",
+        ".smalltext {font-size: 16px; color: #777; width: 100% !important; margin: 0 auto !important;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"countdown\">\n    <div>\n        <span id=\"days\"></span>\n        <div class=\"smalltext\">Days</div>\n    </div>\n    <div>\n        <span id=\"hours\"></span>\n        <div class=\"smalltext\">Hours</div>\n    </div>\n    <div>\n        <span id=\"minutes\"></span>\n        <div class=\"smalltext\">Minutes</div>\n    </div>\n    <div>\n        <span id=\"seconds\"></span>\n        <div class=\"smalltext\">Seconds</div>\n    </div>\n</div>\n\n<script>\n    const countDownDate = new Date(\"March 3, 2025 16:00:00\").getTime();\nconst x = setInterval(function() {\n    const now = new Date().getTime();\n    const distance = countDownDate - now;\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n    document.getElementById(\"days\").innerHTML = days;\n    document.getElementById(\"hours\").innerHTML = hours;\n    document.getElementById(\"minutes\").innerHTML = minutes;\n    document.getElementById(\"seconds\").innerHTML = seconds;\n    if (distance < 0) {\n        clearInterval(x);\n        document.getElementById(\"countdown\").innerHTML = \"EXPIRED\";\n    }\n}, 1000);\n</script>"
+      }
+    },
+    "custom_liquid_EyzT3A": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    #sec-block {\n        margin-top: 0;\n    }\n</style>\n<div id=\"gs\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-2.webp\">\n        <a href=\"https://forms.gle/fMaJpRviGmsUyUmQ7\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-3.webp\"></a>\n    </div>\n\n</div>\n<div id=\"sec-block\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-02.webp\">\n        <a href=\"https://forms.gle/fMaJpRviGmsUyUmQ7\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2025-03.webp\"></a>\n    </div>\n</div>"
+      }
+    },
+    "image_with_text_yCVra7": {
+      "type": "image-with-text",
+      "custom_css": [
+        "div#section-id-template--24292886544665__image_with_text_yCVra7 {background-color: #000; color: #fff;}",
+        "h2.feature-header.h2.align-left.cc-fade-in-up.cc-animate-init.feature-header--visible.-in.cc-animate-complete {color: #fff;}",
+        "a.button {background-color: #fff; color: #000;}",
+        ".image-with-text__image__inner {margin-right: 0px !important;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Ulefone MWC 2025 Invitation Unveiling AI-Empowered Rugged Innovations",
+        "title_size": 28,
+        "title_width": 20,
+        "text": "<p>Mobile World Congress (MWC) 2025 is coming<br/>again, it is held at Fira Gran Via, Barcelona, from<br/>March 3rd to 6th. We cordially invite you to visit<br/>our booth at Hall 7, Booth No. 7E46, where we will<br/>showcase our latest AI-empowered rugged devices,<br/>designed to redefine durability, performance, and<br/>innovation.</p>",
+        "button_label": "Learn More",
+        "button_link": "shopify://blogs/newsroom/ulefone-mwc-2025-invitation-unveiling-ai-empowered-rugged-innovations",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify://shop_images/ulefone-mwc-2025-4.webp",
+        "image_width": 80,
+        "image_position": "left",
+        "media_size": "contain",
+        "color_scheme": "custom",
+        "color_bg": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_QX3n8W",
+    "custom_liquid_Kn7DxL",
+    "custom_liquid_EyzT3A",
+    "image_with_text_yCVra7"
+  ]
+}

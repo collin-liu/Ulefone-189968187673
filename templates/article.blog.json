@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "custom_css": [
+        ".no-side-pad {margin-left: 0; margin-right: 0;}",
+        "@media (min-width: 1100px) {.article-container {padding: 0 22% !important; }}",
+        ".feature-subheader,#comments .comment .comment-date {text-transform: none;}",
+        "@media (max-width: 768px) {iframe {width: 840px; height: 200px; }}",
+        "p.MsoNormal {font-size: 1.3rem;}"
+      ],
+      "settings": {
+        "featured_image": "none",
+        "blog_show_author": true,
+        "blog_show_date": true,
+        "blog_show_social": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

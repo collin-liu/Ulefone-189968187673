@@ -1,0 +1,540 @@
+
+    @font-face {
+        font-family: MiSans-Medium;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: MiSans-Demibold;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+    }
+
+    @font-face {
+        font-family: MiSans-Regular;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+    }
+
+    .section-subtitle {
+        font-family: MiSans-Demibold;
+        font-size: 2vw;
+    }
+
+    .section-slogan {
+        font-family: Manrope-ExtraBold;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: Manrope-Regular;
+        margin-top: 1.535vw;
+    }
+
+    .ar-left {
+        text-align: left;
+    }
+
+    .ar-white {
+        color: #fff;
+    }
+    .ar-green {
+        color: #d7fe29;
+    }
+
+    .section-1 {
+        margin-top: 3vw;
+    }
+
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .notes.container {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .section-2 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-3.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-2 .section-content {
+            margin: 3vw auto;
+        }
+    .section-3 {
+        height: 68.0729vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-4.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-3 .section-content {
+            width: 50vw;
+            margin: 8vw 43vw;
+        }
+    .section-4 {
+        height: 87.03125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-5.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-4 .section-content {
+            width: 68vw;
+            text-align: center;
+            margin: 3vw auto;
+        }
+    .section-5 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-6.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-5 .section-content{
+            width: 36vw;
+            margin: 19vw 6vw;
+        }
+    .section-6 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-7.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+       .section-6 .section-content {
+            margin: 3vw auto;
+        }
+    .section-7 {
+        height: 59.791666vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-7 .section-content {
+            width: 88vw;
+            margin: 5vw auto;
+        }
+    .section-8 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-8 .section-content {
+            width: 74vw;
+            margin: 3vw auto;
+        }
+    .section-9 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-10.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-9 .section-content{
+            width: 68vw;
+            text-align: center;
+            margin: 3vw auto;
+        }
+    .section-10 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-11.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-10 .section-content {
+            width: 77vw;
+            margin: 3vw auto;
+        }
+    .section-12 {
+        height: 50.5729vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-13.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-12 .section-content {
+            width: 36vw;
+            margin: 17vw 12vw;
+        }
+    .section-13 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-14.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-13 .section-content {
+            margin: 4vw 10vw;
+        }
+    .section-14 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-15.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-14 .section-content {
+            width: 43vw;
+            margin: 3vw 7vw;
+        }
+    .section-15 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-16.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-15 .section-content {
+            margin: 3vw 12vw;
+        }
+
+    .section-16 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-17.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-16 .section-content {
+        margin: 3vw 12vw;
+    }
+    .section-17 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-18.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-17 .section-content {
+            width: 70vw;
+            margin: 2vw 12vw;
+            text-align: center;
+        }
+    .section-18 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-19.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-18 .section-content {
+            margin: 4vw 14vw;
+        }
+        .section-19 {
+        height: 60.989583vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-20.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+            .section-19 .section-content {
+                margin: 3vw 6vw;
+            }
+        .section-20 {
+        height: 84.322916vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-21.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+            .section-20 .section-content {
+                width: 47vw;
+                margin: 3vw auto;
+                text-align: center;
+            }
+        .section-22 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-23.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+            .section-22 .section-content {
+                width: 35vw;
+                margin: 4vw 6vw;
+            }
+    .section-23 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-24-16.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-23 .section-content {
+            margin: 2vw 11vw;
+        }
+        .section-24 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-25.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+            .section-24 .section-content {
+                width: 71vw;
+                margin: 2vw auto;
+                text-align: center;
+            }
+        .section-25 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-26.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-25 .section-content {
+        width: 71vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+    .section-26 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-27.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-26 .section-content {
+            margin: 4vw auto;
+        }
+    .section-27 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-28_1.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-27 .section-content {
+            width: 38vw;
+            margin: 25vw 53vw;
+        }
+        .section-28 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-29.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-28 .section-content {
+            width: 58vw;
+            margin: 2vw auto;
+            text-align: center;
+        }
+        #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        div#faq_nav {
+            padding: 0 2vw;
+        }
+
+        .section-slogan {
+            font-size: 5.6vw;
+        }
+
+        .section-subtitle {
+            font-size: 3.56vw;
+        }
+
+        .section-text {
+            font-size: 2.5211vw;
+        }
+        .ar-left {
+            text-align: center;
+        }
+
+        .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .section-2 {
+            height: 101.7592vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-03.webp) no-repeat center;
+            background-size: 100% 101.7592vw;
+        }
+
+            .section-2 .section-content {
+                width: 93vw;
+                margin: 9vw auto;
+                text-align: center;
+            }
+        .section-3 {
+            height: 221.574vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-04.webp) no-repeat center;
+            background-size: 100% 221.574vw;
+        }
+            .section-3 .section-content {
+                width: 90vw;
+                margin: 6vw auto;
+            }
+        .section-4 {
+            height: 213.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-05.webp) no-repeat center;
+            background-size: 100% 213.3333vw;
+        }
+            .section-4 .section-content {
+                width: 90vw;
+            }
+            .section-5 {
+            height: 94.074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-06.webp) no-repeat center;
+            background-size: 100% 94.074vw;
+        }
+                .section-5 .section-content {
+                    width: 90vw;
+                    margin: 4vw 6vw;
+                    text-align: center;
+                }
+        .section-6 {
+            height: 114.259vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-07.webp) no-repeat center;
+            background-size: 100% 114.259vw;
+        }
+            .section-6 .section-content {
+                margin: 7vw auto;
+            }
+        .section-7 {
+            height: 205.0925vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-08.webp) no-repeat center;
+            background-size: 100% 205.0925vw;
+        }
+            .section-7 .section-content {
+                width: 90vw;
+                margin: 12vw auto;
+                text-align: center;
+            }
+        .section-8 {
+            height: 111.111vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-09.webp) no-repeat center;
+            background-size: 100% 111.111vw;
+        }
+            .section-8 .section-content {
+                width: 90vw;
+                margin: 10vw auto;
+                text-align: center;
+            }
+        .section-9 {
+            height: 164.3518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-010.webp) no-repeat center;
+            background-size: 100% 164.3518vw;
+        }
+            .section-9 .section-content {
+                width: 90vw;
+                text-align: center;
+                margin: 6vw auto;
+            }
+        .section-10 {
+            height: 130.833vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-011.webp) no-repeat center;
+            background-size: 100% 130.833vw;
+        }
+            .section-10 .section-content {
+                width: 90vw;
+                margin: 6vw auto;
+            }
+
+        .section-12 {
+            height: 148.79629vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-013.webp) no-repeat center;
+            background-size: 100% 148.79629vw;
+        }
+            .section-12 .section-content {
+                width: 90vw;
+                margin: 9vw auto;
+            }
+        .section-13 {
+            height: 164.44444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-014.webp) no-repeat center;
+            background-size: 100% 164.44444vw;
+        }
+        .section-14 {
+            height: 139.72222vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-015.webp) no-repeat center;
+            background-size: 100% 139.72222vw;
+        }
+            .section-14 .section-content {
+                width: 90vw;
+                margin: 6vw auto;
+            }
+            .section-14 .section-text{
+                margin-top: 7vw;
+            }
+        .section-15 {
+            height: 102.77777vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-016.webp) no-repeat center;
+            background-size: 100% 102.77777vw;
+        }
+            .section-15 .section-content {
+                width: 90vw;
+                margin: 5vw auto;
+            }
+        .section-16 {
+            height: 191.57407vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-017.webp) no-repeat center;
+            background-size: 100% 191.57407vw;
+        }
+        .section-17 {
+            height: 105.18518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-018.webp) no-repeat center;
+            background-size: 100% 105.18518vw;
+        }
+        .section-18 {
+            height: 123.148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-019.webp) no-repeat center;
+            background-size: 100% 123.148vw;
+        }
+        .section-19 {
+            height: 145.7407vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-020.webp) no-repeat center;
+            background-size: 100% 145.7407vw;
+        }
+        .section-20 {
+            height: 212.87037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-021.webp) no-repeat center;
+            background-size: 100% 212.87037vw;
+        }
+            .section-20 .section-content {
+                width: 90vw;
+            }
+                .section-22 {
+            height: 142.037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-022.webp) no-repeat center;
+            background-size: 100% 142.037vw;
+        }
+        .section-22 .section-content {
+            width: 90vw;
+        }
+        .section-23 {
+            height: 111.666vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-023-16.webp) no-repeat center;
+            background-size: 100% 111.666vw;
+        }
+        .section-24 {
+            height: 102.59259vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-024.webp) no-repeat center;
+            background-size: 100% 102.59259vw;
+        }
+            .section-24 .section-content {
+                width: 90vw;
+                margin: 5vw auto;
+            }
+                .section-25 {
+            height: 100vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-025.webp) no-repeat center;
+            background-size: 100% 100vw;
+        }
+                    .section-25 .section-content {
+                        width: 90vw;
+                        margin: 6vw auto;
+                    }
+                        .section-26 {
+            height: 122.407vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-026.webp) no-repeat center;
+            background-size: 100% 122.407vw;
+        }
+        .section-27 {
+            height: 100vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-027.webp) no-repeat center;
+            background-size: 100% 100vw;
+        }
+            .section-27 .section-content {
+                width: 90vw;
+                margin: 6vw 8vw;
+            }
+            .section-27 .section-text {
+                text-align: left;
+                width: 50vw;
+                margin: 15vw 36vw;
+            }
+            .section-27 img {
+                width: 12%;
+            }
+        .section-28 {
+            height: 151.3888vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-X31-028.webp) no-repeat center;
+            background-size: 100% 151.3888vw;
+        }
+            .section-28 .section-content {
+                width: 90vw;
+                margin: 7vw auto;
+            }
+            }
+
+    @media (max-width: 480px) {
+        .notes p {
+            font-size: 3vw;
+        }
+        .section-1 {
+            margin-top: 14vw;
+        }
+        .section-text {
+            line-height: normal;
+        }
+    }

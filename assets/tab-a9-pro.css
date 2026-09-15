@@ -1,0 +1,590 @@
+
+        @font-face {
+            font-family: MiSans-Demibold;
+            src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+        }
+
+        @font-face {
+            font-family: MiSans-Regular;
+            src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+        }
+
+        .ar-white {
+            color: #fff;
+        }
+
+        .ar-left {
+            text-align: left;
+        }
+   #speccontent {
+        display: none;
+    }
+
+    .gesture {
+        cursor: pointer;
+    }
+        .section-content {
+            display: block;
+            width: fit-content;
+            height: fit-content;
+            text-align: center;
+            margin: 1.8vw auto;
+            width: 75%;
+        }
+
+        #speccontent {
+            display: none;
+        }
+
+        .gesture {
+            cursor: pointer;
+        }
+
+    .section .section-slogan {
+        font-family: MiSans-Demibold;
+        font-size: 2.53vw;
+        font-weight: 400;
+        background: linear-gradient(to right, #fd4068, #fc8243);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+        .section-subtitle {
+            font-family: MiSans-Demibold;
+            font-size: 2.1vw;
+            font-weight: 500;
+        }
+
+        .section-text {
+            font-size: 1.21111vw;
+            font-family: MiSans-Regular;
+            margin-top: 1vw;
+            line-height: 1.5vw;
+        }
+
+        @font-face {
+            font-family: MiSans-Semibold;
+            src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.ttf');
+        }
+        #featurescontent .section {
+            display: block;
+            clear: both;
+            margin: auto;
+            overflow: hidden;
+            word-wrap: break-word;
+            width: 100%;
+        }
+        .section-1 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-1.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+            .section-1 .section-content {
+                width: 37vw;
+                margin: 23vw 46vw;
+            }
+
+        .section-2 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-2.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-3 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-3.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-3 .section-content {
+                width: 53vw;
+                margin: 7vw 14vw;
+            }
+        .section-4 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-4.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-4 .section-content {
+                margin-top: 4vw;
+            }
+
+        .section-5 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-5.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-5 .section-content {
+                margin-top: 7vw;
+            }
+
+        .section-6 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-6.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-7 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-7.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-7 .section-content {
+                width: 39vw;
+                margin: 23.6vw 13.6vw;
+            }
+        .section-8 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-8.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-8 .section-content {
+                margin: 4vw 14vw;
+            }
+        .section-9 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-9.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-9 .section-content {
+                margin: 4.5vw 14.5vw;
+            }
+        .section-10 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-10.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-11 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-11.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-11 .section-content {
+                width: 50vw;
+                margin: 3vw 13.6vw;
+            }
+            .section-11 p {
+                margin-top: 37vw;
+            }
+        .section-12 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-12.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-13 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-13.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-13 p {
+                width: 34vw;
+                margin: 39vw auto;
+            }
+        .section-14 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-14.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-14 .section-content {
+                margin-top: 4vw;
+            }
+        .section-15 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-15.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-16 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-16.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-16 .section-content {
+                margin-top: 5vw;
+            }
+            .section-16 h5 {
+                font-weight: 400;
+                font-size: 1.5vw;
+            }
+            .section-16 h2 {
+                font-size: 2vw;
+                font-weight: 600;
+                margin-top: 10vw;
+            }
+            .section-16 .section-text {
+                width: 33vw;
+            }
+            .section-16 p {
+                margin: 26vw 0;
+            }
+        .section-17 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-17.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-17 h2 {
+                font-size: 2vw;
+                font-weight: 600;
+                margin-top: 10vw;
+                text-align: right;
+            }
+            .section-17 h5 {
+                font-weight: 400;
+                font-size: 1.5vw;
+                text-align: right;
+            }
+            .section-17 .section-text {
+                text-align: right;
+                width: 35vw;
+                margin: 13vw 39.3vw;
+            }
+            .section-17 p {
+                text-align: right;
+                margin-top: 16vw;
+            }
+        .section-18 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-18.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-18 .section-box {
+                width: 38vw;
+            }
+            .section-18 .section-text {
+                width: 38vw;
+            }
+            .section-18 p {
+                margin: 36.6vw auto;
+            }
+        .section-19 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-19.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-19 .section-content {
+                width: 39vw;
+                margin: 33vw 57vw;
+            }
+            .section-19 p {
+                margin-top: 5vw;
+            }
+        .section-20 {
+            height: 56.25vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-20.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+            .section-20 .section-content {
+                margin-top: 6vw;
+            }
+
+        #sec-block {
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            div #faq_nav {
+                padding: 0 2vw;
+            }
+
+            .section .section-slogan {
+                font-size: 4.53vw;
+                margin-top: 1vw;
+            }
+
+            .section .section-subtitle {
+                font-size: 3.6vw;
+            }
+
+            .section .section-text {
+                font-size: 2.825vw;
+                margin-top: 1vw;
+                line-height: 1.25;
+            }
+            .section-content {
+                width: 89%;
+            }
+            .section {
+                clear: both;
+                margin: auto;
+                width: 100%;
+                background-size: 100% 100%;
+                overflow: hidden;
+            }
+                .section-1 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-01.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-1 .section-content {
+                    width: 92vw;
+                    margin: 8vw auto;
+                }
+                .section-1 h3.section-slogan {
+                    font-size: 6.6vw;
+                }
+                .section-1 h4.section-subtitle {
+                    font-size: 5.2vw;
+                }
+                .section-1 .section-text {
+                    width: 88vw;
+                    margin: 2vw auto;
+                }
+            .section-2 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-02.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+
+            .section-3 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-03.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-3 .section-content {
+                    width: 87vw;
+                    margin: 5vw 8vw;
+                }
+            .section-4 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-04.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+
+            .section-5 {
+                height: 92.59259vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-05.webp) no-repeat center;
+                background-size: 100% 92.59259vw;
+            }
+
+            .section-6 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-06.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-6 .section-content {
+                    width: 92vw;
+                    margin-top: 7vw;
+                }
+            .section-7 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-07.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-7 .section-content {
+                    width: 76vw;
+                    margin: 1.2vw 21.6vw;
+                }
+            .section-8 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-08.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-8 .section-content {
+                    margin: 3vw 5vw;
+                    width: 92vw;
+                }
+            .section-9 {
+                height: 94.444vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-09.webp) no-repeat center;
+                background-size: 100% 94.444vw;
+            }
+                .section-9 .section-content {
+                    width: 92vw;
+                    margin: 4.5vw auto;
+                }
+                .section-9 h3.section-slogan {
+                    text-align: center;
+                }
+                .section-9 h4.section-subtitle {
+                    text-align: center;
+                }
+                .section-9 .section-text.col-md-6 {
+                    text-align: center;
+                }
+            .section-10 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-010.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-10 .section-content {
+                    width: 92vw;
+                    margin-top: 6vw;
+                }
+            .section-11 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-011.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-11 .section-content {
+                    width: 92vw;
+                    margin: 5vw 6.6vw;
+                }
+                .section-11 p {
+                    margin-top: 89vw;
+                    text-align: center;
+                }
+            .section-12 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-012.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+            .section-12 h3.section-slogan {
+                text-align: center;
+            }
+
+            .section-12 h4.section-subtitle {
+                text-align: center;
+            }
+
+            .section-12 .section-text.col-md-6 {
+                text-align: center;
+            }
+                .section-12 .section-content {
+                    width: 92vw;
+                    margin-top: 4vw;
+                }
+            .section-13 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-013.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-13 .section-content {
+                    width: 92vw;
+                    margin-top: 5vw;
+                }
+                .section-13 p {
+                    width: 92vw;
+                    margin: 92vw auto;
+                }
+            .section-14 {
+                height: 78.7037vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-014.webp) no-repeat center;
+                background-size: 100% 78.7037vw;
+            }
+                .section-14 .section-content {
+                    width: 92vw;
+                }
+            .section-15 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-015.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-15 .section-content {
+                    margin-top: 8vw;
+                }
+            .section-16 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-016.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-16 h2 {
+                    font-size: 3.3vw;
+                    font-weight: 600;
+                    margin-top: 5vw;
+                }
+                .section-16 h5 {
+                    font-size: 2.5vw;
+                }
+                .section-16 .section-text {
+                    width: 83vw;
+                }
+                .section-16 p {
+                    margin: 88vw auto;
+                    text-align: center;
+                }
+            .section-17 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-017.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-17 h2 {
+                    font-size: 3.3vw;
+                    font-weight: 600;
+                    margin-top: 10vw;
+                    text-align: left;
+                }
+                .section-17 h5 {
+                    font-weight: 400;
+                    font-size: 2.5vw;
+                    text-align: left;
+                    margin-top: 1vw;
+                }
+                .section-17 .section-text {
+                    text-align: left;
+                    width: 92vw;
+                    margin: 13vw 0;
+                }
+                .section-17 p {
+                    text-align: center;
+                    margin-top: 85vw;
+                }
+            .section-18 {
+                height: 129.629vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-018.webp) no-repeat center;
+                background-size: 100% 129.629vw;
+            }
+                .section-18 .section-box {
+                    width: 92vw;
+                }
+                .section-18 .section-text {
+                    width: 91vw;
+                }
+                .section-18 .section-content {
+                    margin-top: 5vw;
+                }
+                .section-18 p {
+                    margin: 95.6vw auto;
+                }
+            .section-19 {
+                height: 116.666vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-019.webp) no-repeat center;
+                background-size: 100% 116.666vw;
+            }
+                .section-19 .section-content {
+                    width: 92vw;
+                    margin: 17vw 6vw;
+                }
+                .section-19 p {
+                    margin: 61vw 49vw;
+                    width: 36vw;
+                }
+            .section-20 {
+                height: 82.2222vw;
+                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/tab-a9-pro-tablet-020.webp) no-repeat center;
+                background-size: 100% 82.2222vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section-11 p {
+                margin: 83vw auto;
+                font-size: 2.5vw;
+                width: 80vw;
+                text-align: center;
+                line-height: 1.3;
+            }
+            .section-13 p {
+                font-size: 2.5vw;
+                line-height: 1.5;
+            }
+            .section-16 p {
+                font-size: 2.3vw;
+            }
+            .section-17 p {
+                margin-top: 73vw;
+                font-size: 2.3vw;
+            }
+            .section-18 p {
+                font-size: 2.3vw;
+            }
+            .section-19 p {
+                font-size: 2.3vw;
+                line-height: 1.2;
+            }
+            .notes p {
+                font-size: 2.8vw;
+                line-height: 1.5;
+            }
+        }

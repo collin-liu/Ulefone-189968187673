@@ -1,0 +1,652 @@
+
+@font-face {
+    font-family: MiSans-Demibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+}
+
+@font-face {
+    font-family: MiSans-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+}
+
+.ar-white {
+    color: #fff;
+}
+.ar-lighty{
+    color: #c9b698;
+}
+.ar-left {
+    text-align: left;
+}
+/*    .section-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 1.8vw auto;
+        width: 70%;
+    }*/
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+
+.section h2 {
+    font-family: MiSans-Demibold;
+    font-size: 2.53vw;
+    font-weight: 400;
+}
+.section-slogan {
+    font-family: MiSans-Demibold;
+    font-size: 1.83vw;
+    font-weight: 400;
+}
+.section-subtitle {
+    font-family: MiSans-Demibold;
+    font-size: 1.723vw;
+    font-weight: 500;
+}
+
+.section-text {
+    font-size: 1.21111vw;
+    font-family: MiSans-Regular;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+}
+
+@font-face {
+    font-family: MiSans-Semibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.ttf');
+}
+
+#featurescontent .section {
+    display: block;
+    clear: both;
+  /*  margin: auto;*/
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.section-1 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-1.webp) no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 2.5vw;
+}
+
+.section-2 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-2.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.section-3 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-3.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-3 .section-content {
+        width: 66vw;
+        margin: 0vw auto;
+    }
+
+.section-4 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-4.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-4 .section-content {
+        width: 38vw;
+        margin: 8vw 57vw;
+    }
+    .section-4 .title-mini.ar-lighty {
+        font-size: 2vw;
+        margin-top: 3vw;
+    }
+    .section-4 .font-se4 {
+        margin-top: 23vw;
+    }
+.section-5 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-5.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-5 .section-content {
+        width: 73vw;
+        margin: 2vw auto;
+    }
+.section-6 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-6.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-6 .section-content {
+        width: 22vw;
+        margin: 23vw 65vw;
+    }
+.section-7 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-7.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-7 .section-content {
+        width: 34vw;
+        margin: 8vw 16vw;
+    }
+.section-8 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-8.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-8 .section-content {
+        width: 59vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+
+.section-9 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-9.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-9 .section-content {
+        width: 30vw;
+        margin: 14vw;
+    }
+
+.section-10 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-10.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-10 .ar-lighty {
+        font-size: 1.88vw;
+    }
+.ar-lighty.strap {
+    margin: 7vw 6vw 0;
+}
+.ar-lighty.crown {
+    margin: -1vw 59vw 0;
+    width: 54vw;
+}
+.ar-lighty.breathable {
+    margin: 25.5vw 59vw;
+    width: 54vw;
+}
+
+.section-11 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-11.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-11 .section-content {
+        width: 56vw;
+        margin: 2vw 18vw;
+    }
+.section-12 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-12.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-12 .section-content {
+        width: 64vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+.section-13 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-13.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-13 .section-content {
+        width: 35vw;
+        margin: 12vw 5vw;
+    }
+
+.section-14 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-14.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-14 .section-content {
+        width: 28vw;
+        margin: 5vw 7vw;
+    }
+.section-15 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-15.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-15 .section-content {
+        width: 34vw;
+        margin: 5vw 61vw;
+    }
+.section-16 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-16.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-16 .section-content {
+        margin: 2vw auto;
+    }
+    .section-16 .section-text {
+        width: 39vw;
+        margin: 5vw 11vw;
+    }
+.section-17 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-17.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-17 .section-content {
+        width: 60vw;
+        margin: 6vw auto;
+        text-align: center;
+    }
+.section-18 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-18.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-18 .section-content {
+        width: 59vw;
+        margin: 2vw 15vw;
+        text-align: center;
+    }
+.section-19 {
+    height: 93.75vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-19.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-19 .section-content {
+        width: 61vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+
+.section-20 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-20.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-20 .section-content {
+        width: 38vw;
+        margin: 32vw 51vw;
+    }
+
+.section-21 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-21.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-21 .section-content {
+        width: 69vw;
+        margin: 2vw auto;
+        text-align: center;
+    }
+.section-22 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-22.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-22 .section-content {
+        width: 35vw;
+        margin: 7vw 54vw;
+    }
+.section-23 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-23.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-23 .section-box {
+        width: 50vw;
+        margin: 4vw 20vw 0;
+    }
+    .section-23 .section-text {
+        width: 43vw;
+        margin: 1vw 13vw;
+    }
+.section-24 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-24.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-24 .section-content {
+        margin: 2vw auto;
+        width: 50vw;
+    }
+
+.section-25 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-25.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-25 .section-content {
+        margin: 2vw auto;
+    }
+.section-26 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-26.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+#sec-block {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    div #faq_nav {
+        padding: 0 2vw;
+    }
+    .section-slogan {
+        font-size: 4.3vw;
+        margin-top: 1vw;
+    }
+    .section-subtitle {
+        font-size: 3.6vw;
+    }
+    .section-text {
+        font-size: 2.825vw;
+        margin-top: 1vw;
+        line-height: 1.25;
+    }
+    #featurescontent .section {
+        clear: both;
+       /* margin: auto;*/
+        width: 100%;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+        .section h2 {
+            font-size: 4vw;
+        }
+    div#faq_nav {
+        top: 74px !important;
+    }
+    .ar-left {
+        text-align: center;
+    }
+    .m-none {
+        display:none;
+    }
+    .section-1 {
+        height: 101.852vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-01.webp) no-repeat center;
+        background-size: 100% 101.852vw;
+        margin-top: 4vw;
+    }
+    .section-2 {
+        height: 148.148vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-02.webp) no-repeat center;
+        background-size: 100% 148.148vw;
+    }
+
+    .section-3 {
+        height: 72.222vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-03.webp) no-repeat center;
+        background-size: 100% 72.222vw;
+    }
+
+        .section-3 .ar-left, .section-3 .section-text {
+            text-align: center;
+        }
+
+        .section-3 .section-content {
+            width: 92vw;
+        }
+
+    .section-4 {
+        height: 138.889vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-04.webp) no-repeat center;
+        background-size: 100% 138.889vw;
+    }
+        .section-4 .section-content {
+            width: 93vw;
+            margin: 3vw auto;
+            text-align: center;
+        }
+    .section-5 {
+        height: 105.556vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-05.webp) no-repeat center;
+        background-size: 100% 105.556vw;
+    }
+        .section-5 .section-content {
+            width: 92vw;
+            margin: 4vw auto;
+        }
+    .section-6 {
+        height: 100.926vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-06.webp) no-repeat center;
+        background-size: 100% 100.926vw;
+    }
+        .section-6 .section-content {
+            width: 95vw;
+            text-align: center;
+            margin: 5vw auto;
+        }
+    .section-7 {
+        height: 83.333vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-07.webp) no-repeat center;
+        background-size: 100% 83.333vw;
+    }
+        .section-7 .section-content {
+            width: 93vw;
+            margin: 7vw auto;
+        }
+    .section-8 {
+        height: 78.704vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-08.webp) no-repeat center;
+        background-size: 100% 78.704vw;
+    }
+    .section-9 {
+        height: 101.852vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-09.webp) no-repeat center;
+        background-size: 100% 101.852vw;
+    }
+        .section-9 .section-content {
+            width: 93vw;
+            margin: 14vw auto;
+        }
+    .section-10 {
+        height: 69.444vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-010.webp) no-repeat center;
+        background-size: 100% 69.444vw;
+    }
+
+        .section-10 .section-content {
+            width: 92vw;
+            margin: 4vw 4vw;
+        }
+
+    .section-11 {
+        height: 101.852vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-011.webp) no-repeat center;
+        background-size: 100% 101.852vw;
+    }
+        .section-11 .section-content {
+            width: 93vw;
+            margin: 2vw auto;
+        }       
+    .section-12 {
+        height: 86.111vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-012.webp) no-repeat center;
+        background-size: 100% 86.111vw;
+    }
+        .section-12 .section-content {
+            width: 93vw;
+            margin: 1vw auto;
+            text-align: center;
+        }
+    .section-13 {
+        height: 83.333vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-013.webp) no-repeat center;
+        background-size: 100% 83.333vw;
+    }
+
+    .section-14 {
+        height: 138.889vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-014.webp) no-repeat center;
+        background-size: 100% 138.889vw;
+    }
+        .section-14 .section-content {
+            width: 93vw;
+            margin: 9vw auto;
+        }
+    .section-15 {
+        height: 138.889vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-015.webp) no-repeat center;
+        background-size: 100% 138.889vw;
+    }
+
+        .section-15 .section-content {
+            width: 92vw;
+            text-align: center;
+            margin: 2vw auto;
+        }
+
+    .section-16 {
+        height: 134.259vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-016.webp) no-repeat center;
+        background-size: 100% 134.259vw;
+    }
+        .section-16 .section-content {
+            width: 92vw;
+            margin: 4vw auto;
+        }
+        .section-16 .section-text {
+            width: 93vw;
+            margin: 1vw auto;
+            text-align: center;
+        }
+    .section-17 {
+        height: 89.815vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-017.webp) no-repeat center;
+        background-size: 100% 89.815vw;
+    }
+        .section-17 .section-content {
+            width: 92vw;
+            margin: 6vw auto;
+        }
+    .section-18 {
+        height: 100vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-018.webp) no-repeat center;
+        background-size: 100% 100vw;
+    }
+
+        .section-18 .section-content {
+            width: 92vw;
+            margin: 4vw auto;
+            text-align: center;
+        }
+
+    .section-19 {
+        height: 129.630vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-019.webp) no-repeat center;
+        background-size: 100% 129.630vw;
+    }
+
+        .section-19 .section-content {
+            width: 92vw;
+            margin: 6vw auto;
+        }
+
+    .section-20 {
+        height: 72.593vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-020.webp) no-repeat center;
+        background-size: 100% 72.593vw;
+    }
+
+        .section-20 .section-content {
+            width: 92vw;
+            margin: 10vw auto;
+        }
+
+    .section-21 {
+        height: 102.778vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-021.webp) no-repeat center;
+        background-size: 100% 102.778vw;
+    }
+        .section-21 .section-content {
+            width: 92vw;
+            margin: 3vw auto;
+        }
+    .section-22 {
+        height: 120.37vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-022.webp) no-repeat center;
+        background-size: 100% 120.37vw;
+    }
+
+        .section-22 .section-content {
+            width: 92vw;
+            margin: 3vw auto;
+        }
+
+        .section-22 .section-slogan {
+            text-align: center;
+        }
+
+        .section-22 .section-text {
+            text-align: center;
+        }
+
+    .section-23 {
+        height: 157.407vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-023.webp) no-repeat center;
+        background-size: 100% 157.407vw;
+    }
+        .section-23 .section-box {
+            width: 50vw;
+            margin: 4vw 27vw 0;
+        }
+        .section-23 .section-text {
+            width: 98vw;
+            margin: 1vw auto;
+        }
+    .section-24 {
+        height: 152.778vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-024.webp) no-repeat center;
+        background-size: 100% 152.778vw;
+    }
+
+        .section-24 .section-content {
+            width: 92vw;
+            margin: 3vw auto;
+        }
+
+        .section-24 .section-text {
+            text-align: center;
+        }
+
+    .section-25 {
+        height: 120.37vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-025.webp) no-repeat center;
+        background-size: 100% 120.37vw;
+    }
+        .section-25 .section-content {
+            margin: 4vw auto;
+        }
+    .section-26 {
+        height: 70.185vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-watch-pro-026.webp) no-repeat center;
+        background-size: 100% 70.185vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-1 {
+        margin-top: 11vw;
+    }
+    .notes p {
+        font-size: 3vw;
+    }
+}

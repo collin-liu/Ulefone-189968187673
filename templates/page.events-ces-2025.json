@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_PhHaDg": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-pc-1.webp\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-m-1.webp\" style=\"width:100%;\">\n</div>"
+      }
+    },
+    "custom_liquid_KNTW8t": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".countdown-timer {text-align: center; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #000;}",
+        "#timer {display: flex; justify-content: center; gap: 20px;}",
+        ".time-box {background-color: #fff; border-radius: 10px; text-align: center;}",
+        ".time-box span {font-weight: bold;}",
+        ".time-box p {font-size: 14px; color: #fff; font-weight: normal;}",
+        ".countdown-timer p {font-size: 1.1rem; font-weight: bold; color: #333;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"countdown\" class=\"countdown-timer\">\n    <div id=\"timer\" class=\"timer\">\n        <div class=\"time-box\">\n            <span id=\"days\"></span>\n            <p>Days</p>\n        </div>\n        <div class=\"time-box\">\n            <span id=\"hours\"></span>\n            <p style=\" margin-left: -10%;\">Hours</p>\n        </div>\n        <div class=\"time-box\">\n            <span id=\"minutes\"></span>\n            <p>Mins</p>\n        </div>\n        <div class=\"time-box\">\n            <span id=\"seconds\"></span>\n            <p>Secs</p>\n        </div>\n    </div>\n</div>\n\n<script>\n  var countDownDate = new Date(\"2025-01-08T01:59:59\").getTime();\n  var x = setInterval(function() {\n    var now = new Date().getTime();\n    var distance = countDownDate - now;\n    var days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    var seconds = Math.floor((distance % (1000 * 60)) / 1000);\n    document.getElementById(\"days\").innerHTML = days;\n    document.getElementById(\"hours\").innerHTML = hours;\n    document.getElementById(\"minutes\").innerHTML = minutes;\n    document.getElementById(\"seconds\").innerHTML = seconds;\n    if (distance < 0) {\n      clearInterval(x);\n      document.getElementById(\"timer\").innerHTML = \"Countdown ended\";\n    }\n  }, 1000);\n</script>\n<style>\n@media (min-width: 769px) {\n    .time-box span {\n        font-size: 2rem;\n    }\n    .time-box {\n        padding: 20px;\n        width: 80px;\n    }\n        .time-box p {\n            margin-top: 10px;\n        }\n}\n@media (max-width: 768px) {\n    .time-box span {\n        font-size: 1.2rem;\n    }\n    .time-box {\n        padding: 6px;\n        width: 66px;\n    }\n     .time-box p {\n        margin: 0;\n     }   \n}\n</style>"
+      }
+    },
+    "custom_liquid_FWmLNf": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-pc-2.webp\" style=\"width:100%;\">\n       <a href=\"https://forms.gle/P1rg59XnnVs81c7G9\"> <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-pc-3.webp\" style=\"width:100%;\"></a>\n     <a href=\"https://www.ulefone.com/blogs/newsroom/invitation-for-first-hand-ai-experience-with-ulefone-at-ces-2025\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-pc-4.webp\" style=\"width:100%;\"></a>\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-m-2.webp\" style=\"width:100%;\">\n    <a href=\"https://forms.gle/P1rg59XnnVs81c7G9\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-m-3.webp\" style=\"width:100%;\"></a>\n    <a href=\"https://www.ulefone.com/blogs/newsroom/invitation-for-first-hand-ai-experience-with-ulefone-at-ces-2025\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/2025-ces-m-4.webp\" style=\"width:100%;\"></a>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_PhHaDg",
+    "custom_liquid_KNTW8t",
+    "custom_liquid_FWmLNf"
+  ]
+}

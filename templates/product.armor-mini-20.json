@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3": {
+          "type": "image",
+          "settings": {
+            "tracking_name": "",
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_liquid_9chYNh": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor Mini 20</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-mini-20\">Features</a></li>\n <li class=\"tab\"><a href=\"/products/armor-case-for-armor-mini-20-series\">Case</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=a2d5bba4-01f4-4e12-8a73-e2cf6dd3412c\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/Armor-mini-20\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-1-16.avif\" >\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-2-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-3.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-4.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-5.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-6.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-7.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-8.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-9.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-10.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-11.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-12.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-13.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-14.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-15.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-17.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-18.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-19.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-20.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-21.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-22.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-23.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-24.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-25.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-1.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-2.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-3.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-4.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-26-5.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-27.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-28.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-29.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-30.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-31.avif\">\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor Mini 20 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529. Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor Mini 20. Liquid damage not covered under warranty.</p>\n        <p>4. Armor Mini 20 has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put an Armor Mini 20 into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 4.7 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>15. The virtual memory can be activated in Settings at your will.</p>\n        <p>16. Datas are from Ulefone lab, the actual performance may vary.</p>\n        <p>17. Sports Armband is sold separately.</p>\n        <p>18. The Case Kit is sold separately.</p>\n        <p>19. The Versatile LED Light is too bright to stare at directly.</p>\n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-01-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-02-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-03.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-04.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-05.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-06.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-07.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-08.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-09.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-010.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-011.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-012.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-013.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-014.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-015.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-016.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-017.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-018.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-019.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-020.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-021.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-022.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-023.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-024.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-025.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-16.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-1.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-2.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-3.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-4.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-026-5.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-027.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-028.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-029.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-030.avif\">\n    <img alt=\"Ulefone Armor Mini 20 Rugged and compact smartphone.\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-Mini-20-Rugged-Smartphone-031.avif\">\n\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor Mini 20 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529. Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor Mini 20. Liquid damage not covered under warranty.</p>\n        <p>4. Armor Mini 20 has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put an Armor Mini 20 into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 4.7 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>15. The virtual memory can be activated in Settings at your will.</p>\n        <p>16. Datas are from Ulefone lab, the actual performance may vary.</p>\n        <p>17. Sports Armband is sold separately.</p>\n        <p>18. The Case Kit is sold separately.</p>\n        <p>19. The Versatile LED Light is too bright to stare at directly.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "custom_liquid_9chYNh"
+  ]
+}

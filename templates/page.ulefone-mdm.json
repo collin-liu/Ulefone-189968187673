@@ -1,0 +1,184 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_dpbAxj": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .hero-banner {\n        height: 36.5105vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-1.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .hero-banner-text h2 {\n        text-align: left;\n        font-weight: 600;\n        font-size: 3.63vw;\n        line-height: 1.2;\n    }\n\n    .hero-banner-text {\n        padding: 12.3vw 14vw;\n    }\n\n        .hero-banner-text p {\n            font-size: 1vw;\n        }\n\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .hero-banner {\n            height: 129.537vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-01.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n        .hero-banner-text h2 {\n            text-align: center;\n            font-weight: 800;\n            font-size: 7vw;\n            line-height: 1.2;\n        }\n\n        .hero-banner-text p {\n            font-size: 2.5vw;\n            text-align: center;\n            line-height: 1.1;\n        }\n    }\n</style>\n\n<section class=\"hero-banner\">\n    <div class=\"hero-banner-text\">\n        <h2>Take Control<br/>with Ulefone MDM</h2>\n        <p>Secure and Manage Your Mobile Workforce</p>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_Bx9XFd": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-1 {background-color: #f6f6fb;}.section-1 h2 {font-weight: 600;font-size: 3vw;line-height: 1.2;}.section-1 p {font-size: 1vw;}\n    .section-1-text {width: 57vw;padding: 5vw 0;text-align: center;margin: 0 auto;}\n    @media (max-width: 992px) {\n    }\n    @media (max-width: 768px) {.section-1 h2 {font-size: 1.5rem;}.section-1 p {font-size: 3.1vw;line-height: 1.1;}.section-1-text {width: 86vw;padding: 12vw 0;text-align: center;margin: 0 auto;}\n    }\n</style>\n\n<section class=\"section section-1\">\n    <div class=\"section-1-text\">\n        <h2>What Is MDM</h2>\n        <p>\n            MDM uses software to centrally manage and secure company mobile devices (smartphones, tablets, laptops)\n            for security, compliance, and efficiency. It enables configuration, monitoring, maintenance, and remote\n            operation. Essential for mobile work, MDM balances efficiency, security, and cost across industries and is\n            increasingly vital with remote work and IoT.\n        </p>\n    </div>\n</section>"
+      }
+    },
+    "tabs_with_image_G8xV3H": {
+      "type": "tabs-with-image",
+      "blocks": {
+        "tab_gDiX9p": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Device Management",
+            "tab_content": "<p><strong>Device<br/>Management<br/></strong>Monitor your devices' hardware, software, and <br/>performance. Support device commands like <br/>locking, factory resetting, and file synchronization. <br/>Securely lock lost or stolen devices, restore devices <br/>to factory settings, enable device function like <br/>location, wifi or bluetooth.</p>",
+            "tab_image": "shopify://shop_images/mdm-2.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_GHEM8x": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "App Management",
+            "tab_content": "<p><strong>App<br/>Management<br/></strong>Deliver and manage Android and iOS applications in <br/>groups. Perform actions such as installation, <br/>removal, and update. Ensure compliance and <br/>streamline app management with Ulefone MDM's <br/>private app store, providing secure distribution and <br/>automated updates. Supports persistent application <br/>activity monitoring and custom system settings. <br/>With just a single click, transform any device into a <br/>dedicated enterprise tool.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/mdm-2-2.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_QNjgrx": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Customized Device",
+            "tab_content": "<p><strong>Customized<br/>Device<br/></strong>Easily customize devices with batch uploads of boot <br/>animations, wallpapers, and other device settings. <br/>Enhance your brand identity and boost user <br/>satisfaction with Ulefone MDM.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/mdm-2-3.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_BLbxmw": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Remote Service",
+            "tab_content": "<p><strong>Remote Service<br/></strong>Increase service efficiency with Ulefone MDM. Our <br/>remote viewing and device control features, along <br/>with OTA updates and log monitoring, streamline <br/>device management and reduce downtime.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/mdm-2-4.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_W3xExt": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Kiosk Mode",
+            "tab_content": "<p><strong>Kiosk Mode<br/></strong>We've designed our kiosk mode to help you <br/>customize devices for specific tasks. You can <br/>choose between single-app and multi-app modes. <br/>Plus, you can enhance device security and <br/>productivity with customizable system settings. <br/>Single-app mode is perfect for keeping employees <br/>focused on one task.</p>",
+            "tab_image": "shopify://shop_images/mdm-2-5.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_QcXtLT": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Device Locking",
+            "tab_content": "<p><strong>Device Locking<br/></strong>Our strong lock policy protects your device with <br/>secure lock screens and limits access to certain <br/>functions. Our flexible lock policy lets you control <br/>data access and app usage to keep your device <br/>secure and compliant.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/mdm-2-6.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_E7UKQd": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Geofence & Alert",
+            "tab_content": "<p><strong>Geofence & Alert<br/></strong>Monitor device location and usage. Receive <br/>notifications if devices go offline or leave <br/>designated areas. Enhance asset tracking and <br/>security with geofencing. Receive immediate <br/>notifications for lost or stolen devices.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/mdm-2-7.webp",
+            "image_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "tab_gDiX9p",
+        "tab_GHEM8x",
+        "tab_QNjgrx",
+        "tab_BLbxmw",
+        "tab_W3xExt",
+        "tab_QcXtLT",
+        "tab_E7UKQd"
+      ],
+      "settings": {
+        "main_heading": "What Ulefone MDM Can Do"
+      }
+    },
+    "custom_liquid_6izCfB": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-3 .features {\n        display: flex;\n        flex-wrap: wrap;\n        gap: 20px;\n        justify-content: center;\n        max-width: 80vw;\n        margin: 0 auto;\n    }\n\n    .rfid-3 .feature-box {\n        background-color: #f5f6fa;\n        border-radius: 16px;\n        padding: 4vw 2vw;\n        width: 20.6vw;\n        text-align: center;\n        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n        transition: transform 0.2s ease;\n    }\n\n        .rfid-3 .feature-box:hover {\n            transform: translateY(-5px);\n        }\n\n    .rfid-3 .feature-icon {\n        width: 6vw;\n        margin: 0 auto 2vw auto;\n    }\n\n    .rfid-3 .feature-title {\n        margin-bottom: 10px;\n        font-size: 1.2vw;\n        font-weight: 800;\n    }\n\n    .rfid-3 .feature-text {\n        font-size: 0.95rem;\n        color: #444;\n    }\n\n    .rfid-3 h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n    }\n\n    .section-spacing {\n        padding: 0;\n    }\n\n    .rfid-3 .feature-box:nth-child(-n+2) {\n        width: 31.5vw;\n    }\n\n    @media (max-width: 768px) {\n        .rfid-3 .feature-box:nth-child(-n+2) {\n            width: 92vw;\n        }\n        .rfid-3 .feature-box {\n            width: 92%;\n        }\n        .rfid-3 .features {\n            gap: 10px;\n        }\n        .rfid-3 .feature-icon {\n            width: 13vw;\n            margin: 2vw auto;\n        }\n        .rfid-3 h2 {\n            font-size: 1.5rem;\n            width: 96%;\n            margin: 6vw auto;\n        }\n        .rfid-3 .feature-title {\n            font-size: 4vw;\n        }\n.rfid-3 .feature-text {\n    font-size: 3.1vw;\n}\n    }\n</style>\n\n<div class=\"rfid-3\">\n    <h2>How MDM Empowers Enterprise</h2>\n    <div class=\"features\">\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-3.webp\" /></div>\n            <div class=\"feature-title\">Enhanced Security</div>\n            <div class=\"feature-text\">\n                Remote Wipe: Remotely delete sensitive information in case of device loss\n                or employee departure.Force Encryption: Ensure data stored and transmitted\n                by devices meets security standards.Threat Prevention: Detect\n                jailbroken/rooted devices and block the installation of malware.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-4.webp\" /></div>\n            <div class=\"feature-title\">Support for Flexible Work Models</div>\n            <div class=\"feature-text\">\n                BYOD (Bring Your Own Device): Securely separate work and personal data,\n                balancing employee privacy and corporate control.\n                Remote Work: Ensure secure access and policy enforcement for distributed\n                devices.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-5.webp\" /></div>\n            <div class=\"feature-title\">Compliance Assurance</div>\n            <div class=\"feature-text\">\n                Meet Regulations (e.g., GDPR, HIPAA): Through\n                features like audit logs and access\n                control.Standardized Device Usage: Ensure all\n                devices comply with corporate or industry policies.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-6.webp\" /></div>\n            <div class=\"feature-title\">Cost Optimization</div>\n            <div class=\"feature-text\">\n                Reduce Device Loss Risk: Location tracking and\n                remote locking lower data breach costs. Centralized\n                Management: Reduce IT support complexity, saving\n                maintenance time and expenses.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-7.webp\" /></div>\n            <div class=\"feature-title\">Improved Efficiency</div>\n            <div class=\"feature-text\">\n                Automated Configuration: Deploy settings like Wi-Fi,\n                email, and VPN in bulk, reducing manual\n                operations.Unified Policy Management: Enforce\n                operating system updates, password complexity\n                requirements, etc.\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_wP4qxK": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n\n    .mdm-3 h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n        margin-top: 3vw;\n    }\n\n    .mdm-3 .challenge-box {\n        background-color: #f5f5fc;\n        padding: 1.5rem;\n        border-radius: 1rem;\n        display: flex;\n        flex-direction: row;\n        align-items: flex-start;\n        gap: 2vw;\n        max-width: 73vw;\n        margin: 1.5vw auto;\n    }\n\n    .mdm-3 .text {\n        flex: 1;\n    }\n\n    .mdm-3 strong {\n        font-weight: 800;\n    }\n\n    .mdm-3 .text h3 {\n        margin: 0 0 1vw;\n        text-align: left;\n        font-size: 1.2vw;\n        font-weight: 800;\n        margin-top: 1vw;\n    }\n\n    .mdm-3 .text p {\n        margin: 0.3rem 0;\n    }\n\n    .mdm-3-icon {\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        height: 10vw;\n        width: 6vw;\n    }\n\n    @media (max-width: 768px) {\n        .mdm-3 .challenge-box {\n            flex-direction: column;\n            text-align: left;\n        }\n        .mdm-3 h2 {\n            font-size: 1.5rem;\n            margin: 7vw auto 3vw;\n        }\n        .mdm-3 .challenge-box {\n            max-width: 98vw;\n        }\n        .mdm-3-icon {\n            height: 22vw;\n            width: 22vw;\n            margin: 0 auto;\n        }\n        .mdm-3 .text h3 {\n            font-size: 4.5vw;\n            text-align: center;\n        }\n        .mdm-3 .text {\n            text-align: center;\nfont-size: 3.1vw;\n        }\n\n    }\n</style>\n<div class=\"mdm-3\">\n    <h2>Are You Also Facing <br> These Challenges?</h2>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-8.webp\" /></div>\n        <div class=\"text\">\n            <h3>Employee Privacy</h3>\n            <p><strong>BYOD Issues</strong><br>Employees worry MDM on their phones can see private things (like photos, location, calls), which feels like a privacy problem.</p>\n            <p><strong>Trust Problem</strong><br>Making them install MDM can make employees upset and feel the company controls their personal phone too much.</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-9.webp\" /></div>\n        <div class=\"text\">\n            <h3>Bad User Experience and Less Freedom</h3>\n            <p><strong>Limited Features</strong><br>MDM rules (like blocking app installs, limiting internet) can make the device harder to use and slow down work.</p>\n            <p><strong>Slow Downs</strong><br>Some MDM apps can use up phone power and make it run slower.</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-10.webp\" /></div>\n        <div class=\"text\">\n            <h3>Legal and Compliance Problems:</h3>\n            <p>\n                <strong>Where Data Stays</strong><br>Companies in different countries need to make sure where the MDM keeps data follows local laws\n                (like Europe's GDPR, China's rules about personal info).\n            </p>\n            <p><strong>Is Watching OK?</strong><br>Some places have strict rules about watching what employees do on their devices, and doing it without asking can cause legal trouble.</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-11.webp\" /></div>\n        <div class=\"text\">\n            <h3>Tech Troubles:</h3>\n            <p>\n                <strong>Works on Everything?</strong><br>It's hard to make MDM rules work the same on different phones (like iPhones and Androids) and computers,\n                and you need to manage them all together.\n            </p>\n            <p><strong>Old Stuff Working Together?</strong><br>Connecting MDM to the company's old computer systems (like the ones for money or logins) can be tricky and expensive.</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-12.webp\" /></div>\n        <div class=\"text\">\n            <h3>Money and Not Sure If It's Worth It:</h3>\n            <p><strong>Hidden Costs</strong><br>Besides paying for the MDM software, there's also money for training people, keeping it running, and maybe talking to lawyers.</p>\n            <p><strong>Too Big for Small Guys?</strong><br>Small companies might think MDM costs too much for what they really need.</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-13.webp\" /></div>\n        <div class=\"text\">\n            <h3>Stuck with One Company:</h3>\n            <p><strong>Hard to Switch</strong><br>If you rely too much on just one MDM company, it might cost a lot to change to a different one later.</p>\n            <p><strong>Slow Updates</strong><br>Some companies don't update their MDM quickly for new phones or other devices (like smart gadgets).</p>\n        </div>\n    </div>\n    <div class=\"challenge-box\">\n        <div class=\"mdm-3-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-14.webp\" /></div>\n        <div class=\"text\">\n            <h3>Data Safety Problem:</h3>\n            <p><strong>Big Target</strong><br>The MDM system itself can be a target for hackers, and if they get in, all the phones are in danger.</p>\n            <p><strong>Too Much Power</strong><br>If people inside the company with admin rights use them the wrong way, data could leak or bad things could happen.</p>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_x63cwQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .solutions-container {\n        max-width: 75vw;\n        margin: 0 auto;\n        padding: 40px 20px;\n    }\n\n        .solutions-container h2 {\n            text-align: center;\n            font-size: 3vw;\n            margin-bottom: 2vw;\n            font-weight: 700;\n        }\n\n    .solutions-grid {\n        display: flex;\n        flex-wrap: wrap;\n        gap: 20px;\n        justify-content: left;\n    }\n\n    .solution-card {\n        width: 17.2vw;\n    }\n\n    /*        .solution-card:hover {\n            transform: translateY(-5px);\n        }*/\n\n    .solution-title {\n        font-size: 1.2vw;\n        font-weight: 800;\n        margin-top: 1vw;\n    }\n\n    .solution-features {\n        list-style: none;\n        padding: 0;\n    }\n\n        .solution-features li {\n            font-size: 0.95rem;\n        }\n    /*\n            .solution-features li:before {\n                content: \"•\";\n                color: #ffcc00;\n                font-weight: bold;\n                position: absolute;\n                left: 0;\n            }*/\n    .section-7 {\n        background-color: #f6f6fb;\n        margin-top: 2vw;\n    }\n\n    .solution-card:nth-child(-n+3) {\n        width: 23.5vw;\n    }\n\n    @media (max-width: 768px) {\n        .solutions-container h2 {\n            font-size: 1.5rem;\n            margin: 1vw auto 4vw;\n            font-weight: 800;\n        }\n        .solution-card {\n            width: 100%;\n        }\n\n        .solutions-container {\n            max-width: 75vw;\n            margin: 0 auto;\n            padding: 6vw 0;\n        }\n\n        .solution-card:nth-child(-n+3) {\n            width: 92vw;\n            margin: 0 auto;\n        }\n\n        .solution-title {\n            font-size: 4vw;\n            font-weight: 800;\n            margin: 2vw 0 0;\n        }\n\n        .solution-features {\n            margin: 0 0 5vw;\n        }\n.solution-features li {\n    font-size: 3.1vw;\n    line-height: 1.5;\n}\n    }\n</style>\n\n<div class=\"section-7\">\n    <div class=\"solutions-container\">\n        <h2>Your All-in-One Solution for Device Management</h2>\n        <div class=\"solutions-grid\">\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-15.webp\" /></div>\n                <div class=\"solution-title\">Office Device Management</div>\n                <ul class=\"solution-features\">\n                    <li>Manage company phones/tablets to ensure  </li>\n                    <li>secure access to internal systems.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-16.webp\" /></div>\n                <div class=\"solution-title\">Retail and Service Industries</div>\n                <ul class=\"solution-features\">\n                    <li>Manage in-store POS terminals and inventory scanners.</li>\n                    <li>Deploy apps and updates centrally.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-17.webp\" /></div>\n                <div class=\"solution-title\">Education</div>\n                <ul class=\"solution-features\">\n                    <li>Manage school-issued tablets. Restrict students from</li>\n                    <li>installing games or accessing non-educational websites.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-18.webp\" /></div>\n                <div class=\"solution-title\">Healthcare</div>\n                <ul class=\"solution-features\">\n                    <li>Ensure doctor tablets comply with HIPAA.</li>\n                    <li>Encrypt patient data and log access.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-19.webp\" /></div>\n                <div class=\"solution-title\">Logistics and Transportation</div>\n                <ul class=\"solution-features\">\n                    <li>Track driver device location to optimize routes;</li>\n                    <li>remotely diagnose device issues.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-20.webp\" /></div>\n                <div class=\"solution-title\">Remote/Hybrid Work</div>\n                <ul class=\"solution-features\">\n                    <li>When employees' personal phones access</li>\n                    <li>company email, MDM isolates work data and</li>\n                    <li>enforces two-factor authentication.</li>\n                </ul>\n            </div>\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mdm-21.webp\" /></div>\n                <div class=\"solution-title\">Installment Retail</div>\n                <ul class=\"solution-features\">\n                    <li>Use MDM to manage regulations and usage</li>\n                    <li>restrictions for installment payment products,</li>\n                    <li>reducing risk.</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "premium_partners_Bp8AW6": {
+      "type": "premium-partners",
+      "blocks": {
+        "partner_8mA9FT": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-1.png"
+          }
+        },
+        "partner_wqBzVp": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "partner_8mA9FT",
+        "partner_wqBzVp"
+      ],
+      "settings": {
+        "title": "OUR PREMIUM PARTNERS"
+      }
+    },
+    "custom_liquid_hLFmfw": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-5 {\n        height: 27.5vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-15.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .rfid-5-text h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n    }\n\n    .rfid-5-text p {\n        font-size: 1.32vw;\n    }\n\n    .rfid-5-text img {\n        width: 19%;\n    }\n\n    .rfid-5-text {\n        padding: 7vw;\n        text-align: center;\n    }\n\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .rfid-5 {\n            height: 55.555vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-015.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n   .rfid-5-text img {\n            width: 27vw;\nmargin-top: 3vw;\n        }\n.rfid-5-text {\n        padding: 9vw 2vw;\n    }\n.rfid-5-text h2 {\n    width: 73vw;\n    line-height: auto;\n    margin: 0 auto;\nfont-size: 6vw;\n}\n.rfid-5-text p {\n    font-size: 3vw;\n}\n    }\n</style>\n\n<section class=\"rfid-5\">\n    <div class=\"rfid-5-text\">\n        <h2>Get Started with Ulefone MDM</h2>\n        <p>Let us find your ideal MDM fit.</p>\n        <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf0gQp40aoIl0XJFmtmR5473ad7oZiy-VXCgy8Kepch5_7GMQ/viewform?usp=dialog\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-16.webp\"></a>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_rc77dT": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .solutions .card-grid {\n        display: grid;\n        gap: 1.5rem;\n        grid-template-columns: 1fr;\n        margin: 0 13.2vw 5vw;\n    }\n\n    .solutions .card {\n        background-color: #f9fafb;\n        border-radius: 2.5rem;\n        overflow: hidden;\n        box-shadow: 0 1px 3px rgba(0,0,0,0.1);\n        transition: box-shadow 0.3s ease;\n        display: flex;\n        flex-direction: column;\n        height: 100%;\n    }\n\n        .solutions .card:hover {\n            box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n        }\n\n        .solutions .card img {\n            object-fit: cover;\n        }\n\n    .solutions .card-content {\n        padding: 1.5rem;\n        text-align: center;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n    }\n\n    .solutions .card h3 {\n        font-size: 1.2vw;\n        font-weight: 700;\n        margin-bottom: 0.75rem;\n    }\n\n    .solutions .card p {\n        font-size: 0.95rem;\n        margin-bottom: 1rem;\n        flex-grow: 1;\n    }\n\n    .solutions .card-btn {\n        display: inline-block;\n        background-color: #facc15;\n        color: black;\n        font-weight: 600;\n        padding: 0.5rem 1rem;\n        border-radius: 9999px;\n        transition: background-color 0.3s ease;\n    }\n\n        .solutions .card-btn:hover {\n            background-color: #eab308;\n        }\n    .solutions h2 {\n        text-align: left;\n        font-size: 3vw;\n        margin: 3vw 0 2vw 13vw;\n        font-weight: 700;\n    }\n    .card-content img {\n        width: 11rem;\n    }\n    .card-btn-container {\n        margin-top: auto;\n        text-align: center;\n    }\n .solutions .card-grid {\n            grid-template-columns: repeat(3, 1fr);\n        }\n    @media (max-width: 768px) {\n        .solutions .card-grid {\n            grid-template-columns: repeat(1, 1fr);\n        }\n        .solutions h2 {\n           font-size: 1.8rem;\n        text-align: center;\n        margin: 9vw 0 5vw;\n        font-weight: 800;\n        }\n\n        .solutions .card-grid {\n            margin: 0 7.2vw 5vw;\n        }\n        .solutions .card h3 {\n            font-size: 1.1rem;\n            font-weight: 600;\n        margin: 0;\n        }\n        .card-content img {\n            width: 9rem 144px;\n        }\n    }\n    </style>\n\n<section class=\"solutions\">\n    <h2>More Solutions</h2>\n    <div class=\"card-grid\">\n\n        <!-- PoC Card -->\n        <a href=\"https://www.ulefone.com/pages/ulefone-professional-poc-communication\">\n            <div class=\"card\" onclick=\"\" style=\"cursor: pointer;\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-3.webp\" alt=\"PoC\" />\n                <div class=\"card-content\">\n                    <h3>PoC</h3>\n                    <p>Nationwide, instant multimedia communication over cellular, transcending distance limits for enhanced efficiency.</p>\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n        <!-- RFID Card -->\n        <a href=\"https://www.ulefone.com/pages/ulefone-rfid-reader\">\n            <div class=\"card\" onclick=\"\" style=\"cursor: pointer;\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-1.webp\" alt=\"RFID\" />\n                <div class=\"card-content\">\n                    <h3>RFID</h3>\n                    <p>Wireless identification and tracking technology for precise, real-time data and enhanced operational efficiency.</p>\n                    <!--<a href=\"https://www.ulefone.com/pages/ulefone-rfid-reader\" class=\"card-btn\">\n                Learn More <span>»</span>\n            </a>-->\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n    </div>\n</section>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_dpbAxj",
+    "custom_liquid_Bx9XFd",
+    "tabs_with_image_G8xV3H",
+    "custom_liquid_6izCfB",
+    "custom_liquid_wP4qxK",
+    "custom_liquid_x63cwQ",
+    "premium_partners_Bp8AW6",
+    "custom_liquid_hLFmfw",
+    "custom_liquid_rc77dT"
+  ]
+}

@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_UWb4MW": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .hero-banner {height: 40.2083vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-1.webp) no-repeat center;background-size: 100% 100%;}\n    .hero-banner-text h2 {text-align: left;font-weight: 600;font-size: 3.63vw;line-height: 1.2;}\n    .hero-banner-text {padding: 12.3vw 14vw;}\n    .hero-banner-text p {font-size: 1vw;}\n    .section-hero {display: flex;align-items: center;min-height: 400px;background-color: #f6f6fb;margin-bottom: 40px;overflow: hidden;border-radius: 8px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);margin: 2vw 0;border-radius: 33px;}\n    .hero-image-1 {flex: 1;height: 46vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-2.webp');background-size: cover;background-position: center;position: relative;}\n    .hero-image-2 {flex: 1;height: 46vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-3.webp');background-size: cover;background-position: center;position: relative;}\n    .hero-image-3 {flex: 1;height: 46vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-4.webp');background-size: cover;background-position: center;position: relative;}\n    .hero-content {flex: 1;padding: 3.5vw;display: flex;flex-direction: column;justify-content: center;}\n    .hero-content h3 {text-align: left;font-size: 2.83vw;font-weight: 700;line-height: 1.2;}\n    .hero-content h3 span {font-size: 2vw;}\n    .hero-content p {font-size: 1vw;line-height: 1.5;}\n    .hero-content a {margin-top: 3vw;}\n    @media (min-width: 992px) {.hero-img {display: none;}}\n    @media (max-width: 992px) {.hero-content h3 {font-size: 2.2vw;}}\n    @media (max-width: 768px) {.hero-banner {height: 129.537vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-01.webp) no-repeat center;background-size: 100% 100%;}\n        .hero-banner-text h2 {text-align: center;font-weight: 800;font-size: 7vw;}\n        .hero-banner-text p {font-size: 2.5vw;text-align: center;line-height: 1.1;}\n        .hero-banner-text {padding: 7.3vw 2vw;}\n        .hero-1 {flex-direction: column;height: auto;}\n        .hero-image {width: 96%;margin: 0 auto;}\n        .hero-content {padding: 30px 20px;}\n        .hero-content h3 {font-size: 2rem;}\n        .hero-image-1 {flex: 1;height: 61.767728vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-02.webp');background-size: cover;background-position: center;position: relative;border-radius: 6vw;}\n        .hero-image-2 {flex: 1;height: 61.767728vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-03.webp');background-size: cover;background-position: center;position: relative;border-radius: 6vw;}\n        .hero-image-3 {flex: 1;height: 61.767728vw;background-image: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-04.webp');background-size: cover;background-position: center;position: relative;border-radius: 6vw;}\n        .content {display: flex;flex-direction: column;}\n        .section-hero {display: flex;flex-direction: column;}\n        .hero-content {order: 2;}\n        .hero-image {order: 1;}\n        .hero-content p {font-size: 3vw;line-height: 1.5;}\n        .hero-content h3 {font-size: 3.5rem;}.hero-content h3 span {font-size: 4.6vw;}\n        .hero-content a {margin: 12vw auto;width: 30vw;}}\n    @media (max-width: 480px) {.hero-content h3 {font-size: 1.8rem;}}\n</style>\n\n<section class=\"hero-banner\">\n    <div class=\"hero-banner-text\">\n        <h2>Industry Solutions</h2>\n        <p>Specialized Hardware and Software Solutions,<br />Empowering Smarter Workflows</p>\n    </div>\n</section>\n<div class=\"container-fluid\">\n    <div class=\"col-md-offset-1 col-md-10\">\n        <section class=\"section-hero\">\n            <div class=\"hero-image hero-image-2\"><img class=\"hero-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-03.webp\"></div>\n            <div class=\"hero-content\">\n                <h3>MDM<br /><span>(Mobile Device Management)</span></h3>\n                <p>\n                    MDM centrally manages enterprise mobile devices\n                    for security, compliance, and efficiency. The fastgrowing global market (over 12% projected CAGR)\n                    is seeing rising demand from SMEs and sectors like\n                    logistics for tailored, simpler solutions. MDM is\n                    essential for data security, productivity, and\n                    regulatory adherence in enterprise mobility.\n                </p>\n                <a href=\"https://www.ulefone.com/pages/take-control-with-ulefone-mdm\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\"></a>\n            </div>\n        </section>\n        <section class=\"section-hero\">\n            <div class=\"hero-content\">\n                <h3>PoC<br /><span>(Push-to-Talk over Cellular)</span></h3>\n                <p>\n                    Cellular-based PoC offers nationwide instant\n                    multimedia dispatch (voice, video, location,\n                    collaboration) for businesses, overcoming\n                    traditional radio distance limits. It boosts\n                    communication efficiency (e.g., 60% in logistics -\n                    IDC 2024) with low-latency, reliable networks.\n                </p>\n                <a href=\"https://www.ulefone.com/pages/ulefone-professional-poc-communication\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\"></a>\n            </div>\n            <div class=\"hero-image hero-image-3\"><img class=\"hero-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-04.webp\"></div>\n        </section>\n        <section class=\"section-hero\">\n            <img class=\"hero-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-02.webp\">\n            <div class=\"hero-image hero-image-1\"></div>\n            <div class=\"hero-content\">\n                <h3>RFID</h3>\n                <p>\n                    RFID intelligent devices enable precise wireless\n                    identification and full data tracking for applications\n                    like warehouse inventory, manufacturing\n                    traceability, retail self-checkout, and healthcare\n                    supply monitoring. Their rapid, robust identification\n                    significantly cuts manual errors (over 90%), driving\n                    digital asset management and boosting operational\n                    transparency in the rapidly growing global RFID\n                    market (over 15% annual growth). This technology\n                    is key to smart supply chain upgrades and supports\n                    your digital transformation.\n                </p>\n                <a href=\"https://www.ulefone.com/pages/ulefone-rfid-reader\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\"></a>\n            </div>\n        </section>\n    </div>\n</div>"
+      }
+    },
+    "customer_stories_JKYj3G": {
+      "type": "customer-stories",
+      "blocks": {
+        "slide_GMnTnG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-5.webp",
+            "custom_html": "<h2>RFID Reader</h2>\n<p>\n    RFID (Radio-Frequency Identification) uses radio waves for contactless, bulk\n    identification and tracking of tagged items (up to hundreds within meters),\n    unlike manual barcodes. Its speed, accuracy, and data security make it a\n    key technology for digital transformation in the IoT.\n</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Warehousing &amp; Logistics</h6>\n<p>\n    Rapid, bulk inbound/outbound verification, Dynamic inventory checks on\n    warehouse shelves, Package status tracking during transit\n</p>\n<h6>Retail Stores</h6>\n<p>\n    Self-service inventory and restocking, Fitting room traffic and item\n    association analysis, Anti-counterfeiting traceability and anti-theft alerts\n</p>\n<h6>Smart Manufacturing</h6>\n<p>\n    Monitoring of work-in-progress on production lines, Intelligent tool/mold\n    borrowing and return management\n</p>\n<h6>Healthcare</h6>\n<p>\n    Location tracking and maintenance records for medical equipment,\n    Traceability of surgical instrument sterilization processes\n</p><h6>Asset Management</h6>\n<p>\n    Mobile inspections of fixed assets, Quick borrowing and return registration\n    of meeting materials\n</p>"
+          }
+        },
+        "slide_4xybGa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-6.webp",
+            "custom_html": "<h2>MDM (Mobile Device Management)</h2>\n<p>MDM uses software to centrally manage and secure company mobile\n    devices (smartphones, tablets, laptops) for security, compliance, and\n    efficiency. It enables configuration, monitoring, maintenance, and remote\n    operation. Essential for mobile work, MDM balances efficiency, security,\n    and cost across industries and is increasingly vital with remote work and\n    IoT.</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Office Device Management</h6>\n<p>Manage company phones/tablets to ensure secure access to internal systems.</p>\n<h6>Retail and Service Industries</h6>\n<p>Manage in-store POS terminals and inventory scanners. Deploy apps and updates centrally.</p>\n<h6>Education</h6>\n<p>Manage school-issued tablets. Restrict students from installing games or accessing non-educational websites.</p>\n<h6>Healthcare</h6>\n<p>Ensure doctor tablets comply with HIPAA. Encrypt patient data and log access.</p>\n<h6>Logistics and Transportation</h6>\n<p>Track driver device location to optimize routes; remotely diagnose device issues.</p>\n<h6>Remote/Hybrid Work</h6>\n<p>When employees' personal phones access company email, MDM isolates work data and enforces two-factor authentication.</p>\n<h6>Installment Retail</h6>\n<p>Use MDM to manage regulations and usage restrictions for installment payment products, reducing risk.</p>"
+          }
+        },
+        "slide_mgTiGn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-7.webp",
+            "custom_html": "<h2>POC（Push-to-Talk over Cellular）</h2>\n        <p>PoC (Push-to-Talk over Cellular) is an intelligent trunked communication\n        service based on 4G/5G cellular networks. It overcomes the distance\n        limitations of traditional two-way radios, enabling \"one-touch\" instant\n        communication nationwide and globally. It transmits voice, data, and\n        location information via IP networks, supports multiple terminal access\n        (phones, professional terminals, vehicle devices, etc.), and includes features\n        like group calls, multimedia dispatch, and track playback. It is a nextgeneration, high-efficiency collaborative communication solution for\n        enterprises.</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Public Safety</h6>\n<h6>Security</h6>\n<h6>Logistics</h6>\n<h6>Transportation</h6>\n<h6>Mining</h6>\n<h6>Commercial</h6>\n<h6>Healthcare</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GMnTnG",
+        "slide_4xybGa",
+        "slide_mgTiGn"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "main_heading": "<p>CUSTOMER STORIES</p>"
+      }
+    },
+    "customer_stories_new_WK3Njt": {
+      "type": "customer-stories-new",
+      "blocks": {
+        "slide_JEjwaE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-5.webp",
+            "custom_html": "<h2>RFID Reader</h2>\n<p>\n    RFID (Radio-Frequency Identification) uses radio waves for contactless, bulk\n    identification and tracking of tagged items (up to hundreds within meters),\n    unlike manual barcodes. Its speed, accuracy, and data security make it a\n    key technology for digital transformation in the IoT.\n</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Warehousing &amp; Logistics</h6>\n<p>\n    Rapid, bulk inbound/outbound verification, Dynamic inventory checks on\n    warehouse shelves, Package status tracking during transit\n</p>\n<h6>Retail Stores</h6>\n<p>\n    Self-service inventory and restocking, Fitting room traffic and item\n    association analysis, Anti-counterfeiting traceability and anti-theft alerts\n</p>\n<h6>Smart Manufacturing</h6>\n<p>\n    Monitoring of work-in-progress on production lines, Intelligent tool/mold\n    borrowing and return management\n</p>\n<h6>Healthcare</h6>\n<p>\n    Location tracking and maintenance records for medical equipment,\n    Traceability of surgical instrument sterilization processes\n</p><h6>Asset Management</h6>\n<p>\n    Mobile inspections of fixed assets, Quick borrowing and return registration\n    of meeting materials\n</p>"
+          }
+        },
+        "slide_ePWEeD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-6.webp",
+            "custom_html": "<h2>MDM (Mobile Device Management)</h2>\n<p>MDM uses software to centrally manage and secure company mobile\n    devices (smartphones, tablets, laptops) for security, compliance, and\n    efficiency. It enables configuration, monitoring, maintenance, and remote\n    operation. Essential for mobile work, MDM balances efficiency, security,\n    and cost across industries and is increasingly vital with remote work and\n    IoT.</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Office Device Management</h6>\n<p>Manage company phones/tablets to ensure secure access to internal systems.</p>\n<h6>Retail and Service Industries</h6>\n<p>Manage in-store POS terminals and inventory scanners. Deploy apps and updates centrally.</p>\n<h6>Education</h6>\n<p>Manage school-issued tablets. Restrict students from installing games or accessing non-educational websites.</p>\n<h6>Healthcare</h6>\n<p>Ensure doctor tablets comply with HIPAA. Encrypt patient data and log access.</p>\n<h6>Logistics and Transportation</h6>\n<p>Track driver device location to optimize routes; remotely diagnose device issues.</p>\n<h6>Remote/Hybrid Work</h6>\n<p>When employees' personal phones access company email, MDM isolates work data and enforces two-factor authentication.</p>\n<h6>Installment Retail</h6>\n<p>Use MDM to manage regulations and usage restrictions for installment payment products, reducing risk.</p>"
+          }
+        },
+        "slide_eGR8gD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/corporate-busines-7.webp",
+            "custom_html": "<h2>POC（Push-to-Talk over Cellular）</h2>\n        <p>PoC (Push-to-Talk over Cellular) is an intelligent trunked communication\n        service based on 4G/5G cellular networks. It overcomes the distance\n        limitations of traditional two-way radios, enabling \"one-touch\" instant\n        communication nationwide and globally. It transmits voice, data, and\n        location information via IP networks, supports multiple terminal access\n        (phones, professional terminals, vehicle devices, etc.), and includes features\n        like group calls, multimedia dispatch, and track playback. It is a nextgeneration, high-efficiency collaborative communication solution for\n        enterprises.</p>\n<h2>Adaptible Industries Solution</h2>\n<h6>Public Safety</h6>\n<h6>Security</h6>\n<h6>Logistics</h6>\n<h6>Transportation</h6>\n<h6>Mining</h6>\n<h6>Commercial</h6>\n<h6>Healthcare</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JEjwaE",
+        "slide_ePWEeD",
+        "slide_eGR8gD"
+      ],
+      "name": "CustomerStoriesSliderNew",
+      "settings": {
+        "main_heading": "<p>CUSTOMER STORIES</p>"
+      }
+    },
+    "premium_partners_3XKHp7": {
+      "type": "premium-partners",
+      "blocks": {
+        "partner_EkL87Y": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-1.png"
+          }
+        },
+        "partner_X6XmGk": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-2.png"
+          }
+        },
+        "partner_a37dt9": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-3.png"
+          }
+        },
+        "partner_ccpANQ": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-4.png"
+          }
+        }
+      },
+      "block_order": [
+        "partner_EkL87Y",
+        "partner_X6XmGk",
+        "partner_a37dt9",
+        "partner_ccpANQ"
+      ],
+      "settings": {
+        "title": "OUR PREMIUM PARTNERS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_UWb4MW",
+    "customer_stories_JKYj3G",
+    "customer_stories_new_WK3Njt",
+    "premium_partners_3XKHp7"
+  ]
+}

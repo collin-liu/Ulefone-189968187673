@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_iTJTck": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (min-width: 992px) {.sec-block {display: none; }}",
+        "@media (max-width: 991px) {.gs {display: none; }}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-1.webp\" alt=\"Ulefone IFA 2026\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-2.webp\" alt=\"Ulefone IFA 2026\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-01.webp\" alt=\"Ulefone IFA 2026\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-02.webp\" alt=\"Ulefone IFA 2026\">\n</div>"
+      }
+    },
+    "custom_liquid_enrgY3": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\ndiv#shopify-section-template--17925291442384__custom_liquid_col_bRL4r6 {\n    background: #000;\n    padding-bottom: 5vw;\n}\n  :root{\n    --bg:#000;\n    --white:#fff;\n    --orange:#f47a24;\n    --label-gray:#8a8a8a;\n    --hall-gray:#5c5c5c;\n  }\n  *{box-sizing:border-box;margin:0;padding:0;}\n  body{\n    background:var(--bg);\n    color:var(--white);\n  }\n\n  .wrapper{\n    max-width:1400px;\n    margin:0 auto;\n    padding:56px 40px;\n  }\n\n  .layout{\n    display:flex;\n    align-items:center;\n    gap:64px;\n  }\n  .info{\n    flex:0 0 300px;\n  }\n\n  .brand{\n    color:var(--orange);\n    font-size:32px;\n    font-weight:800;\n    margin-bottom:34px;\n    line-height:1.2;\n    white-space:nowrap;\n  }\n\n  .field{ margin-bottom:26px; }\n  .field:last-of-type{ margin-bottom:18px; }\n\n  .field-label{\n    color:#d5d5d5;\n    font-size:15px;\n    font-weight:400;\n    margin-bottom:4px;\n  }\n\n  .field-value{\n    font-size:24px;\n    font-weight:800;\n    line-height:1.25;\n  }\n\n  .field-sub{\n    font-size:13px;\n    font-weight:400;\n    color:#e5e5e5;\n    margin-top:4px;\n  }\n\n  .disclaimer{\n    font-size:11px;\n    color:#8f8f8f;\n  }\n  .floorplan{\n    flex:1;\n    display:flex;\n    align-items:stretch;\n    gap:12px;\n    min-width:0;\n  }\n  .arrows{\n    flex:0 0 34px;\n    display:grid;\n    grid-template-rows: 226fr 115fr 294fr;\n  }\n  .arrows-inner{\n    grid-row:2;\n    display:flex;\n    flex-direction:column;\n    justify-content:center;\n    align-items:flex-end;\n    gap:12px;\n  }\n  .arrow-svg{ width:100%; height:auto; display:block; }\n  .grid{\n    flex:1;\n    display:grid;\n    grid-template-columns: 95fr 72fr 290fr 11fr 131fr 68fr 438fr;\n    grid-template-rows: 226fr 115fr 294fr;\n    min-width:0;\n  }\n\n  .box{\n    background:var(--white);\n    color:#7a7a7a;\n    font-size:11px;\n    letter-spacing:0.3px;\n    padding:10px 12px;\n    border-radius:1px;\n  }\n  .col1-stack{\n    grid-column:1/2;\n    grid-row:1/2;\n    display:grid;\n    grid-template-rows: 107fr 14fr 107fr;\n  }\n  .col1-stack .box:nth-child(1){ grid-row:1; }\n  .col1-stack .box:nth-child(2){ grid-row:3; }\n\n  .proove{\n    grid-column:3/6; \n    grid-row:1/2;\n  }\n\n  .duttenhofer{\n    grid-column:7/8;\n    grid-row:1/2;\n  }\n\n  .hall-label{\n    grid-column:5/6; \n    grid-row:2/3;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    font-size:40px;\n    font-weight:400;\n    color:var(--hall-gray);\n    letter-spacing:0.5px;\n    white-space:nowrap;\n  }\n  .ttec{\n    grid-column:1/2;\n    grid-row:3/4;\n  }\n\n  .col2-stack{\n    grid-column:3/4;\n    grid-row:3/4;\n    display:grid;\n    grid-template-rows: 188fr 9fr 99fr;\n  }\n  .rugone-booth{\n    grid-row:1;\n    background:var(--orange);\n    border-radius:1px;\n    display:flex;\n    flex-direction:column;\n    padding:10px 12px;\n  }\n  .booth-code{\n    color:var(--white);\n    font-size:13px;\n    font-weight:700;\n  }\n  .rugone-logo-wrap{\n    flex:1;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n  }\n  .rugone-logo-wrap img{\n    max-width:80%;\n    max-height:44px;\n    object-fit:contain;\n  }\n  .verbatim{\n    grid-row:3;\n  }\n\n  .col3-stack{\n    grid-column:5/6;\n    grid-row:3/4;\n    display:grid;\n    grid-template-rows: 132fr 32fr 132fr;\n  }\n  .ricomm{ grid-row:1; }\n  .glocalme{ grid-row:3; }\n\n  .last-box{\n    grid-column:7/8;\n    grid-row:3/4;\n  }\n  @media (max-width: 900px){\n    .wrapper{ padding:32px 20px 44px; }\n    .layout{\n      flex-direction:column;\n      align-items:stretch;\n      gap:30px;\n    }\n    .info{ flex:none; }\n    .brand{ font-size:26px; margin-bottom:22px; }\n    .field{ margin-bottom:18px; }\n    .field-value{ font-size:19px; }\n    .field-label{ font-size:13px; }\n    .field-sub{ font-size:12px; }\n\n    .floorplan{ gap:8px; }\n    .arrows{ flex-basis:20px; }\n    .arrows-inner{ gap:7px; }\n    .box{ font-size:9px; padding:7px 8px; }\n    .hall-label{ font-size:26px; }\n    .booth-code{ font-size:10px; }\n    .rugone-logo-wrap img{ max-height:26px; }\n  }\n\n  @media (max-width: 520px){\n    .wrapper{ padding:24px 14px 36px; }\n    .brand{ font-size:20px; }\n    .field-value{ font-size:16px; }\n    .field-label{ font-size:11px; }\n    .field-sub{ font-size:10px; }\n    .disclaimer{ font-size:9.5px; }\n\n    .floorplan{ gap:5px; }\n    .arrows{ flex-basis:14px; }\n    .arrows-inner{ gap:4px; }\n    .box{ font-size:6.5px; padding:4px 5px; }\n    .hall-label{ font-size:16px; }\n    .booth-code{ font-size:7px; }\n    .rugone-logo-wrap img{ max-height:15px; }\n  }\n</style>\n<div class=\"wrapper\">\n  <div class=\"layout\">\n    <div class=\"info\">\n      <div class=\"brand\">RugOne I IFA 2026</div>\n\n      <div class=\"field\">\n        <div class=\"field-label\">Date</div>\n        <div class=\"field-value\">4-8 SEPT</div>\n      </div>\n\n      <div class=\"field\">\n        <div class=\"field-label\">Booth</div>\n        <div class=\"field-value\">H3.2-137</div>\n      </div>\n\n      <div class=\"field\">\n        <div class=\"field-label\">Venue</div>\n        <div class=\"field-value\">Messe Berlin</div>\n        <div class=\"field-sub\">Messedamm 22, 14055 Berlin, Germany</div>\n      </div>\n\n      <div class=\"disclaimer\">*This map is for reference only. Final floor plan may vary.</div>\n    </div>\n    <div class=\"floorplan\">\n\n      <div class=\"arrows\">\n        <div class=\"arrows-inner\">\n          <svg class=\"arrow-svg\" viewBox=\"0 0 34 22\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M0 11 L14 0 L14 7 L34 7 L34 15 L14 15 L14 22 Z\" fill=\"#f47a24\"/>\n          </svg>\n          <svg class=\"arrow-svg\" viewBox=\"0 0 34 22\" xmlns=\"http://www.w3.org/2000/svg\">\n            <path d=\"M0 11 L14 0 L14 7 L34 7 L34 15 L14 15 L14 22 Z\" fill=\"#f47a24\"/>\n          </svg>\n        </div>\n      </div>\n\n      <div class=\"grid\">\n        <div class=\"col1-stack\">\n          <div class=\"box\"></div>\n          <div class=\"box\"></div>\n        </div>\n\n        <div class=\"box proove\">PROOVE</div>\n        <div class=\"box duttenhofer\">DUTTENHOFER GROUP</div>\n        <div class=\"hall-label\">H3.2</div>\n        <div class=\"box ttec\">TTEC</div>\n\n        <div class=\"col2-stack\">\n          <div class=\"rugone-booth\">\n            <div class=\"booth-code\">H3.2-137*</div>\n            <div class=\"rugone-logo-wrap\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/RugOne-White-logo.png\" alt=\"RugOne\">\n            </div>\n          </div>\n          <div class=\"box verbatim\">VERBATIM</div>\n        </div>\n\n        <div class=\"col3-stack\">\n          <div class=\"box ricomm\">RICOMM</div>\n          <div class=\"box glocalme\">GLOCALME</div>\n        </div>\n\n        <div class=\"box last-box\"></div>\n\n      </div>\n    </div>\n\n  </div>\n</div>"
+      }
+    },
+    "custom_liquid_4afRir": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (min-width: 992px) {.sec-block {display: none; }}",
+        "@media (max-width: 991px) {.gs {display: none; }}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-3.webp\" alt=\"Ulefone IFA 2026\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-4.webp\" alt=\"Ulefone IFA 2026\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-03.webp\" alt=\"Ulefone IFA 2026\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ifa-2026-04.webp\" alt=\"Ulefone IFA 2026\">\n</div>"
+      }
+    },
+    "custom_liquid_RqUTe7": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\ndiv#shopify-section-template--17925291442384__custom_liquid_col_pVaRD3 {\n    background-color: #fff;\n}\n.ro-event-container {\n  max-width: 1400px; \n  margin: 0 auto;\n  padding: 80px 20px;\n  box-sizing: border-box;\n  color: #000;\n}\n.ro-event-header, .ro-why-header {\n  text-align: center;\n}\n.ro-event-header {\n  margin-bottom: 50px;\n}\n.ro-why-header {\n  margin-bottom: 50px;\n  margin-top: 100px;\n}\n.ro-title {\n  font-size: 38px; \n  font-weight: 600;\n  margin: 0 0 15px 0;\n  letter-spacing: -0.5px;\n}\n.ro-subtitle {\n  font-size: 20px;\n  margin: 0;\n  color: #333;\n}\n.ro-schedule-grid, .ro-reasons-grid {\n  display: flex;\n  justify-content: center;\n  align-items: stretch;\n  gap: 40px;\n}\n.ro-schedule-card {\n  flex: 1;\n  max-width: 360px;\n  background-color: #fdfbf9;\n  border-radius: 20px;\n  padding: 60px 30px;\n  text-align: center;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.ro-icon-small {\n  width: 48px; \n  height: 48px;\n  object-fit: contain;\n  margin-bottom: 25px;\n}\n.ro-card-time {\n  font-size: 24px;\n  font-weight: 700;\n  margin: 0 0 15px 0;\n}\n.ro-card-desc {\n  font-size: 18px; \n  margin: 0;\n  line-height: 1.5;\n  color: #333;\n}\n.ro-card-center {\n  background-color: transparent;\n  transform: scale(1.05) rotate(-2deg);\n  position: relative;\n  z-index: 2;\n}\n.ro-card-center::before {\n  content: '';\n  position: absolute;\n  top: 0; left: 0; right: 0; bottom: 0;\n  background-color: #ff7f00;\n  border-radius: 20px;\n  transform: translate(14px, 16px) rotate(4deg);\n  z-index: -2;\n}\n.ro-card-center::after {\n  content: '';\n  position: absolute;\n  top: 0; left: 0; right: 0; bottom: 0;\n  background-color: #ffffff;\n  border-radius: 20px;\n  box-shadow: 0 6px 16px rgba(0,0,0,0.04);\n  z-index: -1;\n}\n.ro-card-center > * {\n  position: relative;\n  z-index: 1;\n}\n.ro-reason-card {\n  flex: 1;\n  max-width: 400px;\n  background-color: #fdfbf9;\n  border-radius: 20px;\n  padding: 60px 40px;\n  text-align: center;\n  box-sizing: border-box;\n  box-shadow: 12px 12px 0px 0px #ff7f00;\n}\n.ro-icon-large {\n  width: 80px;\n  height: 80px;\n  object-fit: contain;\n  margin-bottom: 35px;\n}\n.ro-reason-text {\n  font-size: 18px; \n  line-height: 1.7;\n  margin: 0;\n  color: #1a1a1a;\n}\n@media (max-width: 768px) {\n  .ro-event-container {\n    padding: 40px 10px;\n  }\n  .ro-title {\n    font-size: 26px;\n  }\n  .ro-subtitle {\n    font-size: 16px;\n  }\n  .ro-schedule-grid, .ro-reasons-grid {\n    gap: 10px; \n  }\n  .ro-schedule-card {\n    padding: 25px 10px;\n    border-radius: 16px;\n    min-width: 0;\n  }\n  \n  .ro-card-center::before {\n    transform: translate(6px, 10px) rotate(4deg);\n    border-radius: 16px;\n  }\n  .ro-card-center::after {\n    border-radius: 16px;\n  }\n  \n  .ro-icon-small {\n    width: 32px;\n    height: 32px;\n    margin-bottom: 15px;\n  }\n  .ro-card-time {\n    font-size: 14px;\n  }\n  .ro-card-desc {\n    font-size: 12px;\n  }\n  .ro-why-header {\n    margin-top: 60px;\n    margin-bottom: 30px;\n  }\n  .ro-reason-card {\n    padding: 30px 15px;\n    border-radius: 16px;\n    box-shadow: 6px 6px 0px 0px #ff7f00;\n    min-width: 0;\n  }\n  .ro-icon-large {\n    width: 48px;\n    height: 48px;\n    margin-bottom: 20px;\n  }\n  .ro-reason-text {\n    font-size: 12px;\n    line-height: 1.5;\n  }\n}</style><div class=\"ro-event-container\">\n  <div class=\"ro-event-header\">\n    <h2 class=\"ro-title\">September 5, 2026 (Saturday)</h2>\n    <p class=\"ro-subtitle\">2:30 PM - 3:00 PM</p>\n  </div>\n  <div class=\"ro-schedule-grid\">\n    <div class=\"ro-schedule-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-5-1.webp\" alt=\"Registration Icon\" class=\"ro-icon-small\">\n      <h3 class=\"ro-card-time\">14:00 - 14:30</h3>\n      <p class=\"ro-card-desc\">Registration</p>\n    </div>\n    \n    <div class=\"ro-schedule-card ro-card-center\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-5-2.webp\" alt=\"Presentation Icon\" class=\"ro-icon-small\">\n      <h3 class=\"ro-card-time\">14:30 - 15:00</h3>\n      <p class=\"ro-card-desc\">Brand Presentation and<br>Product Launch</p>\n    </div>\n    \n    <div class=\"ro-schedule-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-5-3.webp\" alt=\"Photo Icon\" class=\"ro-icon-small\">\n      <h3 class=\"ro-card-time\">15:00 - 15:05</h3>\n      <p class=\"ro-card-desc\">Group Photo & Video<br>Session</p>\n    </div>\n  </div>\n  <div class=\"ro-why-header\">\n    <h2 class=\"ro-title\">Why Attend</h2>\n  </div>\n\n  <div class=\"ro-reasons-grid\">\n    <div class=\"ro-reason-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-6-1.webp\" alt=\"\" class=\"ro-icon-large\">\n      <p class=\"ro-reason-text\">RugOne will officially launch two groundbreaking products that push the boundaries of outdoor communication technology.</p>\n    </div>\n    \n    <div class=\"ro-reason-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-6-2.webp\" alt=\"\" class=\"ro-icon-large\">\n      <p class=\"ro-reason-text\">Senior leaders from Ulefone and RugOne will deliver keynote speeches and share important insights at the launch event.</p>\n    </div>\n    \n    <div class=\"ro-reason-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0648/8607/9696/files/ifa-2026-6-3.webp\" alt=\"\" class=\"ro-icon-large\">\n      <p class=\"ro-reason-text\">Exclusive product information and announcements will be revealed for the first time at the event.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "page_form_wnWWAe": {
+      "type": "PageForm",
+      "name": "Ulefone IFA Visit Form",
+      "settings": {
+        "google_sheet_url": "https://script.google.com/macros/s/AKfycbwFerB2fpGgAoOxJ-Lt7PR0l_zrqhkYWiqRcW-jIN478xDzTNWnv1eAM0I0FMwc1Ga5/exec",
+        "form_title": "Register Your Visit",
+        "form_subtitle": "We warmly welcome you to visit our booth and join our exclusive new product launch event at IFA 2026."
+      }
+    },
+    "zhanhuibankuai_U3Y7PC": {
+      "type": "zhanhuibankuai",
+      "name": "IFA Showcase",
+      "settings": {
+        "image": "shopify://shop_images/ifa-2026-8.webp",
+        "heading": "",
+        "text": "<p>At this year’s show, Ulefone is proud to showcase a series of groundbreaking advancements. The Armor Series will officially introduce Ulefone’s most advanced laser rangefinder rugged phone to date, alongside multiple new product launches. In addition, Ulefone’s latest ecosystem products will be showcased at IFA 2026, bringing even more exciting possibilities for exploration.</p>",
+        "button_text": "Learn More >",
+        "button_link": "shopify://blogs/newsroom/ulefone-ifa-2026",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_iTJTck",
+    "custom_liquid_enrgY3",
+    "custom_liquid_4afRir",
+    "custom_liquid_RqUTe7",
+    "page_form_wnWWAe",
+    "zhanhuibankuai_U3Y7PC"
+  ]
+}

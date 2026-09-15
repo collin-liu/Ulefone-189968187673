@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_d7TcjG": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (max-width: 989px) {.wide {width: 96%; }}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">RFID Kit</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/rfid-kit\">Features</a></li>\n          <li class=\"tab\"><a href=\"/apps/pagefly?id=5a28e35e-1f63-40b2-89ea-6268c3215729\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/RFID-Kit\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-10.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-11.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-12.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-1.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-2.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-3.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-4.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-5.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-6.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-7.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-8.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-PC-9.webp\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\" style=\"margin-top: 15%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-06.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-07.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-08.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-09.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-010.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-011.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-012.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-01.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-02.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-03.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-04.webp\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RFID-Kit-M-05.webp\" style=\"width:100%;\">\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_d7TcjG"
+  ]
+}

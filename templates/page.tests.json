@@ -1,0 +1,294 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_WfVGCH": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section {\n        display: block;\n        margin: auto;\n        overflow: hidden;\n        width: 100%;\n        background-color: #000;\n    }\n\n    .section-1 {\n        height: 56.25vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-1.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-2 {\n        height: 53.28vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-2.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-3 {\n        height: 53.48vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RollDice.png?v=1769764269.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-4 {\n        height: 53.48vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-44.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-5 {\n        height: 53.48vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-55.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-6 {\n        height: 56.25vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-6.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .dice-phone-wrapper {\n        position: absolute;\n        z-index: 5;\n        border-radius: 50%;\n        overflow: hidden;\n        background: #000;\n        transform: translateX(-50%);\n        aspect-ratio: 1 / 1;\n        width: 10.3%;\n    }\n\n    video.dice-video {\n        width: 100%;\n        height: 100%;\n        object-fit: cover;\n        display: block;\n    }\n\n    .video-control-btn {\n        position: absolute;\n        z-index: 10;\n        transform: translateX(-50%);\n        cursor: pointer;\n        background: rgba(255, 255, 255, 0.2);\n        border: 1px solid #fff;\n        color: #fff;\n        padding: 10px 20px;\n        border-radius: 30px;\n        font-family: sans-serif;\n        font-weight: bold;\n        text-transform: uppercase;\n        font-size: 14px;\n        transition: all 0.3s ease;\n    }\n\n        .video-control-btn:hover {\n            background: #fff;\n            color: #000;\n        }\n    @media (min-width: 1919px) {\n        .pos-wrapper-5 {\n            left: 69.985%!important;\n        }\n    }\n    @media (min-width: 481px) {\n        .pos-wrapper-3 {left: 70.3%;top: 39.255%;}\n        .pos-btn-3 {left: 70.25%;top: 42.6%;}\n\n        .pos-wrapper-4 {left: 31.75%;top: 55.35%;}\n        .pos-btn-4 {left: 31.75%;top: 58.8%;}\n\n        .pos-wrapper-5 {left: 69.93%;top: 71.6222%;}\n        .pos-btn-5 {left: 70%;top: 74.8%;}\n    }\n\n    @media (max-width: 480px) {\n        .section-1 {\n            height: 112.04vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-01.webp);\n            background-size: 100% 112.04vw;\n        }\n\n        .section-2 {\n            height: 93.89vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-02.webp);\n            background-size: 100% 93.89vw;\n        }\n\n        .section-3 {\n            height: 169.44vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-033.webp?v=1769765915);\n            background-size: 100% 169.44vw;\n        }\n\n        .section-4 {\n            height: 170.37vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-044.webp);\n            background-size: 100% 170.37vw;\n        }\n\n        .section-5 {\n            height: 162.04vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-055.webp);\n            background-size: 100% 162.04vw;\n        }\n\n        .section-6 {\n            height: 215.46vw;\n            background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rugged-phone-back-display-games-update-06.webp);\n            background-size: 100% 215.46vw;\n        }\n\n        .dice-phone-wrapper {\n            width: 24.28%;\n        }\n\n        .pos-wrapper-3 {left: 50.85%;top: 34.9755%;}\n        .pos-btn-3 {left: 50.85%;top: 38%;}\n\n        .pos-wrapper-4 {left: 52.88%;top: 53.7%;}\n        .pos-btn-4 {left: 52.85%;top: 56.5%;}\n\n        .pos-wrapper-5 {left: 50.2%;top: 70.83%;}\n        .pos-btn-5 {left: 50%;top: 73.6%;}\n        .video-control-btn {padding: 7px 20px;}\n    }\n</style>\n<section class=\"section section-1\"></section>\n<section class=\"section section-2\"></section>\n\n<section class=\"section section-3\">\n    <div class=\"dice-phone-wrapper pos-wrapper-3\">\n        <div class=\"video-mask\">\n            <video class=\"dice-video\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RollDice.m4v?v=1769764269\" muted playsinline preload=\"auto\"></video>\n        </div>\n    </div>\n    <div class=\"video-control-btn pos-btn-3\">\n        <span class=\"btn-text\">REPLAY</span>\n    </div>\n</section>\n\n<section class=\"section section-4\">\n    <div class=\"dice-phone-wrapper pos-wrapper-4\">\n        <div class=\"video-mask\">\n            <video class=\"dice-video\" src=\"https://cdn.shopify.com/videos/c/o/v/c4638fa643e54855ac08d89f517bb644.mp4\" muted playsinline preload=\"auto\"></video>\n        </div>\n    </div>\n    <div class=\"video-control-btn pos-btn-4\">\n        <span class=\"btn-text\">REPLAY</span>\n    </div>\n</section>\n\n<section class=\"section section-5\">\n    <div class=\"dice-phone-wrapper pos-wrapper-5\">\n        <div class=\"video-mask\">\n            <video class=\"dice-video\" src=\"https://cdn.shopify.com/videos/c/o/v/59ff1373abf54d8ca321427ee9a8255f.mp4\" muted playsinline preload=\"auto\"></video>\n        </div>\n    </div>\n    <div class=\"video-control-btn pos-btn-5\">\n        <span class=\"btn-text\">REPLAY</span>\n    </div>\n</section>\n\n<section class=\"section section-6\"></section>\n\n<script>\n    document.addEventListener(\"DOMContentLoaded\", function () {\n        const videoSections = document.querySelectorAll('.section-3, .section-4, .section-5');\n        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.5 };\n\n        videoSections.forEach(section => {\n            const video = section.querySelector('video');\n            const btn = section.querySelector('.video-control-btn');\n            if (!video || !btn) return;\n\n            const btnText = btn.querySelector('span');\n            let hasAutoPlayed = false;\n\n            btn.addEventListener('click', function () {\n                if (video.paused) {\n                    video.play();\n                    btnText.textContent = \"PAUSE\";\n                } else {\n                    video.pause();\n                    btnText.textContent = \"PLAY\";\n                }\n            });\n\n            video.addEventListener('ended', function () {\n                btnText.textContent = \"REPLAY\";\n            });\n\n            const observer = new IntersectionObserver((entries) => {\n                entries.forEach(entry => {\n                    if (entry.isIntersecting) {\n                        if (!hasAutoPlayed) {\n                            video.play().then(() => {\n                                hasAutoPlayed = true;\n                                btnText.textContent = \"PAUSE\";\n                            }).catch(error => { console.log(\"Autoplay prevented\", error); });\n                        }\n                    } else {\n                        if (!video.paused) {\n                            video.pause();\n                            btnText.textContent = \"PLAY\";\n                        }\n                    }\n                });\n            }, observerOptions);\n            observer.observe(video);\n        });\n    });\n</script>"
+      }
+    },
+    "support_col_e7MPXx": {
+      "type": "support-col",
+      "blocks": {
+        "model_Tx7F8e": {
+          "type": "model",
+          "settings": {
+            "model_name": "Armor 22 Pro 8GB+256GB",
+            "file_1_name": "Armor 22 Pro 8GB+256GB--1",
+            "file_1_pdf": "https://drive.google.com/file/d/1IgxDa5bHzW1wUtyqNuXMLHuFQDxjX_p3/view?usp=sharing",
+            "file_1_size": "",
+            "file_2_name": "Armor 22 Pro 8GB+256GB--2",
+            "file_2_pdf": "https://drive.google.com/file/d/1IgxDa5bHzW1wUtyqNuXMLHuFQDxjX_p3/view?usp=sharing",
+            "file_2_size": "",
+            "file_3_name": "Armor 22 Pro 8GB+256GB--3",
+            "file_3_pdf": "https://drive.google.com/file/d/1IgxDa5bHzW1wUtyqNuXMLHuFQDxjX_p3/view?usp=sharing",
+            "file_3_size": "",
+            "file_4_name": "",
+            "file_4_pdf": "",
+            "file_4_size": "",
+            "file_5_name": "",
+            "file_5_pdf": "",
+            "file_5_size": "",
+            "file_6_name": "",
+            "file_6_pdf": "",
+            "file_6_size": "",
+            "file_7_name": "",
+            "file_7_pdf": "",
+            "file_7_size": "",
+            "file_8_name": "",
+            "file_8_pdf": "",
+            "file_8_size": "",
+            "file_9_name": "",
+            "file_9_pdf": "",
+            "file_9_size": "",
+            "file_10_name": "",
+            "file_10_pdf": "",
+            "file_10_size": ""
+          }
+        },
+        "model_q9YAfU": {
+          "type": "model",
+          "settings": {
+            "model_name": "Armor 22 Pro 8GB+128GB",
+            "file_1_name": "Armor 22 Pro 8GB+128GB--1",
+            "file_1_pdf": "https://drive.google.com/file/d/109pnGHkghFvB6a7LwRaqaxDQFMsn24AH/view?usp=sharing",
+            "file_1_size": "",
+            "file_2_name": "Armor 22 Pro 8GB+128GB--2",
+            "file_2_pdf": "https://drive.google.com/file/d/109pnGHkghFvB6a7LwRaqaxDQFMsn24AH/view?usp=sharing",
+            "file_2_size": "",
+            "file_3_name": "",
+            "file_3_pdf": "",
+            "file_3_size": "",
+            "file_4_name": "",
+            "file_4_pdf": "",
+            "file_4_size": "",
+            "file_5_name": "",
+            "file_5_pdf": "",
+            "file_5_size": "",
+            "file_6_name": "",
+            "file_6_pdf": "",
+            "file_6_size": "",
+            "file_7_name": "",
+            "file_7_pdf": "",
+            "file_7_size": "",
+            "file_8_name": "",
+            "file_8_pdf": "",
+            "file_8_size": "",
+            "file_9_name": "",
+            "file_9_pdf": "",
+            "file_9_size": "",
+            "file_10_name": "",
+            "file_10_pdf": "",
+            "file_10_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "model_Tx7F8e",
+        "model_q9YAfU"
+      ],
+      "disabled": true,
+      "name": "Product Downloads",
+      "settings": {
+        "product_image": "shopify://shop_images/armor-22-pro-1.webp",
+        "product_name": "Armor 22 Pro",
+        "downloads_heading": "Downloads",
+        "more_products_text": "More Products",
+        "more_products_url": "shopify://products/armor-22-pro"
+      }
+    },
+    "ifa_registration_iNhEfj": {
+      "type": "ifa-registration",
+      "disabled": true,
+      "name": "RugOne Registration Form",
+      "settings": {
+        "title": "Registration",
+        "description": "Welcome to RugOne New Product Launch Event.\nPlease provide your information to complete your registration."
+      }
+    },
+    "contact_us_YmYX6t": {
+      "type": "contact-us",
+      "blocks": {
+        "person_XBgqML": {
+          "type": "person",
+          "settings": {
+            "department": "after_sales",
+            "name": "After-Sales Team",
+            "region": "Worldwide",
+            "email": "service@ulefone.com"
+          }
+        },
+        "person_8NJz9H": {
+          "type": "person",
+          "settings": {
+            "department": "marketing",
+            "name": "Lena",
+            "region": "Worldwide",
+            "email": "marketing@ulefone.com"
+          }
+        },
+        "person_y9xX8H": {
+          "type": "person",
+          "settings": {
+            "department": "marketing",
+            "name": "Johannes",
+            "region": "Sales & Marketing Germany",
+            "email": "johannes@ulefone.com"
+          }
+        },
+        "person_NrdGT9": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Phoebe",
+            "region": "",
+            "email": "phoebe@ulefone.com"
+          }
+        },
+        "person_x7fK3G": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Shelly",
+            "region": "",
+            "email": "shelly.chen@ulefone.com"
+          }
+        },
+        "person_HFLVXC": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Sarah",
+            "region": "",
+            "email": "sarah.xing@ulefone.com"
+          }
+        },
+        "person_Ww34EL": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Sienna",
+            "region": "",
+            "email": "sienna@ulefone.com"
+          }
+        },
+        "person_tRQgFw": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Nancy",
+            "region": "",
+            "email": "nancy@ulefone.com"
+          }
+        },
+        "person_dhzHjV": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Harry",
+            "region": "",
+            "email": "harry@ulefone.com"
+          }
+        },
+        "person_yNwEm6": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Mandy",
+            "region": "",
+            "email": "mandy@ulefone.com"
+          }
+        },
+        "person_yCHtng": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Cynthia",
+            "region": "",
+            "email": "cynthia@ulefone.com"
+          }
+        },
+        "person_dzhTKH": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Yuki",
+            "region": "CIS Region",
+            "email": "yuki.tang@ulefone.com"
+          }
+        },
+        "person_dXbX8W": {
+          "type": "person",
+          "settings": {
+            "department": "oem",
+            "name": "Joanna",
+            "region": "",
+            "email": "joanna.zhang@gotron.hk"
+          }
+        }
+      },
+      "block_order": [
+        "person_XBgqML",
+        "person_8NJz9H",
+        "person_y9xX8H",
+        "person_NrdGT9",
+        "person_x7fK3G",
+        "person_HFLVXC",
+        "person_Ww34EL",
+        "person_tRQgFw",
+        "person_dhzHjV",
+        "person_yNwEm6",
+        "person_yCHtng",
+        "person_dzhTKH",
+        "person_dXbX8W"
+      ],
+      "disabled": true,
+      "name": "Contact Us",
+      "settings": {
+        "header_eyebrow": "Cooperation & Helps",
+        "header_heading": "Contact Us",
+        "working_time": "Working time: 10:00 AM–7:00 PM (UTC+8), Monday to Friday. Reply might be delayed during non-working time.",
+        "note": "Please contact relevant staff for help according to your problem. If you send irrelevant information or emails to other staff, you may not get a reply. Thanks for your cooperation and understanding.",
+        "after_sales_eyebrow": "After-Sales Department",
+        "after_sales_heading": "After-sales of other third-party platforms",
+        "after_sales_description": "Amazon, AliExpress, Banggood, eBay...",
+        "marketing_eyebrow": "Marketing Department",
+        "marketing_heading": "Marketing",
+        "b2b_eyebrow": "Overseas B2B Sales Department",
+        "b2b_heading": "Global B2B Sales",
+        "b2b_email": "sales@ulefone.com",
+        "oem_eyebrow": "OEM/ODM Sales Department",
+        "oem_heading": "OEM / ODM",
+        "footnote": "© 2026 Ulefone Global"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_WfVGCH",
+    "support_col_e7MPXx",
+    "ifa_registration_iNhEfj",
+    "contact_us_YmYX6t"
+  ]
+}

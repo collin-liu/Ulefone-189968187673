@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_Q4RaAn": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor 11T 5G</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-11t-5g\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=87900bc6-74be-411c-93f7-1d527656a50e\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/Armor-11T\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-1.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-2.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-3.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-4.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-5.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-6.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-7.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-8.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-9.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-10.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-11.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-12.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-13.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-14.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-15.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-16.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-17.avif\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-01.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-02.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-03.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-04.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-05.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-06.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-07.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-08.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-09.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-010.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-011.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-012.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-013.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-014.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-015.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-016.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-11T-5G-rugged-smartphone-017.avif\" style=\"width:100%;\">\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_Q4RaAn"
+  ]
+}

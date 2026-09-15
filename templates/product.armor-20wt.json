@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor 20WT</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-20wt\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=067d5c76-db0a-4abb-9efe-566ca8c76bcd\">Case</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=caf5354a-c88b-4906-b4d1-9726c0e36706\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/OWA20WTBUY\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-1.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-2.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-3.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-4.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-5.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-6.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-7.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-8.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-9.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-10.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-11.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-12.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-13.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-14.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-15.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-16.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-17.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-18.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-19.jpg?v=1702110550\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-20wt-bg-20.jpg?v=1702110550\" style=\"width:100%;\" />\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor 20WT is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor 20WT. Liquid damage not covered under warranty.</p>\n        <p>4. Armor 20WT has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put a Armor 20WT into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 5.65 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>15. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>16. The 8GB Virtual Memory can be activated in Settings to top out at 20GB of RAM. Some software might not be compatible with this feature.</p>\n        <p>17. The microSD card is not included and can be purchased separately if needed.</p>\n        <p>18. Armor Mount is used with Armor Case only. More informations please refer to the Accessories column.</p>\n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top:25%;\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-1.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-2.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-3.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-4.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-5.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-6.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-7.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-8.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-9.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-10.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-11.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-12.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-13.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-14.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-15.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-16.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-17.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-18.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-19.jpg?v=1702110791\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-armor-20wt-bg-20.jpg?v=1702110791\" style=\"width:100%;\" />\n\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor 20WT is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor 20WT. Liquid damage not covered under warranty.</p>\n        <p>4. Armor 20WT has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put a Armor 20WT into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 5.65 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>15. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>16. The 8GB Virtual Memory can be activated in Settings to top out at 20GB of RAM. Some software might not be compatible with this feature.</p>\n        <p>17. The microSD card is not included and can be purchased separately if needed.</p>\n        <p>18. Armor Mount is used with Armor Case only. More informations please refer to the Accessories column.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

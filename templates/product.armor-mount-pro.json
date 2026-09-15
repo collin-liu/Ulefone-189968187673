@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor Mount Pro</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-mount-pro\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=7f88a637-bff9-4f89-804f-a6fefdeb33ee\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/OWAAMPBUY\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-1.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-2.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-3.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-4.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-5.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-6.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-7.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-8.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-9.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-10.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-11.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-12.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-13.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-14.jpg\" style=\"width:100%;\" />\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-01.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-02.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-03.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-04.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-05.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-06.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-07.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-08.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-09.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-010.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-011.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-012.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-013.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-armor-mount-pro-014.jpg\" style=\"width:100%;\" />\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

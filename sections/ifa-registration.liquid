@@ -1,0 +1,1010 @@
+<section id="registration-{{ section.id }}" class="ro-registration-section">
+
+  <div class="ro-registration-container">
+
+    <div class="ro-registration-header">
+      <h1>{{ section.settings.title }}</h1>
+
+      <div class="ro-registration-description">
+        {{ section.settings.description }}
+      </div>
+    </div>
+
+    <form id="ro-registration-form-{{ section.id }}" class="ro-registration-form">
+
+      <!-- Full Name -->
+      <div class="ro-form-group">
+        <label for="ro-fullname-{{ section.id }}">
+          Full Name
+        </label>
+
+        <input
+          type="text"
+          id="ro-fullname-{{ section.id }}"
+          name="fullname"
+          autocomplete="name"
+          required
+        >
+      </div>
+
+      <!-- Media / Company / Account Name -->
+      <div class="ro-form-group">
+        <label for="ro-company-{{ section.id }}">
+          Media / Company / Account Name
+        </label>
+
+        <input
+          type="text"
+          id="ro-company-{{ section.id }}"
+          name="company"
+          required
+        >
+      </div>
+
+      <!-- Category -->
+      <div class="ro-form-group">
+        <label for="ro-category-{{ section.id }}">
+          Category
+        </label>
+
+        <select
+          id="ro-category-{{ section.id }}"
+          name="interest"
+          required
+        >
+          <!--<option value="Media">Media</option>-->
+          <option value="Partner / Customer">General Visitor</option>
+          
+          <option value="Influencer / Creator">Media / Influencer / Creator</option>
+          <option value="Other">Partner </option>
+        </select>
+      </div>
+
+      <!-- Submit -->
+      <button
+        type="submit"
+        id="ro-submit-button-{{ section.id }}"
+        class="ro-submit-button"
+      >
+        <span class="ro-submit-text">Submit</span>
+        <span class="ro-submit-loading" style="display:none;">
+          Submitting...
+        </span>
+      </button>
+
+      <div
+        id="ro-form-error-{{ section.id }}"
+        class="ro-form-error"
+        style="display:none;"
+      >
+        Something went wrong. Please try again.
+      </div>
+
+    </form>
+
+  </div>
+
+
+  <!-- =========================
+       SUCCESS MODAL
+  ========================== -->
+
+  <div
+    id="ro-success-modal-{{ section.id }}"
+    class="ro-modal"
+    aria-hidden="true"
+  >
+
+    <div class="ro-modal-overlay"></div>
+
+    <div
+      class="ro-modal-box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="ro-modal-title-{{ section.id }}"
+    >
+
+      <button
+        type="button"
+        class="ro-modal-close"
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <div class="ro-modal-icon">
+        ✓
+      </div>
+
+      <h2 id="ro-modal-title-{{ section.id }}">
+        Registration Completed
+      </h2>
+
+      <div
+        id="ro-modal-message-{{ section.id }}"
+        class="ro-modal-message"
+      ></div>
+
+      <button
+        type="button"
+        class="ro-modal-button"
+      >
+        Done
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<style>
+
+  /* ========================================
+     REGISTRATION SECTION
+  ======================================== */
+.pretty-select, .disclosure .disclosure__toggle {
+    display: block;
+    border: 2px solid #d7d6d6;
+    border-radius: 7px;
+    height: 52px;
+}
+  #registration-{{ section.id }} {
+    width: 100%;
+    background: #ffffff;
+    color: #111111;
+    box-sizing: border-box;
+  }
+
+  #registration-{{ section.id }} *,
+  #registration-{{ section.id }} *::before,
+  #registration-{{ section.id }} *::after {
+    box-sizing: border-box;
+  }
+
+  .ro-registration-container {
+    width: min(100%, 820px);
+    margin: 0 auto;
+    padding: 70px 30px 80px;
+  }
+
+
+  /* ========================================
+     HEADER
+  ======================================== */
+
+  .ro-registration-header {
+    text-align: center;
+    margin-bottom: 52px;
+  }
+
+  .ro-registration-header h1 {
+    margin: 0 0 28px;
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -2px;
+    color: #050505;
+  }
+
+  .ro-registration-description {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #111111;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+
+  /* ========================================
+     FORM
+  ======================================== */
+
+  .ro-registration-form {
+    width: 100%;
+  }
+
+  .ro-form-group {
+    margin-bottom: 28px;
+  }
+
+  .ro-form-group label {
+    display: block;
+    margin-bottom: 9px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #111111;
+  }
+
+  .ro-form-group input,
+  .ro-form-group select {
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 16px;
+
+    border: 2px solid #d7d7d7;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #111111;
+
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.2;
+
+    outline: none;
+
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .ro-form-group input:focus,
+  .ro-form-group select:focus {
+    border-color: #111111;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .ro-form-group select {
+    cursor: pointer;
+    appearance: auto;
+  }
+
+
+  /* ========================================
+     SUBMIT BUTTON
+  ======================================== */
+
+  .ro-submit-button {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 58px;
+
+    margin-top: 36px;
+
+    padding: 14px 25px;
+
+    border: 0;
+    border-radius: 6px;
+
+    background: #ff6b00;
+    color: #ffffff;
+
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+      background 0.2s ease,
+      transform 0.15s ease,
+      opacity 0.2s ease;
+  }
+
+  .ro-submit-button:hover {
+    background: #e85f00;
+  }
+
+  .ro-submit-button:active {
+    transform: scale(0.99);
+  }
+
+  .ro-submit-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+
+
+  /* ========================================
+     ERROR
+  ======================================== */
+
+  .ro-form-error {
+    margin-top: 18px;
+    padding: 13px 16px;
+
+    border-radius: 6px;
+
+    background: #fff1f1;
+    color: #c62828;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+
+  /* ========================================
+     MODAL
+  ======================================== */
+
+  .ro-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+  }
+
+  .ro-modal.is-active {
+    display: flex;
+  }
+
+  .ro-modal-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.62);
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    animation: roFadeIn 0.2s ease;
+  }
+
+  .ro-modal-box {
+    position: relative;
+    z-index: 2;
+
+    width: min(100%, 540px);
+
+    padding: 46px 42px 40px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    box-shadow:
+      0 25px 70px rgba(0, 0, 0, 0.25);
+
+    animation: roModalIn 0.28s ease;
+  }
+
+
+  /* ========================================
+     MODAL ICON
+  ======================================== */
+
+  .ro-modal-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 62px;
+    height: 62px;
+
+    margin: 0 auto 22px;
+
+    border-radius: 50%;
+
+    background: #ff6b00;
+    color: #ffffff;
+
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+
+  /* ========================================
+     MODAL TITLE
+  ======================================== */
+
+  .ro-modal-box h2 {
+    margin: 0 0 18px;
+
+    color: #111111;
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+
+  /* ========================================
+     MODAL MESSAGE
+  ======================================== */
+
+  .ro-modal-message {
+    max-width: 440px;
+    margin: 0 auto;
+
+    color: #444444;
+
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+
+  /* ========================================
+     MODAL CLOSE
+  ======================================== */
+
+  .ro-modal-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+
+    width: 38px;
+    height: 38px;
+
+    padding: 0;
+
+    border: 0;
+    background: transparent;
+
+    color: #777777;
+
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 38px;
+
+    cursor: pointer;
+
+    transition:
+      color 0.2s ease,
+      background 0.2s ease;
+
+    border-radius: 50%;
+  }
+
+  .ro-modal-close:hover {
+    color: #111111;
+    background: #f3f3f3;
+  }
+
+
+  /* ========================================
+     MODAL BUTTON
+  ======================================== */
+
+  .ro-modal-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 150px;
+    min-height: 48px;
+
+    margin-top: 28px;
+    padding: 11px 24px;
+
+    border: 0;
+    border-radius: 6px;
+
+    background: #111111;
+    color: #ffffff;
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+  }
+
+  .ro-modal-button:hover {
+    background: #333333;
+  }
+
+
+  /* ========================================
+     ANIMATION
+  ======================================== */
+
+  @keyframes roFadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes roModalIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px) scale(0.97);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+
+  /* ========================================
+     MOBILE
+  ======================================== */
+
+  @media screen and (max-width: 749px) {
+
+    .ro-registration-container {
+      padding: 42px 20px 55px;
+    }
+
+    .ro-registration-header {
+      margin-bottom: 35px;
+    }
+
+    .ro-registration-header h1 {
+      margin-bottom: 18px;
+
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -1.2px;
+    }
+
+    .ro-registration-description {
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .ro-form-group {
+      margin-bottom: 22px;
+    }
+
+    .ro-form-group label {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .ro-form-group input,
+    .ro-form-group select {
+      height: 50px;
+      padding: 0 14px;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+
+    .ro-submit-button {
+      min-height: 54px;
+      margin-top: 28px;
+      font-size: 17px;
+    }
+
+    /* Mobile modal */
+
+    .ro-modal {
+      padding: 18px;
+    }
+
+    .ro-modal-box {
+      width: 100%;
+      padding: 40px 23px 30px;
+      border-radius: 16px;
+    }
+
+    .ro-modal-icon {
+      width: 56px;
+      height: 56px;
+
+      margin-bottom: 19px;
+
+      font-size: 29px;
+    }
+
+    .ro-modal-box h2 {
+      margin-bottom: 15px;
+      font-size: 25px;
+    }
+
+    .ro-modal-message {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .ro-modal-button {
+      width: 100%;
+      margin-top: 24px;
+    }
+
+    .ro-modal-close {
+      top: 10px;
+      right: 10px;
+    }
+  }
+
+</style>
+
+
+<script>
+(function () {
+
+  const sectionId = "{{ section.id }}";
+
+  const form = document.getElementById(
+    "ro-registration-form-" + sectionId
+  );
+
+  const category = document.getElementById(
+    "ro-category-" + sectionId
+  );
+
+  const submitButton = document.getElementById(
+    "ro-submit-button-" + sectionId
+  );
+
+  const submitText = submitButton.querySelector(
+    ".ro-submit-text"
+  );
+
+  const submitLoading = submitButton.querySelector(
+    ".ro-submit-loading"
+  );
+
+  const errorBox = document.getElementById(
+    "ro-form-error-" + sectionId
+  );
+
+  const modal = document.getElementById(
+    "ro-success-modal-" + sectionId
+  );
+
+  const modalMessage = document.getElementById(
+    "ro-modal-message-" + sectionId
+  );
+
+  const modalClose = modal.querySelector(
+    ".ro-modal-close"
+  );
+
+  const modalButton = modal.querySelector(
+    ".ro-modal-button"
+  );
+
+  const modalOverlay = modal.querySelector(
+    ".ro-modal-overlay"
+  );
+
+
+  /*
+   * ==========================================
+   * GOOGLE SHEETS WEB APP URL
+   * ==========================================
+   *
+   * 把下面的 URL 换成你的 Google Apps Script
+   * Web App URL
+   *
+   */
+
+  const GOOGLE_SHEET_URL =
+    "https://script.google.com/macros/s/AKfycbyFeVjC9EUYqvxGU8mF_Kd51FOCgl8ve29R1C0o-j9zb5vCxaz2QcEurx3UZKWj96NE/exec";
+
+
+  /*
+   * ==========================================
+   * OPEN MODAL
+   * ==========================================
+   */
+
+  function openModal(message) {
+
+    modalMessage.innerHTML = message;
+
+    modal.classList.add("is-active");
+
+    modal.setAttribute(
+      "aria-hidden",
+      "false"
+    );
+
+    document.body.style.overflow = "hidden";
+
+    setTimeout(function () {
+
+      modalButton.focus();
+
+    }, 100);
+
+  }
+
+
+  /*
+   * ==========================================
+   * CLOSE MODAL
+   * ==========================================
+   */
+
+  function closeModal() {
+
+    modal.classList.remove("is-active");
+
+    modal.setAttribute(
+      "aria-hidden",
+      "true"
+    );
+
+    document.body.style.overflow = "";
+
+  }
+
+
+  /*
+   * ==========================================
+   * SUBMIT
+   * ==========================================
+   */
+
+  form.addEventListener("submit", async function (event) {
+
+    event.preventDefault();
+
+    errorBox.style.display = "none";
+
+    const fullname =
+      document.getElementById(
+        "ro-fullname-" + sectionId
+      ).value.trim();
+
+    const company =
+      document.getElementById(
+        "ro-company-" + sectionId
+      ).value.trim();
+
+    const interest =
+      category.value;
+
+
+    /*
+     * Basic validation
+     */
+
+    if (!fullname || !company || !interest) {
+
+      errorBox.textContent =
+        "Please complete all required fields.";
+
+      errorBox.style.display = "block";
+
+      return;
+
+    }
+
+
+    /*
+     * Check Google Apps Script URL
+     */
+
+    if (
+      !GOOGLE_SHEET_URL ||
+      GOOGLE_SHEET_URL ===
+      "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL"
+    ) {
+
+      errorBox.textContent =
+        "The registration form is not configured yet.";
+
+      errorBox.style.display = "block";
+
+      return;
+
+    }
+
+
+    /*
+     * Disable button
+     */
+
+    submitButton.disabled = true;
+
+    submitText.style.display = "none";
+
+    submitLoading.style.display = "inline";
+
+
+    /*
+     * Data sent to Google Sheets
+     *
+     * interest = selected Category
+     */
+
+    const data = {
+
+      fullname: fullname,
+
+      company: company,
+
+      interest: interest,
+
+      /*
+       * These are included so that your
+       * existing Google Apps Script can
+       * continue to receive the fields.
+       */
+
+      email: "",
+
+      phone: "",
+
+      message: ""
+
+    };
+
+
+    try {
+
+      /*
+       * IMPORTANT:
+       *
+       * text/plain is intentionally used here.
+       *
+       * This avoids unnecessary CORS preflight
+       * problems with Google Apps Script.
+       */
+
+      const response = await fetch(
+        GOOGLE_SHEET_URL,
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type": "text/plain;charset=utf-8"
+          },
+
+          body: JSON.stringify(data)
+        }
+      );
+
+
+      /*
+       * Google Apps Script may return a redirect.
+       * If fetch reaches this point, treat it as
+       * a successful submission.
+       */
+
+      if (!response.ok) {
+        throw new Error(
+          "Submission failed"
+        );
+      }
+
+
+      /*
+       * ======================================
+       * SUCCESS MESSAGE
+       * ======================================
+       */
+
+      if (
+        interest ===
+        "Influencer / Creator"
+      ) {
+
+        openModal(
+          "Please collect your <strong>Media/Creator Sticker</strong> from our staff.<br><br>" +
+          "After the event, present the sticker at the gift collection area to receive your PR gift."
+        );
+
+      } else {
+
+        openModal(
+          "Your registration has been successfully submitted."
+        );
+
+      }
+
+
+      /*
+       * Clear form
+       */
+
+      form.reset();
+
+
+    } catch (error) {
+
+      console.error(
+        "Registration error:",
+        error
+      );
+
+      errorBox.textContent =
+        "Something went wrong while submitting your registration. Please try again.";
+
+      errorBox.style.display = "block";
+
+
+    } finally {
+
+      submitButton.disabled = false;
+
+      submitText.style.display = "inline";
+
+      submitLoading.style.display = "none";
+
+    }
+
+  });
+
+
+  /*
+   * ==========================================
+   * MODAL EVENTS
+   * ==========================================
+   */
+
+  modalClose.addEventListener(
+    "click",
+    closeModal
+  );
+
+  modalButton.addEventListener(
+    "click",
+    closeModal
+  );
+
+  modalOverlay.addEventListener(
+    "click",
+    closeModal
+  );
+
+
+  /*
+   * Close with ESC
+   */
+
+  document.addEventListener(
+    "keydown",
+    function (event) {
+
+      if (
+        event.key === "Escape" &&
+        modal.classList.contains("is-active")
+      ) {
+
+        closeModal();
+
+      }
+
+    }
+  );
+
+
+})();
+</script>
+
+
+{% schema %}
+{
+  "name": "RugOne Registration Form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Registration"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Welcome to RugOne New Product Launch Event.\nPlease provide your information to complete your registration."
+    }
+  ],
+  "presets": [
+    {
+      "name": "RugOne Registration Form"
+    }
+  ]
+}
+{% endschema %}

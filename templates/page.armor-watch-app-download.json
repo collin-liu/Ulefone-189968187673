@@ -1,0 +1,35 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_kNCcbm": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (min-width: 1944px) {a.download-btn {width: 15%; }}",
+        "@media (min-width: 992px) {a.download-btn {width: 30%; }}",
+        "@media (min-width: 992px) and(min-width: 1943px) {a.download-btn {width: 35%; }}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"download-wrapper\">\n    <h2>Download the Ulefone Armor Watch App</h2>\n    <p class=\"subtitle\">Choose your download option</p>\n\n\n    <a class=\"download-btn google\" href=\"https://play.google.com/store/apps/details?id=com.yc.armorwatch\">\n        <svg class=\"kOqhQd\" aria-hidden=\"true\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0,0h40v40H0V0z\"></path><g><path d=\"M19.7,19.2L4.3,35.3c0,0,0,0,0,0c0.5,1.7,2.1,3,4,3c0.8,0,1.5-0.2,2.1-0.6l0,0l17.4-9.9L19.7,19.2z\" fill=\"#EA4335\"></path><path d=\"M35.3,16.4L35.3,16.4l-7.5-4.3l-8.4,7.4l8.5,8.3l7.5-4.2c1.3-0.7,2.2-2.1,2.2-3.6C37.5,18.5,36.6,17.1,35.3,16.4z\" fill=\"#FBBC04\"></path><path d=\"M4.3,4.7C4.2,5,4.2,5.4,4.2,5.8v28.5c0,0.4,0,0.7,0.1,1.1l16-15.7L4.3,4.7z\" fill=\"#4285F4\"></path><path d=\"M19.8,20l8-7.9L10.5,2.3C9.9,1.9,9.1,1.7,8.3,1.7c-1.9,0-3.6,1.3-4,3c0,0,0,0,0,0L19.8,20z\" fill=\"#34A853\"></path></g></svg>\n        Download on Play Store\n    </a>\n    <a class=\"download-btn ios\" href=\"https://apps.apple.com/us/app/armor-watch/id6755746414\">\n        <svg class=\"store-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 305 305\">\n            <path fill=\"#000\" d=\"M255 107c-2 2-27 16-27 47 0 36 32 49 33 50-1 2-5 19-19 38-12 17-26 34-46 34-20 0-25-11-46-11-21 0-28 11-46 11-20 0-35-19-47-36C42 218 32 182 32 150c0-47 31-72 61-72 19 0 34 12 45 12 10 0 28-13 50-13 8 0 36 1 51 30z\" />\n            <path fill=\"#000\" d=\"M204 21c-10 12-29 22-46 21-2-17 6-35 15-45 10-12 28-21 43-22 2 18-5 35-12 46z\" />\n        </svg>\n        Download on App Store\n    </a>\n    <a class=\"download-btn apk\" href=\"https://drive.google.com/file/d/1BpTRTKaUgARRhFw9GW_j5c1Bc4Fa_L74/view?usp=sharing\">APK Download</a>\n</div>\n\n<style>\n    .download-wrapper {\n        text-align: center;\n        padding: 50px 20px;\n        font-family: Arial, sans-serif;\n    }\n\n        .download-wrapper h1 {\n            font-size: 28px;\n            margin-bottom: 10px;\n        }\n\n    .subtitle {\n        color: #777;\n        margin-bottom: 30px;\n    }\n\n    .download-btn {\n        display: flex;\n        align-items: center;\n        gap: 12px;\n        justify-content: center;\n        margin: 12px auto;\n        padding: 14px 20px;\n        border-radius: 50px;\n        font-size: 18px;\n        text-decoration: none;\n        color: #000;\n        font-weight: bold;\n        transition: transform 0.2s ease, box-shadow 0.2s ease;\n    }\n\n        .download-btn:hover {\n            transform: scale(1.05);\n            box-shadow: 0 8px 20px rgba(0,0,0,.15);\n        }\n    .apk {\n        background: #ffc600;\n    }\n\n    .google {\n        background: #ffc600;\n    }\n\n    .ios {\n        background: #ffc600;\n    }\n    .store-icon {\n        width: 26px;\n        height: 26px;\n    }\n    .apk .icon {\n        font-size: 22px;\n    }\n</style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_kNCcbm"
+  ]
+}

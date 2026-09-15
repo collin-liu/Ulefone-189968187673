@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "contact_us_GMLFHf": {
+      "type": "contact-us",
+      "blocks": {
+        "person_jEpGNm": {
+          "type": "person",
+          "settings": {
+            "department": "after_sales",
+            "name": "After-Sales Team",
+            "region": "Worldwide",
+            "photo": "shopify://shop_images/service.jpg",
+            "email": "service@ulefone.com"
+          }
+        },
+        "person_eNMraf": {
+          "type": "person",
+          "settings": {
+            "department": "marketing",
+            "name": "Lena",
+            "region": "Worldwide",
+            "photo": "shopify://shop_images/Page-Contactus-Lena.jpg",
+            "email": "marketing@ulefone.com"
+          }
+        },
+        "person_f44qzx": {
+          "type": "person",
+          "settings": {
+            "department": "marketing",
+            "name": "Johannes",
+            "region": "Sales & Marketing Germany",
+            "photo": "shopify://shop_images/Johannes.jpg",
+            "email": "johannes@ulefone.com"
+          }
+        },
+        "person_48pXhy": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Phoebe",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Phoebe.jpg",
+            "email": "phoebe@ulefone.com"
+          }
+        },
+        "person_F7BppJ": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Shelly",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Shelly.jpg",
+            "email": "shelly.chen@ulefone.com"
+          }
+        },
+        "person_6Wc9Yc": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Sarah",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Sarah.jpg",
+            "email": "sarah.xing@ulefone.com"
+          }
+        },
+        "person_rLjrXp": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Sienna",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-sienna.png",
+            "email": "sienna@ulefone.com"
+          }
+        },
+        "person_GCk6mB": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Nancy",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Nancy.png",
+            "email": "nancy@ulefone.com"
+          }
+        },
+        "person_CkEDFA": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Harry",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Harry.png",
+            "email": "harry@ulefone.com"
+          }
+        },
+        "person_jWzjXc": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Mandy",
+            "region": "",
+            "photo": "shopify://shop_images/mandy.webp",
+            "email": "mandy@ulefone.com"
+          }
+        },
+        "person_hmM3wU": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Cynthia",
+            "region": "",
+            "photo": "shopify://shop_images/cynthia.jpg",
+            "email": "cynthia@ulefone.com"
+          }
+        },
+        "person_JFAdkJ": {
+          "type": "person",
+          "settings": {
+            "department": "b2b",
+            "name": "Yuki",
+            "region": "CIS Region",
+            "photo": "shopify://shop_images/yuki.jpg",
+            "email": "yuki.tang@ulefone.com"
+          }
+        },
+        "person_CnkfHy": {
+          "type": "person",
+          "settings": {
+            "department": "oem",
+            "name": "Joanna",
+            "region": "",
+            "photo": "shopify://shop_images/Page-Contactus-Joanna.jpg",
+            "email": "joanna.zhang@gotron.hk"
+          }
+        }
+      },
+      "block_order": [
+        "person_jEpGNm",
+        "person_eNMraf",
+        "person_f44qzx",
+        "person_48pXhy",
+        "person_F7BppJ",
+        "person_6Wc9Yc",
+        "person_rLjrXp",
+        "person_GCk6mB",
+        "person_CkEDFA",
+        "person_jWzjXc",
+        "person_hmM3wU",
+        "person_JFAdkJ",
+        "person_CnkfHy"
+      ],
+      "name": "Contact Us",
+      "settings": {
+        "header_eyebrow": "Cooperation & Helps",
+        "header_heading": "Contact Us",
+        "working_time": "Working time: 10:00 AM–7:00 PM (UTC+8), Monday to Friday. Reply might be delayed during non-working time.",
+        "note": "Please contact relevant staff for help according to your problem. If you send irrelevant information or emails to other staff, you may not get a reply. Thanks for your cooperation and understanding.",
+        "after_sales_eyebrow": "After-Sales Department",
+        "after_sales_heading": "After-sales of other third-party platforms",
+        "after_sales_description": "Amazon, AliExpress, OZON, Banggood, eBay...",
+        "working_marketing": "For media inquiries, marketing cooperation, content partnerships and regional marketing.",
+        "marketing_eyebrow": "Marketing Department",
+        "marketing_heading": "Marketing",
+        "working_description": "Looking for Ulefone products for your market, retail business, distribution network or enterprise needs?",
+        "b2b_eyebrow": "Overseas B2B Sales Department",
+        "b2b_heading": "Global B2B Sales",
+        "b2b_email": "sales@ulefone.com",
+        "working_oem": "Explore customized hardware, software and manufacturing solutions with Ulefone's OEM/ODM team — from private labeling to full-scale device programs.",
+        "oem_eyebrow": "OEM/ODM Sales Department",
+        "oem_heading": "OEM / ODM"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact_us_GMLFHf"
+  ]
+}

@@ -1,0 +1,19 @@
+<div class="cu-person" {{ block.shopify_attributes }}>
+  <div class="cu-photo">
+    {% if block.settings.photo %}
+      {{ block.settings.photo | image_url: width: 400 | image_tag: alt: block.settings.name, loading: 'lazy' }}
+    {% endif %}
+  </div>
+  {% if block.settings.name != blank %}
+    <h4>{{ block.settings.name }}</h4>
+  {% endif %}
+  {% if block.settings.region != blank %}
+    <div class="cu-region">{{ block.settings.region }}</div>
+  {% endif %}
+  {% if block.settings.email != blank %}
+    <a class="cu-mail" href="mailto:{{ block.settings.email }}">
+      Send an Email
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4" /></svg>
+    </a>
+  {% endif %}
+</div>

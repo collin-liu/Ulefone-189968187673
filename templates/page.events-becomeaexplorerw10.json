@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_H49bjx": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-1-240805.jpg\" style=\"width:100%;\">\n        <a href=\"https://forms.gle/NXq5p3wrDN9viWTLA\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-2-240805.jpg\" style=\"width:100%;\"></a>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-3-240816.jpg\" style=\"width:100%;\">\n        </div>\n\n    <div id=\"sec-block\" style=\"margin-top: 0;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-1-240805.jpg\" style=\"width:100%;\">\n        <a href=\"https://forms.gle/NXq5p3wrDN9viWTLA\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-2-240805.jpg\" style=\"width:100%;\"></a>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-3-240805.jpg\" style=\"width:100%;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-4-240816.jpg\" style=\"width:100%;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-5-240805.jpg\" style=\"width:100%;\">\n        <a href=\"/products/tab-w10\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-6-240805.jpg\" style=\"width:100%;\"></a>\n    </div>\n\n<div id=\"gs\">\n    <a href=\"/products/tab-w10\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-4-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/46xEZUd\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-5-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3AaDa3C\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-6-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4d6zSgk\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-7-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/46xHohM\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-8-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/46x43uD\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-9-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3ylPY6G\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-PC-10-240805.jpg\" style=\"width:100%;\"></a>\n    </div>\n\n<div id=\"sec-block\">\n    <a href=\"https://bit.ly/46xEZUd\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-7-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3AaDa3C\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-8-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4d6zSgk\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-9-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/46xHohM\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-10-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/46x43uD\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-11-240805.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/3ylPY6G\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Events-BecomeaUlefoneExplorer-M-12-240805.jpg\" style=\"width:100%;\"></a>\n    </div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_H49bjx"
+  ]
+}

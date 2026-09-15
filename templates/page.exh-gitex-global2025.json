@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_ckjNEd": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div#gs {max-width: 2560px; margin: auto;}",
+        "div#gs {text-align: center;}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-1.webp\" alt=\"Ulefone GITEX GLOBAL 2025\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-01.webp\" alt=\"Ulefone GITEX GLOBAL 2025\">\n</div>"
+      }
+    },
+    "time_G7N7WU": {
+      "type": "time",
+      "disabled": true,
+      "custom_css": [
+        "#countdown {max-width: 1920px; margin: 0 auto;}"
+      ],
+      "name": "Timer",
+      "settings": {
+        "countdown_date": "2025-08-05 16:00:00",
+        "background_color": "#f4f4f4",
+        "text_color": "#333333",
+        "font_size": 24
+      }
+    },
+    "custom_liquid_yekrHx": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div#gs {max-width: 2560px; margin: auto; text-align: center;}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>@media (max-width: 991px) {\n  #sec-block {\n    margin-top: 0 !important;\n  }\n}</style><div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-2.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\">\n    <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7374383151713824768\" target=\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-3.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\">\n    </a>\n    <a href=\"https://www.ulefone.com/blogs/newsroom/ulefone-set-to-electrify-gitex-global-2025-with-large-battery-monsters-and-innovative-designs\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-5.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\"></a>\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-02.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\">\n    <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7374383151713824768\" target=\"_blank\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-03.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\">\n    </a>\n    <a href=\"https://www.ulefone.com/blogs/newsroom/ulefone-set-to-electrify-gitex-global-2025-with-large-battery-monsters-and-innovative-designs\" target=\"_blank\"> <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/gitex-global-2025-05.webp\" alt=\"Ulefone GITEX GLOBAL 2025\" loading=\"lazy\"></a>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_ckjNEd",
+    "time_G7N7WU",
+    "custom_liquid_yekrHx"
+  ]
+}

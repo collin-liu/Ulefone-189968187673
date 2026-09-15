@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Note 6T</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/note-6t\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=41ee69e3-8ee3-48e8-9398-141d44c28fe6\">Specs</a></li>\n                    <li><a href=\"https://store.ulefone.com/products/note-6t\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-1.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-2.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-3.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-4.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-5.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-6.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-7.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-8.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-9.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-10.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-11.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-12.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-13.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-14.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-15.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-16.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-17.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-18.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-19.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-20.jpg?v=1702431938\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-note6t-21.jpg?v=1702431938\" style=\"width:100%;\" />\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. 3300mAh is typical value, the battery rated capacity is 3000mAh. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>4. The microSD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>5. 6.1 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>6. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>7. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>8. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>9. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>10. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>11. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 16%;\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-1.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-2.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-3.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-4.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-5.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-6.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-7.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-8.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-9.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-10.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-11.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-12.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-13.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-14.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-15.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-16.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-17.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-18.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-19.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-20.jpg?v=1702431986\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-note6t-21.jpg?v=1702431986\" style=\"width:100%;\" />\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. 3300mAh is typical value, the battery rated capacity is 3000mAh. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>4. The microSD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>5. 6.1 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>6. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>7. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>8. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>9. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>10. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>11. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

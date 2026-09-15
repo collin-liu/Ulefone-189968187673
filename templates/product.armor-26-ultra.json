@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_Mrrr4V": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor 26 Ultra</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-26-ultra\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=c37c1ee3-9de6-452b-9f57-a0201cf85ec0\">Desk Charging Dock</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=dc088ab8-06c5-4091-8cf8-e60a31161a90\">Holster</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=3c061dc7-09f2-4a06-99c0-d28563fecc24\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/OWA26UBUY\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-1.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-2.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-3.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-4.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-5.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-6.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-7.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-8.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-9.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-10.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-11.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-12.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-13.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-14.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-15.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-16.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-17.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-18.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-19.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-20.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-21.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-22.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-23.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-24.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-25.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-26.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-27.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-28.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-29.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-30.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-26-ultra-31.jpg\" style=\"width:100%;\" />\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor 26 Ultra is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor 26 Ultra. Liquid damage not covered under warranty.</p>\n        <p>4. Armor 26 Ultra has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put an Armor 26 Ultra into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 6.78 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>15. Rated capacity 7800mAh with high voltage 7.74V is equivalent to 15600mAh capacity.</p>\n        <p>16. Charging data from Ulefone lab, the actual performance may vary.</p>\n        <p>17. The desk dock charger sold separately.</p>\n        <p>18. 76mm is equivalent to 3.2x focal length while 80mm is the physical equivalent focal length.</p>\n        <p>19. The micro SD card is not included, and need to be purchased separately. The virtual memory can be activated in Settings at your will.</p>\n        <p>20. Armor Mount Pro is sold separately. More information please refer to the Accessories page.</p>\n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 34%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-1.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-2.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-3.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-4.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-5.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-6.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-7.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-8.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-9.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-10.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-11.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-12.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-13.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-14.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-15.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-16.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-17.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-18.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-19.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-20.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-21.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-22.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-23.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-24.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-25.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-26.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-27.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-28.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-29.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-30.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-31.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/m-armor-26-ultra-32.jpg\" style=\"width:100%;\" />\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. Armor 26 Ultra is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Armor 26 Ultra. Liquid damage not covered under warranty.</p>\n        <p>4. Armor 26 Ultra has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put an Armor 26 Ultra into water.</p>\n        <p>5. The Custom Key and its ability to quickly access different functions work only when the phone screen is unlocked.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The micro SD card is not included, and need to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>8. 6.78 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>9. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>10. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>11. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>12. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>13. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>14. Whether you can use VoLTE depends on the local carriers, please note that not all of your local carriers support this function.</p>\n        <p>15. Rated capacity 7800mAh with high voltage 7.74V is equivalent to 15600mAh capacity.</p>\n        <p>16. Charging data from Ulefone lab, the actual performance may vary.</p>\n        <p>17. The desk dock charger sold separately.</p>\n        <p>18. 76mm is equivalent to 3.2x focal length while 80mm is the physical equivalent focal length.</p>\n        <p>19. The micro SD card is not included, and need to be purchased separately. The virtual memory can be activated in Settings at your will.</p>\n        <p>20. Armor Mount Pro is sold separately. More information please refer to the Accessories page.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_Mrrr4V"
+  ]
+}

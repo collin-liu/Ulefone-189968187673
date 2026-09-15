@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_UTh9xH": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n        @media (min-width: 992px) {\n            .col-md-4 {\n                width: 31.333333%;\n                margin-left: 6px;\n                margin-right: 6px;\n            }\n\n            .section-7 .row {\n                margin-left: 5.5vw;\n            }\n        }\n\n        .image-container {\n            position: relative;\n            /*    display: inline-block;*/\n            max-width: 100%;\n        }\n\n        .hotspot {\n            position: absolute;\n            transform: translate(-50%, -50%);\n            display: block;\n            /*        background: rgba(255, 255, 255, 0);*/\n            text-indent: -9999px;\n        }\n    .back-but1 {top: 73%;left: 24%;width: 13.1%;height: 5.3%;border-radius: 19px;}\n    .back-but2 {top: 72.9%;left: 36.6%;width: 11.1%;height: 5.2%;border-radius: 13px;}\n    .back-but3 {top: 72.95%;left: 47.6%;width: 9.5%;height: 5.2%;border-radius: 13px;}\n    .back-but4 {top: 80.1%;left: 23.1%;width: 11%;height: 5%;border-radius: 13px;}\n    .back-but5 {top: 80.1%;left: 34.1%;width: 9.5%;height: 5.2%;border-radius: 13px;}\n    .back-but6 {top: 80.1%;left: 44.35%;width: 9.65%;height: 5.1%;border-radius: 13px;}\n    .back-but7 {top: 80.12%;left: 54.7%;width: 9.9%;height: 5%;border-radius: 13px;}\n    .back-but8 {top: 87.06%;left: 22.38%;width: 9.55%;height: 5.2%;border-radius: 13px;}\n    .back-but9 {top: 87.1%;left: 32.155%;width: 8.9%;height: 5.2%;border-radius: 13px;}\n    .back-but10 {top: 87%;left: 42%;width: 9.6%;height: 5%;border-radius: 13px;}\n    .back-but11 {top: 87.1%;left: 51.9%;width: 9%;height: 5%;border-radius: 13px;}\n    .section {\n        display: block;\n        clear: both;\n        margin: auto;\n        overflow: hidden;\n        word-wrap: break-word;\n        width: 100%;\n        background-color: #b5e5f1;\n    }\n    .section-4 {\n        position: relative;\n        width: 100%;\n        height: 48.242vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-6.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-5 h2, .section-6 h2, .section-8 h2 {\n        margin: 3vw 0 0;\n        font-size: 2.2vw;\n        text-align: left;\n    }\n\n    .section-5 h4, .section-6 h4, .section-8 h4 {\n        margin: 0 0 2vw;\n        text-align: left;\n    }\n\n        @media (max-width: 480px) {\n            #sec-block {margin-top: 0;}\n            .image-container .col {width: 89%;text-align: center;margin: 0 auto;}\n            .back-but1 {top: 86.5%;left: 17.8%;width: 30.3%;height: 3.5%;border-radius: 5px;}\n            .back-but2 {top: 86.3%;left: 46.4%;width: 23.8%;height: 3.5%;border-radius: 5px;}\n            .section-3 h2 {\n                font-size: 5.2vw;\n            }\n            .back-but3 {top: 86.5%;left: 71.5%;width: 22%;height: 3.2%;border-radius: 5px;}\n            .back-but4 {top: 90.5%;left: 16.32%;width: 25.2%;height: 2.9%;border-radius: 5px;}\n            .back-but5 {top: 90.5%;left: 41.32%;width: 21.8%;height: 2.9%;border-radius: 5px;}\n            .section-5 h2, .section-6 h2, .section-8 h2 {\n                font-size: 5.2vw;\n            }\n\n            .section-5 h4, .section-6 h4, .section-8 h4 {\n                font-size: 2.8vw;\n            }\n            .back-but6 {top: 90.55%;left: 63.8%;width: 20.8%;height: 3.2%;border-radius: 5px;}\n            .back-but7 {top: 90.65%;left: 85.5%;width: 21.8%;height: 3.2%;border-radius: 5px;}\n            .back-but8 {top: 95.05%;left: 13.9%;width: 20.7%;height: 3.2%;border-radius: 5px;}\n            .back-but9 {top: 94.9%;left: 36.17%;width: 20.5%;height: 3.5%;border-radius: 5px;}\n            .back-but10 {top: 95%;left: 58.5%;width: 22%;height: 3.2%;border-radius: 5px;}\n            .back-but11 {top: 95%;left: 80.9%;width: 20.3%;height: 3.2%;border-radius: 5px;}\n            .section-4 {\n                clear: both;\n                margin: auto;\n                width: 100%;\n                background-size: contain;\n                overflow: hidden;\n                height: 180vw;\n                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-06.webp) no-repeat center;\n                background-size: 100% 180vw;\n            }\n            .image-container {\n                display: grid;\n                grid-template-columns: repeat(1, 1fr);\n                gap: 10px;\n            }\n\n            .hotspot {\n                text-indent: 0;\n                color: #fff;\n                text-align: center;\n                font-size: 16px;\n            }\n\n            .section-3 iframec {\n                height: 250px;\n            }\n        }\n\n        @media (min-width: 768px) {\n            .section-5 .row {\n                display: flex;\n                justify-content: center;\n                gap: 40px;\n                flex-wrap: wrap;\n            }\n\n            .section-5 .col {\n                flex: 0 0 41%;\n            }\n\n            .section-3 iframe {\n                height: 945px;\n            }\n        }\n    @media (max-width: 768px) {\n      \n        .title.gradient-text {\n            padding: 5vw 0 0;\n            font-size: 6vw;\n        }\n    }\n\n    .inline-mini-form input:-webkit-autofill, .inline-mini-form input:-webkit-autofill:hover, .inline-mini-form input:-webkit-autofill:focus, .inline-mini-form input:-webkit-autofill:active {\n        -webkit-box-shadow: 0;\n    }\n</style>\n<section class=\"section section-1\"id=\"gs\">\n    <a href=\"#rugking5pro\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-1.webp\"></a>\n</section>\n<section class=\"section section-1\"id=\"sec-block\">\n    <a href=\"#rugking5pro\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-01.webp\"></a>\n</section>"
+      }
+    },
+    "newsletter_rpmjVp": {
+      "type": "newsletter",
+      "disabled": true,
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Get Updates & Exclusive Offers",
+        "text": "<p>Receive updates, giveaway results.</p>",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "color_scheme": "standard",
+        "color_bg": "#ffffff",
+        "color_text": "#ffffff"
+      }
+    },
+    "custom_liquid_hkbhHr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<section class=\"section section-3\"id=\"gs\">\n    <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-3.webp\"></a>\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-4.webp\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-5.webp\">\n</section>\n<section class=\"section section-3\"id=\"sec-block\">\n    <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-03.webp\"></a>\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-04.webp\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-rugking-5-pro-05.webp\">\n</section>\n<section class=\"section section-5\" style=\"/* text-align: center; *//* padding: 60px 0; */\">\n    <div class=\"image-container\">\n        <div class=\"row\" style=\"\">\n            <div class=\"col\" style=\"/* max-width: 500px; */\">\n                <h2>Appearance & Design</h2>\n                <h4>Hardcore Mecha Aesthetics, Forged for the Outdoors</h4>\n                <video autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\" width=\"100%\" preload=\"none\" loading=\"lazy\" style=\"border-radius: 22px;\">\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/82f6442bb70a42f5ba3098aad7aa7241.mp4\" type=\"video/mp4\">\n                </video>\n            </div>\n            <div class=\"col\" style=\"/*flex: 0 0 47%; max-width: 500px; */\">\n                <h2>Rugged Durability</h2>\n                <h4>Military-Grade Toughness, Defying Extreme Challenges</h4>\n                <video autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\" width=\"100%\" preload=\"none\" loading=\"lazy\" style=\"border-radius: 22px;\">\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/1872c2288d744a588f197e28e20e32cf.mp4\" type=\"video/mp4\">\n                </video>\n            </div>\n        </div>\n        <div class=\"row\" style=\"\">\n            <div class=\"col\" style=\"/* max-width: 500px; */\">\n                <h2>Water-Lock Mode</h2>\n                <h4>\n                    Smart screen-lock prevents raindrop interference<br />\n                    to keep your route on track\n                </h4>\n                <video autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\" width=\"100%\" preload=\"none\" loading=\"lazy\" style=\"border-radius: 22px;\">\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/de033bfbaf6d4791ad1ae6f035105fab.mp4\" type=\"video/mp4\">\n                </video>\n            </div>\n            <div class=\"col\" style=\"/*flex: 0 0 47%; max-width: 500px; */\">\n                <h2>Camping Light</h2>\n                <h4>\n                    Ultra-wide, high-lumen camping light<br />\n                    — your portable light station\n                </h4>\n                <video autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\" width=\"100%\" preload=\"none\" loading=\"lazy\" style=\"border-radius: 22px;\">\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/bf4f74a5eed247f19d57570c09f94d11.mp4\" type=\"video/mp4\">\n                </video>\n            </div>\n        </div>\n    </div>\n</section>\n<section class=\"section section-4\" id=\"rugking5pro\">\n    <div class=\"\">\n        <a href=\"https://bit.ly/40TAm4L\" class=\"hotspot test back-but1\" target=\"_blank\"></a>\n        <a href=\"https://amzn.to/40SusAX\" class=\"hotspot test back-but2\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/4b1h1EN\" class=\"hotspot test back-but3\" target=\"_blank\"></a>\n\n        <a href=\"https://bit.ly/40m5OIQ\" class=\"hotspot test back-but4\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/4uloTIU\" class=\"hotspot test back-but5\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/4sG3MQ2\" class=\"hotspot test back-but6\" target=\"_blank\"></a>\n\n        <a href=\"https://bit.ly/4sbncfB\" class=\"hotspot test back-but7\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/46UyrAC\" class=\"hotspot test back-but8\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/46T050R\" class=\"hotspot test back-but9\" target=\"_blank\"></a>\n\n        <a href=\"https://bit.ly/40Wvr34\" class=\"hotspot test back-but10\" target=\"_blank\"></a>\n        <a href=\"https://bit.ly/40aRjYh\" class=\"hotspot test back-but11\" target=\"_blank\"></a>\n    </div>\n</section>"
+      }
+    },
+    "newsletter_aciKeV": {
+      "type": "newsletter",
+      "custom_css": [
+        "h4.h2.line-1.cc-animate-init.-in.cc-animate-complete {font-weight: 800; font-size: 2.5vw;}",
+        ".section-newsletter .contact-form {max-width: 100vw;}",
+        "@media (min-width: 768px) {.inline-mini-form.inline-mini-form--arrow input {font-size: 30px; } .inline-mini-form.inline-mini-form--arrow {width: 890px; background: #fff; border-radius: 45px; } .inline-mini-form.inline-mini-form--arrow button svg {color: #000; }}",
+        ".inline-mini-form.inline-mini-form--arrow input {color: #ababab;}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Don't Miss the Launch-Subscribe Now!",
+        "text": "",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "color_scheme": "custom",
+        "color_bg": "#407c8b",
+        "color_text": "#ffffff"
+      }
+    },
+    "custom_liquid_fWQweX": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div#giveaway {background: linear-gradient(45deg, #345768, #4ca1af);}"
+      ],
+      "name": "giveaway",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-10\" id=\"giveaway\">\n    <div class=\"title gradient-text\" style=\"    text-align: center;\n    color: #fff;    font-size: 2rem;\n    margin-top: 2vw;\">\n        Giveaway\n    </div>\n  <div id=\"97704-hz6qrlvk\" class=\"sw_container\"><script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script></div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_UTh9xH",
+    "newsletter_rpmjVp",
+    "custom_liquid_hkbhHr",
+    "newsletter_aciKeV",
+    "custom_liquid_fWQweX"
+  ]
+}

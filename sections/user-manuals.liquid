@@ -1,0 +1,124 @@
+
+<div class="tabs">
+  <ul class="tabs-list">
+    {% for block in section.blocks %}
+      <li class="tab-link{% if forloop.first %} active{% endif %}" data-tab="tab-{{ block.id }}">{{ block.settings.tab_title }}</li>
+    {% endfor %}
+  </ul>
+  {% for block in section.blocks %}
+    <div class="tab-content{% if forloop.first %} active{% endif %}" id="tab-{{ block.id }}">
+      {% if block.settings.tab_page != blank %}
+        {% assign page = pages[block.settings.tab_page] %}
+        {{ page.content }}
+      {% else %}
+        {{ block.settings.tab_content }}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+    @media (min-width: 1400px) {
+  .tabs {
+      margin: 0 auto;
+      width: 72vw;
+  }
+  .tabs-list {
+    margin: 0 auto!important;
+  }
+}
+  .tabs {
+      display: flex;
+      flex-direction: column;
+    margin-bottom: 5vw;
+  }
+  .tabs-list {
+    list-style: none;
+    padding: 1vw;
+    display: flex;
+    cursor: pointer;
+    margin: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+  }
+  .tabs-list .tab-link {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+  .tabs-list .tab-link.active {
+    background-color: #eee;
+    border-bottom: none;
+  }
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border-top: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var tabs = document.querySelectorAll('.tab-link');
+    var contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        var tabId = tab.getAttribute('data-tab');
+
+        tabs.forEach(function(item) { item.classList.remove('active'); });
+        contents.forEach(function(item) { item.classList.remove('active'); });
+
+        tab.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Custom Tabs",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title"
+        },
+        {
+          "type": "page",
+          "id": "tab_page",
+          "label": "Tab Page"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Tab Content",
+          "default": "<p>Tab content goes here.</p>"
+        }
+      ]
+    }
+  ],
+      "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "tab"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

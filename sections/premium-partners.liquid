@@ -1,0 +1,135 @@
+{% schema %}
+{
+  "name": "Premium Partners",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "OUR PREMIUM PARTNERS"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "partner",
+      "name": "Partner Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Partner Logo"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Premium Partners",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="premium-partners-section">
+  <div class="">
+    <h2 class="title tners-section-title">{{ section.settings.title }}</h2>
+    <div class="partners-grid">
+      {% for block in section.blocks %}
+        <div class="partner-card">
+          {% if block.settings.logo %}
+            <img src="{{ block.settings.logo | image_url: width: 200 }}" alt="{{ block.settings.name | escape }}" />
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.premium-partners-section {
+  background-color: #f7f7fa;
+  padding: 5vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.tners-section-title {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    font-weight: 700;
+}
+
+.premium-partners-section .title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #000;
+  margin: 8px auto 0;
+}
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.partner-card {
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 17vw;
+  min-height: 80px;
+  transition: all 0.3s ease;
+  flex: 1 1 calc(50% - 20px);
+  max-width: 200px;
+}
+
+.partner-card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*.partner-card img {
+  max-height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+}*/
+
+@media (max-width: 768px) {
+  .partner-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+  .premium-partners-section {
+    padding: 15vw 6vw 17vw;
+}
+  .partners-grid {
+    gap: 10px;
+    margin-top: 8vw;
+}
+  .partner-card img {
+    width: 30vw;
+}
+
+}
+
+@media (max-width: 480px) {
+  .partner-card {
+    flex: 1 1 47%; 
+    max-width: 100%;
+  }
+  .premium-partners-section .title {
+    font-size: 1.8rem;
+}
+  .partner-card {
+      padding: 3vw;
+      min-height: 0;
+  }
+}
+</style>

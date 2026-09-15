@@ -1,0 +1,440 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_fqTpYf": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".image-with-buttons {position: relative; display: inline-block;}",
+        ".image-container {position: relative;}",
+        ".button:hover {background-color: rgba(0, 0, 0, 0.8);}",
+        "@media (min-width: 1080px) {.button-1 {position: absolute; left: 12%; bottom: 17%; } .button-2 {position: absolute; left: 29%; bottom: 17%; }}",
+        "@media (max-width: 768px) {.button {padding: 8px 15px; font-size: 14px; } .button-1, .button-2 {bottom: 10px; }}",
+        "div#sec-block {background-color: #0f1207;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <div class=\"image-with-buttons\">\n        <div class=\"image-container\">\n            <img class=\"image\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-1.webp\" />\n            <a href=\"https://s.click.aliexpress.com/e/_opc1d4r\" class=\"button-1\"> <img style=\"    width: 73%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-btn1.png\" /></a>\n            <a href=\"#giveaway\" class=\"button-2\"> <img  style=\"    width: 73%;\"src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-btn2.png\" /></a>\n        </div>\n    </div>\n\n</div>\n<div id=\"sec-block\" style=\"margin-top: 0;\">\n    <img class=\"image\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-01.webp\" style=\"\">\n    <div style=\"width: 98%;margin: 8%;\">\n        <a href=\"https://s.click.aliexpress.com/e/_opc1d4r\" class=\"button-1\" style=\"\"> <img class=\"image\" style=\"width: 38%;float: left;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/btn1.webp\"></a>\n        <a href=\"#giveaway\" class=\"button-1\" style=\"\"> <img class=\"image\" style=\"margin: -4% 9%;width: 38%;\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-btn2.png\"></a>\n    </div>\n    <img class=\"image\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-02.webp\" style=\"\">\n</div>"
+      }
+    },
+    "newsletter_QUix7y": {
+      "type": "newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Subscribe to our newsletter",
+        "text": "<p>Sign up to our newsletter and we'll keep you up to date with the latest arrivals</p>",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "color_scheme": "custom",
+        "color_bg": "#000000",
+        "color_text": "#ffffff"
+      }
+    },
+    "custom_liquid_Y7aXxE": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-pc-3-title.jpg\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-3-title.jpg\" style=\"width:100%;\">\n</div>"
+      }
+    },
+    "slideshow_nmjpe7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ALyCKz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-3-1.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-3-1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_EUkact": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-3-2.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-3-2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_TPbPFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-3-3.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-3-3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "image_ALyCKz",
+        "image_EUkact",
+        "image_TPbPFC"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_liquid_bahqf4": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-pc-4-title.jpg\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-4-title.jpg\" style=\"width:100%;\">\n</div>"
+      }
+    },
+    "slideshow_7J9kDj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_64ppqy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-4-1.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-4-1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_PFhDQF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-4-2.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-4-2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_qMJjma": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-4-3.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-4-3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "image_64ppqy",
+        "image_PFhDQF",
+        "image_qMJjma"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_liquid_apEfUH": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-pc-5-1.webp?v=1734407508\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 1%;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-5-1.webp\" style=\"width:100%;\">\n <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-5-2.webp\" style=\"width:100%;\">\n</div>"
+      }
+    },
+    "custom_liquid_rPhGX8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#sec-block {margin-top: 0;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-pc-6-title.jpg\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-x31-pro-6-title.jpg\" style=\"width:100%;\">\n</div>"
+      }
+    },
+    "slideshow_R7KYGW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gh9ypy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-6-1.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-6-1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_iCndQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-6-2.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-6-2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "image_QrPdUj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/page-armor-x31-pro-pc-6-3.jpg",
+            "mobile_image": "shopify://shop_images/page-armor-x31-pro-6-3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "image_gh9ypy",
+        "image_iCndQN",
+        "image_QrPdUj"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "image_with_text_overlay_UDYqPN": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/page-armor-x31-pro-9.webp",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "image_with_text_overlay_8hAG6h": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/page-armor-x31-pro-10.webp",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "image_with_text_overlay_qErAj8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/page-armor-x31-pro-11.webp",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "image_with_text_overlay_y9N8gF": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/page-armor-x31-pro-12.webp",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "image_with_text_overlay_pAkaYe": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/page-armor-x31-pro-13.webp",
+        "height": "natural",
+        "height_desktop": 450,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "custom_liquid_DG9eRj": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": false,
+        "custom_liquid": "<h2 id=\"giveaway\">Giveaway</h2>\n<div id=\"86992-jzfp4tko\" class=\"sw_container\">\n<script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script></div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_fqTpYf",
+    "newsletter_QUix7y",
+    "custom_liquid_Y7aXxE",
+    "slideshow_nmjpe7",
+    "custom_liquid_bahqf4",
+    "slideshow_7J9kDj",
+    "custom_liquid_apEfUH",
+    "custom_liquid_rPhGX8",
+    "slideshow_R7KYGW",
+    "image_with_text_overlay_UDYqPN",
+    "image_with_text_overlay_8hAG6h",
+    "image_with_text_overlay_qErAj8",
+    "image_with_text_overlay_y9N8gF",
+    "image_with_text_overlay_pAkaYe",
+    "custom_liquid_DG9eRj"
+  ]
+}

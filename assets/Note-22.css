@@ -1,0 +1,477 @@
+@font-face {
+    font-family: MiSans-Medium;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.woff2');
+} 
+@font-face {
+    font-family: MiSans-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+}
+
+.ar-white {
+    color: #fff;
+}
+
+.ar-left {
+    text-align: left;
+}
+
+.ar-right {
+    text-align: right;
+}
+/*    .section-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 1.8vw auto;
+        width: 70%;
+    }*/
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+.col-orange {
+    color: #ff7d3d;
+}
+.section-slogan {
+    font-family: MiSans-Medium;
+    font-size: 3.22vw;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    font-family: MiSans-Regular;
+    font-size: 2.25vw;
+    font-weight: 500;
+}
+
+.section-text {
+    font-family: MiSans-Regular;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+}
+
+.section-medium {
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+#featurescontent .section {
+    display: block;
+    clear: both;
+    /*    margin: auto;*/
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 100%;
+}
+.section-1 {
+    height: 56.25vw;
+    margin-top: 2vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-1.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-1 h2 {
+        font-size: 5vw;
+        margin-top: 8vw;
+    }
+    .section-1 .section-subtitle {
+        text-align: center;
+    }
+.section-2 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-2.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.section-3 {
+    height: 107.62vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-3.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-3 .section-box {
+        width: 80vw;
+        margin: 12vw 15vw 0;
+    }
+    .section-3 .section-text {
+        width: 38%;
+        margin: 1vw 15vw;
+    }
+.section-5 {
+    height: 136.48vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-4.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-5 h5 {
+        font-size: 1.9vw;
+    }
+    .section-5 .section-box {
+        margin: 5vw auto;
+        text-align: center;
+    }
+    .section-5 .section-content-1 {
+        width: 28vw;
+        margin: 18vw 51vw;
+    }
+    .section-5 .section-content-2 {
+        width: 26vw;
+        margin: 28vw 51vw;
+    }
+    .section-5 .section-content-3 {
+        width: 25vw;
+        margin: 18vw 51vw;
+    }
+.section-6 {
+    height: 54.69vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-5.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-6 .section-content {
+        width: 46vw;
+        margin: 8vw 14.5vw;
+        text-align: center;
+    }
+.section-7 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-6.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-7 .section-box {
+        width: 93vw;
+        margin: 16vw 50vw 0;
+    }
+    .section-7 .section-text {
+        width: 29vw;
+        margin: 2vw 50vw;
+    }
+.section-8 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-7.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-8 .section-content {
+        margin-top: 1vw;
+    }
+    .section-8 .section-box {
+        margin: 3vw 14.5vw 0;
+    }
+    .section-8 .section-text {
+        width: 45vw;
+        margin: 1vw 14.5vw;
+    }
+.section-9 {
+    height: 111.48vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-8.webp?v=1785729436) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-9 .section-content {
+        width: 42vw;
+        margin: 8vw 13vw;
+    }
+.section-10 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-9.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-10 .section-content {
+        width: 63vw;
+        margin: 3vw auto;
+    }
+.section-11 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-10.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-11 .section-content {
+        width: 29vw;
+        margin: 14.5vw 14vw;
+    }
+.section-12 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-11.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-12 .section-content {
+        width: 34vw;
+        margin: 17vw 50vw;
+        text-align: center;
+    }
+.section-13 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-12.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-13 .section-content {
+        width: 32vw;
+        margin: 26vw 55vw;
+    }
+
+.section-14 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-13.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-14 .section-box {
+        margin: 7vw 9vw 0;
+    }
+
+    .section-14 .section-text {
+        width: 53vw;
+        margin: 1vw auto;
+        text-align: center;
+    }
+img.note16pro-img1 {
+    margin-top: 4vw;
+}
+
+#sec-block {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 768px) {
+    div #faq_nav {
+        padding: 0 2vw;
+    }
+
+    .section-slogan {
+        font-size: 6vw;
+        margin-top: 1vw;
+    }
+
+    .section-subtitle {
+        font-size: 4.3vw;
+    }
+
+    .section-text {
+        font-size: 2.825vw;
+        margin-top: 1vw;
+        line-height: 1.25;
+    }
+
+    .ar-left {
+        text-align: center;
+    }
+
+    #featurescontent .section {
+        clear: both;
+        /*    margin: auto;*/
+        width: 100%;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .section-1 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-01.webp) no-repeat center;
+        background-size: 100% 100%;
+        margin-top: 5vw;
+    }
+
+        .section-1 h2 {
+            font-size: 11vw;
+            margin-top: 15vw;
+        }
+
+        .section-1 .section-subtitle {
+            font-size: 6vw;
+        }
+
+    .section-2 {
+        height: 192.59vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-02.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-3 {
+        height: 200.19vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-03.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-3 .section-box {
+            width: 93vw;
+            margin: 9vw auto 6vw;
+        }
+
+        .section-3 .section-text {
+            width: 93%;
+            margin: 0 auto;
+        }
+
+    .section-5 {
+        height: 272.78vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-04.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-5 .section-content-1 {
+            width: 69vw;
+            margin: 54vw 26vw;
+        }
+        .section-5 .section-content-2 {
+            width: 66vw;
+            margin: 28vw 29vw;
+        }
+        .section-5 .section-content-3 {
+            width: 67vw;
+            margin: 60vw 27vw;
+        }
+        .section-5 .section-text {
+            margin: 2vw auto;
+            text-align: right;
+        }
+
+        .section-5 h5 {
+            font-size: 4.9vw;
+            text-align: right;
+        }
+
+        .section-5 .section-box {
+            margin: 6vw 3vw 0;
+            width: 93%;
+        }
+
+    .section-6 {
+        height: 138.89vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-05.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-6 .section-slogan,.section-6 .section-subtitle,.section-6 .section-text {
+            text-align: left;
+        }
+        .section-6 .section-content {
+            width: 93vw;
+            margin: 11vw 4.5vw;
+        }
+    .section-7 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-06.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-7 .section-slogan br {
+            display: none;
+        }
+
+        .section-7 .section-box {
+            width: 92vw;
+            margin: 4vw auto;
+        }
+
+        .section-7 .section-text {
+            width: 92vw;
+            margin: 0 4vw;
+        }
+
+        .section-7 .section-content {
+            margin-top: 11vw;
+        }
+
+    .section-8 {
+        height: 153.89vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-07.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-8 .section-content {
+            margin-top: 9vw;
+        }
+
+        .section-8 .section-text {
+            width: 93vw;
+            text-align: center;
+            margin: 1vw auto;
+        }
+
+    .section-9 {
+        height: 275vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-8.webp?v=1785729436) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-9 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 14vw auto;
+        }
+
+    .section-10 {
+        height: 181.48vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-09.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-10 .section-content {
+            width: 92vw;
+            margin: 12vw auto;
+        }
+        .section-10 .section-subtitle br {
+        display:none;}
+        .section-11 {
+            height: 133.33vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-010.webp) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .section-11 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 11vw auto;
+        }
+
+    .section-12 {
+        height: 160.19vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-011.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-12 .section-content {
+            width: 93vw;
+            margin: 13vw auto;
+            text-align: center;
+        }
+
+    .section-medium {
+        font-size: 2.8vw;
+        font-weight: 500;
+    }
+    .section-13 {
+        height: 99.63vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-012.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-13 .section-content {
+            margin: 34vw 45vw;
+            width: 49vw;
+        }
+        .section-13 .section-slogan,.section-13 .section-subtitle,.section-13 .section-text {
+            text-align: left;
+        }
+    .section-14 {
+        height: 92.59vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-note-22-smartphone-013.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-14 .section-box {
+            margin: 3vw 9vw 0;
+        }
+        .section-14 .section-text {
+            width: 84vw;
+            margin: 3vw auto;
+        }
+}
+@media (max-width: 480px) {
+    .section-1 {
+        margin-top: 13vw;
+    }
+
+    .notes p {
+        font-size: .87rem;
+    }
+}

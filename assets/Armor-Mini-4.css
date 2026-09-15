@@ -1,0 +1,223 @@
+
+    @font-face {
+        font-family: Manrope-ExtraBold;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Manrope3-ExtraBold.woff2');
+    }
+
+    @font-face {
+        font-family: Manrope-Regular;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Manrope3-Regular.woff2');
+    }
+
+    .section-subtitle {
+        font-family: MiSans-Demibold;
+        font-size: 2vw;
+    }
+
+    .section-slogan {
+        font-family: Manrope-ExtraBold;
+        font-size: 3vw;
+        color: #ffc600;
+        font-weight: 500;
+    }
+
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: Manrope-Regular;
+        margin-top: 1.535vw;
+    }
+
+    .ar-left {
+        text-align: left;
+    }
+    .ar-white {
+        color: #fff;
+    }
+    .section-1 {
+        margin-top: 3vw;
+    }
+
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .notes.container {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .section-2 {
+        height: 66.354166vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-3.webp) no-repeat center;
+        background-size: 100% 66.354166vw;
+    }
+
+    .section-2 .section-content {
+        margin: 5vw 9vw;
+    }
+
+    .section-4 {
+        height: 45.72916vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-5.webp) no-repeat center;
+        background-size: 100% 45.72916vw;
+    }
+    .section-content.section-content-4 {
+        text-align: center;
+        width: 57vw;
+        margin: 4vw auto;
+    }
+    .section-5 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-6.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-5 {
+        width: 63vw;
+        text-align: center;
+        margin: 5vw auto;
+    }
+    .section-6 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-7.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-6 {
+        width: 35vw;
+        margin: 21vw 45vw;
+    }
+    .section-7 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-7 {
+        width: 39vw;
+        margin: 5vw 11vw;
+    }
+    .section-8 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-8-1 {
+        width: 36vw;
+        margin: 4vw 56vw;
+    }
+    .section-content.section-content-8-2 {
+        width: 36vw;
+        margin: 22vw 8vw;
+    }
+
+    #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        div#faq_nav {
+            padding: 0 2vw;
+        }
+
+        .section-slogan {
+            font-size: 5.6vw;
+        }
+
+        .section-subtitle {
+            font-size: 3.56vw;
+        }
+
+        .section-text {
+            font-size: 2.5211vw;
+        }
+
+        .ar-left {
+            text-align: center;
+        }
+        
+
+        .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .section-2 {
+            height: 140.18518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-03.webp) no-repeat center;
+            background-size: 100% 140.18518vw;
+        }
+
+            .section-2 .section-content {
+                width: 93vw;
+                margin: 9vw auto;
+                text-align: center;
+            }
+
+        .section-4 {
+            height: 100vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-05.webp) no-repeat center;
+            background-size: 100% 100vw;
+        }
+        .section-content.section-content-4 {
+            width: 90vw;
+            margin: 9vw auto;
+        }
+        .section-5 {
+            height: 91.38888vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-06.webp) no-repeat center;
+            background-size: 100% 91.38888vw;
+        }
+        .section-content.section-content-5 {
+            width: 90vw;
+            margin: 8vw auto;
+        }
+        .section-6 {
+            height: 118.518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-07.webp) no-repeat center;
+            background-size: 100% 118.518vw;
+        }
+        .section-content.section-content-6 {
+            width: 90vw;
+            margin: 8vw auto;
+        }
+        .section-7 {
+            height: 129.16666vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/products-armor-mini-4-bg-08.webp) no-repeat center;
+            background-size: 100% 129.16666vw;
+        }
+        .section-content.section-content-7 {
+            width: 90vw;
+            margin: 5vw auto;
+        }
+        .section.section-8 {
+            display: none;
+        }
+        .section-content.section-content-8-1 {
+            width: 90vw;
+            margin: 4vw auto;
+        }
+        .section-content.section-content-8-2 {
+            width: 90vw;
+            margin: 4vw auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .notes p {
+            font-size: 3vw;
+        }
+        .section-text {
+            font-size: 3.123vw;
+            line-height: 1.2;
+        }
+
+        .section-gradient-subtitle {
+            font-size: 5.23vw;
+        }
+        .section-1 {
+            margin-top: 14vw;
+        }
+    }

@@ -1,0 +1,1062 @@
+@font-face {
+    font-family: MiSans-Semibold;
+    font-display: swap;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.woff') format('woff');
+}
+    @font-face {
+        font-family: MiSans-Demibold;
+        font-display: swap;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.woff2')format('woff2'),
+          src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.woff')format('woff');
+    }
+
+    @font-face {
+        font-family: MiSans-Regular;
+        font-display: swap;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.woff2')format('woff2'),
+          url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.woff')format('woff');
+    }
+
+    .section-1 {
+        display: block;
+        clear: both;
+        margin: auto;
+        width: 100%;
+        height: 50.6640625vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-1.webp) no-repeat center;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .section-1-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 41.8vw auto;
+    }
+
+    .section-slogan {
+        display: inline-block;
+        text-align: left;
+        font-weight: normal;
+        font-size: 2.3vw;
+        padding-bottom: 0;
+        font-family: 'MiSans-Demibold';
+    }
+
+    .section-details {
+        font-size: 1vw;
+        font-weight: 100;
+        padding-top: 0.5vw;
+        letter-spacing: 0.04vw;
+        font-family: MiSans-Regular;
+    }
+
+    .section-explanation {
+        display: block;
+        margin-top: 1.12vw;
+        color: #000;
+        opacity: .9;
+        font-size: 0.756vw;
+        font-family: MiSans-Regular;
+    }
+
+    .section-3 {
+        height: 75vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-3.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-3-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 2.8vw auto;
+    }
+
+    .section-3-slogan {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 2.3vw;
+        padding-bottom: 0;
+        color: white;
+        font-family: 'MiSans-Demibold';
+    }
+
+    .container-fluid {
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+
+        .container-fluid img {
+            float: left;
+        }
+
+    .section-3-first {
+        color: #fff;
+        width: 60%;
+    }
+
+    .section-3-content .col-md-4, .section-3-content .col-md-3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .section-3 .container-fluid {
+        padding-top: 45vw;
+    }
+
+    .title-most {
+        background-color: #a07247;
+        padding: 0.6vw 0.56vw;
+        color: #fff;
+        margin: 1.35vw auto;
+        font-size: 1.2vw;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        align-items: center;
+        clip-path: polygon(9% 0, 0 0, 89% 0, 88% 12%, 85% 50%, 89% 100%, 9% 100%, 13% 50%);
+    }
+
+    .section-4 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-4.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 1.8vw auto;
+        width: 70%;
+    }
+
+    .section-subtitle {
+        font-family: MiSans-Demibold;
+        font-size: 1.723vw;
+        font-weight: 500;
+    }
+
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: MiSans-Regular;
+        margin-top: 1vw;
+    }
+
+
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        /*      width: 100vw;*/
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    .section-6 {
+        height: 75.52083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-gradient-subtitle {
+        font-family: MiSans-Semibold;
+        font-size: 3.58vw;
+        font-weight: bold;
+        background: linear-gradient(to bottom, #fff 40%, #6d6e6f 80%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        opacity: 0.456;
+    }
+
+    .section-7 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-left {
+        text-align: left;
+        margin-left: 13.1566vw;
+        margin-top: 4.8vw;
+        width: 44%;
+    }
+
+
+    .se28-white {
+        color: #fff;
+    }
+
+    .se28-left {
+        text-align: left;
+    }
+
+    .section-gradient-left {
+        text-align: left;
+    }
+
+    .section-content-right {
+        text-align: left;
+        margin-left: 25.1566vw;
+        margin-top: 4.8vw;
+        width: 44%;
+    }
+
+    .section-8 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-10.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-9 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-11.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-10 {
+        height: 45.0521vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-12.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-subtitle-10 {
+        text-align: left;
+    }
+
+    .section-content-10 {
+        text-align: left;
+        margin-left: 15.1566vw;
+        margin-top: 4.8vw;
+        width: 24%;
+        color: #fff;
+    }
+
+    .text-font {
+        width: 50%;
+        float: left;
+        padding-left: 3%;
+    }
+
+    .text-font-1 {
+        font-size: 1.723vw;
+    }
+
+    .text-font-2 {
+        font-size: 1.2vw;
+        line-height: 1.56;
+    }
+
+    .section-box-img img, .section-box-img1 img {
+        float: left;
+        width: 12%;
+    }
+
+    .section-box-img {
+        margin-top: 15%;
+    }
+
+    .section-box-img1 {
+        margin-top: 38%;
+    }
+
+    .section-11 {
+        height: 44.27083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-13.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-11 {
+        text-align: left;
+        margin-left: 57.1566vw;
+        margin-top: 12.8vw;
+        width: 32%;
+        color: #fff;
+    }
+
+    .section-12 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-14.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-slogan-13 {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 2.3vw;
+        padding-bottom: 0;
+        font-family: 'MiSans-Demibold';
+    }
+
+    .section-explanation-12 p {
+        font-size: 1.1vw;
+        color: #fff;
+    }
+
+    .section-explanation-12 span {
+        font-size: 2.3vw;
+        vertical-align: middle;
+        margin-right: 0.234vw;
+    }
+
+    .section-15 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-19.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-15 {
+        margin-top: 6vw;
+    }
+
+    .section-16 {
+        height: 46.35416vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-20.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-18 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-22.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-18 {
+        width: 32%;
+    }
+
+    .section-19 {
+        background-color: #000;
+    }
+
+    .section-30 {
+        background-color: #000;
+        padding: 3vw 0;
+    }
+
+    .section-20 {
+        height: 70.3125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-24.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-22 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-27.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-22 {
+        margin-top: 37vw;
+        width: 40vw;
+    }
+
+    .section-24 {
+        height: 78.125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor28-Ultra-Thermal-Version-bg-29.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-26 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-31.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-27 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-32.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-28 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-33.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-29 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-34.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-299 {
+        height: 70.3125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-299.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-30 {
+        display: flex;
+        width: 87vw;
+    }
+
+    .section-content-30-2 {
+        background-color: #151515;
+        padding: 4vw;
+    }
+
+    .section-30-cent {
+        text-align: left;
+        padding: 4.166vw 2vw;
+    }
+
+    .section-30-img5 {
+        margin-top: 1.388vw;
+    }
+
+    .section-31 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-36.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-32 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-37.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-34 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-39.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-36 {
+        height: 60.4166666vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-41.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-37 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-42.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-38 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-43.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-39 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-44.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-40 {
+        height: 63.5416vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-45.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-42 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-47.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-44 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-50.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-45 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-51.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-45 {
+        width: 32vw;
+        margin-top: 7vw;
+    }
+
+    .section-47 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-54.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-fone-47 {
+        margin-top: 2vw;
+    }
+
+    .section-48 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-55.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-48 {
+        margin: 37vw 63vw;
+        width: 26vw;
+        text-align: left;
+    }
+
+    .section-content-50 {
+        width: 96vw;
+    }
+
+    .section-50-text {
+        position: absolute;
+        top: 2vw;
+        left: 5vw;
+        max-width: 80%;
+    }
+
+    .section-50-1, .section-50-2 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .section-50 .gbps {
+        padding-top: 1vw;
+    }
+
+    .section-50 .gbps1 {
+        border-right: 2px solid #969696;
+        padding-right: 1vw;
+        font-size: 1.2vw;
+        display: inline-block;
+    }
+
+    .section-50 .gbps2 {
+        font-size: 1.2vw;
+    }
+
+    .section-51 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-58-16.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-51 {
+        margin: 3vw 47vw;
+    }
+
+    .section-52 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-59.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-content-52 {
+        margin-top: 10vw;
+    }
+
+    .section-53 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-60.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-54 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-61.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-55 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-bg-62.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .se28-thermal-imaging {
+        background: linear-gradient(to right, #feffd7, #fff059, #ffc435, #fe511e, #fa3632, #dd1a62, #750a86, #42046d);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+
+    #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        .section-1 {
+            display: block;
+            clear: both;
+            margin: auto;
+            width: 100%;
+            height: 131.944444444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-1.webp) no-repeat center;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+            .section-1 p {
+                margin-top: 87vw;
+            }
+
+        .section-slogan {
+            font-size: 4.583vw;
+        }
+
+        .section-1-content {
+            margin: 23.8vw auto;
+        }
+
+        .section-details {
+            font-size: 2.35vw;
+            width: 90vw;
+        }
+
+        .section-explanation {
+            font-size: 1.756vw;
+        }
+
+        .section-3 {
+            display: none;
+        }
+
+        .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .section-4 {
+            height: 125.46296vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-4.webp) no-repeat center;
+            background-size: 100% 125.46296vw;
+        }
+
+        .section-text {
+            font-size: 2.95vw;
+            text-align: center;
+            line-height: 1.762;
+        }
+
+        .section-subtitle {
+            font-size: 3.523vw;
+        }
+
+        .section-content {
+            margin: 2.8vw auto;
+            width: 96%;
+        }
+
+        .section-content-4 {
+            margin: 11vw auto;
+        }
+
+        .section-6 {
+            height: 175.6481vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-8.webp) no-repeat center;
+            background-size: 100% 175.6481vw;
+        }
+
+        .section-7 {
+            height: 162.96296vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-9.webp) no-repeat center;
+            background-size: 100% 162.96296vw;
+        }
+
+        .section-gradient-left {
+            text-align: center;
+        }
+
+        h3.section-slogan.se28-white {
+            text-align: center;
+        }
+
+        .section-8 {
+            height: 150.462962vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-10.webp) no-repeat center;
+            background-size: 100% 150.462962vw;
+        }
+
+        .section-9 {
+            height: 83.33333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-11.webp) no-repeat center;
+            background-size: 100% 83.33333vw;
+        }
+
+        .section-10 {
+            height: 125vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-12.webp) no-repeat center;
+            background-size: 100% 125vw;
+        }
+
+        .section-box-img, .section-box-img1 {
+            display: none;
+        }
+
+        .section-subtitle-10 {
+            text-align: center;
+        }
+
+        .section-box {
+            text-align: center;
+        }
+
+        .section-11 {
+            height: 119.9074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-13.webp) no-repeat center;
+            background-size: 100% 119.9074vw;
+        }
+
+        .section-12 {
+            height: 127.77777vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-14.webp) no-repeat center;
+            background-size: 100% 127.77777vw;
+        }
+
+        .section-explanation-12 {
+            text-align: center;
+            font-size: 3vw;
+        }
+
+            .section-explanation-12 p {
+                font-size: 2.8861vw;
+                display: inline-block;
+            }
+
+            .section-explanation-12 spen {
+                font-size: 9vw;
+            }
+
+        .section-13 {
+            height: 268.51851vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-15.webp) no-repeat center;
+            background-size: 100% 268.51851vw;
+        }
+
+        .se28-left {
+            text-align: center;
+        }
+
+        .section-15 {
+            height: 169.44444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-19.webp) no-repeat center;
+            background-size: 100% 169.44444vw;
+        }
+
+        .section-16 {
+            height: 58.33333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-20.webp) no-repeat center;
+            background-size: 100% 58.33333vw;
+        }
+
+        .section-18 {
+            height: 179.62962vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-22.webp) no-repeat center;
+            background-size: 100% 179.62962vw;
+        }
+
+        .section-20 {
+            height: 133.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-24.webp) no-repeat center;
+            background-size: 100% 133.3333vw;
+        }
+
+        .section-22 {
+            height: 132.4074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-27.webp) no-repeat center;
+            background-size: 100% 132.4074vw;
+        }
+
+            .section-22 .se28-white {
+                color: #000;
+            }
+
+        .section-24 {
+            height: 120.3703vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-29.webp) no-repeat center;
+            background-size: 100% 125.46296vw;
+        }
+
+        .section-26 {
+            height: 181.0185vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-30.webp) no-repeat center;
+            background-size: 100% 181.0185vw;
+        }
+
+        .section-27 {
+            height: 106.0185vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-31.webp) no-repeat center;
+            background-size: 100% 106.0185vw;
+        }
+
+        .section-28 {
+            height: 126.8518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-32.webp) no-repeat center;
+            background-size: 100% 126.8518vw;
+        }
+
+        .section-29 {
+            height: 153.7037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-33.webp) no-repeat center;
+            background-size: 100% 153.7037vw;
+        }
+
+        .section-299 {
+            height: 153.7037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-333.webp) no-repeat center;
+            background-size: 100% 153.7037vw;
+        }
+
+        .section-content-30 {
+            align-items: center;
+        }
+
+        .section-content-30 {
+            display: grid;
+        }
+
+        .section-content-30-2 {
+            text-align: left;
+            padding: 3vw 0;
+        }
+
+        .section-31 {
+            height: 150.9259vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-34.webp) no-repeat center;
+            background-size: 100% 150.9259vw;
+        }
+
+        .section-32 {
+            height: 117.5vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-35.webp) no-repeat center;
+            background-size: 100% 117.5vw;
+        }
+
+        .section-34 {
+            height: 77.3148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-37.webp) no-repeat center;
+            background-size: 100% 77.3148vw;
+        }
+
+        .section-36 {
+            height: 134.72222vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-39.webp) no-repeat center;
+            background-size: 100% 134.72222vw;
+        }
+
+        .section-37 {
+            height: 145.37037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-40.webp) no-repeat center;
+            background-size: 100% 145.37037vw;
+        }
+
+        .section-38 {
+            height: 145.3703vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-41.webp) no-repeat center;
+            background-size: 100% 145.3703vw;
+        }
+
+        .section-39 {
+            height: 114.81481vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-42.webp) no-repeat center;
+            background-size: 100% 114.81481vw;
+        }
+
+        .section-40 {
+            height: 183.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-43.webp) no-repeat center;
+            background-size: 100% 183.3333vw;
+        }
+
+        .section-42 {
+            height: 118.5185vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-44.webp) no-repeat center;
+            background-size: 100% 118.5185vw;
+        }
+
+        .section-44 {
+            height: 148.1481vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-47.webp) no-repeat center;
+            background-size: 100% 148.1481vw;
+        }
+
+        .section-45 {
+            height: 135.18518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-48.webp) no-repeat center;
+            background-size: 100% 135.18518vw;
+        }
+
+        .section-47 {
+            height: 150.92592vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-52.webp) no-repeat center;
+            background-size: 100% 150.92592vw;
+        }
+
+            .section-47 p {
+                text-align: center;
+            }
+
+        .section-48 {
+            height: 108.33333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-53.webp) no-repeat center;
+            background-size: 100% 108.33333vw;
+        }
+      .section-51 .section-content {
+        margin: 27.8vw auto;
+    }
+.section-50 .section-subtitle {
+    margin-top: 9vw;
+}
+      .section-50 .section-content-50 {
+    margin: 0;
+    width: 100%;
+}
+      .section-50 .section-50-1 {
+    height: 96.29629vw;
+    background: url(/cdn/shop/files/Product-Armor-28-Ultra-Thermal-Version-m-55.webp) no-repeat center;
+    background-size: 100% 96.29629vw;
+}
+      .section-50 .section-50-2 {
+    height: 96.29629vw;
+    background: url(/cdn/shop/files/Product-Armor-28-Ultra-Thermal-Version-m-56.webp) no-repeat center;
+    background-size: 100% 96.29629vw;
+}
+        .section-51 {
+                    height: 158.79629vw;
+        background: url(/cdn/shop/files/Product-Armor-28-Ultra-Thermal-Version-m-57-16.webp) no-repeat center;
+        background-size: 100% 158.79629vw;
+        }
+.section-511 {
+            height: 158.7963vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-57.webp) no-repeat center;
+            background-size: 100% 158.7963vw;
+        }
+
+        .section-52 {
+            height: 186.5740vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-58.webp) no-repeat center;
+            background-size: 100% 186.5740vw;
+        }
+.section-52 .section-content {
+    margin-top: 19vw;
+}
+        .section-53 {
+            height: 186.1111vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-59.webp) no-repeat center;
+            background-size: 100% 186.1111vw;
+        }
+
+        .section-54 {
+            height: 100.4629vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-60.webp) no-repeat center;
+            background-size: 100% 100.4629vw;
+        }
+
+        .section-55 {
+            height: 135.18518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-28-Ultra-Thermal-Version-m-61.webp) no-repeat center;
+            background-size: 100% 135.18518vw;
+        }
+      .section-fone-47 p {
+    display: none;
+}
+      .section-48 img {
+    width: 12vw;
+}
+      .section-50 .section-box.gbps {
+    display: none;
+}
+      .section-511 .section-box {
+    margin-top: 30vw;
+}
+    }
+
+    @media (max-width: 480px) {
+            .section-30 .section-30-img4 {
+    width: 5vw;
+}
+        .section-details {
+            line-height: 1.2;
+        }
+
+        .section-text {
+            line-height: 1.5;
+        }
+
+        .section-text {
+            font-size: 3.123vw;
+        }
+
+        .section-gradient-subtitle {
+            font-size: 5.23vw;
+        }
+
+        .section-13-img, .section-explanation13 p {
+            display: none;
+        }
+
+        .section-slogan-13 {
+            font-size: 4.566vw;
+        }
+
+        .section-13-img1 {
+            width: 5vw;
+        }
+
+        .section-content-15 {
+            margin: 12.8vw auto;
+            width: 96%;
+        }
+
+        .section-29 img {
+            width: 4vw;
+        }
+
+        .section-30-img2 {
+            width: 10vw;
+        }
+
+        .section-30-img3, .section-30-img3 {
+            width: 5vw;
+        }
+
+        .section-30-cent {
+            text-align: center;
+        }
+
+        .section-30-img5 {
+            width: 60%;
+            padding: 3% 0;
+        }
+
+        .section-content-30-2 {
+            text-align: center;
+        }
+
+        .order-1 {
+            -ms-flex-order: 1;
+            order: 1
+        }
+
+        .order-2 {
+            -ms-flex-order: 2;
+            order: 2
+        }
+
+        .se28-thermal-imaging {
+            text-align: center;
+        }
+
+        .section span {
+            display: inline-block;
+        }
+        .section-1 {
+            margin-top: 22%;
+        }
+    }

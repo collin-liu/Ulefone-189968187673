@@ -1,0 +1,471 @@
+@font-face {
+    font-family: MiSans-Demibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+}
+
+@font-face {
+    font-family: MiSans-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+}
+
+.ar-white {
+    color: #fff;
+}
+
+.ar-left {
+    text-align: left;
+}
+
+.ar-right {
+    text-align: right;
+}
+/*    .section-content {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 1.8vw auto;
+        width: 70%;
+    }*/
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+
+.section-slogan {
+    font-family: MiSans-Demibold;
+    font-size: 3.22vw;
+    font-weight: 400;
+}
+
+.section-subtitle {
+    font-family: MiSans-Demibold;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.section-text {
+    font-family: MiSans-Regular;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+}
+
+.section-medium {
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: MiSans-Semibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.ttf');
+}
+
+#featurescontent .section {
+    display: block;
+    clear: both;
+    /*    margin: auto;*/
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.section-1 {
+    height: 56.25vw;
+    margin-top: 2vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-1.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-1 .section-box {
+        margin: 25vw 55vw;
+        width: 51vw;
+    }
+.section-2 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-2.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-2 .section-content {
+        font-size: 1.95vw;
+        font-weight: 600;
+        position:relative;
+    }
+    .section-2 .sp1 {
+        margin: 11vw 68.36vw 0;
+        display: inline-block;
+        width: 16vw;
+        line-height: 1.2;
+    }
+    .section-2 .sp2 {
+        display: inline-block;
+        margin: 8vw 40.5vw 0;
+        width: 16vw;
+        line-height: 1.2;
+    }
+    .section-2 .sp3 {
+        display: inline-block;
+        width: 7vw;
+        line-height: 1.2;
+        position: absolute;
+        left: 68.5vw;
+        top: 23.4vw;
+    }
+    .section-2 .sp4 {
+        display: inline-block;
+        width: 16vw;
+        line-height: 1.2;
+        position: absolute;
+        left: 38.4vw;
+        top: 44.3vw;
+    }
+    span.notes {
+    font-size: .6vw;
+    display: inline-block;
+    width: 24vw;
+    line-height: 1.2;
+    position: absolute;
+    left: 34.4vw;
+    top: 49vw;
+    font-weight: 100;
+}
+    .section-2 .sp5 {
+        display: inline-block;
+        width: 16vw;
+        line-height: 1.2;
+        left: 67.8vw;
+        top: 44.8vw;
+        position: absolute;
+    }
+.section-3 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-3.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-3 .section-content {
+        width: 40vw;
+        margin: 6vw 13vw;
+    }
+
+.section-4 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-4.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-4 .section-box {
+        margin: 6vw 52vw 0;
+        width: 30vw;
+    }
+    .section-4 .section-text {
+        width: 38vw;
+        margin: 1vw 52vw;
+    }
+.section-5 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-5.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-5 .section-box {
+        margin: 19vw 11vw 0;
+        width: 33%;
+    }
+    .section-5 .section-text {
+        width: 38vw;
+        margin: 2vw 11vw;
+    }
+    .section-5 p {
+    font-size: .8vw;
+    margin: 16vw 11vw;
+}
+.section-6 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-6.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+    .section-6 .section-content {
+        width: 36vw;
+        margin: 10vw 52vw;
+    }
+.section-7 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-7.webp?v=1776331875) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-7 .section-box {
+        width: 93vw;
+        margin: 5vw 6vw 0;
+    }
+    .section-7 .section-text {
+        width: 41vw;
+        margin: 1vw 6vw 8vw;
+    }
+
+.section-8 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-8.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-8 .section-content {
+        margin-top: 3vw;
+    }
+
+    .section-8 .section-text {
+        width: 56vw;
+        text-align: center;
+        margin: 1vw auto;
+    }
+
+.section-9 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-9.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-9 .section-content {
+        width: 87vw;
+        text-align: center;
+        margin: 3vw auto;
+    }
+    .section-9 .section-text {
+        width: 52vw;
+        margin: 0 auto;
+    }
+.section-10 {
+    height: 56.25vw;
+    background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-10.webp) no-repeat center;
+    background-size: 100% 100%;
+}
+
+    .section-10 .section-content {
+        width: 53vw;
+        margin: 3vw auto;
+        text-align: center;
+    }
+
+#sec-block {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    div #faq_nav {
+        padding: 0 2vw;
+    }
+
+    .section-slogan {
+        font-size: 7vw;
+        margin-top: 1vw;
+    }
+
+    .section-subtitle {
+        font-size: 3.3vw;
+    }
+
+    .section-text {
+        font-size: 2.825vw;
+        margin-top: 1vw;
+        line-height: 1.25;
+    }
+
+    #featurescontent .section {
+        clear: both;
+        /*    margin: auto;*/
+        width: 100%;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .section-1 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-01.webp) no-repeat center;
+        background-size: 100% 100%;
+        margin-top: 5vw;
+    }
+        .section-1 .section-box {
+            margin: 7vw 23vw;
+            width: 93vw;
+        }
+    .section-2 {
+        height: 158.61vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-02.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-2 .section-content {
+            font-size: 3.55vw;
+            font-weight: 600;
+            position: relative;
+        }
+        .section-2 .sp1 {
+            margin: 69vw 23.36vw 0;
+            display: inline-block;
+            width: 30vw;
+            line-height: 1.2;
+        }
+        .section-2 .sp2 {
+            display: inline-block;
+            width: 44vw;
+            line-height: 1.2;
+            position: absolute;
+            left: 17vw;
+            top: 38vw;
+        }
+        .section-2 .sp3 {
+            display: inline-block;
+            width: 44vw;
+            line-height: 1.2;
+            position: absolute;
+            left: 71.5vw;
+            top: 68.4vw;
+        }
+        .section-2 .sp4 {
+            display: inline-block;
+            width: 40vw;
+            line-height: 1.2;
+            position: absolute;
+            left: 63.4vw;
+            top: 99.3vw;
+        }
+        .section-2 .sp5 {
+            display: inline-block;
+            width: 44vw;
+            line-height: 1.2;
+            left: 53.8vw;
+            top: 140vw;
+            position: absolute;
+        }
+        .section-2 span.notes {
+    font-size: 2.2vw;
+    margin: 63vw 19vw;
+    width: 32vw;
+}
+    .section-3 {
+        height: 123.7vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-03.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-3 .section-content {
+            width: 93vw;
+            margin: 6vw;
+        }
+        .section-3 .section-slogan {
+            color: #fff;
+        }
+        .section-3 .section-box {
+            width: 93vw;
+            margin: 8vw 0 0;
+        }
+        .section-3 .section-text {
+            width: 93%;
+            color: #fff;
+        }
+
+    .section-4 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-04.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-4 .section-box {
+            margin: 57vw 3vw 0;
+            width: 93vw;
+        }
+        .section-4 .section-text {
+            width: 93vw;
+            margin: 3vw auto;
+        }
+
+    .section-5 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-05.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-5 .section-text {
+            width: 62vw;
+            margin: 2vw 2vw;
+        }
+        .section-5 .section-box {
+            margin: 6vw 3vw 0;
+            width: 93%;
+        }
+.section-5 p {
+    font-size: 2.1vw;
+    margin: 80vw 5vw;
+}
+    .section-6 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-06.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-6 .section-content {
+            width: 60vw;
+            margin: 18vw 38vw;
+        }
+    .section-7 {
+        height: 133.33vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-07.webp?v=1776331875) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-7 .section-box {
+            width: 92vw;
+            margin: 4vw auto;
+        }
+
+        .section-7 .section-text {
+            width: 92vw;
+            margin: 0 4vw;
+        }
+    .section-8 {
+        height: 120.37vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-08.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-8 .section-content {
+            margin-top: 1vw;
+        }
+
+        .section-8 .section-text {
+            width: 93vw;
+            text-align: center;
+            margin: 1vw auto;
+        }
+
+    .section-9 {
+        height: 200.37vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-09.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-9 .section-content {
+            width: 93vw;
+            text-align: center;
+            margin: 5vw auto;
+        }
+        .section-9 .section-text {
+            width: 93vw;
+            margin: 0 auto;
+        }
+    .section-10 {
+        height: 104.44vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Floating-Tray-010.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-10 .section-content {
+            width: 92vw;
+            margin: 0 auto;
+        }
+        .span-title.col-md-4 {
+    margin-bottom: 3vw;
+}
+}
+
+@media (max-width: 480px) {
+    .section-1 {
+        margin-top: 13vw;
+    }
+
+}

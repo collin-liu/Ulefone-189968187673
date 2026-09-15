@@ -1,0 +1,144 @@
+{% style %}
+ #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 3vw 0;
+    background-color: #000;
+    gap: 2vw;
+  }
+
+  #countdown div {
+    padding: 0;
+    background-color: {{ section.settings.background_color }};
+    border-radius: 15px;
+    min-width: 5vw;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #countdown div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  #countdown span {
+    font-size:2.23vw;
+    font-weight: bold;
+    color: {{ section.settings.text_color }};
+    display: block;
+    line-height: 1.2;
+  }
+
+  .smalltext {
+    color: {{ section.settings.text_color | color_modify: 'alpha', 0.7 }};
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 767px) {
+    #countdown {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    #countdown div {
+      min-width: 70px;
+    }
+
+    #countdown span {
+      font-size: {{ section.settings.font_size }}px;
+    }
+
+    .smalltext {
+      font-size: {{ section.settings.font_size | minus: 10 }}px;
+    }
+  }
+{% endstyle %}
+  
+{% javascript %}
+// 设置展会开始时间：2026年6月22日24时
+const countDownDate = new Date("June 22, 2026 24:00:00").getTime();
+const x = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "The event has started!";
+    }
+}, 1000);
+{% endjavascript %}
+
+<div id="countdown">
+  <div>
+    <span id="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span id="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span id="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span id="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Timer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "countdown_date",
+      "label": "Countdown End Date and Time",
+      "info": "Format: YYYY-MM-DD HH:MM:SS (e.g., 2025-08-05 16:00:00)",
+      "default": "2025-10-14 16:00:00"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "default": 24
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Timer",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

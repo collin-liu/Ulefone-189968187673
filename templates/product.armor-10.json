@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor 10 5G</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-10-5g\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=04a36f1d-b2ed-4b8c-91fc-8910ec0d309f\">Specs</a></li>\n                    <li><a href=\"#\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-1.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-2.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-3.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-4.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-5.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-6.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-7.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-8.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-9.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-10.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-11.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-12.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-13.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-14.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-15.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-16.avif\" style=\"width:100%;\">\n    <img alt=\"\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-17.avif\" style=\"width:100%;\">\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-01.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-02.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-03.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-04.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-05.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-06.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-07.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-08.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-09.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-010.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-011.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-012.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-013.avif\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Armor-10-Rugged-Smartphone-014.avif\" style=\"width:100%;\">\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

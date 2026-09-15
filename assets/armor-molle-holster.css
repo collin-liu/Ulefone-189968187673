@@ -1,0 +1,285 @@
+
+    @font-face {
+        font-family: MiSans-Demibold;
+        font-display: swap;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.woff2')format('woff2'),
+          src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.woff')format('woff');
+    }
+
+    @font-face {
+        font-family: MiSans-Regular;
+        font-display: swap;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.woff2')format('woff2'),
+          url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.woff')format('woff');
+    }
+
+
+    @font-face {
+        font-family: MiSans-Medium;
+        font-display: swap;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.woff2') format('woff2'),
+          src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.woff') format('woff');
+    }
+
+    .section-subtitle {
+        font-family: MiSans-Demibold;
+        font-size: 2vw;
+    }
+    .section-slogan {
+        font-family: MiSans-Medium;
+        font-size: 3vw;
+    }
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: MiSans-Regular;
+        margin-top: 1.535vw;
+    }
+    .ar-left {
+        text-align:left;
+    }
+    .section-1 .section-box {
+        width: 90vw;
+        margin: 7vw 23vw;
+    }
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .section-1 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-1.webp) no-repeat center;
+        background-size: 100% 100%;
+        margin-top: 3vw;
+    }
+        .section-1 .section-slogan,.section-1 .section-subtitle {
+            color: #ffd100;
+        }
+    .section-3 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-3.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-slogan {
+        font-size: 3vw;
+    }
+        .section-3 .section-content{
+            width: 45vw;
+            margin-left: 10vw;
+            margin-top: 5vw;
+        }
+    .section-4 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-4.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-4 .section-content{
+            width: 34vw;
+            margin: 18vw 55vw;
+        }
+    .section-5 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-5.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-5 .section-content {
+            width: 77vw;
+            margin: 3vw auto;
+        }
+    .section-6 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-6.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+       .section-6 .section-content{
+            width: 41vw;
+            margin: 3vw 40vw;
+        }
+    .section-7 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-7.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-7 .section-content {
+            width: 41vw;
+            margin: 7vw 39vw;
+        }
+    .section-8 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-8 .section-content{
+            width: 46vw;
+            margin: 4vw 10.2566vw;
+        }
+    .section-9 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-9 .section-content{
+            color: #fff;
+            width: 67vw;
+            text-align: center;
+            margin: 3vw auto;
+        }
+        .section-9 .section-slogan {
+            color: #fff;
+        }
+    .section-10 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-10.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+        .section-10 .section-content {
+            width: 50vw;
+            margin: 12vw 17vw;
+        }
+        .section-10 p:nth-of-type(even) {
+            color: #ffd100;
+        }
+        .section-10 p:first-of-type {
+            margin-top: 6vw;
+        }
+        .section-10 p:nth-of-type(3) {
+            margin-top: 3vw;
+        }
+    #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        div#faq_nav {
+            padding: 0 2vw;
+        }
+        .section-slogan {
+            font-size: 5.6vw;
+        }
+        .section-subtitle {
+            font-size: 3.56vw;
+        }
+        .section-text {
+            font-size: 2.5211vw;
+        }
+        .ar-left {
+            text-align: center;
+        }
+        .section-1 .section-box {
+            margin: 7vw auto;
+        }
+        .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+        .section-1 {
+            height: 81.48148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-01.webp) no-repeat center;
+            background-size: 100% 81.48148vw;
+            margin-top: 4vw;
+        }
+        .section-3 {
+            height: 100vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-03.webp) no-repeat center;
+            background-size: 100% 100vw;
+        }
+            .section-3 .section-content {
+                width: 93vw;
+                margin: 3vw auto;
+            }
+        .section-4 {
+            height: 154.44444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-04.webp) no-repeat center;
+            background-size: 100% 154.44444vw;
+        }
+            .section-4 .section-content {
+                width: 93vw;
+                margin: 4vw auto;
+            }
+        .section-5 {
+            height: 131.48148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-05.webp) no-repeat center;
+            background-size: 100% 131.48148vw;
+        }
+            .section-5 .section-content {
+                width: 93vw;
+            }
+        .section-6 {
+            height: 166.66666vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-06.webp) no-repeat center;
+            background-size: 100% 166.66666vw;
+        }
+            .section-6 .section-content {
+                width: 93vw;
+                margin: 5vw auto;
+            }
+        .section-7 {
+            height: 133.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-07.webp) no-repeat center;
+            background-size: 100% 133.3333vw;
+        }
+            .section-7 .section-content {
+                width: 93vw;
+                margin: 7vw auto;
+            }
+        .section-8 {
+            height: 138.88888vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-08.webp) no-repeat center;
+            background-size: 100% 138.88888vw;
+        }
+            .section-8 .section-content {
+                width: 93vw;
+                margin: 3vw auto;
+            }
+        .section-9 {
+            height: 129.8148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-09.webp) no-repeat center;
+            background-size: 100% 129.8148vw;
+        }
+            .section-9 .section-content {
+                width: 93vw;
+                margin: 4vw auto;
+            }
+        .section-10 {
+            height: 129.6296vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-molle-holster-010.webp) no-repeat center;
+            background-size: 100% 129.6296vw;
+        }
+            .section-10 .section-content {
+                width: 93vw;
+                margin: 4vw auto;
+            }
+            .section-10 p:first-of-type {
+                margin-top: 4vw;
+            }
+            .section-10 .section-text {
+                margin-left: 17vw;
+            }
+    }
+
+    @media (max-width: 480px) {
+        .section-text {
+            font-size: 3.123vw;
+            line-height: 1.2;
+        }
+        .section-gradient-subtitle {
+            font-size: 5.23vw;
+        }
+        .section-1 .section-box {
+            margin: 12vw auto;
+        }
+        .section-5 .section-content {
+            margin: 0vw auto;
+        }
+        .section-7 .section-content {
+            margin: 5vw auto;
+        }
+        .section-8 .section-content {
+            margin: 1vw auto;
+        }
+    }

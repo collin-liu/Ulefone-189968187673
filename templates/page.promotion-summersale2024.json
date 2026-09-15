@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_yTxEVm": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <a href=\"https://bit.ly/4eodwYA\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-1-240613.jpg\" style=\"width:100%;\"></a>\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-2-240613.jpg\" style=\"width:100%;\">\n    <a href=\"https://bit.ly/4cjLnAk\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-3-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4cfECiM\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-4-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4c9BfKi\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-5-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4ciq167\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-6-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4cin05X\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-7-240613.jpg\" style=\"width:100%;\"></a>\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-8-240613.jpg\" style=\"width:100%;\">\n    <a href=\"https://bit.ly/4eodwYA\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-PC-9-240613.jpg\" style=\"width:100%;\"></a>\n</div>\n<div id=\"sec-block\">\n    <a href=\"https://bit.ly/4eodwYA\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-1-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4cjLnAk\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-2-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4cfECiM\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-3-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4c9BfKi\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-4-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4ciq167\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-5-240613.jpg\" style=\"width:100%;\"></a>\n    <a href=\"https://bit.ly/4cin05X\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-6-240613.jpg\" style=\"width:100%;\"></a>\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-7-240613.jpg\" style=\"width:100%;\">\n    <a href=\"https://bit.ly/4eodwYA\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-Promotions-Summersale2024-M-8-240613.jpg\" style=\"width:100%;\"></a>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_yTxEVm"
+  ]
+}

@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_mkFYX6": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Note 18 Ultra</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/note-18-ultra\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=40a02834-284a-4b6c-bb42-10c80eacaca3\">Specs</a></li>\n                    <li><a href=\"https://bit.ly/OWN18UBUY\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-1_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-2_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-3_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-4_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-5_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-6_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-7_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-8_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-9_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-10_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-11_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-12_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-13_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-14_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-15_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-16_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-17_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-18_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-19_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-20_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-21_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-22_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-23_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-24_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-25_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-26_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-PC-Note18Ultra-27_240509.jpg\" style=\"width:100%;\" />\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>4. There are multiple virtual memory options available, with the maximum being 6GB, and it can be activated in the Settings based on your preference. The microSD card is not included and requires an additional purchase if needed.</p>\n        <p>5. Due to differences of devices in different countries, Remote Control may not be applicable.</p>\n        <p>6. 6.78 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>7. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>8. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>9. The camera software functions are subject to the actual presence, some of the functions and names may vary depending on the software version.</p>\n        <p>10. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>11. Battery capacity data comes from the Ulefone test laboratory.</p>\n        <p>12. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>13. Whether you can use VoLTE or Sub-6 depends on the local carriers, please note that not all of your local carriers support this function.</p>\n    </div>\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-1_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-2_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-3_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-4_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-5_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-6_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-7_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-8_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-9_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-10_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-11_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-12_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-13_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-14_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-15_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-16_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-17_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-18_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-19_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-20_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-21_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-22_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-23_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-24_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-25_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-26_240509.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-M-Note18Ultra-27_240509.jpg\" style=\"width:100%;\" />\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>3. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>4. There are multiple virtual memory options available, with the maximum being 6GB, and it can be activated in the Settings based on your preference. The microSD card is not included and requires an additional purchase if needed.</p>\n        <p>5. Due to differences of devices in different countries, Remote Control may not be applicable.</p>\n        <p>6. 6.78 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>7. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>8. NFC and Google Pay is supported, and you are suggested to download Google Pay to use it; the available countries and regions are for your reference: https://pay.google.com/about.</p>\n        <p>9. The camera software functions are subject to the actual presence, some of the functions and names may vary depending on the software version.</p>\n        <p>10. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>11. Battery capacity data comes from the Ulefone test laboratory.</p>\n        <p>12. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>13. Whether you can use VoLTE or Sub-6 depends on the local carriers, please note that not all of your local carriers support this function.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_mkFYX6"
+  ]
+}

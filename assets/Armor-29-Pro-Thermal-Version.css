@@ -1,0 +1,1146 @@
+
+    .section-slogan {
+        font-family: MiSans-Demibold;
+        font-size: 2.53vw;
+        font-weight: 400;
+    }
+
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: MiSans-Regular;
+        margin-top: 1.535vw;
+    }
+div#gs {
+    max-width: 2560px;
+    margin: auto;
+}
+#gs img{width:100%;}
+
+    @media (min-width: 2559px) {
+        .section .section-text {
+            line-height: 1.1;
+        }
+    }
+    .ar-left {
+        text-align: left;
+    }
+
+    .ar-white {
+        color: #fff;
+    }
+
+    .ar-gradient {
+        background: linear-gradient(to right, #eed9be, #6e5f4e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    .notes.container {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .section-subtitle {
+        font-size: 2.23vw;
+        font-family: MiSans-Regular;
+        font-weight: 600;
+    }
+
+    .section-2 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-3.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-2 .section-content {
+            width: 68vw;
+            margin: 2vw 0;
+        }
+
+    .section-3 {
+        height: 67.7083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-4.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-3 .section-content {
+            width: 36vw;
+            margin: 30vw 49vw;
+        }
+
+    .section-5 {
+        height: 52.083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-7.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-5 .section-5-text {
+            font-size: 1.656vw;
+            line-height: 1.5;
+            font-family: MiSans-Regular;
+        }
+
+        .section-5 .section-content {
+            margin: 5vw 41vw;
+            width: 42vw;
+        }
+
+    .section-6 {
+        height: 70.3125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-6 .sec-title {
+            margin: 5vw 10vw;
+        }
+
+        .section-6 .section-content {
+            width: 31vw;
+            margin: 5vw 10.5vw;
+        }
+
+        .section-6 .section-slogan {
+            display: inline;
+        }
+
+        .section-6 .section-text {
+            margin-top: 4vw;
+        }
+
+    .section-7 {
+        height: 46.875vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-7 .section-content {
+            margin-top: 2vw;
+        }
+
+    .section-9 {
+        height: 58.85vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-11.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-9 .section-content {
+            width: 75vw;
+            margin: 3vw auto;
+        }
+
+    .section-10 {
+        height: 62.5vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-12.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-10 .section-content {
+            width: 69vw;
+            margin: 5vw auto;
+            text-align: center;
+        }
+
+    .section-12 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-15.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-12 .section-content {
+            width: 32vw;
+            margin: 14vw 58vw;
+        }
+
+        .section-12 h5 {
+            font-size: 1.86vw;
+            font-family: MiSans-Regular;
+            font-weight: 600;
+        }
+
+        .section-12 .section-text {
+            margin-top: 3vw;
+        }
+
+    .section-14 {
+        height: 70.312vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-17.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-14 .section-content {
+            width: 49vw;
+            margin: 6vw 15vw;
+        }
+
+        .section-14 .section-text {
+            margin-top: 2vw;
+        }
+
+    .section-16 {
+        height: 59.8958vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-20.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-16 .section-content {
+            width: 40vw;
+            margin: 6vw 10vw;
+        }
+
+    .section-17 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-21.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-17 .section-content {
+            width: 28vw;
+            margin: 8vw 59vw;
+        }
+
+    .section-18 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-22.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-18 .section-content {
+            width: 31vw;
+            margin: 7vw 9vw;
+        }
+
+    .section-19 {
+        height: 85.937vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-23.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-19 .section-content {
+            width: 59vw;
+            margin: 4vw 11vw;
+        }
+
+    .section.section-20 {
+        background-color: #000;
+    }
+
+    .section-20 .col-md-6.order-2 {
+        width: 45vw;
+        height: 33.5vw;
+        padding: 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 3vw 1vw 0 3vw;
+    }
+
+    .section-20 .section-30-cent {
+        width: 45vw;
+        height: 33.5vw;
+        padding: 10.1vw 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 3vw 1vw 0 0;
+    }
+
+    .sec-20-text1 {
+        width: 45vw;
+        height: 37vw;
+        padding: 10.1vw 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 3vw 0vw 0 3vw;
+    }
+
+    .sec-20-text2 {
+        width: 45vw;
+        height: 37vw;
+        padding: 2vw 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 3vw 0vw 0 1vw;
+    }
+
+    .section-21 {
+        height: 67.708vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-25.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-21 .section-content {
+            margin-top: 2.3vw;
+        }
+
+    .section-22 {
+        height: 83.333vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-26.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-22 .section-content {
+            width: 77vw;
+            margin: 3vw 9vw;
+        }
+
+    .section-24 {
+        height: 59.895vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-28.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .section-26 {
+        height: 83.3333vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-31.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-26 .section-content {
+            width: 48vw;
+            margin: 7vw 18vw;
+        }
+
+        .section-26 .section-slogan {
+            display: inline;
+        }
+
+    .section-27 {
+        height: 65.1041vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-32.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-27 .section-slogan {
+            display: inline;
+        }
+
+        .section-27 .section-content {
+            width: 71vw;
+            margin: 6vw 16vw;
+        }
+
+    .section-28 {
+        height: 66.666vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-33.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-28 .section-slogan {
+            display: inline;
+        }
+
+        .section-28 .section-content {
+            width: 53vw;
+            margin: 4vw 17vw;
+        }
+
+        .section-28 .section-text {
+            margin-top: 2.2vw;
+        }
+
+    .section-29 {
+        height: 46.875vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-34.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-29 .section-content {
+            width: 30vw;
+            margin: 6vw 60vw;
+        }
+
+    .section-30 {
+        height: 83.33333vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-35.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-30 .section-content {
+            width: 59vw;
+            margin: 6vw 16vw;
+        }
+
+        .section-30 .section-slogan {
+            display: inline;
+        }
+
+    .section-31 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-36.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-31 .section-content {
+            margin: 5vw 12vw;
+        }
+
+        .section-31 .section-text {
+            width: 34vw;
+            margin-top: 5vw;
+        }
+
+        .section-31 .slogan-31 {
+            margin-top: 10vw;
+            font-size: 2vw;
+        }
+
+        .section-31 .beast-31 {
+            color: #fff;
+            font-size: 1.52vw;
+            margin-top: .5vw;
+        }
+
+        .section-31 .datas-31 {
+            color: #fff;
+            margin-top: 8vw;
+            opacity: .86;
+        }
+
+    .section-32 {
+        height: 41.666vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-37.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-32 .section-content {
+            width: 39vw;
+            margin: 8vw 57vw;
+        }
+
+    .section-34 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-39.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-34 .section-content {
+            width: 31vw;
+            margin: 9vw 53vw;
+        }
+
+    .section-35 {
+        height: 67.7083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-40.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-35 .section-content:first-of-type {
+            width: 30vw;
+            margin: 7vw 10.3vw;
+        }
+
+        .section-35 .section-content:nth-child(2) {
+            width: 30vw;
+            margin: 14vw 53.8vw;
+        }
+
+    .section-36 {
+        height: 46.875vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-41.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-36 .section-slogan {
+            display: inline;
+        }
+
+        .section-36 .section-box {
+            margin: 4vw 12vw;
+        }
+
+        .section-36 .section-text {
+            width: 30vw;
+            margin: 6vw 12vw;
+        }
+
+    .section-37 {
+        height: 44.2708vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-42.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-37 .section-content {
+            width: 29vw;
+            margin: 8vw 58.5vw;
+        }
+
+    .section-38 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-43.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-38 .section-slogan {
+            display: inline;
+        }
+
+        .section-38 .section-content {
+            width: 36vw;
+            margin: 3vw 13vw;
+        }
+
+    .section-39 {
+        height: 85.937vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-44.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-39 .section-slogan {
+            display: inline;
+        }
+
+        .section-39 .section-content {
+            margin: 2vw 12vw;
+        }
+
+    .section-40 {
+        height: 62.5vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-45.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-40 .section-slogan {
+            display: inline;
+        }
+
+        .section-40 .section-box {
+            margin: 6vw 10vw;
+        }
+
+        .section-40 .section-content {
+            width: 30vw;
+            margin: 5vw 10vw;
+        }
+
+    .se-40-min span {
+        color: #fff;
+    }
+
+    .se-40-min p {
+        font-size: 1.8vw;
+        font-weight: 600;
+        font-family: 'MiSans-Regular';
+        margin: 0;
+    }
+
+    .se-40-min {
+        margin-top: 3vw;
+    }
+
+    .section-42 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-47.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-42 .section-content {
+            width: 30vw;
+            margin: 5vw 10vw;
+        }
+
+        .section-42 .section-text {
+            margin-top: 4vw;
+        }
+
+    .section-43 {
+        height: 67.7083vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-48.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-43 .section-content {
+            width: 48vw;
+            margin: 4vw 12vw;
+        }
+
+    .section-45 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-50.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-45 .section-content {
+            width: 31vw;
+            margin: 8vw 10vw;
+        }
+
+    .section-46 {
+        height: 78.125vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-51.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-46 .section-content {
+            width: 50vw;
+            margin: 17vw 11vw;
+        }
+
+        .section-46 .section-text {
+            width: 30vw;
+            margin-top: 4vw;
+        }
+
+        .section-46 p {
+            color: #fff;
+            opacity: .7;
+            width: 35vw;
+            margin-top: 14vw;
+        }
+
+    .section-47 {
+        height: 46.875vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-52.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-47 .section-content {
+            width: 21vw;
+            margin: 12vw 68.6vw;
+        }
+
+    .section-48 {
+        height: 46.875vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-53.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-48 .section-content {
+            width: 33vw;
+            margin: 3vw 10vw;
+        }
+.section-49 .order-1 .section-49-img1 {
+    margin-top: 4vw;
+}
+    .section.section-49 {
+        background-color: #000;
+    }
+
+    .section-49-cent.order-1 {
+        width: 45vw;
+        height: 33.5vw;
+        padding: 5.1vw 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 1.9vw 0vw 0 3vw;
+    }
+
+    .section-49 .col-md-6.order-2 {
+        width: 45vw;
+        height: 33.5vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 1.982vw 0vw 0 3vw;
+    }
+
+    .section-49 .col-md-6.sec-49-4 {
+        width: 42.8vw;
+        height: 23vw;
+        background-color: #121212;
+        border-radius: 3vw;
+        margin: 2vw 0 0 4vw;
+    }
+
+    .section-49 .col-md-6.sec-49-5 {
+        width: 45vw;
+        height: 23vw;
+        padding: 5.1vw 3vw;
+        background-color: #121212;
+        border-radius: 2vw;
+        margin: 2vw 0vw 0 4vw;
+    }
+
+    .section-50 {
+        height: 41.666vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-56-16.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-50 .section-content {
+            width: 28vw;
+            margin: 11vw 11vw;
+        }
+
+    .section-52 {
+        height: 44.2708vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-58.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-52 .section-content {
+            width: 30vw;
+            margin: 10vw;
+        }
+
+    .section-53 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-59.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-53 .section-content {
+            width: 57vw;
+            margin: 5vw 12vw;
+        }
+
+    #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        div #faq_nav {
+            padding: 0 2vw;
+        }
+
+        .section-slogan {
+            font-size: 4.3vw;
+            margin-top: 1vw;
+        }
+
+        .section-subtitle {
+            font-size: 3.6vw;
+        }
+
+        .section-text {
+            font-size: 2.825vw;
+            margin-top: 1vw;
+            line-height: 1.25;
+        }
+
+        .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .section-platoon {
+            display: block;
+            text-align: center;
+        }
+        .section-1 {
+            margin-top: 6vw;
+        }
+        .section-2 {
+            height: 81.018vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-03.webp) no-repeat center;
+            background-size: 100% 81.018vw;
+        }
+
+        .section-3 {
+            height: 101.8518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-04.webp) no-repeat center;
+            background-size: 100% 101.8518vw;
+        }
+            .section-3 .section-content {
+                width: 59vw;
+                margin: 39vw 40vw;
+            }
+        .section-5 {
+            height: 60.18518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-07.webp) no-repeat center;
+            background-size: 100% 60.18518vw;
+        }
+            .section-5 .section-5-text {
+                font-size: 2.256vw;
+            }
+            .section-5 .section-content {
+                width: 55vw;
+            }
+        .section-6 {
+            height: 106.48vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-08.webp) no-repeat center;
+            background-size: 100% 106.48vw;
+        }
+            .section-6 .section-content {
+                width: 48vw;
+                margin: 4vw 4.5vw;
+            }
+            .section-6 .sec-title {
+                margin: 2vw 4vw;
+            }
+        .section-7 {
+            height: 51.85185vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-09.webp) no-repeat center;
+            background-size: 100% 51.85185vw;
+        }
+
+        .section-9 {
+            height: 74.074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-010.webp) no-repeat center;
+            background-size: 100% 74.074vw;
+        }
+            .section-9 .section-content {
+                width: 93vw;
+                margin: 0 auto;
+            }
+        .section-10 {
+            height: 97.2222vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-011.webp) no-repeat center;
+            background-size: 100% 97.2222vw;
+        }
+            .section-10 .section-content {
+                width: 95vw;
+                margin: 4vw auto;
+            }
+        .section-12 {
+            display: none;
+        }
+
+        .section-14 {
+            height: 87.9629vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-016.webp) no-repeat center;
+            background-size: 100% 87.9629vw;
+        }
+            .section-14 .section-content {
+                width: 92vw;
+                margin: 5vw 5vw;
+            }
+        .section-16 {
+            height: 101.8518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-019.webp) no-repeat center;
+            background-size: 100% 101.8518vw;
+        }
+            .section-16 .section-content {
+                width: 92vw;
+                margin: 7vw 4vw;
+            }
+            .section-16 img {
+                width: 3vw;
+            }
+        .section-17 {
+            height: 125vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-020.webp) no-repeat center;
+            background-size: 100% 125vw;
+        }
+            .section-17 .section-content {
+                width: 92vw;
+                margin: 5vw 4vw;
+            }
+        .section-18 {
+            height: 125vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-021.webp) no-repeat center;
+            background-size: 100% 125vw;
+        }
+            .section-18 .section-content {
+                width: 92vw;
+                margin: 3vw 5vw;
+            }
+      .section-18 img {
+    width: 3vw;
+}
+      .section-20 .section-30-img3,.section-20 .section-30-img4 {
+    width: 3vw;
+}
+        .section-19 {
+            height: 143.518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-022.webp) no-repeat center;
+            background-size: 100% 143.518vw;
+        }
+            .section-19 .section-content {
+                width: 92vw;
+                margin: 5vw 4vw;
+            }
+        .section-20 .col-md-6.order-2 {
+            width: auto;
+            height: auto;
+            -ms-flex-order: 1;
+            order: 1
+        }
+        .section-20 .section-30-cent {
+            width: auto;
+            height: auto;
+            -ms-flex-order: 2;
+            order: 2
+        }
+        .sec-20-text1 {
+            width: auto;
+            height: auto;
+        }
+        .sec-20-text2 {
+            width: auto;
+            height: auto;
+        }
+        .section-21 {
+            height: 162.037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-024.webp) no-repeat center;
+            background-size: 100% 162.037vw;
+        }
+
+        .section-22 {
+            height: 152.7777vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-025.webp) no-repeat center;
+            background-size: 100% 152.7777vw;
+        }
+            .section-22 .section-content {
+                width: 92vw;
+                margin: 3vw 4vw;
+            }
+        .section-26 {
+            height: 101.8518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-030.webp) no-repeat center;
+            background-size: 100% 101.8518vw;
+        }
+            .section-26 .section-content {
+                width: 92vw;
+                margin: 5vw;
+            }
+        .section-slogan {
+            font-size: 3.3vw;
+            margin-top: 1vw;
+        }
+        .section-27 {
+            height: 138.888vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-031.webp) no-repeat center;
+            background-size: 100% 138.888vw;
+        }
+            .section-27 .section-content {
+                width: 92vw;
+                margin: 5vw;
+            }
+
+        .section-28 {
+            height: 92.59259vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-032.webp) no-repeat center;
+            background-size: 100% 92.59259vw;
+        }
+            .section-28 .section-content {
+                width: 92vw;
+                margin: 4vw 5vw;
+            }
+        .section-29 {
+            display: none;
+        }
+
+        .section-30 {
+            height: 106.481vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-034.webp) no-repeat center;
+            background-size: 100% 106.481vw;
+        }
+            .section-30 .section-content {
+                width: 92vw;
+                margin: 4vw 5vw;
+            }
+        .section-31 {
+            height: 74.074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-035.webp) no-repeat center;
+            background-size: 100% 74.074vw;
+        }
+            .section-31 .section-content {
+                margin: 6vw;
+            }
+            .section-31 .section-text {
+                width: 45vw;
+                margin-top: 4vw;
+            }
+            .section-31 .slogan-31 {
+                margin-top: 5vw;
+            }
+            .section-31 .datas-31 {
+                margin-top: 4vw;
+              font-size: 1.52vw;
+            }
+        .section-32 {
+            display: none;
+        }
+
+        .section-34 {
+            height: 106.48148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-038.webp) no-repeat center;
+            background-size: 100% 106.48148vw;
+        }
+            .section-34 .section-content {
+                width: 92vw;
+                margin: 5vw 4vw;
+            }
+        .section-35 {
+            height: 189.8148vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-039.webp) no-repeat center;
+            background-size: 100% 189.8148vw;
+        }
+            .section-35 .section-content:first-of-type {
+                width: 92vw;
+                margin: 7vw 5vw;
+            }
+            .section-35 .section-content:nth-child(2) {
+                width: 92vw;
+                margin: 77vw 5vw;
+            }
+
+        .section-36 {
+            height: 83.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-040.webp) no-repeat center;
+            background-size: 100% 83.3333vw;
+        }
+            .section-36 .section-text {
+                width: 92vw;
+                margin: 4vw 4vw;
+            }
+        .section-37 {
+            display: none;
+        }
+
+        .section-38 {
+            height: 83.3333vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-042.webp) no-repeat center;
+            background-size: 100% 83.3333vw;
+        }
+            .section-38 .section-content {
+                width: 92vw;
+                margin: 2vw 6vw;
+            }
+        .section-39 {
+            height: 69.44444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-043.webp) no-repeat center;
+            background-size: 100% 69.44444vw;
+        }
+            .section-39 .section-content {
+                margin: 3vw;
+            }
+            .section-39 img {
+                width: 4vw;
+            }
+        .section-40 {
+            height: 74.074vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-047.webp) no-repeat center;
+            background-size: 100% 74.074vw;
+        }
+            .section-40 .section-box {
+                margin: 3vw;
+            }
+            .section-40 .section-content {
+                width: 47vw;
+                margin: 3vw 3vw;
+            }
+        .section-42 {
+            height: 101.8518vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-049.webp) no-repeat center;
+            background-size: 100% 101.8518vw;
+        }
+      .section-40 span {
+    font-size: 2vw;
+}
+            .section-42 .section-content {
+                width: 92vw;
+                margin: 1vw 5vw;
+            }
+        .section-43 {
+            height: 120.37037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-050.webp) no-repeat center;
+            background-size: 100% 120.37037vw;
+        }
+            .section-43 .section-content {
+                width: 92vw;
+                margin: 4vw;
+            }
+        .section-45 {
+            height: 69.4444vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-052.webp) no-repeat center;
+            background-size: 100% 69.4444vw;
+        }
+            .section-45 .section-content {
+                width: 92vw;
+                margin: 1vw 4vw;
+            }
+        .section-46 {
+            height: 120.37vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-053.webp) no-repeat center;
+            background-size: 100% 120.37vw;
+        }
+            .section-46 .section-content {
+                width: 92vw;
+                margin: 21vw 4vw;
+            }
+            .section-46 .section-text {
+                width: 92vw;
+                margin-top: 1vw;
+            }
+            .section-46 p {
+                width: 50vw;
+                margin-top: 31vw;
+                      font-size: 1.52vw;
+        line-height: 1.5;
+            }
+        .section-47,.section-48 {
+            display: none;
+        }
+        .section-49 {
+            height: 180.4629vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-056.webp) no-repeat center;
+            background-size: 100% 180.4629vw;
+        }
+        .section-49-cent.order-1 {
+            background-color: initial;
+        }
+        .section-49 .col-md-6.sec-49-4 {
+            background-color: initial;
+        }
+        .section-49 img {
+            display: none;
+        }
+        .section-49 .col-md-6.order-2 {
+            background-color: initial;
+        }
+        .section-49 .col-md-6.sec-49-5 {
+            width: 92vw;
+            background-color: none;
+            margin: 14vw 5vw;
+        }
+        .section-49-cent.order-1 {
+            width: 92vw;
+        }
+        .section-50 {
+            height: 92.592vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-058-16.webp) no-repeat center;
+            background-size: 100% 92.592vw;
+        }
+                .section-50 .section-content {
+                    width: 92vw;
+                    margin: 4vw;
+                }
+        .section-52 {
+            height: 106.48vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-060.webp) no-repeat center;
+            background-size: 100% 106.48vw;
+        }
+            .section-52 .section-content {
+                width: 92vw;
+                margin: 5vw;
+            }
+        .section-53 {
+            height: 106.48vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-29-Pro-Thermal-Version-061.webp) no-repeat center;
+            background-size: 100% 106.48vw;
+        }
+            .section-53 .section-content {
+                width: 92vw;
+                margin: 5vw;
+            }
+    }
+
+    @media (max-width: 480px) {
+        .notes p {
+            font-size: 3vw;
+        }
+
+        .section-1 {
+            margin-top: 23vw;
+        }
+
+        .section-text {
+            line-height: normal;
+        }
+        .se-40-min {
+            line-height: 1;
+        }
+        .se-40-min p {
+            line-height: 1;
+        }
+    }

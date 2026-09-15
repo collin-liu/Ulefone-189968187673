@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_bEyYeB": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-1.webp\" alt=\"Ulefone IFA 2025\">\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-01.webp\" alt=\"Ulefone IFA 2025\">\n</div>"
+      }
+    },
+    "time_ypNQdr": {
+      "type": "time",
+      "name": "Timer",
+      "settings": {
+        "countdown_date": "2025-09-05 16:00:00",
+        "background_color": "#f4f4f4",
+        "text_color": "#333333",
+        "font_size": 24
+      }
+    },
+    "custom_liquid_b46zXd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-2.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\">\n    <a href=\"https://www.linkedin.com/events/ulefoneatifa20257358058322891083776/\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-3.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\"></a>\n    <a href=\"https://www.ulefone.com/blogs/newsroom/join-us-at-ifa-2025-ulefones-ai-armor-is-ready-to-defy-extremes\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-4.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\"></a>\n</div>\n<div id=\"sec-block\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-02.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\">\n    <a href=\"https://www.linkedin.com/events/ulefoneatifa20257358058322891083776/\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-03.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\"></a>\n    <a href=\"https://www.ulefone.com/blogs/newsroom/join-us-at-ifa-2025-ulefones-ai-armor-is-ready-to-defy-extremes\" target=\"_blank\"> <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Ulefone-IFA2025-04.webp\" alt=\"Ulefone IFA 2025\" loading=\"lazy\"></a>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_bEyYeB",
+    "time_ypNQdr",
+    "custom_liquid_b46zXd"
+  ]
+}

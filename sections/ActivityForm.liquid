@@ -1,0 +1,112 @@
+{% schema %}
+{
+  "name": "Ulefone page Form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "google_sheet_url",
+      "label": "Google Sheet Web App URL",
+      "default": "https://script.google.com/macros/s/AKfycbz225B_h73av5jBHOTAos3-wjymG_SH4TKVS5SmseHGYibLuLUtrvwGwnxFFKolLoKdvw/exec"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ulefone page Form",
+      "category": "Form"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="custom-form-section">
+  <form id="custom-form">
+    
+    <label>Option A</label>
+    <select name="option_a" required>
+      <option value="">Please select</option>
+      <option value="a1">Option A1</option>
+      <option value="a2">Option A2</option>
+    </select>
+
+    <label>Option B</label>
+    <select name="option_b" required>
+      <option value="">Please select</option>
+      <option value="b1">Option B1</option>
+      <option value="b2">Option B2</option>
+    </select>
+
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter your email" required />
+
+    <label>Custom text</label>
+    <input type="text" name="custom_text" placeholder="Please enter the content." required />
+
+    <button type="submit">submit</button>
+  </form>
+
+  <div id="form-message" style="margin-top:10px;"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('custom-form');
+  const messageDiv = document.getElementById('form-message');
+  const googleSheetUrl = "{{ section.settings.google_sheet_url }}";
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(form));
+
+    try {
+      await fetch(googleSheetUrl, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      messageDiv.innerText = "Submitted successfully!";
+      messageDiv.style.color = "green";
+      form.reset();
+    } catch(err) {
+      messageDiv.innerText = "Submission failed, please try again.";
+      messageDiv.style.color = "red";
+    }
+  });
+});
+</script>
+
+<style>
+.custom-form-section {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.custom-form-section label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.custom-form-section select,
+.custom-form-section input {
+  width: 100%;
+  padding: 6px 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.custom-form-section button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #1976d2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.custom-form-section button:hover {
+  background-color: #1565c0;
+}
+</style>

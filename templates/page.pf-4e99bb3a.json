@@ -1,0 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-4e99bb3a": {
+      "type": "pf-4e99bb3a",
+      "settings": {
+        "pf_94449b34_code": "<div class=\"for_nav\">\r\n  <div id=\"faq_nav\" style=\"\">\r\n    <div class=\"wide\">\r\n      <div class=\"sub_nav\">\r\n        <div class=\"ProName fl\">Armor 29 Pro Thermal Version</div>\r\n        <ul class=\"nav fr\">\r\n          <li class=\"tab\"><a href=\"/products/armor-29-pro-thermal-version\">Features</a></li>\r\n          <li class=\"tab current\"><a href=\"apps/pagefly?id=4e99bb3a-9a9e-4f2a-bd01-9c9bce023d4d\">Specs</a>\r\n          </li>\r\n          <li><a href=\"https://www.ulefone.com/pages/armor-29-series-launch-event#buynow\" class=\"button\">Buy Now</a>\r\n          </li>\r\n        </ul>\r\n        <div class=\"clear\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
+      }
+    }
+  },
+  "order": [
+    "pf-4e99bb3a"
+  ]
+}

@@ -1,0 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_m7pJfw": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>.sub-nav-tabs {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 12px;\n  padding: 16px 0;\n  font-size: 15px;\n  color: #666;\n}\n.sub-nav-tabs a {\n  color: #333;\n  text-decoration: none;\n  transition: color 0.25s ease;\n  position: relative;\n  padding: 4px 2px;\n}\n.sub-nav-tabs a:hover {\n  color: #fdb515;\n}\n.sub-nav-tabs a.active {\n  color: #111;\n  font-weight: 600;\n}\n\n.sub-nav-tabs .separator {\n  color: #ccc;\n  margin: 0 4px;\n}\n.sub-nav-tabs a::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: -6px;\n  width: 0;\n  height: 2px;\n  background-color: #FDB515;\n  transition: width 0.25s ease;\n}\n.sub-nav-tabs a:hover::after {\n  width: 100%;\n}</style><nav class=\"sub-nav-tabs\">\n  <a href=\"/blogs/newsroom\">Newsroom</a>\n  <span class=\"separator\">|</span><a href=\"/blogs/technology\">Technology</a>\n  <span class=\"separator\">|</span>\n  <a class=\"active\" href=\"/blogs/insights\">Insights</a>  <span class=\"separator\">|</span>\n  <a href=\"/blogs/Use-cases\">Use-cases</a>\n</nav>"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+        ".wide-container.half-gutter {width: 90%;}"
+      ],
+      "settings": {
+        "blog_layout": "rows",
+        "blog_posts_per_page": 12,
+        "blog_posts_per_row_mobile": "2",
+        "blog_show_title": true,
+        "blog_show_filter": true,
+        "blog_show_rss_link": false
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_m7pJfw",
+    "main"
+  ]
+}

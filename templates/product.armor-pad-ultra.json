@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "custom_liquid_LaUnm6": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Armor Pad 4 Ultra</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/armor-pad-4-ultra\">Features</a></li>\n                    <li><a href=\"/apps/pagefly/pf_preview?id=b95307f1-9172-423c-bbc8-b9c9b2d310d6\">Specs</a></li>\n                    <li><a href=\"#\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-1_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-2_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-3_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-4_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-5_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-6_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-7_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-8_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-9_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-10_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-11_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-12_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-13_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-14_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-15_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-16_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-17_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-18_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-19_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-20_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-21_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-22_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-23_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-24_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-25_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-26_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-27_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-28_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-29_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-30_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-PC-31_240816.jpg\" style=\"width:100%;\">\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>2. 11 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>3. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>4. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>5. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The aforementioned video platforms support HD streaming playback. However, some features may be unavailable if software upgrade issues arise.</p>\n        <p>8. The software interfaces mentioned above are for demonstration purposes only. The actual APP interfaces may differ based on user interaction.</p>\n        <p>9. There are multiple virtual memory options available, with the maximum being 4GB, and it can be activated in the Settings based on your preference.</p>\n        <p>10. The mentioned microSD card is not included, and needs to be purchased separately. </p>\n        <p>11 The mentioned TPU protective case, tablet stand cover and Armor Mount Max are not included, and need to be purchased separately.</p>\n        <p>12. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>13. The data on the page are theoretical values from Ulefone lab based on specific test environment (see details at specific description). In actual use, there may be slight differences due to product differences, software versions, use conditions and environmental factors, so please refer to actual situation as final.</p> \n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-1_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-2_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-3_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-4_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-5_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-6_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-7_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-8_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-9_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-10_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-11_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-12_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-13_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-14_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-15_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-16_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-17_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-18_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-19_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-20_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-21_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-22_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-23_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-24_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-25_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-26_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-27_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-28_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-29_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-30_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-31_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-32_240816.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-ArmorPad4Ultra-M-33_240816.jpg\" style=\"width:100%;\">\n\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>2. 11 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>3. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>4. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>5. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>6. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>7. The aforementioned video platforms support HD streaming playback. However, some features may be unavailable if software upgrade issues arise.</p>\n        <p>8. The software interfaces mentioned above are for demonstration purposes only. The actual APP interfaces may differ based on user interaction.</p>\n        <p>9. There are multiple virtual memory options available, with the maximum being 4GB, and it can be activated in the Settings based on your preference.</p>\n        <p>10. The mentioned microSD card is not included, and needs to be purchased separately. </p>\n        <p>11. The mentioned TPU protective case, tablet stand cover and Armor Mount Max are not included, and need to be purchased separately.</p>\n        <p>12. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p>13. The data on the page are theoretical values from Ulefone lab based on specific test environment (see details at specific description). In actual use, there may be slight differences due to product differences, software versions, use conditions and environmental factors, so please refer to actual situation as final.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "custom_liquid_LaUnm6"
+  ]
+}

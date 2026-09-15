@@ -1,0 +1,22 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-f300a6d0": {
+      "type": "pf-f300a6d0",
+      "settings": {
+        "pf_c14fa377_code": "<meta name=\"description\" content=\"Armor 29 Pro Thermal Version rugged phone specifications page. See detailed specs, features, and capabilities of this durable outdoor phone.\">\n<h1 style=\"color:#fff;\">Armor 29 Pro Thermal Version Specs</h1>\n<div class=\"for_nav\">\n  <div id=\"faq_nav\" style=\"\">\n    <div class=\"wide\">\n      <div class=\"sub_nav\">\n        <div class=\"ProName fl\">Armor 29 Pro Thermal Version</div>\n        <ul class=\"nav fr\">\n          <li class=\"tab\"><a href=\"/products/armor-29-pro-thermal-version\">Features</a></li>\n          <li class=\"tab current\">\n<a href=\"/pages/armor-29-pro-thermal-version-spec\">Specs</a>\n          </li>\n          <li>\n<a href=\"https://bit.ly/armor-29-pro-thermal\" class=\"button\">Buy Now</a>\n          </li>\n        </ul>\n        <div class=\"clear\"></div>\n      </div>\n    </div>\n  </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "pf-f300a6d0"
+  ]
+}

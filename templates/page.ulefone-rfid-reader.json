@@ -1,0 +1,121 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_xxMqxh": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .hero-banner {\n        height: 36.5105vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-1.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .hero-banner-text h2 {\n        text-align: left;\n        font-weight: 600;\n        font-size: 3.63vw;\n        line-height: 1.2;\n        color: #fff;\n    }\n\n    .hero-banner-text {\n        padding: 12.3vw 14vw;\n    }\n\n        .hero-banner-text p {\n            font-size: 1vw;\n            color: #fff;\n        }\n\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .hero-banner {\n            height: 129.537vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-01.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n\n        .hero-banner-text h2 {\n            text-align: center;\n            font-weight: 800;\n            font-size: 7vw;\n            line-height: 1.2;\n            color:#000;\n        }\n\n        .hero-banner-text p {\n            font-size: 2.5vw;\n            text-align: center;\n            line-height: 1.1;\n            color:#000;\n        }\n    }\n</style>\n\n<section class=\"hero-banner\">\n    <div class=\"hero-banner-text\">\n        <h2>Ulefone RFID<br />Reader</h2>\n        <p>Faster, More Accurate, and Secure<br />Data Capture Solutions</p>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_VPKKVd": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-1 {background-color: #f6f6fb;}.section-1 h2 {font-weight: 600;font-size: 3vw;line-height: 1.2;}.section-1 p {font-size: 1vw;}.section-1-text {width: 57vw;padding: 5vw 0;text-align: center;margin: 0 auto;}\n    @media (max-width: 992px) {\n    }\n    @media (max-width: 768px) {\n        .section-1 h2 {font-size: 1.5rem;}\n        .section-1 p {font-size: 3.1vw;line-height: 1.1;}\n        .section-1-text {width: 86vw;padding: 12vw 0;text-align: center;margin: 0 auto;}\n    }\n</style>\n\n<section class=\"section section-1\">\n    <div class=\"section-1-text\">\n        <h2>What is RFID</h2>\n        <p>\n            RFID (Radio-Frequency Identification) uses radio waves for contactless, bulk identification and tracking of\n            tagged items (up to hundreds within meters), unlike manual barcodes. Its speed, accuracy, and data security\n            make it a key technology for digital transformation in the IoT.\n        </p>\n    </div>\n</section>"
+      }
+    },
+    "tabs_with_image_C4EpCG": {
+      "type": "tabs-with-image",
+      "blocks": {
+        "tab_9qCGHi": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Mobile and Real-Time Control",
+            "tab_content": "<p><strong>Mobile and<br/>Real-Time Control<br/></strong>Being palm-sized with Bluetooth 5.2, it quickly <br/>connects to your phone or tablet, allowing you to <br/>control operations and see data updates instantly <br/>on the go.<br/><br/><br/></p>",
+            "tab_image": "shopify://shop_images/rfid-2.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_8j6Mdh": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Rapid and Long-Range Scanning",
+            "tab_content": "<p><strong>Rapid and<br/>Long-Range<br/>Scanning<br/></strong>It uses UHF to identify items from up to 10 meters <br/>away and scan 50 tags every second, even through <br/>packaging like paper and plastic, saving significant <br/>time.</p>",
+            "tab_image": "shopify://shop_images/rfid-3.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_ByU8xW": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Industrial-Grade Performance",
+            "tab_content": "<p><strong>Industrial-Grade<br/>Performance<br/></strong>24-hour continuous battery life, ideal for demanding <br/>places like warehouses and workshops.</p>",
+            "tab_image": "shopify://shop_images/rfid-4.webp",
+            "image_position": "left"
+          }
+        },
+        "tab_X3nVJf": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Seamless System Integration",
+            "tab_content": "<p><strong>Seamless System<br/>Integration<br/></strong>With its open API, it easily connects to your existing <br/>business systems (ERP, WMS, etc.), streamlining <br/>your workflow and data management.</p>",
+            "tab_image": "shopify://shop_images/rfid-5.webp",
+            "image_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "tab_9qCGHi",
+        "tab_8j6Mdh",
+        "tab_ByU8xW",
+        "tab_X3nVJf"
+      ],
+      "settings": {
+        "main_heading": "Unlock Efficiency with Ulefone RFID"
+      }
+    },
+    "custom_liquid_frhd8R": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-3 .features {\n        display: flex;\n        flex-wrap: wrap;\n        gap: 20px;\n        justify-content: center;\n    }\n\n    .rfid-3 .feature-box {\n        background-color: #f5f6fa;\n        border-radius: 16px;\n        padding: 4vw 2vw;\n        width: 17.5vw;\n        text-align: center;\n        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n        transition: transform 0.2s ease;\n    }\n\n        .rfid-3 .feature-box:hover {\n            transform: translateY(-5px);\n        }\n\n    .rfid-3 .feature-icon {\n        width: 6vw;\n        margin: 0 auto 2vw auto;\n    }\n\n    .rfid-3 .feature-title {\n        font-size: 1.1rem;\n        font-weight: bold;\n        margin-bottom: 10px;\n    }\n\n    .rfid-3 .feature-text {\n        font-size: 0.95rem;\n        color: #444;\n    }\n\n    .rfid-3 h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n    }\n\n    @media (max-width: 768px) {\n        .rfid-3 .feature-box {\n            width: 47%;\n        }\n        .rfid-3 h2 {\n            font-size: 1.5rem;\n        }\n        .rfid-3 .feature-icon {\n            width: 17vw;\n            margin: 0 auto;\n        }\n        .rfid-3 .feature-title {\n            font-size: .8rem;\n            margin: 2vw 0;\n            line-height: 1.1;\n        }\n        .rfid-3 .feature-text {\n            font-size: 0.75rem;\n            line-height: 1;\n        }\n.rfid-3 .features {\n    gap: 10px;\n}\n    }\n</style>\n\n<div class=\"rfid-3 container-fluid\">\n    <h2>What Ulefone RFID<br />Enables for Businesses</h2>\n    <div class=\"features\">\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-6.png\" /></div>\n            <div class=\"feature-title\">Significant Cost Reduction & Efficiency</div>\n            <div class=\"feature-text\">\n                Reduces manual inventory time by 90%, lowering inventory discrepancies from scanning errors.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-7.webp\" /></div>\n            <div class=\"feature-title\">Comprehensive Dynamic Control</div>\n            <div class=\"feature-text\">\n                Real-time tracking of asset flow enables full lifecycle traceability for materials and equipment.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-8.webp\" /></div>\n            <div class=\"feature-title\">Flexible & Convenient Deployment</div>\n            <div class=\"feature-text\">\n                Smartphone + reader combination supports mobile inspections and ad-hoc inventory counts.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-9.png\" /></div>\n            <div class=\"feature-title\">Intelligent Data Insights</div>\n            <div class=\"feature-text\">\n                Automatically generates visual reports to aid warehouse and supply chain decisions.\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_bVHYUm": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .solutions-container {\n        max-width: 75vw;\n        margin: 0 auto;\n        padding: 40px 20px;\n    }\n\n        .solutions-container h2 {\n            text-align: center;\n            font-size: 3vw;\n            margin-bottom: 2vw;\n            font-weight: 700;\n        }\n\n    .solutions-grid {\n        display: flex;\n        flex-wrap: wrap;\n        gap: 20px;\n        justify-content: left;\n    }\n\n    .solution-card {\n        width: 23.5vw;\n    }\n\n    /*        .solution-card:hover {\n            transform: translateY(-5px);\n        }*/\n\n    .solution-title {\n        font-size: 1.2vw;\n        font-weight: 800;\n        margin-top: 1vw;\n    }\n\n    .solution-features {\n        list-style: none;\n        padding: 0;\n    }\n\n        .solution-features li {\n            font-size: 0.95rem;\n        }\n    /*\n            .solution-features li:before {\n                content: \"•\";\n                color: #ffcc00;\n                font-weight: bold;\n                position: absolute;\n                left: 0;\n            }*/\n    .section-7 {\n        background-color: #f6f6fb;\n        margin-top: 2vw;\n    }\n\n    @media (max-width: 768px) {\n        .solution-card {\n            width: 100%;\n            margin-top: 7vw;\n        }\n        .solutions-container {\n            max-width: 100%;\n        }\n            .solutions-container h2 {\n                font-size: 1.5rem;\n            }\n        .solution-title {\n            font-size: 1.1rem;\n            font-weight: 600;\n            margin: 6vw 0 0;\n        }\n        .solution-features {\n            margin: 0;\n        }\n    }\n</style>\n\n<div class=\"section-7\">\n    <div class=\"solutions-container\">\n        <h2>Adaptible Industries Solutions</h2>\n        <div class=\"solutions-grid\">\n            <!-- Warehousing & Logistics -->\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-10.webp\" /></div>\n                <div class=\"solution-title\">Warehousing & Logistics</div>\n                <ul class=\"solution-features\">\n                    <li>Refuel, bulk rebound/outbound verification</li>\n                    <li>Dynamic inventory checks on warehouse shelves</li>\n                    <li>Package status tracking during transit</li>\n                </ul>\n            </div>\n\n            <!-- Retail Stores -->\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-11.webp\" /></div>\n                <div class=\"solution-title\">Retail Stores</div>\n                <ul class=\"solution-features\">\n                    <li>Self-service inventory and redoubling</li>\n                    <li>Fitting room traffic system association analysis</li>\n                    <li>Anti-counterfeiting traceability and anti-theft alerts</li>\n                </ul>\n            </div>\n\n            <!-- Smart Manufacturing -->\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-12.webp\" /></div>\n                <div class=\"solution-title\">Smart Manufacturing</div>\n                <ul class=\"solution-features\">\n                    <li>Monitoring of work-in-progress on production lines</li>\n                    <li>Intelligent tool/mold borrowing and return management</li>\n                </ul>\n            </div>\n\n            <!-- Healthcare -->\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-13.webp\" /></div>\n                <div class=\"solution-title\">Healthcare</div>\n                <ul class=\"solution-features\">\n                    <li>Location tracking and maintenance records for medical equipment</li>\n                    <li>Traceability of surgical instrument sterilization processes</li>\n                </ul>\n            </div>\n\n            <!-- Asset Management -->\n            <div class=\"solution-card\">\n                <div class=\"solution-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-14.webp\" /></div>\n                <div class=\"solution-title\">Asset Management</div>\n                <ul class=\"solution-features\">\n                    <li>Mobile inspections of fixed assets</li>\n                    <li>Quick borrowing and return registration of meeting materials</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_yNheqp": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-5 {\n        height: 27.5vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-15.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .rfid-5-text h2 {\n        font-weight: 600;\n        font-size: 3.63vw;\n        line-height: 1.2;\n        margin-bottom: 3.5vw;\n    }\n\n    .rfid-5-text {\n        padding: 8vw 2vw;\n        text-align: center;\n    }\n\n    /* Responsive Design */\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .rfid-5 {\n            height: 55.555vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-015.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n        .rfid-5-text img {\n            width: 27vw;\nmargin-top: 8vw;\n        }\n.rfid-5-text {\n        padding: 13vw 2vw;\n    }\n.rfid-5-text h2 {\n    width: 73vw;\n    line-height: auto;\n    margin: 0 auto;\n    font-size: 6vw;\n}\n    }\n</style>\n\n<section class=\"rfid-5\">\n    <div class=\"rfid-5-text\">\n        <h2>Get Your Custom RFID Reader Solution</h2>\n        <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdUHI_E0WSVmICaSjYXRRA0ZMBd5WnOMy2dZ5Gu0r0iKMkMpA/viewform?usp=header\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-16.webp\"></a>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_zhTcCV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .solutions .card-grid {\n        display: grid;\n        gap: 1.5rem;\n        grid-template-columns: 1fr;\n        margin: 0 13.2vw 5vw;\n    }\n\n    .solutions .card {\n        background-color: #f9fafb;\n        border-radius: 2.5rem;\n        overflow: hidden;\n        box-shadow: 0 1px 3px rgba(0,0,0,0.1);\n        transition: box-shadow 0.3s ease;\n        display: flex;\n        flex-direction: column;\n        height: 100%;\n    }\n\n        .solutions .card:hover {\n            box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n        }\n\n        .solutions .card img {\n            object-fit: cover;\n        }\n\n    .solutions .card-content {\n        padding: 1.5rem;\n        text-align: center;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n    }\n\n    .solutions .card h3 {\n        font-size: 1.2vw;\n        font-weight: 700;\n        margin-bottom: 0.75rem;\n    }\n\n    .solutions .card p {\n        font-size: 0.95rem;\n        margin-bottom: 1rem;\n        flex-grow: 1;\n    }\n\n    .solutions .card-btn {\n        display: inline-block;\n        background-color: #facc15;\n        color: black;\n        font-weight: 600;\n        padding: 0.5rem 1rem;\n        border-radius: 9999px;\n        transition: background-color 0.3s ease;\n    }\n\n        .solutions .card-btn:hover {\n            background-color: #eab308;\n        }\n    .solutions h2 {\n        text-align: left;\n        font-size: 3vw;\n        margin: 3vw 0 2vw 13vw;\n        font-weight: 700;\n    }\n    .card-content img {\n        width: 11rem;\n    }\n    .card-btn-container {\n        margin-top: auto;\n        text-align: center;\n    }\n .solutions .card-grid {\n            grid-template-columns: repeat(3, 1fr);\n        }\n    @media (max-width: 768px) {\n        .solutions .card-grid {\n            grid-template-columns: repeat(1, 1fr);\n        }\n        .solutions h2 {\n            font-size: 1.8rem;\n        text-align: center;\n        margin: 9vw 0 5vw;\n        font-weight: 800;\n        }\n\n        .solutions .card-grid {\n            margin: 0 7.2vw 5vw;\n        }\n        .solutions .card h3 {\n            font-size: 1.1rem;\n            font-weight: 600;\n        margin: 0;\n        }\n        .card-content img {\n            width: 9rem 144px;\n        }\n    }\n    </style>\n\n<section class=\"solutions\">\n    <h2>More Solutions</h2>\n    <div class=\"card-grid\">\n        <!-- MDM Card -->\n        <a href=\"https://www.ulefone.com/pages/take-control-with-ulefone-mdm\">\n            <div class=\"card\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-2.webp\" alt=\"MDM\" />\n                <div class=\"card-content\">\n                    <h3>MDM</h3>\n                    <p>Centrally manages enterprise mobile devices for security, compliance, and efficiency.</p>\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n        <!-- PoC Card -->\n        <a href=\"https://www.ulefone.com/pages/ulefone-professional-poc-communication\">\n            <div class=\"card\" onclick=\"\" style=\"cursor: pointer;\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-3.webp\" alt=\"PoC\" />\n                <div class=\"card-content\">\n                    <h3>PoC</h3>\n                    <p>Nationwide, instant multimedia communication over cellular, transcending distance limits for enhanced efficiency.</p>\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n\n    </div>\n</section>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_xxMqxh",
+    "custom_liquid_VPKKVd",
+    "tabs_with_image_C4EpCG",
+    "custom_liquid_frhd8R",
+    "custom_liquid_bVHYUm",
+    "custom_liquid_yNheqp",
+    "custom_liquid_zhTcCV"
+  ]
+}

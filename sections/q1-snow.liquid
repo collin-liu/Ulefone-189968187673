@@ -1,0 +1,116 @@
+<ql-snow img="{{ section.settings.img | image_url:width:50 }}" snowNum="{{ section.settings.amount }}"></ql-snow>
+
+{% javascript %}
+class Snow extends window.HTMLElement {
+  constructor() {
+    super();
+    this.img = this.getAttribute("img");
+    this.snowNum = this.getAttribute("snowNum");
+    this.canvas = null;
+    this.animationFrame = null;
+    this.init();
+    this.handleResize = this.handleResize.bind(this);
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  init() {
+    if (this.canvas) {
+      cancelAnimationFrame(this.animationFrame);
+      document.body.removeChild(this.canvas);
+    }
+    const canvas = document.createElement("canvas");
+    canvas.setAttribute("id", "snow");
+    canvas.style.position = "fixed";
+    canvas.style.top = "0";
+    canvas.style.width = "100vw";
+    canvas.style.height = "100vh";
+    canvas.style.zIndex = "100";
+    canvas.style.pointerEvents = "none";
+    document.body.appendChild(canvas);
+    this.canvas = canvas;
+
+    const W = canvas.clientWidth;
+    const H = canvas.clientHeight;
+    canvas.setAttribute("width", W);
+    canvas.setAttribute("height", H);
+
+    const ctx = canvas.getContext("2d");
+    const config = {
+      number: Math.ceil(W / (101 - +this.snowNum)),
+      snowArr: [],
+      pic: this.img,
+    };
+
+    let snowImg = new Image();
+    snowImg.src = config.pic;
+
+    for (let i = 0; i < config.number; i++) {
+      config.snowArr.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        toX: Math.random(),
+        toY: Math.random() * 1 + 1,
+        size: Math.random() * 20 + 5,
+      });
+    }
+
+    const dropAnimation = () => {
+      ctx.clearRect(0, 0, W, H);
+      for (let i = 0; i < config.snowArr.length; i++) {
+        let snow = config.snowArr[i];
+        ctx.drawImage(snowImg, snow.x, snow.y, snow.size, snow.size);
+        snow.x = snow.x > W ? 0 : snow.x + snow.toX;
+        snow.y = snow.y > H ? 0 : snow.y + snow.toY;
+      }
+      this.animationFrame = requestAnimationFrame(dropAnimation);
+    };
+
+    this.animationFrame = requestAnimationFrame(dropAnimation);
+  }
+
+  handleResize() {
+    this.init();
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener("resize", this.handleResize);
+    if (this.animationFrame) {
+      cancelAnimationFrame(this.animationFrame);
+    }
+    if (this.canvas && this.canvas.parentElement) {
+      document.body.removeChild(this.canvas);
+    }
+  }
+}
+
+if (!customElements.get('ql-snow')) {
+  window.customElements.define("ql-snow", Snow);
+}
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Snow",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "amount",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "label": "Amount",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Snow"
+    }
+  ]
+}
+{% endschema %}

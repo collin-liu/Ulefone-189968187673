@@ -1,0 +1,128 @@
+<style>
+         @font-face {
+        font-family: BERNATE;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/BATMANFOREVERALTERNATE.TTF');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+.armor-33-section {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+.armor-33-section h2 {
+  font-size: 28px;
+  color: #fdd200;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.armor-33-section .subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.armor-33-section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+.armor-33-section .text-block {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+.armor-33-section video {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+@media screen and (max-width: 768px) {
+  .armor-33-section .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .armor-33-section .text-block {
+    text-align: center;
+  }
+}
+</style>
+
+<section class="armor-33-section">
+  <h2>{{ section.settings.title }}</h2>
+  <div class="subtitle">{{ section.settings.subtitle }}</div>
+
+  <div class="grid">
+    <div class="text-block">{{ section.settings.left_text_top }}</div>
+    <div>
+      {% if section.settings.video_top_url %}
+        <video controls playsinline>
+          <source src="{{ section.settings.video_top_url }}" type="video/mp4">
+        </video>
+      {% else %}
+        <div style="background:#fff; color:#fdd200; font-size:36px; padding:60px 0;">视频</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top: 40px;">
+    <div>
+      {% if section.settings.video_bottom_url %}
+        <video controls playsinline>
+          <source src="{{ section.settings.video_bottom_url }}" type="video/mp4">
+        </video>
+      {% else %}
+        <div style="background:#fff; color:#fdd200; font-size:36px; padding:60px 0;">视频</div>
+      {% endif %}
+    </div>
+    <div class="text-block">{{ section.settings.right_text_bottom }}</div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Armor 33Series",
+  "tag": "section",
+  "class": "armor-33-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "ARMOR 33"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "副标题",
+      "default": "Dual-screen, double the possibilities"
+    },
+    {
+      "type": "textarea",
+      "id": "left_text_top",
+      "label": "左上文字",
+      "default": "1100 Lumens Versatile LED Light.\nEnjoyOutdoors, Day or Night"
+    },
+    {
+      "type": "url",
+      "id": "video_top_url",
+      "label": "右上视频链接"
+    },
+    {
+      "type": "url",
+      "id": "video_bottom_url",
+      "label": "左下视频链接"
+    },
+    {
+      "type": "textarea",
+      "id": "right_text_bottom",
+      "label": "右下文字",
+      "default": "Warning Light\nEmergency Beacon"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,554 @@
+{%- assign sid = section.id -%}
+
+<div id="shopify-section-{{ sid }}" class="pd-wrap-{{ sid }}">
+  <div class="pd-card">
+
+    <div class="pd-grid">
+
+      <div class="pd-media">
+        {%- if section.settings.product_image != blank -%}
+          {{
+            section.settings.product_image
+            | image_url: width: 1200
+            | image_tag:
+              loading: 'lazy',
+              class: 'pd-media-img',
+              widths: '300, 450, 600, 900, 1200',
+              alt: section.settings.product_image.alt | default: section.settings.product_name
+          }}
+        {%- else -%}
+          <div class="pd-media-placeholder" aria-hidden="true"></div>
+        {%- endif -%}
+      </div>
+
+      <div class="pd-info">
+        <h2 class="pd-title">{{ section.settings.product_name | default: 'Product Name' }}</h2>
+
+        <a
+          href="{{ section.settings.more_products_url | default: '#' }}"
+          class="pd-more-btn"
+        >
+          {{ section.settings.more_products_text | default: 'More Products' }}
+        </a>
+
+        <h3 class="pd-downloads-heading">
+          {{ section.settings.downloads_heading | default: 'Downloads' }}
+        </h3>
+
+        {%- assign model_blocks = section.blocks | where: 'type', 'model' -%}
+
+        {%- if model_blocks.size > 0 -%}
+          <div class="pd-select-wrap">
+            <label class="pd-visually-hidden" for="pd-model-select-{{ sid }}">
+              {{ section.settings.downloads_heading | default: 'Downloads' }} — select model
+            </label>
+            <select id="pd-model-select-{{ sid }}" class="pd-select" data-pd-select>
+              {%- for block in model_blocks -%}
+                <option value="{{ forloop.index0 }}">
+                  {{ block.settings.model_name | default: 'Model' }}
+                </option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="pd-list-outer">
+            {%- for block in model_blocks -%}
+              {%- assign file_count = 0 -%}
+              <ul
+                class="pd-list{% if forloop.first %} is-active{% endif %}"
+                data-pd-list
+                data-pd-index="{{ forloop.index0 }}"
+                {{ block.shopify_attributes }}
+              >
+                {%- for i in (1..10) -%}
+                  {%- assign name_key = 'file_' | append: i | append: '_name' -%}
+                  {%- assign file_key = 'file_' | append: i | append: '_pdf' -%}
+                  {%- assign size_key = 'file_' | append: i | append: '_size' -%}
+                  {%- assign f_name = block.settings[name_key] -%}
+                  {%- assign f_file = block.settings[file_key] -%}
+                  {%- assign f_size = block.settings[size_key] -%}
+                  {%- if f_name != blank and f_file != blank -%}
+                    {%- assign file_count = file_count | plus: 1 -%}
+                    <li class="pd-item">
+                      <a
+                        class="pd-item-link"
+                        href="{{ f_file }}"
+                        download
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Download {{ f_name }}"
+                      >
+                        <span class="pd-item-name">{{ f_name }}</span>
+                        <span class="pd-item-right">
+                          {%- if f_size != blank -%}
+                            <span class="pd-item-size">{{ f_size }}</span>
+                          {%- endif -%}
+                          <svg class="pd-item-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M10 2.5V12.5M10 12.5L14.5 8M10 12.5L5.5 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3.5 15.5H16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                          </svg>
+                        </span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                {%- endfor -%}
+                {%- if file_count == 0 -%}
+                  <li class="pd-item pd-item-empty">No files available for this model yet.</li>
+                {%- endif -%}
+              </ul>
+            {%- endfor -%}
+          </div>
+        {%- else -%}
+          <p class="pd-empty-state">Add a Model block to show downloads here.</p>
+        {%- endif -%}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  #shopify-section-{{ sid }} {
+    --pd-page-bg: #eef1f5;
+    --pd-card-bg: #ffffff;
+    --pd-border: #e6e8ec;
+    --pd-text: #1a1a1a;
+    --pd-text-muted: #6b7280;
+    --pd-select-bg: #f3f4f6;
+    --pd-icon-blue: #2563eb;
+    --pd-btn-bg: #111111;
+    --pd-btn-text: #ffffff;
+    --pd-radius-lg: 20px;
+    --pd-radius-md: 12px;
+    --pd-radius-sm: 8px;
+    --pd-font: var(--font-body-family, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif);
+  }
+
+  #shopify-section-{{ sid }} {
+    background: var(--pd-page-bg);
+    padding: clamp(20px, 4vw, 56px) clamp(16px, 4vw, 32px);
+    font-family: var(--pd-font);
+    box-sizing: border-box;
+  }
+  #shopify-section-{{ sid }} *,
+  #shopify-section-{{ sid }} *::before,
+  #shopify-section-{{ sid }} *::after {
+    box-sizing: border-box;
+  }
+
+  #shopify-section-{{ sid }} .pd-card {
+    position: relative;
+    max-width: 1308px;
+    margin: 0 auto;
+    background: var(--pd-card-bg);
+    border: 1px solid var(--pd-border);
+    border-radius: var(--pd-radius-lg);
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.04);
+    padding: clamp(24px, 4vw, 56px);
+  }
+
+  #shopify-section-{{ sid }} .pd-more-btn {
+    position: absolute;
+    top: clamp(20px, 3vw, 40px);
+    right: clamp(20px, 3vw, 40px);
+    display: inline-flex;
+    align-items: center;
+    background: var(--pd-btn-bg);
+    color: var(--pd-btn-text);
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: opacity 0.15s ease;
+  }
+  #shopify-section-{{ sid }} .pd-more-btn:hover { opacity: 0.85; }
+  #shopify-section-{{ sid }} .pd-more-btn:focus-visible {
+    outline: 2px solid var(--pd-icon-blue);
+    outline-offset: 2px;
+  }
+
+  #shopify-section-{{ sid }} .pd-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: clamp(28px, 5vw, 64px);
+    align-items: center;
+    margin-top: clamp(48px, 6vw, 40px);
+  }
+
+  #shopify-section-{{ sid }} .pd-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #shopify-section-{{ sid }} .pd-media-img {
+    width: 100%;
+    height: auto;
+    max-width: 360px;
+    display: block;
+    object-fit: contain;
+  }
+  #shopify-section-{{ sid }} .pd-media-placeholder {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 3 / 4;
+    background: #f2f3f5;
+    border-radius: var(--pd-radius-md);
+  }
+
+  #shopify-section-{{ sid }} .pd-info {
+    min-width: 0;
+    width: 91%;
+  }
+
+  #shopify-section-{{ sid }} .pd-title {
+    font-size: clamp(30px, 4vw, 56px);
+    line-height: 1.05;
+    font-weight: 600;
+    color: var(--pd-text);
+    margin: 0 0 clamp(20px, 3vw, 32px) 0;
+    word-break: break-word;
+  }
+
+  #shopify-section-{{ sid }} .pd-downloads-heading {
+    font-size: clamp(20px, 2vw, 24px);
+    font-weight: 700;
+    color: var(--pd-text);
+    margin: 0 0 14px 0;
+  }
+
+  #shopify-section-{{ sid }} .pd-select-wrap {
+    position: relative;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  #shopify-section-{{ sid }} .pd-select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: var(--pd-select-bg);
+    border: 1px solid var(--pd-border);
+    border-radius: var(--pd-radius-sm);
+    color: var(--pd-text);
+    font-family: inherit;
+    font-size: clamp(15px, 1.2vw, 17px);
+    font-weight: 600;
+    padding: 14px 18px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #shopify-section-{{ sid }} .pd-select:focus-visible {
+    outline: 2px solid var(--pd-icon-blue);
+    outline-offset: 2px;
+  }
+  #shopify-section-{{ sid }} .pd-list-outer {
+    border: 1px solid var(--pd-border);
+    border-radius: var(--pd-radius-md);
+    background: var(--pd-card-bg);
+    overflow: hidden;
+  }
+
+  #shopify-section-{{ sid }} .pd-list {
+    list-style: none;
+    margin: 0;
+    padding: 4px 0;
+    max-height: 280px;
+    overflow-y: auto;
+    display: none;
+  }
+  #shopify-section-{{ sid }} .pd-list.is-active {
+    display: block;
+  }
+
+  #shopify-section-{{ sid }} .pd-item {
+    border-bottom: 1px solid var(--pd-border);
+  }
+  #shopify-section-{{ sid }} .pd-item:last-child {
+    border-bottom: none;
+  }
+
+  #shopify-section-{{ sid }} .pd-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: inherit;
+  }
+  #shopify-section-{{ sid }} .pd-item-link:hover {
+    background: #fafafa;
+  }
+  #shopify-section-{{ sid }} .pd-item-link:focus-visible {
+    outline: 2px solid var(--pd-icon-blue);
+    outline-offset: -2px;
+  }
+
+  #shopify-section-{{ sid }} .pd-item-name {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--pd-text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+
+  #shopify-section-{{ sid }} .pd-item-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  #shopify-section-{{ sid }} .pd-item-size {
+    font-size: 13px;
+    color: var(--pd-text-muted);
+    white-space: nowrap;
+  }
+  #shopify-section-{{ sid }} .pd-item-icon {
+    color: var(--pd-icon-blue);
+    flex-shrink: 0;
+  }
+
+  #shopify-section-{{ sid }} .pd-item-empty,
+  #shopify-section-{{ sid }} .pd-empty-state {
+    padding: 18px;
+    font-size: 14px;
+    color: var(--pd-text-muted);
+  }
+
+  #shopify-section-{{ sid }} .pd-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+.pretty-select, .disclosure .disclosure__toggle {
+    width: 100%;
+}
+.pretty-select.id-pd-model-select-template--27693679477017__support_col_e7MPXx {
+    background: var(--pd-select-bg);
+}
+  @media (max-width: 749px) {
+    #shopify-section-{{ sid }} .pd-card {
+      padding: 20px;
+    }
+    #shopify-section-{{ sid }} .pd-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 0;
+    }
+    #shopify-section-{{ sid }} .pd-media-img {
+      max-width: 220px;
+      margin: 0 auto;
+    }
+    #shopify-section-{{ sid }} .pd-info {
+      text-align: left;
+    }
+    #shopify-section-{{ sid }} .pd-title {
+      font-size: clamp(28px, 8vw, 36px);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #shopify-section-{{ sid }} .pd-more-btn {
+      position: static;
+      display: flex;
+      width: fit-content;
+      margin: 0 auto 32px auto;
+      font-size: 15px;
+      padding: 12px 28px;
+    }
+    #shopify-section-{{ sid }} .pd-downloads-heading {
+      text-align: center;
+    }
+    #shopify-section-{{ sid }} .pd-list {
+      max-height: 240px;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var root = document.getElementById('shopify-section-{{ sid }}');
+    if (!root) return;
+
+    function init() {
+      var select = root.querySelector('[data-pd-select]');
+      var lists = root.querySelectorAll('[data-pd-list]');
+      if (!select || !lists.length) return;
+
+      function showIndex(index) {
+        lists.forEach(function (list) {
+          if (list.getAttribute('data-pd-index') === String(index)) {
+            list.classList.add('is-active');
+          } else {
+            list.classList.remove('is-active');
+          }
+        });
+      }
+
+      select.addEventListener('change', function (e) {
+        showIndex(e.target.value);
+      });
+
+      showIndex(select.value || '0');
+    }
+
+    init();
+
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.target && event.target.id === 'shopify-section-{{ sid }}') {
+        init();
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Product Downloads",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "paragraph",
+      "content": "For each model's PDF file URL below: upload the PDF under Settings → Files in your Shopify admin, then copy its link and paste it into the corresponding \"PDF file URL\" field on that model block."
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "Product image"
+    },
+    {
+      "type": "text",
+      "id": "product_name",
+      "label": "Product name",
+      "default": "Armor 22 Pro"
+    },
+    {
+      "type": "text",
+      "id": "downloads_heading",
+      "label": "Downloads heading",
+      "default": "Downloads"
+    },
+    {
+      "type": "header",
+      "content": "More products button"
+    },
+    {
+      "type": "text",
+      "id": "more_products_text",
+      "label": "Button text",
+      "default": "More Products"
+    },
+    {
+      "type": "url",
+      "id": "more_products_url",
+      "label": "Button URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "model",
+      "name": "Model",
+      "settings": [
+        {
+          "type": "text",
+          "id": "model_name",
+          "label": "Model name",
+          "default": "Model Dual SIM 8GB+256GB"
+        },
+        {
+          "type": "header",
+          "content": "File 1"
+        },
+        { "type": "text", "id": "file_1_name", "label": "File name" },
+        { "type": "url", "id": "file_1_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_1_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 2"
+        },
+        { "type": "text", "id": "file_2_name", "label": "File name" },
+        { "type": "url", "id": "file_2_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_2_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 3"
+        },
+        { "type": "text", "id": "file_3_name", "label": "File name" },
+        { "type": "url", "id": "file_3_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_3_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 4"
+        },
+        { "type": "text", "id": "file_4_name", "label": "File name" },
+        { "type": "url", "id": "file_4_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_4_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 5"
+        },
+        { "type": "text", "id": "file_5_name", "label": "File name" },
+        { "type": "url", "id": "file_5_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_5_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 6"
+        },
+        { "type": "text", "id": "file_6_name", "label": "File name" },
+        { "type": "url", "id": "file_6_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_6_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 7"
+        },
+        { "type": "text", "id": "file_7_name", "label": "File name" },
+        { "type": "url", "id": "file_7_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_7_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 8"
+        },
+        { "type": "text", "id": "file_8_name", "label": "File name" },
+        { "type": "url", "id": "file_8_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_8_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 9"
+        },
+        { "type": "text", "id": "file_9_name", "label": "File name" },
+        { "type": "url", "id": "file_9_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_9_size", "label": "File size (optional)" },
+        {
+          "type": "header",
+          "content": "File 10"
+        },
+        { "type": "text", "id": "file_10_name", "label": "File name" },
+        { "type": "url", "id": "file_10_pdf", "label": "PDF file URL" },
+        { "type": "text", "id": "file_10_size", "label": "File size (optional)" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Downloads",
+      "blocks": [
+        { "type": "model" },
+        { "type": "model" }
+      ]
+    }
+  ]
+}
+{% endschema %}

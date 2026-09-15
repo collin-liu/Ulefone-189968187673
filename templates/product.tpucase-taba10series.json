@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": true,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "underlined",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "inventory_level": {
+          "type": "inventory_level",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "show_inventory_indicator_bar": true,
+            "col_indicator_below": "#dd9a1a",
+            "col_indicator_above": "#108043"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "enable_mobile_sticky_cart": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_product_reviews": true,
+            "tab_2_page": "",
+            "tab_2_title": "",
+            "tab_2_content": "",
+            "tab_3_page": "",
+            "tab_3_title": "",
+            "tab_3_content": "",
+            "tab_4_page": "",
+            "tab_4_title": "",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "rating",
+        "variant_picker",
+        "inventory_level",
+        "buy_buttons",
+        "tabs"
+      ],
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1": {
+          "type": "image",
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2": {
+          "type": "image",
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        },
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3": {
+          "type": "image",
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Slideshow",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "<p>and optional subtext</p>",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2",
+        "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_liquid_XQxRbj": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (max-width: 1446px) {.for_nav {margin-top: 9vw; }}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Smart Book Cover for Tab A10 Series</div>\n                <ul class=\"nav fr\">\n\n                    <li class=\"tab current\"><a href=\"/products/tpu-back-case-for-tab-a10-series\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/products/smart-book-cover-for-tab-a10-series\">Smart Book Cover</a></li>\n                    <li class=\"tab\"><a href=\"/products/tempered-glass-for-tab-a10-series\">Tempered Glass</a></li>\n<!--<li class=\"tab\"><a href=\"/products/tab-a10\">Tab A10</a></li>-->\n<li class=\"tab\"><a href=\"/products/tab-a10-pro\">Tab A10 Pro</a></li>\n                    <!--<li><a href=\"#\" class=\"button\">Buy Now</a></li>-->\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-1.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-2.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-3.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-4.avif\">\n</div>\n<div id=\"sec-block\" style=\"margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-01.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-02.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-03.avif\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseTabA10SeriesAccessories-04.avif\">\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "custom_liquid_XQxRbj"
+  ]
+}

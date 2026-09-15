@@ -1,0 +1,200 @@
+<style>
+.ifa-showcase-section {
+  width: 100%;
+  padding: 60px 20px;
+}
+
+.ifa-showcase-wrap {
+  max-width: 1460px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.ifa-showcase-image {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.ifa-showcase-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.ifa-showcase-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.ifa-showcase-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+  text-align: left;
+}
+
+.ifa-showcase-text {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.ifa-showcase-text p {
+  margin: 0 0 4px 0;
+}
+
+.ifa-showcase-button {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.ifa-showcase-button:hover {
+  border-color: #111;
+  opacity: 0.75;
+}
+
+@media (max-width: 749px) {
+  .ifa-showcase-section {
+    padding: 32px 16px;
+  }
+
+  .ifa-showcase-wrap {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .ifa-showcase-image,
+  .ifa-showcase-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .ifa-showcase-heading {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .ifa-showcase-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .ifa-showcase-button {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 990px) {
+  .ifa-showcase-wrap {
+    gap: 40px;
+  }
+
+  .ifa-showcase-heading {
+    font-size: 28px;
+  }
+
+  .ifa-showcase-text {
+    font-size: 17px;
+  }
+}
+</style>
+<div class="ifa-showcase-section" style="background-color: {{ section.settings.bg_color }};">
+  <div class="ifa-showcase-wrap">
+    <div class="ifa-showcase-image">
+      {% if section.settings.image %}
+        <img
+          src="{{ section.settings.image | image_url: width: 1200 }}"
+          srcset="
+            {{ section.settings.image | image_url: width: 600 }} 600w,
+            {{ section.settings.image | image_url: width: 900 }} 900w,
+            {{ section.settings.image | image_url: width: 1200 }} 1200w
+          "
+          sizes="(max-width: 749px) 100vw, 50vw"
+          alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+          loading="lazy"
+        >
+      {% else %}
+        <img src="" alt="url">
+      {% endif %}
+    </div>
+    <div class="ifa-showcase-content">
+      {% if section.settings.heading != blank %}
+        <h2 class="ifa-showcase-heading">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.text != blank %}
+        <div class="ifa-showcase-text">{{ section.settings.text }}</div>
+      {% endif %}
+
+      {% if section.settings.button_text != blank %}
+        <a
+          href="{{ section.settings.button_link | default: '#' }}"
+          class="ifa-showcase-button"
+        >
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "IFA Showcase",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "左侧图片"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "标题（可选）",
+      "default": "."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "右侧正文",
+      "default": "<p>At this year’s show, Ulefone is proud to showcase a series of groundbreaking advancements.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "按钮文字",
+      "default": "Learn More >"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "按钮链接"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "背景颜色",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "IFA Showcase"
+    }
+  ]
+}
+{% endschema %}

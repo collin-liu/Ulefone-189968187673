@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">Power Armor 19T</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/power-armor-19t\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=36f15c27-9456-43cf-977f-bec73cf63d5f\">Case</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=3e0626c7-4e5c-4f57-b621-19f0d125981b\">Specs</a></li>\n                    <li><a href=\"https://store.ulefone.com/products/ulefone-power-armor-19t\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-1.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-2.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-3.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-4.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-5.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-6.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-7.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-8.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-9.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-10.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-11.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-12.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-13.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-14.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-15.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-16.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-17.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-18.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-19.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-20.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-21.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-22.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-19t-bg-23.jpg\" style=\"width:100%;\" />\n\n    <div class=\"notes container\" style=\"padding: 2% 0;line-height: 2;width: 80%;margin: 0 auto;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. 66W is the max charging power when using with original charger and data cable. Data are from Ulefone labs. The actual charging power and charging time may vary depending on the specific conditions, please refer to the actual usage situations.</p>\n        <p>3. 15W is the max wireless charging power under the Qi protocol. Data are from Ulefone labs. The actual charging power and charging time may vary depending on the specific conditions, please refer to the actual usage situations.</p>\n        <p>4. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>5. Power Armor 19T is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Power Armor 19T. Liquid damage not covered under warranty.</p>\n        <p>6. Power Armor 19T has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put a Power Armor 19T into water.</p>\n        <p>7. The mentioned Armor Case and Armor Mount are not included. If needed, you will need to purchase them separately.</p>\n        <p>8. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>9. The Virtual Memory Expansion can be activated in Settings. Some software may not be compatible with this feature.</p>\n        <p>10. The micro SD card is not included, and needs to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>11. 6.58 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>12. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>13. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>14. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>15. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>16. Whether you can use VoLTE depends on the local carriers, not all of them support this function.</p>\n        <p>17. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p> 18. For more devices that are compatible with uSmart Expansion Connector, you are recommended to refer to our accessories list. Expansion devices require additional purchases.</p>\n    </div>\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-1.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-2.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-3.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-4.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-5.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-6.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-7.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-8.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-9.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-10.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-11.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-12.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-13.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-14.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-15.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-16.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-17.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-18.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-19.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-20.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-21.jpg\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-19t-22.jpg\" style=\"width:100%;\" />\n\n    <div class=\"notes container\" style=\"padding:5%;text-align: left;\">\n        <h5 style=\"text-align: left;\">Notes:</h5>\n        <p>1. The battery is non-removable, removing it may cause damage to the device.</p>\n        <p>2. 66W is the max charging power when using with original charger and data cable. Data are from Ulefone labs. The actual charging power and charging time may vary depending on the specific conditions, please refer to the actual usage situations.</p>\n        <p>3. 15W is the max wireless charging power under the Qi protocol. Data are from Ulefone labs. The actual charging power and charging time may vary depending on the specific conditions, please refer to the actual usage situations.</p>\n        <p>4. Product size and weight may vary by configuration, manufacturing process and measurements. All specifications are subject to the actual product.</p>\n        <p>5. Power Armor 19T is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 1.5 meters up to 30 minutes). Charger and accessories are not water-resistant. Splash, water and dust resistance are not permanent and might decrease as a result of normal wear. Do not attempt to charge a wet Power Armor 19T. Liquid damage not covered under warranty.</p>\n        <p>6. Power Armor 19T has waterproof plugs for its charging port and audio jack, please tightly put the plugs into the holes before you put a Power Armor 19T into water.</p>\n        <p>7. The mentioned Armor Case and Armor Mount are not included. If needed, you will need to purchase them separately.</p>\n        <p>8. The actual available RAM and storage are less than the listed total capacity due to the occupied storage of the operating system and software pre-installed in the device.</p>\n        <p>9. The Virtual Memory Expansion can be activated in Settings. Some software may not be compatible with this feature.</p>\n        <p>10. The micro SD card is not included, and needs to be purchased separately. It is recommended to use Class 10 memory cards, other types of memory cards are not guaranteed to be fully compatible.</p>\n        <p>11. 6.58 inches is the diagonal length of the display when the four rounded corners are taken to be pointed corners, the actual viewable area is slightly smaller.</p>\n        <p>12. The resolution is measured as a standard rectangle with a rounded corners design, the effective pixels are slightly less.</p>\n        <p>13. The camera software functions are subject to the actual presence, some of functions and names may vary depending on the software version.</p>\n        <p>14. The actual photo and video resolution may vary depending on the shooting mode.</p>\n        <p>15. Dual 4G SIM requires the support of local telecom operator services, it may not be available in all regions.</p>\n        <p>16. Whether you can use VoLTE depends on the local carriers, not all of them support this function.</p>\n        <p>17. The product, accessories, and package may vary in different markets. Pictures are for reference only. Please refer to the actual products.</p>\n        <p> 18. For more devices that are compatible with uSmart Expansion Connector, you are recommended to refer to our accessories list. Expansion devices require additional purchases.</p>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

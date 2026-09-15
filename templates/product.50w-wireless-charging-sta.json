@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "settings": {
+        "media_style": "one-column",
+        "sticky_behaviour": "bottom",
+        "full_width": true,
+        "show_backorder_text": true,
+        "slide_nav_style": "arrows",
+        "media_crop": "center",
+        "enable_zoom": true,
+        "zoom_cursor": "plus-light",
+        "show_thumbnails": true,
+        "enable_video_looping": false,
+        "scroll_to_variant_media": true,
+        "highlight_selected_media": true,
+        "variant_media_grouping": false,
+        "variant_media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": false,
+        "show_vendor": false,
+        "grid": 3
+      }
+    },
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "441bf32d-037d-4296-aa24-9a62b3d45277": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>.__pf [style*=\"--s-xs\"]>.pf-c {\n    padding: 0!important;\n  }\n\n  @media (max-width: 991px) {\n    .wide {\n      width: 100%;\n      margin: 0 auto;\n    }\n\n    .sub_nav .ProName {\n      font-size: 1rem;\n    }\n\n    .sub_nav li .button {\n      margin-top: 20%;\n    }\n\n    .sub_nav {\n      height: 35px;\n      line-height: 35px;\n    }\n\n    .sub_nav li {\n      height: 35px;\n    }\n  }\n\n  @media (min-width: 992px) {\n    .wide {\n      width: 78%;\n      margin: 0 auto;\n    }\n\n    .sub_nav .ProName {\n      font-size: 2rem;\n    }\n\n    .sub_nav li .button {\n      margin-top: 45%;\n    }\n\n    .sub_nav {\n      height: 74px;\n      line-height: 74px;\n    }\n\n    .sub_nav li {\n      height: 74px;\n    }\n  }\n\n  /**** review ***/\n  .for_nav {\n    /*height: 74px;*/\n    position: relative;\n    width: 100%;\n    z-index: 1;\n  }\n\n  #faq_nav {\n    position: absolute;\n    left: 0px;\n    top: 0px;\n    width: 100%;\n    background: #f5f5f5;\n  }\n\n  .sub_nav .ProName {\n    color: #333333;\n  }\n\n  .sub_nav .nav>li {\n    float: left;\n    margin: 0 16px;\n    list-style-type: none;\n  }\n\n  .nav li a {\n    text-decoration: none;\n  }\n\n  .sub_nav .nav {\n    margin: 0;\n  }\n\n  .sub_nav .nav>li.tab a {\n    font-size: 14px;\n    color: #333;\n  }\n\n  .sub_nav .nav>li.current a {\n    color: #999999;\n  }\n\n  .sub_nav li:last-child {\n    margin-right: 0;\n  }\n\n  .sub_nav li .button {\n    display: inline-block;\n    padding: unset;\n    transform: translate(0, -50%);\n    width: 85px;\n    height: 32px;\n    line-height: 32px;\n    border-radius: 5px;\n    background: #ffc600;\n    text-align: center;\n    color: #000;\n    font-size: 14px;\n    border: 0;\n  }\n\n  .site-control.fixed {\n    position: absolute!important;\n  }\n\n  /*float*/\n  .fl {\n    float: left;\n  }\n\n  .fr {\n    float: right;\n  }\n\n  .bizPpK {\n    padding: 0;\n  }\n\n  .sc-fFeiMQ.etkQEf.pf-504_.pf-r.pf-r-eh {\n    --s-xs: 0 !important;\n  }\n\n  div#faq_nav {\n    position: fixed;\n    top: 89px;\n    z-index: 99;\n  }\n</style><div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">50W Wireless Charging Stand</div>\n                <ul class=\"nav fr\">\n                    <li class=\"tab current\"><a href=\"/products/50w-wireless-charging-stand\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/apps/pagefly/pf_preview?id=9005fad4-a5d2-42bb-bcd0-cbfd051092d6\">Specs</a></li>\n    <li><a href=\"https://store.ulefone.com/products/50w-wireless-charging-stand\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-1.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-2.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-3.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-4.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-5.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-6.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-7.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-8.jpg?v=1702450802\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/product-50w-wcs-9.jpg?v=1702450802\" style=\"width:100%;\" />\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-1.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-2.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-3.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-4.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-5.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-6.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-7.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-8.jpg?v=1702450824\" style=\"width:100%;\" />\n    <img src=\"https://cdn.shopifycdn.net/s/files/1/0830/0573/5193/files/m-50w-wcs-9.jpg?v=1702450824\" style=\"width:100%;\" />\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
+    "441bf32d-037d-4296-aa24-9a62b3d45277"
+  ]
+}

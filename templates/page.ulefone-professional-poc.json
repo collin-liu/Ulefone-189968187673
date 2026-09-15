@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_GtdkaD": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .hero-banner {\n        height: 36.5105vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-1.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .hero-banner-text h2 {\n        text-align: left;\n        font-weight: 600;\n        font-size: 3.63vw;\n        line-height: 1.2;\n        color:#fff;\n    }\n\n    .hero-banner-text {\n        padding: 12.3vw 14vw;\n    }\n\n        .hero-banner-text p {\n            font-size: 1vw;\n            color: #fff;\n        }\n\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .hero-banner {\n            height: 129.537vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-01.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n        .hero-banner-text h2 {\n            text-align: center;\n            font-weight: 800;\n            font-size: 7vw;\n            line-height: 1.2;\n        }\n\n        .hero-banner-text p {\n            font-size: 2.5vw;\n            text-align: center;\n            line-height: 1.1;\n        }\n.hero-banner-text {\n    padding: 7.3vw 14vw;\n}\n    }\n</style>\n\n<section class=\"hero-banner\">\n    <div class=\"hero-banner-text\">\n        <h2>Ulefone Professional<br/>PoC Communication</h2>\n        <p>Secure, Instant, and Full-Coverage<br/>Professional Push-to-Talk over<br/>Cellular (PoC) Solution for Enterprise Teams</p>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_fwznD6": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-1 {background-color: #f6f6fb;}\n    .section-1 h2 {font-weight: 600;font-size: 3vw;line-height: 1.2;}\n    .section-1 p {font-size: 1vw;}\n    .section-1-text {width: 57vw;padding: 5vw 0;text-align: center;margin: 0 auto;}\n    @media (max-width: 992px) {\n    }\n    @media (max-width: 768px) {\n        .section-1 h2 {font-size: 1.5rem;}.section-1 p {font-size: 3.1vw;line-height: 1.1;}.section-1-text {width: 86vw;padding: 12vw 0;text-align: center;margin: 0 auto;}}\n</style>\n\n<section class=\"section section-1\">\n    <div class=\"section-1-text\">\n        <h2>What Is PoC</h2>\n        <p>\n            PoC (Push-to-Talk over Cellular) is an intelligent trunked communication service based on 4G/5G cellular\n            networks. It overcomes the distance limitations of traditional two-way radios, enabling \"one-touch\" instant\n            communication nationwide and globally. It transmits voice, data, and location information via IP networks,\n            supports multiple terminal access (phones, professional terminals, vehicle devices, etc.), and includes\n            features like group calls, multimedia dispatch, and track playback. It is a next-generation, high-efficiency\n            collaborative communication solution for enterprises.\n        </p>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_KeJQka": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n.section-poc h2 {\n    font-weight: 600;\n    font-size: 3vw;\n    margin: 2vw auto;\n}\n/*    .section-poc h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin:3vw;\n        font-weight: 700;\n        margin-top: 2vw;\n    }\n*/\n    .section-poc .feature {\n        background-color: #fff;\n        border-radius: 15px;\n        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n        overflow: hidden;\n        transition: transform 0.3s ease;\n        text-align: center;\n    }\n\n    .section-poc-conr {\n        display: grid;\n        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n        gap: 20px;\n        padding: 0 20px 40px;\n        max-width: 1200px;\n        margin: 0 auto;\n    }\n\n    .section-poc .feature:hover {\n        transform: scale(1.03);\n    }\n\n    .section-poc .feature img {\n        width: 100%;\n        height: auto;\n        display: block;\n    }\n\n    .section-poc .feature p {\n        margin: 15px 0;\n        font-weight: bold;\n    }\n\n    @media (max-width: 768px) {\n        .section-poc h2 {\n            font-size: 1.5rem;\n            font-weight: 800;\n            margin: 8vw auto 4vw;\n        }\n        .section-poc .feature p {\n            font-size: 1.1rem;\n        }\n        .section-poc .feature img {\n            width: 85%;\n            margin: 0 auto;\n        }\n    }\n</style>\n<section class=\"section-poc\">\n    <h2>Why Choose Ulefone PoC</h2>\n    <div class=\"section-poc-conr\">\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-2.webp\" alt=\"\">\n            <p>Instant communications</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-3.webp\" alt=\"\">\n            <p>Live Voice Playback</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-4.webp\" alt=\"\">\n            <p>Location Services</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-5.webp\" alt=\"\">\n            <p>Geo-Fencing</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-6.webp\" alt=\"\">\n            <p>Track Playback</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-7.webp\" alt=\"\">\n            <p>Multimedia Messaging</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-8.webp\" alt=\"\">\n            <p>Video Streaming</p>\n        </div>\n        <div class=\"feature\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-9.webp\" alt=\"\">\n            <p>Geo-Group</p>\n        </div>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_qryNxq": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-3 .features {\n        display: flex;\n        flex-wrap: wrap;\n        gap: 20px;\n        justify-content: center;\n        max-width: 80vw;\n        margin: 0 auto;\n    }\n\n    .rfid-3 .feature-box {\n        background-color: #f5f6fa;\n        border-radius: 16px;\n        padding: 4vw 2vw;\n        width: 20.6vw;\n        text-align: center;\n        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n        transition: transform 0.2s ease;\n    }\n\n        .rfid-3 .feature-box:hover {\n            transform: translateY(-5px);\n        }\n\n    .rfid-3 .feature-icon {\n        width: 6vw;\n        margin: 0 auto 2vw auto;\n    }\n\n    .rfid-3 .feature-title {\n        margin-bottom: 10px;\n        font-size: 1.2vw;\n        font-weight: 800;\n    }\n\n    .rfid-3 .feature-text {\n        font-size: 0.95rem;\n        color: #444;\n    }\n\n    .rfid-3 h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n    }\n\n    .section-spacing {\n        padding: 0;\n    }\n\n    .rfid-3 .feature-box:nth-child(-n+2) {\n        width: 31.5vw;\n    }\n\n    @media (max-width: 768px) {\n        .rfid-3 .feature-box {\n            width: 100%;\n        }\n.rfid-3 h2 {\n    font-size: 1.5rem;\n    font-weight: 800;\n    margin: 8vw auto 4vw;\n}\n.rfid-3 .feature-box:nth-child(-n+2) {\n    width: 96vw;\n}\n .rfid-3 .feature-icon {\n     width: 16vw;\n }\n .rfid-3 .feature-title {\n     font-size: 4vw;\n     font-weight: 800;\n }\n .section-poc .features {\n     width: 87vw;\n     margin: 7vw auto;\n }\n    }\n</style>\n<div class=\"rfid-3\">\n    <h2>Fuel Enterprise Productivity and Agility</h2>\n    <div class=\"features\">\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-10.webp\" /></div>\n            <div class=\"feature-title\">Break Communication Barriers</div>\n            <div class=\"feature-text\">\n                Achieve nationwide cross-team collaboration, overcoming\n                traditional walkie-talkie signal limitations.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-6.png\" /></div>\n            <div class=\"feature-title\">Boost Efficiency & Cut Costs</div>\n            <div class=\"feature-text\">\n                Eliminate base stations, reduce maintenance, and lower\n                communication expenses by over 50%\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-12.webp\" /></div>\n            <div class=\"feature-title\">Enable Agile Response</div>\n            <div class=\"feature-text\">\n                Utilize one-click emergency alerts for rapid\n                command center dispatch and improved incident\n                handling.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-13.webp\" /></div>\n            <div class=\"feature-title\">Ensure Precise Management</div>\n            <div class=\"feature-text\">\n                Leverage cloud storage for call records and location\n                tracking to meet audit and compliance needs.\n            </div>\n        </div>\n        <div class=\"feature-box\">\n            <div class=\"feature-icon\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-14.webp\" /></div>\n            <div class=\"feature-title\">Facilitate Flexible Growth</div>\n            <div class=\"feature-text\">\n                Easily scale device numbers and integrate with\n                OA/ERP systems to support business expansion.\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_ApD7hg": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-poc .features {\n        width: 64vw;\n        margin: 0 auto 6vw auto;\n    }\n\n    .section-poc h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin: 5vw 0 2vw;\n        font-weight: 700;\n    }\n\n    @media (max-width: 768px) {\n .section-poc h2 {\n     font-size: 1.5rem;\n     font-weight: 800;\n     margin: 8vw auto 4vw;\n }\n.section-poc .features {\n    width: 85vw;\n}\n    }\n</style>\n<div class=\"section-poc\">\n    <h2>Ulefone PoC Device Showcase</h2>\n    <div class=\"features\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/poc-15.webp\" />\n    </div>\n</div>"
+      }
+    },
+    "premium_partners_EarhAG": {
+      "type": "premium-partners",
+      "blocks": {
+        "partner_6QGwrC": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-3.png"
+          }
+        },
+        "partner_7YhVP8": {
+          "type": "partner",
+          "settings": {
+            "logo": "shopify://shop_images/corporate-busines-8-4.png"
+          }
+        }
+      },
+      "block_order": [
+        "partner_6QGwrC",
+        "partner_7YhVP8"
+      ],
+      "settings": {
+        "title": "OUR PREMIUM PARTNERS"
+      }
+    },
+    "custom_liquid_E8q4x8": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .rfid-5 {\n        height: 27.5vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-15.webp) no-repeat center;\n        background-size: 100% 100%;\n    }\n\n    .rfid-5-text h2 {\n        text-align: center;\n        font-size: 3vw;\n        margin-bottom: 2vw;\n        font-weight: 700;\n    }\n\n    .rfid-5-text img {\n        width: 19%;\n    }\n\n    .rfid-5-text {\n        padding: 7vw;\n        text-align: center;\n    }\n\n    @media (max-width: 992px) {\n    }\n\n    @media (max-width: 768px) {\n        .rfid-5 {\n            height: 55.555vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-015.webp) no-repeat center;\n            background-size: 100% 100%;\n        }\n   .rfid-5-text img {\n            width: 27vw;\nmargin-top: 8vw;\n        }\n.rfid-5-text {\n        padding: 13vw 2vw;\n    }\n.rfid-5-text h2 {\n    width: 73vw;\n    line-height: auto;\n    margin: 0 auto;\nfont-size: 6vw;\n}\n    }\n</style>\n\n<section class=\"rfid-5\">\n    <div class=\"rfid-5-text\">\n        <h2>Discover How We Can Help</h2>\n        <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScLi-cjGXugo29Y9BOZOukpDuQtsq6HHj7Vq1_1qOWdmfvPvA/viewform?usp=sharing&ouid=110667944944139549419\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/rfid-16.webp\"></a>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_NHrCkG": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .solutions .card-grid {\n        display: grid;\n        gap: 1.5rem;\n        grid-template-columns: 1fr;\n        margin: 0 13.2vw 5vw;\n    }\n\n    .solutions .card {\n        background-color: #f9fafb;\n        border-radius: 2.5rem;\n        overflow: hidden;\n        box-shadow: 0 1px 3px rgba(0,0,0,0.1);\n        transition: box-shadow 0.3s ease;\n        display: flex;\n        flex-direction: column;\n        height: 100%;\n    }\n\n        .solutions .card:hover {\n            box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n        }\n\n        .solutions .card img {\n            object-fit: cover;\n        }\n\n    .solutions .card-content {\n        padding: 1.5rem;\n        text-align: center;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n    }\n\n    .solutions .card h3 {\n        font-size: 1.2vw;\n        font-weight: 700;\n        margin-bottom: 0.75rem;\n    }\n\n    .solutions .card p {\n        font-size: 0.95rem;\n        margin-bottom: 1rem;\n        flex-grow: 1;\n    }\n\n    .solutions .card-btn {\n        display: inline-block;\n        background-color: #facc15;\n        color: black;\n        font-weight: 600;\n        padding: 0.5rem 1rem;\n        border-radius: 9999px;\n        transition: background-color 0.3s ease;\n    }\n\n        .solutions .card-btn:hover {\n            background-color: #eab308;\n        }\n    .solutions h2 {\n        text-align: left;\n        font-size: 3vw;\n        margin: 3vw 0 2vw 13vw;\n        font-weight: 700;\n    }\n    .card-content img {\n        width: 11rem;\n    }\n    .card-btn-container {\n        margin-top: auto;\n        text-align: center;\n    }\n .solutions .card-grid {\n            grid-template-columns: repeat(3, 1fr);\n        }\n    @media (max-width: 768px) {\n        .solutions .card-grid {\n            grid-template-columns: repeat(1, 1fr);\n        }\n        .solutions h2 {\n            font-size: 1.8rem;\n        text-align: center;\n        margin: 9vw 0 5vw;\n        font-weight: 800;\n        }\n\n        .solutions .card-grid {\n            margin: 0 7.2vw 5vw;\n        }\n        .solutions .card h3 {\n            font-size: 1.1rem;\n            font-weight: 600;\n        margin: 0;\n        }\n        .card-content img {\n            width: 9rem 144px;\n        }\n    }\n    </style>\n\n<section class=\"solutions\">\n    <h2>More Solutions</h2>\n    <div class=\"card-grid\">\n        <!-- MDM Card -->\n        <a href=\"https://www.ulefone.com/pages/take-control-with-ulefone-mdm\">\n            <div class=\"card\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-2.webp\" alt=\"MDM\" />\n                <div class=\"card-content\">\n                    <h3>MDM</h3>\n                    <p>Centrally manages enterprise mobile devices for security, compliance, and efficiency.</p>\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n\n        <!-- RFID Card -->\n        <a href=\"https://www.ulefone.com/pages/ulefone-rfid-reader\">\n            <div class=\"card\" onclick=\"\" style=\"cursor: pointer;\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/solutions-1.webp\" alt=\"RFID\" />\n                <div class=\"card-content\">\n                    <h3>RFID</h3>\n                    <p>Wireless identification and tracking technology for precise, real-time data and enhanced operational efficiency.</p>\n                    <!--<a href=\"https://www.ulefone.com/pages/ulefone-rfid-reader\" class=\"card-btn\">\n                Learn More <span>»</span>\n            </a>-->\n                    <div class=\"card-btn-container\">\n                        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/corporate-busines-learn-more.webp\">\n                    </div>\n                </div>\n            </div>\n        </a>\n    </div>\n</section>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_GtdkaD",
+    "custom_liquid_fwznD6",
+    "custom_liquid_KeJQka",
+    "custom_liquid_qryNxq",
+    "custom_liquid_ApD7hg",
+    "premium_partners_EarhAG",
+    "custom_liquid_E8q4x8",
+    "custom_liquid_NHrCkG"
+  ]
+}

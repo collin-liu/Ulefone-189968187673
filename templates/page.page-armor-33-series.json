@@ -1,0 +1,134 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_rqL8Lk": {
+      "type": "custom-liquid",
+      "name": "banner",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<a href=\"#giveaway\">\n    <div class=\"section section-1\">\n    <div id=\"gs\">\n        <div class=\"section-content\">\n  \n        </div>\n    </div>\n</div></a>"
+      }
+    },
+    "newsletter_fGxULQ": {
+      "type": "newsletter",
+      "custom_css": [
+        "div#section-id-template--25020891037977__newsletter_fGxULQ {background-color: #000; color: #fff;}",
+        ".cc-animate-init h3 {color: #fff;}",
+        "h4.h2.line-1.cc-animate-init.-in.cc-animate-complete {color: #fff;}",
+        "form#newsletter-signup-template--25020891037977__newsletter_fGxULQ {border: 2px dashed rgba(255, 197, 0, 0.4); border-radius: 1vw;}",
+        ".rte.align-center.cc-animate-init.-in.cc-animate-complete {text-align: center; font-size: 1.2vw;}",
+        "input#mailinglist_emailtemplate--25020891037977__newsletter_fGxULQ {text-align: center;}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "UP TO $50 % OFF!",
+        "text": "<p>Subscribe & Save big</p>",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_iJNT3X": {
+      "type": "custom-liquid",
+      "name": "maidian",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-2\"></div>"
+      }
+    },
+    "custom_liquid_pfUrxE": {
+      "type": "custom-liquid",
+      "name": "video",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-3\">\n    <div class=\"armor-33-section\">\n        <h2 style=\"font-family: BERNATE;\">ARMOR 33 Pro</h2>\n        <div class=\"subtitle\">Dual-sreen, double the possibilities</div>\n        <div class=\"armor-33-section-text\">\n            <div class=\"grid\">\n                <div class=\"text-block\">\n                    3.4-inch Max Back</br>\n                    Screen.Front or</br>\n                    Rear, Flexible\n                </div>\n                <div class=\"section-33-video\">\n                    <video autoplay loop muted playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/b7f7273988d34317a4a1730506290953.mp4\" type=\"video/mp4\">\n                    </video>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_b8nBcm": {
+      "type": "custom-liquid",
+      "name": "xiangqing",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-4\">\n    <div id=\"gs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-4.webp\" alt=\"\">\n    </div>\n    <div id=\"sec-block\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-04.webp\" alt=\"\">\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_gAHFBi": {
+      "type": "custom-liquid",
+      "name": "video2",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-33\">\n        <div class=\"armor-33-section\">\n            <h2 style=\"font-family: BERNATE;\">ARMOR 33</h2>\n            <div class=\"subtitle\">Versatile LED Light & 25,500mAh Battery</div>\n            <div class=\"armor-33-section-text\">\n                <div class=\"grid\">\n                    <div class=\"text-block\">\n                        1100 Lumens Versatile</br> LED Light.</br>\n                        Enjoy Outdoors, </br>Day or Night\n                    </div>\n                    <div  class=\"section-33-video\">\n                        <video autoplay loop muted playsinline>\n                            <source src=\"https://cdn.shopify.com/videos/c/o/v/3c0875a74f264d93b1f47efa8ea4f4d8.mp4\" type=\"video/mp4\">\n                        </video>\n                    </div>\n                </div>\n            </div>\n            <div class=\"grid\" style=\"margin-top: 40px;\">\n                <div>\n                    <video autoplay loop muted playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/687208fc41864509b9321777e7e97e38.mp4\" type=\"video/mp4\">\n                    </video>\n                </div>\n                <div class=\"text-block right\">\n                    Warning Light<br>\n                    Emergency Beacon\n                </div>\n            </div>\n        </div>\n    </div>"
+      }
+    },
+    "custom_liquid_eBcy7R": {
+      "type": "custom-liquid",
+      "name": "btn1",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-5\">\n    <div class=\"section-box\">\n        <a href=\"https://bit.ly/44PRyuZ\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/add-cart.png\"></a>\n        <a href=\"https://bit.ly/44PRyuZ\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/coupon.png\"></a>\n        <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/givaway.png\"></a>\n    </div>\n<p>*Claim a $10 coupon between August 4 and 17. Valid for use from August 18 to 27.</p>\n</div>"
+      }
+    },
+    "custom_liquid_G3rbmc": {
+      "type": "custom-liquid",
+      "name": "btn2",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-6\">\n    <div class=\"section-box\">\n        <a href=\"https://bit.ly/3U0BwZ2\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/add-cart.png\"></a>\n        <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/givaway.png\"></a>\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_TTMCNU": {
+      "type": "custom-liquid",
+      "name": "changtu",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-8\">\n            <div id=\"gs\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-8.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-9.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-10.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-11.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-12.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-13.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-14.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-15.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-16.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-17.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-18.webp\" alt=\"\">\n            </div>\n            <div id=\"sec-block\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-08.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-09.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-010.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-011.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-012.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-013.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-014.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-015.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-016.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-017.webp\" alt=\"\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-018.webp\" alt=\"\">\n            </div>\n        </div>"
+      }
+    },
+    "custom_liquid_XtT3j9": {
+      "type": "custom-liquid",
+      "name": "css",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    @font-face {font-family: BERNATE;src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/BATMANFOREVERALTERNATE.TTF');font-weight: bold;font-style: normal;font-display: swap;}\n    .section-slogan {font-family: MiSans-Demibold;font-size: 2.3vw;font-weight: 500;}\n    .section {display: block;clear: both;margin: auto;overflow: hidden;word-wrap: break-word;line-height: normal;}\n    .section-1 {height: 56.25vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-1.jpg) no-repeat center;background-size: 100% 100%;}\n    .section-1 .section-content {margin: 37vw 7.4vw;display: grid;}\n    .section-1 .signup-form {color: #ffc500;float: left;text-align: left;display: block;width: 26vw;margin-top: 7vw;}\n    .section-1 .section-box {margin-top: 7vw;display: block;width: 100%;}\n    .section-1 img {width: 8.8%;height: auto;}\n    .section-2 {height: 56.25vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-2.jpg) no-repeat center;background-size: 100% 100%;}\n    .section-5 {height: 21.1458vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-6.jpg) no-repeat center;background-size: 100% 100%;}\n    .section-6 {height: 21.1458vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-7.jpg) no-repeat center;background-size: 100% 100%;}\n    #sec-block {margin-top: 0;}\n    .armor-33-section {background-color: #000;color: white;text-align: center;padding: 40px 20px;font-family: Arial, sans-serif;}\n    .armor-33-section h2 {font-size: 2.8vw;font-weight: bold;color: #fdd200;margin-bottom: 10px;}\n    .armor-33-section .subtitle {font-size: 2vw;margin-bottom: 40px;}\n    .armor-33-section .grid {display: grid;grid-template-columns: 1fr 1fr;gap: 30px;margin: 2vw 1vw;align-items: center;}\n    .armor-33-section .text-block {text-align: left;font-size: 2.33vw;line-height: 1;}\n    .armor-33-section .text-block.right {margin: 0 6vw;}\n    .armor-33-section video {width: 100%;height: auto;}\n    .armor-33-section .placeholder {background: #fff;color: #fdd200;font-size: 36px;padding: 60px 0;}\n    .armor-33-section-text {margin: 0 6vw;}\n    .section-5 .section-box {margin: 13vw 25vw;}\n    .section-5 .section-box img {width: 22%;height: auto;}\n    .section-6 .section-box {margin: 14vw 25vw;}\n    .section-6 .section-box img {width: 22%;height: auto;}\n    .title.gradient-text {text-align: center;padding: 2vw;font-size: 2vw;font-weight: 600;\n    }\n    @media (max-width: 768px) {\n        .section {clear: both;margin: auto;width: 100%;background-size: 100% 100%;overflow: hidden;}\n        .section-1 {height: 129.6296vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-01.webp) no-repeat center;background-size: 100% 129.6296vw;}\n        .section-2 {height: 129.6296vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-02.webp) no-repeat center;background-size: 100% 129.6296vw;}\n        #shopify-section-template--25020891037977__newsletter_fGxULQ .rte.align-center.cc-animate-init.-in.cc-animate-complete {font-size: 2.2vw;}\n        .armor-33-section h2 {font-size: 3.8vw;}\n        .armor-33-section .subtitle {font-size: 3vw;}\n        .section-33-video {order: -1;}\n        .armor-33-section-text .text-block {order: 0;font-size: 4vw;}\n        .section-5 {height: 40.5555vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-06.webp) no-repeat center;background-size: 100% 40.5555vw;}\n        .section-5 .section-box {margin: 26vw 6vw;}\n        .section-6 {height: 40.5555vw;background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-07.webp) no-repeat center;background-size: 100% 40.5555vw;}\n        .section-6 .section-box {margin: 27vw 6vw;}\n        .armor-33-section .grid {flex-direction: column;grid-template-columns: 1fr;gap: 20px;}\n        .armor-33-section .text-block,\n        .armor-33-section .text-block.right {text-align: center;}\n        .title.gradient-text {text-align: center;padding: 2vw;font-size: 6vw;font-weight: 600;}\n    }\n\n    @media (max-width: 480px) {\n        h4.h2.line-1 {color: #fff;}\n        .align-center p {text-align: center;}\n    }\n</style>"
+      }
+    },
+    "custom_liquid_jnHNzL": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": false,
+        "custom_liquid": "<style>\n    div#shopify-section-template--24688672899353__custom_liquid_nhFeC4 {\n        background-color: #1c1c1c;\n    }\n</style>\n<div class=\"section section-66\" id=\"giveaway\">\n    <div class=\"title gradient-text\">\n        Giveaway\n    </div>\n    <div id=\"92122-3qs7bhzl\" class=\"sw_container\">\n    <script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script></div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_rqL8Lk",
+    "newsletter_fGxULQ",
+    "custom_liquid_iJNT3X",
+    "custom_liquid_pfUrxE",
+    "custom_liquid_b8nBcm",
+    "custom_liquid_gAHFBi",
+    "custom_liquid_eBcy7R",
+    "custom_liquid_G3rbmc",
+    "custom_liquid_TTMCNU",
+    "custom_liquid_XtT3j9",
+    "custom_liquid_jnHNzL"
+  ]
+}

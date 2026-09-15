@@ -1,0 +1,290 @@
+
+    @font-face {
+        font-family: MiSans-Demibold;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+    }
+
+    @font-face {
+        font-family: MiSans-Medium;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: MiSans-Regular;
+        src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+    }
+
+    .section-subtitle {
+        font-family: MiSans-Medium;
+        font-size: 2vw;
+    }
+
+    .section-slogan {
+        font-family: MiSans-Demibold;
+        font-weight: 600;
+        font-size: 3vw;
+        background: linear-gradient(to right, #ff5016, #ff8501);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+
+    .section-text {
+        font-size: 1.21111vw;
+        font-family: MiSans-Regular;
+        margin-top: 1.535vw;
+    }
+
+    .ar-left {
+        text-align: left;
+    }
+    .ar-white {
+        color: #fff;
+    }
+    .section-1 .section-box {
+        width: 55vw;
+        margin: 17vw 15vw;
+    }
+    .section {
+        display: block;
+        clear: both;
+        margin: auto;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    .section-1 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-1.webp) no-repeat center;
+        background-size: 100% 100%;
+        margin-top: 3vw;
+    }
+        .section-1 span {
+            font-size: 1vw;
+            border: 2px solid #ff5016;
+            padding: 0 0.2vw;
+            font-weight: 400;
+            border-radius: 3px;
+            margin-left: 0.588vw;
+        }
+    .section-2 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-2.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+        .section-2 .section-content {
+            width: 60vw;
+            text-align: center;
+            margin: 3vw auto;
+        }
+
+    .section-3 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-3.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-3 {
+        width: 43vw;
+        margin: 7vw 4vw;
+    }
+    .section-4 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-4.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-4 {
+        margin-top: 3vw;
+    }
+
+    .section-5 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-5.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-5 {
+        width: 80vw;
+        text-align: center;
+        margin: 4vw auto;
+    }
+    .section-6 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-6.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-6 {
+        width: 38vw;
+        margin: 16vw 7vw;
+    }
+    .section-7 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-7.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-7 {
+        width: 65vw;
+        margin: 4vw auto;
+        text-align: center;
+    }
+    .section-8 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-8.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-8 {
+        width: 61vw;
+        margin: 2vw 12vw;
+    }
+    .section-9 {
+        height: 56.25vw;
+        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-9.webp) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .section-content.section-content-9 {
+        margin: 6vw auto;
+    }
+    #sec-block {
+        margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        div#faq_nav {
+            padding: 0 2vw;
+        }
+
+        .section-slogan {
+            font-size: 5.6vw;
+        }
+
+        .section-subtitle {
+            font-size: 3.56vw;
+        }
+
+        .section-text {
+            font-size: 2.5211vw;
+        }
+
+        .ar-left {
+            text-align: center;
+        }
+
+        .section-1 .section-box {
+            margin: 7vw auto;
+        }
+        .section-1 span {
+            font-size: 2vw;
+        }
+    .section {
+            clear: both;
+            margin: auto;
+            width: 100%;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .section-1 {
+            height: 119.2592vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-01.webp) no-repeat center;
+            background-size: 100% 119.2592vw;
+            margin-top: 4vw;
+        }
+
+        .section-2 {
+            height: 177.7777vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-02.webp) no-repeat center;
+            background-size: 100% 177.7777vw;
+        }
+
+            .section-2 .section-content {
+                width: 93vw;
+                margin: 11vw auto;
+            }
+        .section-3 {
+            height: 129.907vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-03.webp) no-repeat center;
+            background-size: 100% 129.907vw;
+        }
+        .section-content.section-content-3 {
+            width: 90vw;
+            margin: 7vw auto;
+        }
+        .section-4 {
+            height: 177.77777vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-04.webp) no-repeat center;
+            background-size: 100% 177.77777vw;
+        }
+        .section-content.section-content-4 {
+            margin: 5vw auto;
+            width: 90vw;
+        }
+        .section-5 {
+            height: 112.685vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-05.webp) no-repeat center;
+            background-size: 100% 112.685vw;
+        }
+        .section-content.section-content-5 {
+            width: 90vw;
+            text-align: center;
+            margin: 10vw auto;
+        }
+        .section-6 {
+            height: 100vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-06.webp) no-repeat center;
+            background-size: 100% 100vw;
+        }
+        .section-content.section-content-6 {
+            width: 90vw;
+            margin: 2vw 7vw;
+        }
+        .section-7 {
+            height: 134.25925vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-07.webp) no-repeat center;
+            background-size: 100% 134.25925vw;
+        }
+        .section-content.section-content-7 {
+            width: 90vw;
+        }
+        .section-8 {
+            height: 170.37037vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-08.webp) no-repeat center;
+            background-size: 100% 170.37037vw;
+        }
+        .section-content.section-content-8 {
+            width: 90vw;
+            margin: 2vw auto;
+        }
+        .section-9 {
+            height: 206.11111vw;
+            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-Armor-Mount-next-gen-09.webp) no-repeat center;
+            background-size: 100% 206.11111vw;
+        }
+        .section-content.section-content-9 {
+            margin: 4vw auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .section-text {
+            font-size: 3.123vw;
+            line-height: 1.2;
+        }
+
+        .section-gradient-subtitle {
+            font-size: 5.23vw;
+        }
+
+        .section-1 .section-box {
+            margin: 12vw auto;
+        }
+        .section-1 {
+            margin-top: 10vw;
+        }
+        .section-content.section-content-6 {
+            margin: 0 auto;
+        }
+        .section-content.section-content-8 {
+            margin: 0 auto;
+        }
+
+    }

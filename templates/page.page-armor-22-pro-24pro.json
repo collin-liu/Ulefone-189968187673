@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_ymNmbX": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 991px) {#sec-block {margin-top: 0; }}"
+      ],
+      "name": "1",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div id=\"gs\">\n    <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-1.webp\" alt=\"\"></a>\n</div>\n<div id=\"sec-block\">\n    <a href=\"#giveaway\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-01_jpg.webp?v=1785998337\" alt=\"\"></a>\n</div>"
+      }
+    },
+    "custom_liquid_JTgbdg": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n/*    .test {\n        background:red;\n        opacity:.7;\n    }*/\n    .image-container {\n        position: relative;\n        /*    display: inline-block;*/\n        max-width: 100%;\n    }\n\n    .hotspot-image {\n        max-width: 100%;\n        height: auto;\n        display: block;\n        width: 100%;\n    }\n\n    .hotspot {\n        position: absolute;\n        transform: translate(-50%, -50%);\n        display: block; /*        background: rgba(255, 255, 255, 0);*/\n        text-indent: -9999px;\n    }\n\n    .section-1 {\n        position: relative;\n        width: 100%;\n        height: 56.25vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-1.webp) no-repeat center;\n        background-size: contain;\n        background-color: #000;\n    }\n    .section-2 {\n        position: relative;\n        width: 100%;\n        height: 55.47vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-2.webp) no-repeat center;\n        background-size: contain;\n        background-color: #000;\n    }\n    .section-3 {\n        position: relative;\n        width: 100%;\n        height: 55.47vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-3.webp) no-repeat center;\n        background-size: contain;\n        background-color: #000;\n    }\n    .back-but1 {\n        top: 79.2%;\n        left: 50.1%;\n        width: 15%;\n        height: 5.555%;\n        border-radius: 1.5vw;\n    }\n\n    .back-but2 {\n        top: 69.666%;\n        left: 64%;\n        width: 11.9%;\n        height: 10.666%;\n        border-radius: .9vw;\n    }\n    .back-but3 {\n        top: 47.8%;\n        left: 29%;\n        width: 11.3%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but4 {\n        top: 86%;\n        left: 28.5%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but5 {\n        top: 86%;\n        left: 50%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but6 {\n        top: 86%;\n        left: 70.5%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but7 {\n        top: 47.8%;\n        left: 29%;\n        width: 11.6%;\n        height: 4%;\n        border-radius: 1.5vw;\n    }\n    .back-but8 {\n        top: 86%;\n        left: 28.5%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but9 {\n        top: 86%;\n        left: 50%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    .back-but10 {\n        top: 86%;\n        left: 70.5%;\n        width: 9.6%;\n        height: 3.9%;\n        border-radius: 1.5vw;\n    }\n    @media (max-width: 480px) {\n        .back-but1 {\n            top: 58.3%;\n            left: 50%;\n            width: 33.9%;\n            height: 5.555%;\n            border-radius: .9vw;\n        }\n        .back-but2 {\n            top: 50.666%;\n            left: 80%;\n            width: 23.9%;\n            height: 7.666%;\n            border-radius: .9vw;\n        }\n        .back-but3 {\n            top: 24.6%;\n            left: 50%;\n            width: 29.3%;\n            height: 3.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but4 {\n            top: 93%;\n            left: 14.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but5 {\n            top: 93%;\n            left: 51.5%;\n            width: 28.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but6 {\n            top: 93%;\n            left: 85.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but7 {\n            top: 24.8%;\n            left: 50%;\n            width: 31.6%;\n            height: 6%;\n            border-radius: 1.5vw;\n        }\n        .back-but8 {\n            top: 93%;\n            left: 14.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but9 {\n            top: 93%;\n            left: 51.5%;\n            width: 28.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but10 {\n            top: 93%;\n            left: 85.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .section-1 {\n            clear: both;\n            margin: auto;\n            width: 100%;\n            background-size: contain;\n            overflow: hidden;\n            height: 152.129vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-01.webp) no-repeat center;\n            background-size: 100% 152.129vw;\n        }\n        .section-2 {\n            clear: both;\n            margin: auto;\n            width: 100%;\n            background-size: contain;\n            overflow: hidden;\n            height: 193.518vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-02.webp) no-repeat center;\n            background-size: 100% 193.518vw;\n        }\n        .section-3 {\n            clear: both;\n            margin: auto;\n            width: 100%;\n            background-size: contain;\n            overflow: hidden;\n            height: 193.518vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-03.webp) no-repeat center;\n            background-size: 100% 193.518vw;\n        }\n    }\n</style>\n<section class=\"section section-1\">\n    <a href=\"#armor-22-pro\" class=\"hotspot test back-but1\"></a>\n    <!--<a href=\"#giveaway\" class=\"hotspot test back-but2\"></a>-->\n</section>\n<section class=\"section section-2\">\n    <a href=\"https://www.ulefone.com/products/armor-22-pro?utm_source=22Pro24ProLaunchEvent&utm_medium=LearnMore&utm_campaign=Armor22Pro\" target=\"_blank\" class=\"hotspot test back-but3\"></a>\n    <div id=\"armor-22-pro\"></div>\n    <a href=\"https://bit.ly/4zmCNNs\" target=\"_blank\"  class=\"hotspot test back-but4\"></a>\n    <a href=\"https://bit.ly/4ztgGFd\" target=\"_blank\"  class=\"hotspot test back-but5\"></a>\n    <a href=\"https://bit.ly/4gzpd1D\" target=\"_blank\"  class=\"hotspot test back-but6\"></a>\n</section>\n<section class=\"section section-3\">\n    <a href=\"https://www.ulefone.com/products/armor-22-pro?utm_source=22Pro24ProLaunchEvent&utm_medium=LearnMore&utm_campaign=Armor22Pro\" target=\"_blank\" class=\"hotspot test back-but7\"></a>\n\n    <a href=\"https://bit.ly/4zheccZ\" target=\"_blank\"  class=\"hotspot test back-but8\"></a>\n    <a href=\"https://bit.ly/3U1jkSj\" target=\"_blank\"  class=\"hotspot test back-but9\"></a>\n    <a href=\"https://bit.ly/4gx04EV\" target=\"_blank\"  class=\"hotspot test back-but10\"></a>\n</section>"
+      }
+    },
+    "newsletter_cAcWY4": {
+      "type": "newsletter",
+      "disabled": true,
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Subscribe to our newsletter",
+        "text": "<p>Sign up to our newsletter and we'll keep you up to date with the latest arrivals</p>",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_EG8D79": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "3",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-3 {\n        position: relative;\n        width: 100%;\n        height: 45.31vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-5.webp) no-repeat center;\n        background-size: cover;\n    }\n\n        .section-3 .row {\n            margin: 15vw;\n            position: absolute;\n            font-size: 1.5vw;\n        }\n\n        .section-3 .btn {\n            background-color: #ffc600;\n            border-radius: 20px;\n            padding: .5vw 2vw;\n            width: 13.5vw;\n            color: #000;\n            margin-top: 2vw;\n        }\n\n        .section-3 .row p {\n            color: #fff;\n        }\n    @media (max-width: 1272px) {\n        .section-6 .row p {\n            line-height: .8;\n        }\n    }\n        @media (max-width: 480px) {\n            .section-3 {\n                height: 163.5vw;\n                background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-03.webp?v=1785999574) no-repeat center;\n                background-size: 100% 163.5vw;\n            }\n\n                .section-3 .row {\n                    margin: 12vw auto;\n                    position: absolute;\n                    text-align: center;\n                    font-size: 3.5vw;\n                    line-height: .8;\n                    width: 100vw;\n                }\n\n                .section-3 .btn {\n                    background-color: #ffc600;\n                    border-radius: 20px;\n                    padding: 1.5vw 0;\n                    width: 38.5vw;\n                    color: #000;\n                    margin: 0 auto;\n                    margin-top: 2vw;\n                }\n\n                .section-3 .row p::first-letter {\n                    font-size: 0;\n                    color: transparent;\n                }\n        }\n</style>\n<a href=\"https://www.ulefone.com/products/armor-24-pro?utm_source=22Pro24ProLaunchEvent&utm_medium=LearnMore&utm_campaign=Armor22Pro\" target=\"_blank\">\n    <section class=\"section section-3\">\n        <div class=\"row\">\n            <p>● 64MP Sony Camera + 64MP Night Vision</p>\n            <p>● 6.58\" 120Hz FHD+ Display</p>\n            <p>● 8GB+128GB / 8GB+256GB Storage</p>\n            <p>● eSIM Support / Android 16</p>\n            <p>● 6600mAh Battery</p>\n            <div class=\"btn\"><a href=\"https://www.ulefone.com/products/armor-22-pro?utm_source=22Pro24ProLaunchEvent&utm_medium=LearnMore&utm_campaign=Armor22Pro\" target=\"_blank\">Learn More ></a></div>\n        </div>\n    </section>\n</a>"
+      }
+    },
+    "custom_liquid_yQcT9N": {
+      "type": "custom-liquid",
+      "name": "4",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-4 {\n        position: relative;\n        width: 100%;\n        height: 57.81vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-6.webp?v=1786009315) no-repeat center;\n        background-size: cover;\n    }\n\n    @media (max-width: 480px) {\n        .section-4 {\n            height: 309.53vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-04.webp?v=1786009315) no-repeat center;\n            background-size: 100% 309.53vw;\n        }\n    }\n</style>\n<section class=\"section section-4\">\n</section>"
+      }
+    },
+    "custom_liquid_g8nq7i": {
+      "type": "custom-liquid",
+      "name": "5",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-5 {\n        position: relative;\n        width: 100%;\n        height: 32.421vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-4.webp) no-repeat center;\n        background-size: cover;\n    }\n\n        .section-5 .row {\n            margin: 7.9vw 46.3vw;\n            position: absolute;\n            font-size: 1.5vw;\n            width: 37vw;\n        }\n\n            .section-5 .row p {\n                font-size: 1vw;\n            }\n\n        .section-5 h4 {\n            font-size: 1.5vw;\n            font-weight: 600;\n        }\n\n        .section-5 h3 {\n            font-size: 1.32vw;\n            text-align: left;\n            width: 24vw;\n            font-weight: 600;\n        }\n\n    .sec-5-p {\n        margin: 1vw 6vw;\n    }\n    .section-5 a {\n        font-size: .6vw;\n        color: #3f3f3f;\n        text-decoration: revert;\n    }\n    @media (max-width: 1518px) {\n        .section-5 .row p {\n            line-height: .8;\n        }\n    }\n    @media (max-width: 480px) {\n        .section-5 {\n            height: 124.8148vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-05.webp?v=1785999574) no-repeat center;\n            background-size: 100% 124.8148vw;\n        }\n            .section-5 .row {\n                margin: 57.9vw 9.3vw;\n                position: absolute;\n                font-size: 1.5vw;\n                width: 100vw;\n            }\n            .section-5 .row p {\n                font-size: 3.3vw;\n                line-height: 1;\n            }\n\n            .section-5 h3 {\n                font-size: 3.62vw;\n                text-align: left;\n                width: 69vw;\n                font-weight: 600;\n            }\n\n            .section-5 h4 {\n                display: none;\n            }\n\n            .section-5 a {\n                font-size: 9px;\n            }\n    }\n</style>\n<section class=\"section section-5\">\n    <div class=\"row\">\n        <h4>TechRadar Verdict</h4>\n        <div class=\"sec-5-p\">\n            <h3>“A lightweight rugged phone ideal for outdoor workers”</h3>\n            <p>✔ Best-in-Class Value </p>\n            <p>✔ Dual 64MP Cameras, Day &amp; Night</p>\n            <p>✔ Lightweight Rugged Durability</p>\n            <p>✔ Ultra-Smooth 120Hz FHD+ Display</p>\n            <p>✔ Power That Lasts All Day</p>\n            <a href=\"https://www.techradar.com/pro/phone-communications/ulefone-armor-22-rugged-phone-review\" target=\"_blank\">Source: TechRadar ↗</a>\n        </div>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_9a699T": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .image-container {\n        position: relative;\n        /*    display: inline-block;*/\n        max-width: 100%;\n    }\n\n    .hotspot-image {\n        max-width: 100%;\n        height: auto;\n        display: block;\n        width: 100%;\n    }\n\n    .hotspot {\n        position: absolute;\n        transform: translate(-50%, -50%);\n        display: block; /*        background: rgba(255, 255, 255, 0);*/\n        text-indent: -9999px;\n    }\n\n    .section-6 {\n        position: relative;\n        width: 100%;\n        height: 55.468vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-6.webp) no-repeat center;\n        background-size: contain;\n        background-color: #000;\n    }\n    .back-but11 {\n        top: 47.9%;\n        left: 29.1%;\n        width: 12%;\n        height: 5.555%;\n        border-radius: 1.5vw;\n    }\n\n    .back-but12 {\n        top: 86.3%;\n        left: 29.1%;\n        width: 12%;\n        height: 5.555%;\n        border-radius: 1.5vw;\n    }\n\n    .back-but13 {\n        top: 86.3%;\n        left: 50.1%;\n        width: 12%;\n        height: 5.555%;\n        border-radius: 1.5vw;\n    }\n    .back-but14 {\n        top: 86.3%;\n        left: 70.5%;\n        width: 12%;\n        height: 5.555%;\n        border-radius: 1.5vw;\n    }\n    @media (max-width: 480px) {\n        .back-but11 {\n            top: 24.6%;\n            left: 49.6%;\n            width: 32.8%;\n            height: 4.555%;\n            border-radius: .9vw;\n        }\n\n        .back-but12 {\n            top: 93%;\n            left: 14.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n\n        .back-but13 {\n            top: 93%;\n            left: 51.5%;\n            width: 28.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .back-but14 {\n            top: 93%;\n            left: 85.5%;\n            width: 21.6%;\n            height: 12.9%;\n            border-radius: 1.5vw;\n        }\n        .section-6 {\n            clear: both;\n            margin: auto;\n            width: 100%;\n            background-size: contain;\n            overflow: hidden;\n            height: 193.518vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Pre-sale-22pro-24pro-06.webp) no-repeat center;\n            background-size: 100% 193.518vw;\n        }\n\n    }\n</style>\n<section id=\"armor-24-pro\" class=\"section section-6\">\n    <a href=\"https://www.ulefone.com/products/armor-24-pro?utm_source=22Pro24ProLaunchEvent&utm_medium=LearnMore&utm_campaign=Armor24Pro\" target=\"_blank\" class=\"hotspot test back-but11\"></a>\n\n    <a href=\"https://bit.ly/4bOQafk\" target=\"_blank\"  class=\"hotspot test back-but12\"></a>\n    <a href=\"https://bit.ly/4g36NWX\" target=\"_blank\"  class=\"hotspot test back-but13\"></a>\n    <a href=\"https://bit.ly/4znvll1\" target=\"_blank\"  class=\"hotspot test back-but14\"></a>\n</section>"
+      }
+    },
+    "custom_liquid_VDHjhf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-7 {\n        position: relative;\n        width: 100%;\n        height: 45.31vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-3.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    @media (max-width: 480px) {\n        .section-7 {\n            height: 184.259vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-07.webp) no-repeat center;\n            background-size: 100% 184.259vw;\n        }\n    }\n</style>\n<section class=\"section section-7\">\n</section>"
+      }
+    },
+    "custom_liquid_wL7HYh": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    .section-8 {\n        background-color: #000;\n        display: flow-root;\n        padding: 2vw 0 4vw 0;\n    }\n        .section-8 .sec-8-img {\n            padding:3vw;\n        }\n        .section-8 .image-container {\n            text-align: center;\n            max-width: 89vw;\n            margin: 0 auto;\n        }\n        .row2 .col-md-6 {\n            margin-top:3vw;\n        }\n</style>\n<section class=\"section section-8\">\n    <div class=\"image-container\">\n        <div class=\"sec-8-img\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-22pro-24pro-7.webp\"></div>\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-6 col-md-6\">\n                <iframe width=\"1120\" height=\"630\" src=\"https://www.youtube.com/embed/smWBfgJP9qw?si=reGUEkJEgdC3vZNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n            </div>\n            <div class=\"col-12 col-sm-6 col-md-6\">\n                <iframe width=\"1120\" height=\"630\" src=\"https://www.youtube.com/embed/fQ3kQLY_fVM?si=-7aRAcJ0Gk_5f4mG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n            </div>\n        </div>\n        <div class=\"row row2\">\n            <div class=\"col-12 col-sm-6 col-md-6\">\n                <iframe width=\"1120\" height=\"630\" src=\"https://www.youtube.com/embed/j5hjqdCs35E?si=JhbVDAq1960knaj9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n            </div>\n            <div class=\"col-12 col-sm-6 col-md-6\">\n                <iframe width=\"1120\" height=\"630\" src=\"https://www.youtube.com/embed/9xwR9g7TEUo?si=_B1LLHKaFL1sbZz2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n            </div>\n        </div>\n    </div>\n</section>"
+      }
+    },
+    "custom_liquid_TbjyEM": {
+      "type": "custom-liquid",
+      "name": "Giveaway",
+      "settings": {
+        "no_margins": false,
+        "custom_liquid": "<div class=\"section section-10\" id=\"giveaway\">\n    <div class=\"title gradient-text\" style=\"    text-align: center;\n     font-size: 2.5rem;\n    margin: 2vw;\">\n        Giveaway\n    </div>\n<div id=\"101422-t028bvs5\" class=\"sw_container\"><script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script></div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_ymNmbX",
+    "custom_liquid_JTgbdg",
+    "newsletter_cAcWY4",
+    "custom_liquid_EG8D79",
+    "custom_liquid_yQcT9N",
+    "custom_liquid_g8nq7i",
+    "custom_liquid_9a699T",
+    "custom_liquid_VDHjhf",
+    "custom_liquid_wL7HYh",
+    "custom_liquid_TbjyEM"
+  ]
+}

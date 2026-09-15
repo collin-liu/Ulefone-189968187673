@@ -1,0 +1,95 @@
+<div class="christmas-music-section" data-section-id="{{ section.id }}">
+    <audio id="christmas-audio-{{ section.id }}"
+           src="{{ section.settings.music_url }}"
+           {% if section.settings.autoplay %}autoplay{% endif %}
+           {% if section.settings.loop %}loop{% endif %}
+           preload="auto"></audio>
+
+    {% if section.settings.show_control %}
+    <button class="christmas-music-toggle"
+            aria-label="Toggle Christmas Music">
+        🎄 Music：<span class="status">On</span>
+    </button>
+    {% endif %}
+</div>
+
+<style>
+    .christmas-music-section {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+
+    .christmas-music-toggle {
+        background: rgba(0,0,0,0.6);
+        color: #fff;
+        border: none;
+        border-radius: 999px;
+        padding: 10px 16px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+</style>
+
+<script>
+(function () {
+  var audio = document.getElementById('christmas-audio-{{ section.id }}');
+  if (!audio) return;
+  document.addEventListener('click', function onceClick() {
+    audio.play().catch(function(){});
+    document.removeEventListener('click', onceClick);
+  });
+
+  var btn = document.querySelector('[data-section-id="{{ section.id }}"] .christmas-music-toggle');
+  if (!btn) return;
+
+  var status = btn.querySelector('.status');
+
+  btn.addEventListener('click', function () {
+    if (audio.paused) {
+      audio.play();
+        status.textContent = 'On';
+    } else {
+      audio.pause();
+        status.textContent = 'Off';
+    }
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "🎅 圣诞背景音乐",
+  "settings": [
+    {
+      "type": "url",
+      "id": "music_url",
+      "label": "MP3"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "自动播放",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "循环播放",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_control",
+      "label": "显示音乐开关按钮",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "🎄 圣诞活动音乐"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,262 @@
+{% schema %}
+{
+  "name": "Tabs Advanced",
+  "tag": "section",
+  "class": "section-tabs-advanced",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "主标题",
+      "default": "What EasyControl MDM can do"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab 项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab 标题",
+          "default": "功能标题"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Tab 内容"
+        },
+        {
+          "type": "image_picker",
+          "id": "tab_image",
+          "label": "Tab 图片"
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "图片位置",
+          "options": [
+            { "label": "左侧", "value": "left" },
+            { "label": "右侧", "value": "right" }
+          ],
+          "default": "right"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 7,
+  "presets": [
+    {
+      "name": "Tabs Advanced Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="tabs-advanced-wrapper page-width">
+    {% if section.settings.main_heading != blank %}
+    <h2 class="main-heading">{{ section.settings.main_heading }}</h2>
+    {% endif %}
+
+    <ul class="tabs-nav">
+        {% for block in section.blocks %}
+        <li class="tabs-nav-item{% if forloop.first %} active{% endif %}" data-tab="tab-{{ forloop.index }}">
+            {{ block.settings.tab_title }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="tabs-content">
+        {% for block in section.blocks %}
+        <div class="tab-pane{% if forloop.first %} active{% endif %}" id="tab-{{ forloop.index }}">
+            <div class="tab-layout{% if block.settings.image_position == 'left' %} reverse{% endif %}">
+                <div class="tab-text">
+                    <h3>{{ block.settings.tab_title }}</h3>
+                    {{ block.settings.tab_content }}
+                </div>
+                {% if block.settings.tab_image %}
+                <div class="tab-image">
+                    <img src="{{ block.settings.tab_image | img_url: '800x' }}" alt="{{ block.settings.tab_title }}">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .tabs-advanced-wrapper {
+        width: 73vw;
+        margin: 5vw auto;
+    }
+
+    .main-heading {
+        text-align: center;
+        font-size: 3vw;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .tabs-nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /*border-bottom: 2px solid #ddd;*/
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        gap: 1vw;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .tabs-nav-item {
+        cursor: pointer;
+        padding: 10px 20px;
+        border-bottom: 3px solid transparent;
+        transition: all 0.3s ease;
+        font-weight: 500;
+    }
+
+        .tabs-nav-item.active {
+            border-color: #007bff;
+            color: #007bff;
+        }
+
+    .tab-pane {
+        display: none;
+        animation: fadeIn 0.3s ease-in-out;
+    }
+
+        .tab-pane.active {
+            display: block;
+        }
+
+    .tab-layout {
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        .tab-layout.reverse {
+            flex-direction: row-reverse;
+        }
+
+    .tab-text {
+        flex: 1 1 39%;
+        font-size: 1.1vw;
+        line-height: 1.6;
+        padding: 6.2vw 1vw;
+    }
+
+        .tab-text h3 {
+            color: #ffc500;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+    .tab-image {
+        flex: 1 1 54%;
+        text-align: center;
+    }
+
+        .tab-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+            border-radius: 1.8vw;
+        }
+
+    .tab-text h3 {
+        display: none;
+    }
+
+    .tab-text strong {
+        font-size: 2.1vw;
+        line-height: 1;
+        padding: 1.2vw 0;
+        display: grid;
+    }
+
+    .tabs-content {
+        background-color: #f6f6fb;
+        border-radius: 1.8vw;
+    }
+
+    @media (max-width: 768px) {
+        .tab-text h3 {
+            display: block;
+            font-size: 1.2rem;
+        }
+
+        .tabs-nav {
+            display: none;
+        }
+
+        .tab-pane {
+            display: block !important;
+        }
+
+        .tab-layout {
+            flex-direction: column !important;
+        }
+
+        .tab-image {
+            display: none;
+        }
+
+        .main-heading {
+            font-size: 1.5rem;
+        }
+
+        .tabs-content {
+            background-color: #fff;
+            width: 92vw;
+            margin: 0 auto;
+        }
+        .tabs-advanced-wrapper {
+            width: 100%;
+        }
+        .tab-text strong {
+         display: none;
+        }
+      .tab-text h3 {
+    text-align: left;
+}
+        .tab-text {
+            font-size: 3.1vw;
+            padding: 6.2vw 5vw;}
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<script>document.addEventListener('DOMContentLoaded', function () {
+  if (window.innerWidth <= 768) return;
+
+  const navItems = document.querySelectorAll('.tabs-nav-item');
+  const panes = document.querySelectorAll('.tab-pane');
+
+  navItems.forEach(item => {
+    item.addEventListener('click', function () {
+      const target = this.getAttribute('data-tab');
+
+      navItems.forEach(i => i.classList.remove('active'));
+      panes.forEach(p => p.classList.remove('active'));
+
+      this.classList.add('active');
+      document.getElementById(target).classList.add('active');
+    });
+  });
+});</script>

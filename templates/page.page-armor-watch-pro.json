@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_N6Nm4G": {
+      "type": "custom-liquid",
+      "name": "Banner",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    /*.test {\n        background-color: red;\n        opacity: .7;\n    }*/\n    .buy-button {\n        transition: transform 0.2s ease;\n    }\n\n        .buy-button:hover {\n            transform: scale(1.1);\n        }\n\n    .popup {\n        display: none;\n        position: fixed;\n        left: 0;\n        top: 0;\n        width: 100%;\n        height: 100%;\n        background-color: rgba(0, 0, 0, 0.5);\n        justify-content: center;\n        align-items: center;\n        z-index: 9;\n        margin: 0;\n    }\n\n    .purchase-buttons {\n        background-color: #fff;\n        padding: 20px;\n        border-radius: 10px;\n        text-align: center;\n        position: relative;\n        width: 90%;\n        max-width: 400px;\n    }\n\n        .purchase-buttons a {\n            display: block;\n            line-height: 3;\n            margin: 10px auto;\n        }\n\n        .purchase-buttons img {\n            max-width: 200px;\n           /* width: 100%;*/\n            transition: transform 0.3s ease;\n        }\n\n            .purchase-buttons img:hover {\n                transform: scale(1.05);\n            }\n\n    .close {\n        position: absolute;\n        top: 10px;\n        right: 10px;\n        font-size: 24px;\n        cursor: pointer;\n        color: #333;\n    }\n\n        .close:hover {\n            color: #000;\n        }\n\n    .section {\n        display: block;\n        margin: auto;\n        overflow: hidden;\n        width: 100%;\n        background-color: #000;\n    }\n\n    .back-but1 {\n        top: 22.5%;\n        left: 44.46%;\n        width: 11.2%;\n        height: 5%;\n    }\n\n    .back-but2 {\n        top: 68.1%;\n        left: 35%;\n        width: 10.5%;\n        height: 6.5%;\n    }\n\n    .back-but3 {\n        top: 67%;\n        left: 14.7%;\n        width: 11%;\n        height: 7.5%;\n    }\n\n    .back-but7 {\n        top: 0;\n        left: 33.8%;\n        width: 5.5%;\n        height: 70.2%;\n    }\n\n    .back-but8 {\n        top: 0;\n        left: 42.8%;\n        width: 5.5%;\n        height: 70.2%;\n    }\n\n    .back-but9 {\n        top: 0;\n        left: 51.8%;\n        width: 5.5%;\n        height: 70.2%;\n    }\n\n    .back-but10 {\n        top: 0;\n        left: 60.8%;\n        width: 5.5%;\n        height: 70.2%;\n    }\n\n    .section-1 {\n        position: relative;\n        width: 100%;\n        height: 56.25vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-1.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-3 {\n        position: relative;\n        width: 100%;\n        height: 42.968vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-3.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-4 {\n        position: relative;\n        width: 100%;\n        height: 46.88vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-4.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-5 {\n        position: relative;\n        width: 100%;\n        height: 35.16vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-5.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-6 {\n        position: relative;\n        width: 100%;\n        height: 50.78vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-6.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-7 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-7.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-8 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-8.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-9 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-9.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-10 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-10.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-11 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-11.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-12 {\n        position: relative;\n        width: 100%;\n        height: 39.06vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-12.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-13 {\n        position: relative;\n        width: 100%;\n        height: 35.16vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-13.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-14 {\n        position: relative;\n        width: 100%;\n        height: 66.41vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-14.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .section-18 {\n        position: relative;\n        width: 100%;\n        height: 6.95vw;\n        background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-15.webp) no-repeat center;\n        background-size: cover;\n    }\n\n    .hotspot {\n        position: absolute;\n        /*transform: translate(-50%, -50%);*/\n        display: block;\n        text-indent: -9999px;\n        border-radius: 4vw;\n    }\n\n    .purchase-buttons h2, .purchase-buttons a {\n        text-align: left;\n    }\n\n    img.addtocart-img {\n        position: absolute;\n        left: 5%;\n    }\n\n    img, iframe {\n        vertical-align: text-bottom;\n    }\n\n    .purchase-buttons a {\n        /*      display: inline-block;*/\n        width: 69%;\n        text-align: center;\n    }\n\n    @media (max-width: 480px) {\n        .back-but1 {\n            top: 0;\n            left: 0;\n            width: 98%;\n            height: 99%;\n        }\n\n        .back-but2 {\n            top: 4%;\n            left: 4%;\n            width: 92.2%;\n            height: 86.5%;\n        }\n\n        .back-but3 {\n            top: 3.5%;\n            left: 5%;\n            width: 90%;\n            height: 92.5%;\n        }\n\n        .back-but7 {\n            top: 7%;\n            left: 12.8%;\n            width: 11.5%;\n            height: 73.2%;\n        }\n\n        .back-but8 {\n            top: 7%;\n            left: 33.8%;\n            width: 11.5%;\n            height: 73.2%;\n        }\n\n        .back-but9 {\n            top: 7%;\n            left: 54.8% 213.719px;\n            width: 11.5%;\n            height: 73.2%;\n        }\n\n        .back-but10 {\n            top: 7%;\n            left: 75.8%;\n            width: 11.5%;\n            height: 73.2%;\n        }\n\n        .section-1 {\n            height: 133.33vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-01.webp) no-repeat center;\n            background-size: 100% 133.33vw;\n        }\n\n        .section-3 {\n            height: 101.85vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-03.webp) no-repeat center;\n            background-size: 100% 101.85vw;\n        }\n\n        .section-4 {\n            height: 138.89vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-04.webp) no-repeat center;\n            background-size: 100% 138.89vw;\n        }\n\n        .section-5 {\n            height: 203.7vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-05.webp) no-repeat center;\n            background-size: 100% 203.7vw;\n        }\n\n        .section-6 {\n            height: 125vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-06.webp) no-repeat center;\n            background-size: 100% 125vw;\n        }\n\n        .section-7 {\n            height: 69.44vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-07.webp) no-repeat center;\n            background-size: 100% 69.44vw;\n        }\n\n        .section-8 {\n            height: 69.44vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-08.webp) no-repeat center;\n            background-size: 100% 69.44vw;\n        }\n\n        .section-9 {\n            height: 69.44vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-09.webp) no-repeat center;\n            background-size: 100% 69.44vw;\n        }\n\n        .section-10 {\n            height: 86.11vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-010.webp) no-repeat center;\n            background-size: 100% 86.11vw;\n        }\n\n        .section-11 {\n            height: 86.11vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-011.webp) no-repeat center;\n            background-size: 100% 86.11vw;\n        }\n\n        .section-12 {\n            height: 86.11vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-012.webp) no-repeat center;\n            background-size: 100% 86.11vw;\n        }\n\n        .section-13 {\n            height: 106.48vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-013.webp) no-repeat center;\n            background-size: 100% 106.48vw;\n        }\n\n        .section-14 {\n            height: 78.7vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-014.webp) no-repeat center;\n            background-size: 100% 78.7vw;\n        }\n\n        .section-18 {\n            height: 13.52vw;\n            background: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-watch-pro-015.webp) no-repeat center;\n            background-size: 100% 13.52vw;\n        }\n\n        .hotspot {\n            text-indent: 0;\n            color: #fff;\n            text-align: center;\n            font-size: 16px;\n        }\n    }\n</style>\n<section class=\"section section-1\">\n    <a class=\"hotspot test back-but1 buy-button imageButton\"></a>\n</section>\n<div class=\"product-content popup\" id=\"popup1\">\n    <div class=\"purchase-buttons\">\n        <!--<h2>Global</h2>-->\n        <a href=\"https://bit.ly/4r6jdQF\" target=\"_blank\"><img class=\"store-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/store.ulefone.com-black.png\" /></a>\n        <a href=\"https://bit.ly/3Zldz10\" target=\"_blank\"><img class=\"store-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-1-2.png\" /></a>\n        <a href=\"https://bit.ly/45ms9sK\" target=\"_blank\"><img class=\"store-img\" src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/page-armor-33-series-1-5.png\" /></a>\n        <span class=\"close\" data-popup=\"popup1\">&times;</span>\n    </div>\n</div>"
+      }
+    },
+    "newsletter_cqCYYa": {
+      "type": "newsletter",
+      "custom_css": [
+        "h4.h2.line-1.cc-animate-init.-in.cc-animate-complete {font-size: 2.3rem; font-weight: 500;}",
+        ".cc-animate-complete h4 {font-weight: 600;}",
+        ".inline-mini-form.inline-mini-form--arrow.cc-animate-init.-in.cc-animate-complete {background: #fff; color: #000; border-radius: 5vw;}",
+        ".inline-mini-form.inline-mini-form--arrow input {padding: 18px 30px;}",
+        ".cc-animate-complete p {text-align: center;}",
+        ".align-center p {text-align: center;}",
+        "#section-id-template--26338147664153__newsletter_cqCYYa .overlay-type {height: 382px;}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Get Updates & Exclusive Offers",
+        "text": "<p>Receive updates, giveaway results.</p>",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "color_scheme": "custom",
+        "color_bg": "#3e3428",
+        "color_text": "#ffffff"
+      }
+    },
+    "custom_liquid_zETjqQ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": ""
+      }
+    },
+    "newsletter_4td4kn": {
+      "type": "newsletter",
+      "custom_css": [
+        "h4.h2.line-1.cc-animate-init.-in.cc-animate-complete {font-weight: 800; font-size: 2.5vw;}",
+        ".section-newsletter .contact-form {max-width: 100vw;}",
+        "@media (min-width: 768px) {.inline-mini-form.inline-mini-form--arrow input {font-size: 30px; } .inline-mini-form.inline-mini-form--arrow {width: 890px; background: #fff; border-radius: 45px; }}",
+        "button.compact.no-hover {width: 2vw; height: 2vw; border-radius: 5vw; background: #3e3428; margin: 0.5vw 1vw;}",
+        ".cc-animate-complete p {text-align: center;}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "subheading": "",
+        "title": "Don't Miss the Launch- Subscribe Now!",
+        "text": "",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "color_scheme": "custom",
+        "color_bg": "#3e3428",
+        "color_text": "#ffffff"
+      }
+    },
+    "custom_liquid_hrLwnf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<section class=\"section section-18\">\n    <a href=\"https://www.instagram.com/ulefone.global\" target=\"_blank\" class=\"hotspot test back-but7 buy-button\"></a>\n    <a href=\"https://www.facebook.com/UlefoneMobile\" target=\"_blank\" class=\"hotspot test back-but8 buy-button\"></a>\n    <a href=\"https://www.youtube.com/@Ulefone\" target=\"_blank\" class=\"hotspot test back-but9 buy-button\"></a>\n    <a href=\"https://www.tiktok.com/@ulefone/\" target=\"_blank\" class=\"hotspot test back-but10 buy-button\"></a>\n</section>"
+      }
+    },
+    "custom_liquid_3KaG7W": {
+      "type": "custom-liquid",
+      "name": "Giveaway",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<div class=\"section section-20\" id=\"giveaway\" style=\" color:#fff;background-color: #3e3428;\">\n    <div class=\"title gradient-text\" style=\"text-align: center;\n    padding: 2vw;\n    font-size: 2rem;\">\n        Giveaway\n    </div>\n    <div id=\"96644-u5fr3jzd\" class=\"sw_container\">\n        <script type=\"text/javascript\" src=\"https://sweepwidget.com/w/j/w_init.js\"></script>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_N6Nm4G",
+    "newsletter_cqCYYa",
+    "custom_liquid_zETjqQ",
+    "newsletter_4td4kn",
+    "custom_liquid_hrLwnf",
+    "custom_liquid_3KaG7W"
+  ]
+}

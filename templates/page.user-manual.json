@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_hbWKKy": {
+      "type": "custom-liquid",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<h1 class=\"feature-header cc-animate-init feature-header--visible -in cc-animate-complete\" data-cc-animate=\"\">User Manuals</h1>"
+      }
+    },
+    "user_manuals_XUJAEG": {
+      "type": "user-manuals",
+      "blocks": {
+        "tab_yxL8EC": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Armor Series",
+            "tab_page": "user-manuals-armor-series",
+            "tab_content": ""
+          }
+        },
+        "tab_ehYGBL": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Armor X Series",
+            "tab_page": "user-manuals-armorx-series",
+            "tab_content": ""
+          }
+        },
+        "tab_FfCYQ8": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "RugKing",
+            "tab_page": "user-manuals-rugking",
+            "tab_content": ""
+          }
+        },
+        "tab_xe4dmW": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Note Series",
+            "tab_page": "user-manuals-note-series",
+            "tab_content": ""
+          }
+        },
+        "tab_4n4iUt": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Tablets",
+            "tab_page": "user-manuals-tablets",
+            "tab_content": ""
+          }
+        },
+        "tab_BngMqJ": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Other",
+            "tab_page": "other",
+            "tab_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_yxL8EC",
+        "tab_ehYGBL",
+        "tab_FfCYQ8",
+        "tab_xe4dmW",
+        "tab_4n4iUt",
+        "tab_BngMqJ"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_hbWKKy",
+    "user_manuals_XUJAEG"
+  ]
+}

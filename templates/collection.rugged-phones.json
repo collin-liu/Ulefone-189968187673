@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".wide-container.half-gutter.cc-product-filter-container {width: 85%; margin: 0 auto;}"
+      ],
+      "settings": {
+        "show_collection_content": true,
+        "show_collection_image": false,
+        "description_position": "top",
+        "layout": "rows",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 18,
+        "enable_infinite_scroll": true,
+        "show_vendor": false,
+        "show_filter_counts": false,
+        "show_filter_deadends": true,
+        "ajax_products": true,
+        "filter_mode": "none",
+        "sticky_sidebar": true,
+        "collapse_filters_method": "none",
+        "collapse_sort_by": false,
+        "enable_sorting": true,
+        "show_featured_in_sort": false
+      }
+    },
+    "rich_text_WAYHPE": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "",
+        "title": "Rugged Phones for Extreme Environments",
+        "title_size": 48,
+        "title_width": 40,
+        "heading_h1": false,
+        "text": "<p>Certified with IP68/IP69K and MIL-STD-810H standards, our rugged phones are engineered to thrive in the harshest environments. From the professional flagship Armor Series and mid-range powerhouse Armor X Series to the value champion RugKing Series, we combine industry-leading toughness with cutting-edge technology for every professional and adventurer.</p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "center",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "color_scheme": "standard",
+        "color_bg": "",
+        "color_text": ""
+      }
+    },
+    "featured_collection_RPHtyN": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Featured collection",
+      "settings": {
+        "title": "Armor Series",
+        "content": "<p>A high-end professional flagship built for the extreme. Powered by top-tier MediaTek processors, the Armor Series features a bold industrial design and integrates pro-grade tools like Thermal Imaging, Satellite Communication, and Laser Rangefinding. It is the ultimate high-performance terminal for demanding professional tasks and elite outdoor adventures.</p>",
+        "collection": "armor-series",
+        "layout": "rows",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "featured_collection_wHKpw6": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Featured collection",
+      "settings": {
+        "title": "Armor X Series",
+        "content": "<p>A mid-range powerhouse offering the perfect balance of performance and price. With its slimmer, more ergonomic design, the Armor X Series delivers hardcore durability and smooth daily performance in a lightweight, budget-friendly package.</p>",
+        "collection": "armor-x-series",
+        "layout": "rows",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "featured_collection_FyyP93": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Featured collection",
+      "settings": {
+        "title": "RugKing Series",
+        "content": "<p>An entry-level value champion that refuses to compromise on durability. Featuring a more subtle, low-profile design and powered by efficient Unisoc processors, the RugKing Series delivers essential rugged performance for daily use. It is the ultimate choice for users seeking maximum protection at a highly optimized, accessible price point.</p>",
+        "collection": "rugking-series",
+        "layout": "rows",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    },
+    "featured_collection_JYYGVV": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Armor Mini Series",
+        "content": "",
+        "collection": "compact-phone",
+        "layout": "rows",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": false,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WAYHPE",
+    "featured_collection_RPHtyN",
+    "featured_collection_wHKpw6",
+    "featured_collection_FyyP93",
+    "featured_collection_JYYGVV"
+  ]
+}

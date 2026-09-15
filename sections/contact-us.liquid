@@ -1,0 +1,318 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    --cu-ink: #15161A;
+    --cu-ink-soft: #4A4A50;
+    --cu-ink-mute: #8A8A90;
+    --cu-line: #E3E2DD;
+    --cu-accent: #FF5A1F;
+    --cu-paper: #FFFFFF;
+  }
+
+  .cu-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  h1:not(.logo-h1), h2, h3, h4, blockquote, h5, h6 {
+    text-align: left;
+}
+
+  @media (max-width:700px){ .cu-wrap{ padding:0 24px; } }
+
+  .cu-section { padding: 64px 0; border-bottom: 1px solid var(--cu-line); }
+  .cu-section:last-of-type { border-bottom: none; }
+
+  .cu-eyebrow {
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .cu-page-header { padding: 80px 0 48px; }
+  .cu-page-header h1 {
+    font-weight: 700;
+    font-size: clamp(40px,6vw,64px);
+    letter-spacing: -.02em;
+    margin: 14px 0 0;
+  }
+  .cu-page-header .cu-working-time {
+    margin-top: 22px;
+    font-size: 16px;
+    color: var(--cu-ink-soft);
+    max-width: 560px;
+  }
+  .cu-page-header .cu-note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--cu-ink-mute);
+    max-width: 560px;
+  }
+
+  .cu-section-head h2 {
+    font-weight: 600;
+    font-size: clamp(24px,3vw,32px);
+    margin: 6px 0 0;
+  }
+  .cu-section-head p {
+    margin-top: 10px;
+    color: var(--cu-ink-soft);
+    font-size: 15px;
+    max-width: 520px;
+  }
+  .cu-section-email {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ef9a9a;
+  }
+  .cu-section-email:hover {
+    color: #5e5c5c;
+  }
+  .cu-people-grid {
+    display: grid;
+    gap: 24px;
+    margin-top: 32px;
+  }
+  .cu-people-grid.cu-cols-1 { grid-template-columns: 1fr; max-width: 320px; }
+  .cu-people-grid.cu-cols-2 { grid-template-columns: repeat(2,1fr); }
+  .cu-people-grid.cu-cols-4 { grid-template-columns: repeat(4,1fr); }
+  @media (max-width:900px){ .cu-people-grid.cu-cols-4{ grid-template-columns: repeat(3,1fr); } }
+  @media (max-width:640px){
+    .cu-people-grid.cu-cols-4{ grid-template-columns: repeat(2,1fr); }
+    .cu-people-grid.cu-cols-2{ grid-template-columns: 1fr; max-width: 320px; }
+  }
+
+  .cu-person { background: var(--cu-paper); border: 1px solid var(--cu-line); padding: 20px 20px 24px; }
+  .cu-person .cu-photo { width: 100%; aspect-ratio: 1/1; overflow: hidden; background: #EFEEE9; }
+  .cu-person .cu-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cu-person h4 { font-size: 16px; font-weight: 600; margin: 14px 0 0; }
+  .cu-person .cu-region {
+    font-size: 11px;
+    color: var(--cu-ink-mute);
+    letter-spacing: .04em;
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+  .cu-person .cu-mail {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--cu-ink);
+    text-decoration: none;
+  }
+  .cu-person .cu-mail:hover { color: var(--cu-accent); }
+  .cu-person .cu-mail svg { width: 11px; height: 11px; }
+
+  .cu-empty {
+    padding: 24px 0 0;
+    font-size: 13px;
+    color: var(--cu-ink-mute);
+    font-style: italic;
+  }
+
+  .cu-footnote {
+    padding: 24px 0;
+    font-size: 11px;
+    color: var(--cu-ink-mute);
+    text-align: center;
+  }
+</style>
+
+{% assign after_sales_count = 0 %}
+{% assign marketing_count = 0 %}
+{% assign b2b_count = 0 %}
+{% assign oem_count = 0 %}
+{% for block in section.blocks %}
+  {% if block.type == 'person' %}
+    {% case block.settings.department %}
+      {% when 'after_sales' %}
+        {% assign after_sales_count = after_sales_count | plus: 1 %}
+      {% when 'marketing' %}
+        {% assign marketing_count = marketing_count | plus: 1 %}
+      {% when 'b2b' %}
+        {% assign b2b_count = b2b_count | plus: 1 %}
+      {% when 'oem' %}
+        {% assign oem_count = oem_count | plus: 1 %}
+    {% endcase %}
+  {% endif %}
+{% endfor %}
+
+<div class="cu-wrap">
+
+  <!-- ============ HEADER ============ -->
+  <header class="cu-page-header">
+    <div class="cu-eyebrow">{{ section.settings.header_eyebrow }}</div>
+    <h1>{{ section.settings.header_heading }}</h1>
+    <p class="cu-working-time">{{ section.settings.working_time }}</p>
+    <p class="cu-note">{{ section.settings.note }}</p>
+  </header>
+
+  <!-- ============ AFTER-SALES ============ -->
+  <section class="cu-section">
+    <div class="cu-section-head">
+      <div class="cu-eyebrow">{{ section.settings.after_sales_eyebrow }}</div>
+      <h2>{{ section.settings.after_sales_heading }}</h2>
+      {% if section.settings.after_sales_description != blank %}
+        <p>{{ section.settings.after_sales_description }}</p>
+      {% endif %}
+    </div>
+    {% if after_sales_count > 0 %}
+      <div class="cu-people-grid cu-cols-4">
+        {% for block in section.blocks %}
+          {% if block.type == 'person' and block.settings.department == 'after_sales' %}
+            {% render 'contact-us-person-card', block: block %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="cu-empty">No staff added yet — add a "Person" block and set department to After-Sales.</p>
+    {% endif %}
+  </section>
+
+  <!-- ============ MARKETING ============ -->
+  <section class="cu-section">
+    <div class="cu-section-head">
+      <div class="cu-eyebrow">{{ section.settings.marketing_eyebrow }}</div>
+      <h2>{{ section.settings.marketing_heading }}</h2>
+    <p class="cu-working-time">{{ section.settings.working_marketing }}</p>
+    </div>
+    {% if marketing_count > 0 %}
+      <div class="cu-people-grid cu-cols-4">
+        {% for block in section.blocks %}
+          {% if block.type == 'person' and block.settings.department == 'marketing' %}
+            {% render 'contact-us-person-card', block: block %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="cu-empty">No staff added yet — add a "Person" block and set department to Marketing.</p>
+    {% endif %}
+  </section>
+
+  <!-- ============ B2B SALES ============ -->
+  <section class="cu-section">
+    <div class="cu-section-head">
+      <div class="cu-eyebrow">{{ section.settings.b2b_eyebrow }}</div>
+      <h2>{{ section.settings.b2b_heading }}</h2>
+          <p class="cu-working-time">{{ section.settings.working_description }}</p>
+      {% if section.settings.b2b_email != blank %}
+        <div class="cu-section-email">Email: <a href="mailto:{{ section.settings.b2b_email }}">{{ section.settings.b2b_email }}</a></div>
+      {% endif %}
+    </div>
+    {% if b2b_count > 0 %}
+      <div class="cu-people-grid cu-cols-4">
+        {% for block in section.blocks %}
+          {% if block.type == 'person' and block.settings.department == 'b2b' %}
+            {% render 'contact-us-person-card', block: block %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="cu-empty">No staff added yet — add a "Person" block and set department to B2B Sales.</p>
+    {% endif %}
+  </section>
+
+  <!-- ============ OEM / ODM ============ -->
+  <section class="cu-section">
+    <div class="cu-section-head">
+      <div class="cu-eyebrow">{{ section.settings.oem_eyebrow }}</div>
+      <h2>{{ section.settings.oem_heading }}</h2>
+       <p class="cu-working-time">{{ section.settings.working_oem }}</p>
+    </div>
+    {% if oem_count > 0 %}
+      <div class="cu-people-grid cu-cols-4">
+        {% for block in section.blocks %}
+          {% if block.type == 'person' and block.settings.department == 'oem' %}
+            {% render 'contact-us-person-card', block: block %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="cu-empty">No staff added yet — add a "Person" block and set department to OEM/ODM.</p>
+    {% endif %}
+  </section>
+
+</div>
+
+{% schema %}
+{
+  "name": "Contact Us",
+  "settings": [
+    { "type": "header", "content": "Page header" },
+    { "type": "text", "id": "header_eyebrow", "label": "Eyebrow", "default": "Cooperation & Helps" },
+    { "type": "text", "id": "header_heading", "label": "Heading", "default": "Contact Us" },
+    { "type": "text", "id": "working_time", "label": "Working time text", "default": "Working time: 10:00 AM–7:00 PM (UTC+8), Monday to Friday. Reply might be delayed during non-working time." },
+    { "type": "textarea", "id": "note", "label": "Note", "default": "Please contact relevant staff for help according to your problem. If you send irrelevant information or emails to other staff, you may not get a reply. Thanks for your cooperation and understanding." },
+
+    { "type": "header", "content": "After-Sales Department" },
+   
+    { "type": "text", "id": "after_sales_eyebrow", "label": "Eyebrow", "default": "After-Sales Department" },
+    { "type": "text", "id": "after_sales_heading", "label": "Heading", "default": "After-sales of other third-party platforms" },
+    { "type": "text", "id": "after_sales_description", "label": "Description", "default": "Amazon, AliExpress, Banggood, eBay..." },
+
+    { "type": "header", "content": "Marketing Department" },
+      { "type": "text", "id": "working_marketing", "label": "text", "default": "/" },
+    { "type": "text", "id": "marketing_eyebrow", "label": "Eyebrow", "default": "Marketing Department" },
+    { "type": "text", "id": "marketing_heading", "label": "Heading", "default": "Marketing" },
+
+    { "type": "header", "content": "Overseas B2B Sales Department" },
+    { "type": "text", "id": "working_description", "label": "text", "default": "/" },
+    { "type": "text", "id": "b2b_eyebrow", "label": "Eyebrow", "default": "Overseas B2B Sales Department" },
+    { "type": "text", "id": "b2b_heading", "label": "Heading", "default": "Global B2B Sales" },
+    { "type": "text", "id": "b2b_email", "label": "Department email", "default": "sales@ulefone.com" },
+
+    { "type": "header", "content": "OEM/ODM Sales Department" },
+    { "type": "text", "id": "working_oem", "label": "text", "default": "/" },
+    { "type": "text", "id": "oem_eyebrow", "label": "Eyebrow", "default": "OEM/ODM Sales Department" },
+    { "type": "text", "id": "oem_heading", "label": "Heading", "default": "OEM / ODM" },
+  ],
+  "blocks": [
+    {
+      "type": "person",
+      "name": "Person",
+      "settings": [
+        {
+          "type": "select",
+          "id": "department",
+          "label": "Department",
+          "options": [
+            { "value": "after_sales", "label": "After-Sales" },
+            { "value": "marketing", "label": "Marketing" },
+            { "value": "b2b", "label": "Overseas B2B Sales" },
+            { "value": "oem", "label": "OEM/ODM Sales" }
+          ],
+          "default": "b2b"
+        },
+        { "type": "text", "id": "name", "label": "Name", "default": "Name" },
+        { "type": "text", "id": "region", "label": "Region / title", "info": "Optional, e.g. 'Worldwide' or 'CIS Region'" },
+        { "type": "image_picker", "id": "photo", "label": "Photo" },
+        { "type": "text", "id": "email", "label": "Email", "default": "name@ulefone.com" }
+      ]
+    }
+  ],
+  "max_blocks": 60,
+  "presets": [
+    {
+      "name": "Contact Us",
+      "blocks": [
+        { "type": "person", "settings": { "department": "after_sales", "name": "After-Sales Team", "region": "Worldwide", "email": "service@ulefone.com" } },
+        { "type": "person", "settings": { "department": "marketing", "name": "Lena", "region": "Worldwide", "email": "marketing@ulefone.com" } },
+        { "type": "person", "settings": { "department": "marketing", "name": "Johannes", "region": "Sales & Marketing Germany", "email": "johannes@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Phoebe", "email": "phoebe@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Shelly", "email": "shelly.chen@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Sarah", "email": "sarah.xing@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Sienna", "email": "sienna@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Nancy", "email": "nancy@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Harry", "email": "harry@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Mandy", "email": "mandy@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Cynthia", "email": "cynthia@ulefone.com" } },
+        { "type": "person", "settings": { "department": "b2b", "name": "Yuki", "region": "CIS Region", "email": "yuki.tang@ulefone.com" } },
+        { "type": "person", "settings": { "department": "oem", "name": "Joanna", "email": "joanna.zhang@gotron.hk" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

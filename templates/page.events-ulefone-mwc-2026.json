@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_7UWirB": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    #sec-block {\n        margin-top: 0;\n    }\n\n</style>\n<div id=\"gs\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-1.webp\">\n\n    </div>\n\n</div>\n<div id=\"sec-block\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-01.webp\">\n\n    </div>\n</div>"
+      }
+    },
+    "custom_liquid_GEqCjT": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".cc-animate-init.-in.cc-animate-complete {background-color: #000; padding: 3%;}",
+        "#countdown {display: flex; justify-content: center; font-family: Arial, sans-serif; font-size: 24px; color: #333; text-align: center;}",
+        "#countdown div {margin: 0 1%; padding: 1%; background-color: #f4f4f4; border-radius: 5px;}",
+        "@media (min-width: 992px) {#countdown div {width: 5%; }}",
+        "#countdown span {font-size: 36px; font-weight: bold;}",
+        ".smalltext {font-size: 16px; color: #777; width: 100% !important; margin: 0 auto !important;}"
+      ],
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>.cc-animate-complete {\n    width: 1920px;\n    margin: 0 auto;\n}</style><div id=\"countdown\">\n    <div>\n        <span id=\"days\"></span>\n        <div class=\"smalltext\">Days</div>\n    </div>\n    <div>\n        <span id=\"hours\"></span>\n        <div class=\"smalltext\">Hours</div>\n    </div>\n    <div>\n        <span id=\"minutes\"></span>\n        <div class=\"smalltext\">Minutes</div>\n    </div>\n    <div>\n        <span id=\"seconds\"></span>\n        <div class=\"smalltext\">Seconds</div>\n    </div>\n</div>\n\n<script>\n    const countDownDate = new Date(\"March 2, 2026 16:00:00\").getTime();\nconst x = setInterval(function() {\n    const now = new Date().getTime();\n    const distance = countDownDate - now;\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n    document.getElementById(\"days\").innerHTML = days;\n    document.getElementById(\"hours\").innerHTML = hours;\n    document.getElementById(\"minutes\").innerHTML = minutes;\n    document.getElementById(\"seconds\").innerHTML = seconds;\n    if (distance < 0) {\n        clearInterval(x);\n        document.getElementById(\"countdown\").innerHTML = \"EXPIRED\";\n    }\n}, 1000);\n</script>"
+      }
+    },
+    "custom_liquid_FqwcgW": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<style>\n    #sec-block {\n        margin-top: 0;\n    }\n</style>\n<div id=\"gs\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-2.webp\">\n        <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7425419891870048256\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-3.webp\"></a>\n        <a href=\"https://www.ulefone.com/blogs/newsroom/ai-empower-your-armor-join-ulefone-at-mwc-barcelona-2026\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-5.webp\"></a>\n    </div>\n\n</div>\n<div id=\"sec-block\">\n    <div>\n        <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-02.webp\">\n        <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7425419891870048256\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-03.webp\"></a>\n        <a href=\"https://www.ulefone.com/blogs/newsroom/ai-empower-your-armor-join-ulefone-at-mwc-barcelona-2026\" target=\"_blank\"><img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-mwc-2026-05.webp\"></a>\n    </div>\n</div>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_7UWirB",
+    "custom_liquid_GEqCjT",
+    "custom_liquid_FqwcgW"
+  ]
+}

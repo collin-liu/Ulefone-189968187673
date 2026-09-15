@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.template-faq",
+  "sections": {
+    "custom_liquid_GghYTP": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid/HTML",
+      "settings": {
+        "no_margins": true,
+        "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/RugKing-4-Pro-Rugged-Phone-4.webp\">"
+      }
+    },
+    "1633684260f2d526f0": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/RugKing-4-Pro-Rugged-Phone-4.webp",
+        "height": "natural",
+        "height_desktop": 400,
+        "height_mobile": 400,
+        "subheading": "",
+        "title": "FAQs",
+        "title_size": 60,
+        "title_width": 12,
+        "heading_h1": true,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "image_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true
+      }
+    },
+    "main": {
+      "type": "main-faq",
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "text_alignment": "left",
+        "show_search": true,
+        "show_sidebar": true,
+        "sidebar_title": "<h3 style=\"font-size: 22.5px;\">Products</h3>",
+        "search_placeholder": "Search FAQs"
+      }
+    },
+    "16336816691fb51b7b": {
+      "type": "accordions",
+      "blocks": {
+        "16336816691fb51b7b-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I restore factory settings?",
+            "text": "<p>There are two ways to restore factory settings:</p><p>1. Operations under the circumstance that the screen is accessible: Settings &gt; Backup and Reset &gt; Restore Factory Settings</p><p>2. Operations under the circumstance where the screen is not accessible: in the shutdown state, press and hold the power button and volume up button at the same time to enter the recovery mode (a total of two ways to enter): 1) In the case of displaying No command icon, first press the on/off button and then press the volume down button; 2) In the case of not displaying the No command icon, directly go to the menu function screen, press the volume button to select the menu for recovering factory settings, and then press the power button to confirm recovery</p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-2": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I restore factory settings?",
+            "text": "<p>Add the content to appear when the accordion is opened</p>",
+            "open": false
+          }
+        },
+        "16336816691fb51b7b-1": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I restore factory settings?",
+            "text": "<p>Add the content to appear when the accordion is opened</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "16336816691fb51b7b-0",
+        "16336816691fb51b7b-2",
+        "16336816691fb51b7b-1"
+      ],
+      "settings": {
+        "title": "Rugged Phones",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1633681707d0a1c902": {
+      "type": "accordions",
+      "blocks": {
+        "1633681707d0a1c902-0": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I restore factory settings?",
+            "text": "<p>Add the content to appear when the accordion is opened</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "1633681707d0a1c902-0"
+      ],
+      "settings": {
+        "title": "Smartphones",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1633684277a52541f1": {
+      "type": "accordions",
+      "blocks": {
+        "cc3ff187-0164-4771-94eb-f1ca2d23b5d8": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "How do I restore factory settings?",
+            "text": "<p>Add the content to appear when the accordion is opened</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "cc3ff187-0164-4771-94eb-f1ca2d23b5d8"
+      ],
+      "settings": {
+        "title": "Rugged Tablets",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "accordions_X98H8U": {
+      "type": "accordions",
+      "blocks": {
+        "accordion_zffW6G": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_4Tqgdw": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_DhYCFT": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_zffW6G",
+        "accordion_4Tqgdw",
+        "accordion_DhYCFT"
+      ],
+      "name": "Expandable content",
+      "settings": {
+        "title": "Tablets",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "accordions_fEBP4P": {
+      "type": "accordions",
+      "blocks": {
+        "accordion_zKajNz": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_BwCjmg": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_UGXafM": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_zKajNz",
+        "accordion_BwCjmg",
+        "accordion_UGXafM"
+      ],
+      "name": "Expandable content",
+      "settings": {
+        "title": "Smartwatch",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "accordions_MA6F9M": {
+      "type": "accordions",
+      "blocks": {
+        "accordion_Ak3cV9": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_tcrHXp": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        },
+        "accordion_8CUc94": {
+          "type": "accordion",
+          "settings": {
+            "icon": "none",
+            "title": "Title",
+            "text": "<p>Add the content to appear when the content is expanded</p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "accordion_Ak3cV9",
+        "accordion_tcrHXp",
+        "accordion_8CUc94"
+      ],
+      "name": "Expandable content",
+      "settings": {
+        "title": "Accessories",
+        "alternate_bg_color": false,
+        "view_all_page": ""
+      }
+    },
+    "1634028710b7446a77": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "layout": "carousel",
+        "show_vendor": false,
+        "grid": 4,
+        "rows": 2,
+        "grid_mobile": "2",
+        "hide_swatches": false,
+        "alternate_bg_color": true,
+        "show_view_all": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_GghYTP",
+    "1633684260f2d526f0",
+    "main",
+    "16336816691fb51b7b",
+    "1633681707d0a1c902",
+    "1633684277a52541f1",
+    "accordions_X98H8U",
+    "accordions_fEBP4P",
+    "accordions_MA6F9M",
+    "1634028710b7446a77"
+  ]
+}
