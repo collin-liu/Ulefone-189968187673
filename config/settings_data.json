@@ -160,7 +160,8 @@
               "button_label1": "",
               "cta_link1": "",
               "button_label2": "",
-              "cta_link2": ""
+              "cta_link2": "",
+              "submenu_image_width": 80
             }
           },
           "2bf558b5-7b97-47d7-a183-c94a57306fb8": {
@@ -170,7 +171,8 @@
               "button_label1": "",
               "cta_link1": "shopify://collections/phones",
               "button_label2": "",
-              "cta_link2": ""
+              "cta_link2": "",
+              "submenu_image_width": 80
             }
           },
           "c37c86af-d447-4819-93b7-a73b9a8673d2": {
@@ -180,7 +182,8 @@
               "button_label1": "",
               "cta_link1": "shopify://collections/tablets",
               "button_label2": "",
-              "cta_link2": "shopify://products/armor-pad"
+              "cta_link2": "shopify://products/armor-pad",
+              "submenu_image_width": 80
             }
           },
           "9b6e8961-36cc-47a0-b139-4a515c221775": {
@@ -190,7 +193,8 @@
               "button_label1": "",
               "cta_link1": "shopify://collections/accessories",
               "button_label2": "",
-              "cta_link2": ""
+              "cta_link2": "",
+              "submenu_image_width": 80
             }
           },
           "new_mega_menu_4xETDm": {
@@ -200,7 +204,8 @@
               "button_label1": "",
               "cta_link1": "",
               "button_label2": "",
-              "cta_link2": ""
+              "cta_link2": "",
+              "submenu_image_width": 80
             }
           },
           "330ecf64-76ee-47ac-b0d4-43fe633d2f70": {
@@ -210,7 +215,11 @@
               "button_label1": "",
               "cta_link1": "",
               "button_label2": "",
-              "cta_link2": ""
+              "cta_link2": "",
+              "submenu_image_1": "shopify://shop_images/mdm-menu.webp",
+              "submenu_image_2": "shopify://shop_images/poc-menu.webp",
+              "submenu_image_3": "shopify://shop_images/rfid-menu.webp",
+              "submenu_image_width": 80
             }
           }
         },

@@ -173,6 +173,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     };
   </script>
   <style>
+        body:not(.nav-opaque):has(#page-content > .shopify-section:first-child.header-overlap-section){
+      padding-top: 0 !important;
+    }
+    .theme-modal.nav-uses-modal:not(.reveal) .btn_view_more{
+      display: none !important;
+    }
     
     @media (min-width: 1100px){
         .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children {
