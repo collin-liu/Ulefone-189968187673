@@ -128,6 +128,7 @@
         "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-1": {
           "type": "image",
           "settings": {
+            "tracking_name": "",
             "slide_link": "",
             "subheading": "Subheading",
             "title": "",
@@ -143,6 +144,7 @@
         "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-2": {
           "type": "image",
           "settings": {
+            "tracking_name": "",
             "slide_link": "",
             "subheading": "Subheading",
             "title": "Slideshow",
@@ -158,6 +160,7 @@
         "template--21379196715281__d6817997-9c52-4f9c-aa92-3120a46aedbc-image-3": {
           "type": "image",
           "settings": {
+            "tracking_name": "",
             "slide_link": "",
             "subheading": "Subheading",
             "title": "Slideshow",
@@ -194,7 +197,7 @@
       "type": "custom-liquid",
       "settings": {
         "no_margins": true,
-        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">TPU Back Case for Tab W10 Series</div>\n                <ul class=\"nav fr\">\n\n                    <li class=\"tab current\"><a href=\"/products/tpu-back-case-for-tab-w10-series\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/products/tpu-back-case-for-tab-w10-series\">TPU Back Case</a></li>\n                   <li class=\"tab\"><a href=\"/products/smart-book-cover-for-tab-w10-series\">Smart Book Cover</a></li>\n                    <li class=\"tab\"><a href=\"/products/tempered-glass-for-tab-w10-series\">Tempered Glass</a></li>\n                    <!--<li><a href=\"#\" class=\"button\">Buy Now</a></li>-->\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-1.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-2.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-3.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-4.jpg\" style=\"width:100%;\">\n\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-1.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-2.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-3.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-4.jpg\" style=\"width:100%;\">\n\n</div>"
+        "custom_liquid": "<div class=\"for_nav\">\n    <div id=\"faq_nav\" style=\"\">\n        <div class=\"wide\">\n            <div class=\"sub_nav\">\n                <div class=\"ProName fl\">TPU Back Case for Tab W10 Series</div>\n                <ul class=\"nav fr\">\n\n                    <li class=\"tab current\"><a href=\"/products/tpu-back-case-for-tab-w10-series\">Features</a></li>\n                    <li class=\"tab\"><a href=\"/products/tpu-back-case-for-tab-w10-series\">TPU Back Case</a></li>\n                   <li class=\"tab\"><a href=\"/products/smart-book-cover-for-tab-w10-series\">Smart Book Cover</a></li>\n                    <li class=\"tab\"><a href=\"/products/tempered-glass-for-tab-w10-series\">Tempered Glass</a></li>\n                    <li><a href=\"https://bit.ly/tpu-back-case-for-tab-w10-series\" target=\"_blank\" class=\"button\">Buy Now</a></li>\n                </ul>\n                <div class=\"clear\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div id=\"gs\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-1.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-2.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-3.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-PC-4.jpg\" style=\"width:100%;\">\n\n</div>\n<div id=\"sec-block\" style=\"    margin-top: 25%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-1.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-2.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-3.jpg\" style=\"width:100%;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Product-TPUBackCaseW10SeriesAccessories-M-4.jpg\" style=\"width:100%;\">\n\n</div>"
       }
     }
   },

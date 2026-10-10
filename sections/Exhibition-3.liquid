@@ -1,0 +1,752 @@
+{%- liquid
+  case section.settings.font_family
+    when 'body'
+      assign font_stack = 'var(--font-body-family, inherit)'
+    when 'custom'
+      assign font_stack = section.settings.custom_font_family
+    else
+      assign font_stack = 'var(--font-heading-family, inherit)'
+  endcase
+
+  assign col_left = section.settings.left_column_width
+  assign col_right = 100 | minus: col_left
+  assign cols = 'left,right' | split: ','
+-%}
+
+{% style %}
+@font-face {
+    font-family: BatmanForeverAlternate;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/BatmanForeverAlternate.woff2');
+}
+  #PSGrid--{{ section.id }} {
+    --ps-font: {{ font_stack }};
+    --ps-techno: {{ section.settings.techno_font_family }};
+    --ps-gap: {{ section.settings.mobile_gap }}px;
+    --ps-radius: {{ section.settings.mobile_radius }}px;
+    --ps-pad: {{ section.settings.mobile_card_padding }}px;
+    --ps-fs-title: {{ section.settings.mobile_card_title_size }}px;
+    --ps-fs-sub: {{ section.settings.mobile_card_sub_size }}px;
+    --ps-ls-techno: {{ section.settings.techno_letter_spacing | divided_by: 1000.0 }}em;
+    --ps-ls-regular: {{ section.settings.regular_letter_spacing | divided_by: 1000.0 }}em;
+    --ps-overlay: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+    --ps-title-color: {{ section.settings.card_title_color }};
+    --ps-sub-color: {{ section.settings.card_sub_color }};
+
+    background-color: {{ section.settings.background_color }};
+    padding: {{ section.settings.mobile_padding_top }}px {{ section.settings.mobile_padding_side }}px {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  #PSGrid--{{ section.id }} .ps__inner {
+    max-width: 1460px;
+    margin-inline: auto;
+  }
+
+  /* ---------- 大标题 ---------- */
+  #PSGrid--{{ section.id }} .ps__heading {
+    margin: 0 0 {{ section.settings.mobile_heading_gap }}px;
+    font-family: var(--ps-font);
+    font-size: {{ section.settings.mobile_heading_size }}px;
+    font-weight: {{ section.settings.heading_weight }};
+    line-height: 1.25;
+    text-align: {{ section.settings.heading_align }};
+    color: {{ section.settings.heading_color }};
+  }
+
+  /* ---------- 栅格 ---------- */
+  #PSGrid--{{ section.id }} .ps__grid {
+    display: grid;
+    {%- if section.settings.mobile_columns == '1' %}
+      grid-template-columns: minmax(0, 1fr);
+    {%- else %}
+      grid-template-columns: minmax(0, {{ col_left }}fr) minmax(0, {{ col_right }}fr);
+    {%- endif %}
+    gap: var(--ps-gap);
+    align-items: start;
+  }
+
+  #PSGrid--{{ section.id }} .ps__col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--ps-gap);
+  }
+
+  /* ---------- 卡片 ---------- */
+  #PSGrid--{{ section.id }} .ps__card {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: var(--ps-ratio, 1.5);
+    overflow: hidden;
+    border-radius: var(--ps-radius);
+    background-color: #111;
+    text-decoration: none;
+    isolation: isolate;
+  }
+
+  #PSGrid--{{ section.id }} .ps__card img,
+  #PSGrid--{{ section.id }} .ps__card svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    {%- if section.settings.enable_hover %}
+      transition: transform .5s cubic-bezier(.2,.6,.2,1);
+    {%- endif %}
+  }
+
+  {%- if section.settings.enable_hover %}
+    @media (hover: hover) {
+      #PSGrid--{{ section.id }} a.ps__card:hover img { transform: scale(1.04); }
+    }
+  {%- endif %}
+
+  #PSGrid--{{ section.id }} .ps__card::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 60%;
+    background: linear-gradient(to top, rgba(0,0,0,var(--ps-overlay)) 0%, rgba(0,0,0,0) 100%);
+    pointer-events: none;
+  }
+
+  #PSGrid--{{ section.id }} .ps__text {
+    position: absolute;
+    left: var(--ps-pad);
+    right: var(--ps-pad);
+    bottom: var(--ps-pad);
+    z-index: 2;
+  }
+
+  #PSGrid--{{ section.id }} .ps__card-title {
+    margin: 0;
+    font-size: var(--ps-fs-title);
+    font-weight: {{ section.settings.card_title_weight }};
+    line-height: 1.2;
+    color: var(--ps-title-color);
+  }
+
+  #PSGrid--{{ section.id }} .ps__card--techno .ps__card-title {
+    font-family: BatmanForeverAlternate;
+    letter-spacing: var(--ps-ls-techno);
+    text-transform: uppercase;
+  }
+
+  #PSGrid--{{ section.id }} .ps__card--regular .ps__card-title {
+    font-family: var(--ps-font);
+    letter-spacing: var(--ps-ls-regular);
+  }
+
+  #PSGrid--{{ section.id }} .ps__card-sub {
+    margin: 0.45em 0 0;
+    font-size: var(--ps-fs-sub);
+    font-weight: 400;
+    line-height: 1.35;
+    color: var(--ps-sub-color);
+  }
+
+  /* ================= PC 端 ================= */
+  @media screen and (min-width: 750px) {
+    #PSGrid--{{ section.id }} {
+      --ps-gap: {{ section.settings.desktop_gap }}px;
+      --ps-radius: {{ section.settings.desktop_radius }}px;
+      --ps-pad: {{ section.settings.desktop_card_padding }}px;
+      --ps-fs-title: {{ section.settings.desktop_card_title_size }}px;
+      --ps-fs-sub: {{ section.settings.desktop_card_sub_size }}px;
+      padding: {{ section.settings.desktop_padding_top }}px {{ section.settings.desktop_padding_side }}px {{ section.settings.desktop_padding_bottom }}px;
+    }
+
+    #PSGrid--{{ section.id }} .ps__heading {
+      margin-bottom: {{ section.settings.desktop_heading_gap }}px;
+      font-size: {{ section.settings.desktop_heading_size }}px;
+    }
+
+    #PSGrid--{{ section.id }} .ps__grid {
+      grid-template-columns: minmax(0, {{ col_left }}fr) minmax(0, {{ col_right }}fr);
+    }
+  }
+{% endstyle %}
+
+<div class="ps" id="PSGrid--{{ section.id }}">
+  <div class="ps__inner">
+    {%- if section.settings.heading != blank -%}
+      <{{ section.settings.heading_tag }} class="ps__heading">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+    {%- endif -%}
+
+    <div class="ps__grid">
+      {%- for col in cols -%}
+        <div class="ps__col ps__col--{{ col }}">
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign bcol = block.settings.column | default: 'left'
+              assign tag = 'div'
+              if block.settings.link != blank
+                assign tag = 'a'
+              endif
+              assign card_alt = block.settings.image_alt | default: block.settings.title | escape
+              assign loading = 'lazy'
+              if forloop.index0 == 0 and col == 'left'
+                assign loading = 'eager'
+              endif
+            -%}
+            {%- if bcol == col -%}
+              <{{ tag }}
+                class="ps__card ps__card--{{ block.settings.font_style }}"
+                style="--ps-ratio: {{ block.settings.ratio | divided_by: 100.0 }};"
+                {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %}
+                {{ block.shopify_attributes }}>
+
+                {%- if block.settings.image != blank -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 1200
+                    | image_tag:
+                      loading: loading,
+                      widths: '300,450,600,750,900,1100,1400',
+                      sizes: '(min-width: 750px) 45vw, 48vw',
+                      alt: card_alt
+                  }}
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+
+                {%- if block.settings.title != blank or block.settings.subtitle != blank -%}
+                  <div class="ps__text">
+                    {%- if block.settings.title != blank -%}
+                      <h3 class="ps__card-title">{{ block.settings.title | escape }}</h3>
+                    {%- endif -%}
+                    {%- if block.settings.subtitle != blank -%}
+                      <p class="ps__card-sub">{{ block.settings.subtitle | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </{{ tag }}>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "新品展示网格",
+  "tag": "section",
+  "class": "section-ps-grid",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "header",
+      "content": "大标题"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "标题",
+      "default": "New Product Showcase"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "标题标签（SEO）",
+      "options": [
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "div", "label": "DIV（不作为标题）" }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_align",
+      "label": "标题对齐",
+      "options": [
+        { "value": "left", "label": "左对齐" },
+        { "value": "center", "label": "居中" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "标题字重",
+      "options": [
+        { "value": "500", "label": "500" },
+        { "value": "600", "label": "600" },
+        { "value": "700", "label": "700" },
+        { "value": "800", "label": "800" },
+        { "value": "900", "label": "900" }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "标题颜色",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "板块背景色",
+      "default": "#FFFFFF"
+    },
+
+    {
+      "type": "header",
+      "content": "卡片文字样式"
+    },
+    {
+      "type": "color",
+      "id": "card_title_color",
+      "label": "卡片标题颜色",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "card_sub_color",
+      "label": "卡片副标题颜色",
+      "default": "#E6E6E6"
+    },
+    {
+      "type": "select",
+      "id": "card_title_weight",
+      "label": "卡片标题字重",
+      "options": [
+        { "value": "500", "label": "500" },
+        { "value": "600", "label": "600" },
+        { "value": "700", "label": "700" },
+        { "value": "800", "label": "800" }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "text",
+      "id": "techno_font_family",
+      "label": "科技体 font-family",
+      "default": "'Rajdhani','Saira Condensed','Chakra Petch','Oswald',sans-serif",
+      "info": "ARMOR 系列标题使用的字体。若已在主题中引入品牌字体，把字体名写在最前面即可。"
+    },
+    {
+      "type": "range",
+      "id": "techno_letter_spacing",
+      "label": "科技体字间距",
+      "min": -20,
+      "max": 100,
+      "step": 5,
+      "unit": "‰",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "font_family",
+      "label": "常规标题字体",
+      "options": [
+        { "value": "heading", "label": "主题标题字体" },
+        { "value": "body", "label": "主题正文字体" },
+        { "value": "custom", "label": "自定义（下方填写）" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "text",
+      "id": "custom_font_family",
+      "label": "自定义 font-family"
+    },
+    {
+      "type": "range",
+      "id": "regular_letter_spacing",
+      "label": "常规标题字间距",
+      "min": -20,
+      "max": 100,
+      "step": 5,
+      "unit": "‰",
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "卡片外观"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "底部暗角强度（保证文字可读）",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_hover",
+      "label": "鼠标悬停轻微放大（仅带链接的卡片）",
+      "default": true
+    },
+
+    {
+      "type": "header",
+      "content": "PC 端排版（≥750px）"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "label": "内容最大宽度",
+      "min": 900,
+      "max": 1800,
+      "step": 20,
+      "unit": "px",
+      "default": 1240
+    },
+    {
+      "type": "range",
+      "id": "left_column_width",
+      "label": "左栏宽度占比",
+      "min": 30,
+      "max": 70,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap",
+      "label": "卡片间距",
+      "min": 4,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "desktop_radius",
+      "label": "卡片圆角",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_padding",
+      "label": "卡片文字内边距",
+      "min": 8,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "desktop_heading_size",
+      "label": "大标题字号",
+      "min": 18,
+      "max": 64,
+      "step": 1,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "desktop_heading_gap",
+      "label": "大标题下间距",
+      "min": 8,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_title_size",
+      "label": "卡片标题字号",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_sub_size",
+      "label": "卡片副标题字号",
+      "min": 10,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "label": "上内边距",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "label": "下内边距",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_side",
+      "label": "左右内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "移动端排版（<750px）"
+    },
+    {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "列数",
+      "options": [
+        { "value": "2", "label": "两列（与设计稿一致）" },
+        { "value": "1", "label": "单列（先左栏后右栏）" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "label": "卡片间距",
+      "min": 4,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mobile_radius",
+      "label": "卡片圆角",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_padding",
+      "label": "卡片文字内边距",
+      "min": 4,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "mobile_heading_size",
+      "label": "大标题字号",
+      "min": 14,
+      "max": 44,
+      "step": 1,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "mobile_heading_gap",
+      "label": "大标题下间距",
+      "min": 6,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_title_size",
+      "label": "卡片标题字号",
+      "min": 9,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_sub_size",
+      "label": "卡片副标题字号",
+      "min": 8,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "上内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "下内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_side",
+      "label": "左右内边距",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "卡片",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "图片"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "图片 Alt 文本（SEO）"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题",
+          "default": "ARMOR SERIES"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "副标题"
+        },
+        {
+          "type": "select",
+          "id": "font_style",
+          "label": "标题字体风格",
+          "options": [
+            { "value": "techno", "label": "科技体（ARMOR 系列）" },
+            { "value": "regular", "label": "常规（Mini PC / Accessories）" }
+          ],
+          "default": "techno"
+        },
+        {
+          "type": "select",
+          "id": "column",
+          "label": "所在栏位",
+          "options": [
+            { "value": "left", "label": "左栏" },
+            { "value": "right", "label": "右栏" }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "range",
+          "id": "ratio",
+          "label": "卡片宽高比（宽 ÷ 高 ×100）",
+          "min": 40,
+          "max": 280,
+          "step": 5,
+          "default": 150,
+          "info": "85 ≈ 竖版大卡；150 ≈ 横版；245 ≈ 扁长条。"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "卡片链接（选填）"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "新品展示网格",
+      "blocks": [
+        {
+          "type": "card",
+          "settings": {
+            "title": "ARMOR SERIES",
+            "subtitle": "New Products Featuring Laser Ranging and Thermal Imaging Capabilities",
+            "font_style": "techno",
+            "column": "left",
+            "ratio": 85
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "Mini PC",
+            "subtitle": "A Brand-new Ecosystem Product Line",
+            "font_style": "regular",
+            "column": "left",
+            "ratio": 160
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "ARMOR X SERIES",
+            "subtitle": "First Thermal Imaging Product",
+            "font_style": "techno",
+            "column": "right",
+            "ratio": 135
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "ARMOR WATCH SERIES",
+            "subtitle": "The Second New Product of 2026",
+            "font_style": "techno",
+            "column": "right",
+            "ratio": 165
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "Accessories",
+            "subtitle": "New uSmart Accessories",
+            "font_style": "regular",
+            "column": "right",
+            "ratio": 245
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

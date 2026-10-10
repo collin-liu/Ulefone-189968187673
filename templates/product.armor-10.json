@@ -40,22 +40,6 @@
         "grid": 3
       }
     },
-    "d6817997-9c52-4f9c-aa92-3120a46aedbc": {
-      "type": "slideshow",
-      "disabled": true,
-      "settings": {
-        "height": "fixed",
-        "height_desktop": 600,
-        "height_mobile": 500,
-        "full_width": true,
-        "mobile_overlay_under": false,
-        "overlay_style_tint": true,
-        "slide_transition": "slide",
-        "slide_navigation": "dots",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
     "441bf32d-037d-4296-aa24-9a62b3d45277": {
       "type": "custom-liquid",
       "custom_css": [
@@ -70,7 +54,6 @@
   "order": [
     "main",
     "product-recommendations",
-    "d6817997-9c52-4f9c-aa92-3120a46aedbc",
     "441bf32d-037d-4296-aa24-9a62b3d45277"
   ]
 }

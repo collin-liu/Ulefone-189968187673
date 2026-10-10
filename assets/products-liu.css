@@ -412,7 +412,7 @@ a.caption.upper {
   table,
   .size-spec1 label {
     line-height: 22px;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 300;
   }
 
@@ -460,9 +460,10 @@ a.caption.upper {
      font-display: swap;
  }
    @media (max-width: 768px) {
-/* .row > div:nth-of-type(2) {
-    margin-top: 5vw;
-}*/
+  table,
+  .size-spec1 label {
+    font-size: .9rem;
+  }
    }
 
        /*产品长图*/

@@ -1,0 +1,306 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1.feature-header.cc-animate-init.feature-header--visible.-in.cc-animate-complete {display: none;}",
+        "#page-content {max-width: 1610px; margin: 0 auto; font-family: MiSans-Regular;}",
+        "td {width: 17vw; border: 1px solid;}"
+      ],
+      "settings": {}
+    },
+    "exhibition_1_bACH7W": {
+      "type": "Exhibition-1",
+      "name": "展会 Banner（渐变字）",
+      "settings": {
+        "image_desktop": "shopify://shop_images/canton-fair-1s.webp",
+        "image_mobile": "shopify://shop_images/canton-fair-m-1.webp",
+        "image_alt": "Meet Ulefone at 140th Canton Fair",
+        "full_width": true,
+        "heading": "MEET ULEFONE\nAT 140TH\nCANTON FAIR",
+        "heading_mobile": "",
+        "heading_tag": "div",
+        "subheading": "",
+        "subheading_color": "#ffffff",
+        "gradient_color_1": "#fcf0ce",
+        "gradient_color_2": "#f1d69a",
+        "gradient_color_3": "#dca65e",
+        "gradient_angle": 180,
+        "font_family": "heading",
+        "custom_font_family": "",
+        "font_weight": "800",
+        "text_transform": "uppercase",
+        "letter_spacing": 0,
+        "line_height": 106,
+        "desktop_font_size": 4.4,
+        "desktop_align": "left",
+        "desktop_x": 19,
+        "desktop_y": 45,
+        "desktop_width": 45,
+        "mobile_font_size": 7.2,
+        "mobile_align": "center",
+        "mobile_x": 50,
+        "mobile_y": 22,
+        "mobile_width": 92,
+        "button_label": "",
+        "button_link": "",
+        "button_new_tab": false,
+        "button_bg_color": "#e8b96a",
+        "button_text_color": "#1a1a1a",
+        "button_radius": 4
+      }
+    },
+    "exhibition_2_gawcw7": {
+      "type": "Exhibition-2",
+      "blocks": {
+        "item_hg9yJL": {
+          "type": "item",
+          "settings": {
+            "label": "Date",
+            "value": "Oct. 15-19, 2026"
+          }
+        },
+        "item_ahGgFj": {
+          "type": "item",
+          "settings": {
+            "label": "Booth",
+            "value": "18.2K24"
+          }
+        },
+        "item_44H6KF": {
+          "type": "item",
+          "settings": {
+            "label": "Venue",
+            "value": "Canton Fair Complex"
+          }
+        }
+      },
+      "block_order": [
+        "item_hg9yJL",
+        "item_ahGgFj",
+        "item_44H6KF"
+      ],
+      "name": "展会信息（图文）",
+      "settings": {
+        "heading": "Ulefone\n140th Canton Fair",
+        "heading_mobile": "Ulefone | 140th Canton Fair",
+        "heading_tag": "h2",
+        "gradient_color_1": "#fbe6b4",
+        "gradient_color_2": "#f5c87e",
+        "gradient_color_3": "#efa04a",
+        "gradient_angle": 150,
+        "gradient_angle_mobile": 100,
+        "image": "shopify://shop_images/canton-fair-ulefone.webp",
+        "image_alt": "Canton Fair Complex, Guangzhou",
+        "image_link": "",
+        "image_radius": 4,
+        "note": "*This map is for reference only. Final floor plan may vary.",
+        "background_color": "#000000",
+        "label_color": "#d6d6d6",
+        "value_color": "#ffffff",
+        "note_color": "#9a9a9a",
+        "font_family": "heading",
+        "custom_font_family": "",
+        "title_weight": "700",
+        "title_line_height": 124,
+        "title_letter_spacing": 0,
+        "content_width": 1340,
+        "desktop_image_width": 47,
+        "desktop_image_align": "center",
+        "desktop_column_gap": 60,
+        "desktop_title_size": 40,
+        "desktop_label_size": 17,
+        "desktop_value_size": 24,
+        "desktop_note_size": 13,
+        "desktop_gap_title": 40,
+        "desktop_gap_item": 28,
+        "desktop_gap_note": 48,
+        "desktop_padding_top": 72,
+        "desktop_padding_bottom": 72,
+        "desktop_padding_side": 40,
+        "mobile_align": "center",
+        "mobile_info_layout": "row",
+        "mobile_image_width": 88,
+        "mobile_title_size": 26,
+        "mobile_label_size": 12,
+        "mobile_value_size": 17,
+        "mobile_note_size": 11,
+        "mobile_gap_title": 26,
+        "mobile_gap_item": 18,
+        "mobile_gap_media": 30,
+        "mobile_gap_note": 14,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40,
+        "mobile_padding_side": 20,
+        "enable_schema": false,
+        "event_name": "Ulefone at the 140th Canton Fair",
+        "event_start": "2026-10-15",
+        "event_end": "2026-10-19",
+        "event_place": "Canton Fair Complex",
+        "event_address": "No.380 Yuejiang Zhong Road, Guangzhou, China",
+        "event_organizer": "Ulefone"
+      }
+    },
+    "exhibition_3_dQKkLk": {
+      "type": "Exhibition-3",
+      "blocks": {
+        "card_VNRFdL": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/canton-fair-2-1.webp",
+            "image_alt": "",
+            "title": "ARMOR SERIES",
+            "subtitle": "New Products Featuring Laser Ranging and Thermal Imaging Capabilities",
+            "font_style": "techno",
+            "column": "left",
+            "ratio": 85,
+            "link": ""
+          }
+        },
+        "card_F8KeyD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/canton-fair-2-4.webp",
+            "image_alt": "",
+            "title": "Mini PC",
+            "subtitle": "A Brand-new Ecosystem Product Line",
+            "font_style": "regular",
+            "column": "left",
+            "ratio": 160,
+            "link": ""
+          }
+        },
+        "card_i4qEmV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/canton-fair-2-2.webp",
+            "image_alt": "",
+            "title": "ARMOR X SERIES",
+            "subtitle": "First Thermal Imaging Product",
+            "font_style": "techno",
+            "column": "right",
+            "ratio": 135,
+            "link": ""
+          }
+        },
+        "card_EnKJP6": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/canton-fair-2-3.webp",
+            "image_alt": "",
+            "title": "ARMOR WATCH SERIES",
+            "subtitle": "The Second New Product of 2026",
+            "font_style": "techno",
+            "column": "right",
+            "ratio": 165,
+            "link": ""
+          }
+        },
+        "card_qT6Tjq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/canton-fair-2-5.webp",
+            "image_alt": "",
+            "title": "Accessories",
+            "subtitle": "New uSmart Accessories",
+            "font_style": "regular",
+            "column": "right",
+            "ratio": 245,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_VNRFdL",
+        "card_F8KeyD",
+        "card_i4qEmV",
+        "card_EnKJP6",
+        "card_qT6Tjq"
+      ],
+      "custom_css": [
+        "h3.ps__card-title {text-align: left;}"
+      ],
+      "name": "新品展示网格",
+      "settings": {
+        "heading": "New Product Showcase",
+        "heading_tag": "h2",
+        "heading_align": "center",
+        "heading_weight": "700",
+        "heading_color": "#111111",
+        "background_color": "#ffffff",
+        "card_title_color": "#ffffff",
+        "card_sub_color": "#e6e6e6",
+        "card_title_weight": "700",
+        "techno_font_family": "'Rajdhani','Saira Condensed','Chakra Petch','Oswald',sans-serif",
+        "techno_letter_spacing": 30,
+        "font_family": "heading",
+        "custom_font_family": "",
+        "regular_letter_spacing": 0,
+        "overlay_opacity": 30,
+        "enable_hover": true,
+        "content_width": 1240,
+        "left_column_width": 50,
+        "desktop_gap": 16,
+        "desktop_radius": 16,
+        "desktop_card_padding": 28,
+        "desktop_heading_size": 32,
+        "desktop_heading_gap": 30,
+        "desktop_card_title_size": 26,
+        "desktop_card_sub_size": 15,
+        "desktop_padding_top": 56,
+        "desktop_padding_bottom": 56,
+        "desktop_padding_side": 40,
+        "mobile_columns": "2",
+        "mobile_gap": 10,
+        "mobile_radius": 10,
+        "mobile_card_padding": 12,
+        "mobile_heading_size": 24,
+        "mobile_heading_gap": 18,
+        "mobile_card_title_size": 13,
+        "mobile_card_sub_size": 10,
+        "mobile_padding_top": 32,
+        "mobile_padding_bottom": 32,
+        "mobile_padding_side": 16
+      }
+    },
+    "page_form_YBE4bH": {
+      "type": "PageForm",
+      "name": "Register Your Visit Form",
+      "settings": {
+        "google_sheet_url": "https://script.google.com/macros/s/AKfycbzyZAcmsnPaaAFgYChb_lppY6TbGqH97u0JSY3c4BviYqTu5-CUsnZeHvhAFM2J6Ew/exec",
+        "form_title": "Register Your Visit",
+        "form_subtitle": "We warmly welcome you to visit our booth at 140th Canton Fair."
+      }
+    },
+    "zhanhuibankuai_pew843": {
+      "type": "zhanhuibankuai",
+      "name": "IFA Showcase",
+      "settings": {
+        "image": "shopify://shop_images/canton-fair-05.webp",
+        "heading": "Meet Ulefone at the 140th Canton Fair: Discover Our Next-Gen Rugged Ecosystem",
+        "text": "<p>The autumn trade season is here, and we are thrilled to announce that Ulefone will be exhibiting at the 140th China Import and Export Fair (Canton Fair) in Guangzhou from October 15 to October 19, 2026.</p>",
+        "button_text": "Learn More >",
+        "button_link": "https://www.ulefone.com/blogs/newsroom/meet-ulefone-at-the-140th-canton-fair-discover-our-next-gen-rugged-ecosystem",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "exhibition_1_bACH7W",
+    "exhibition_2_gawcw7",
+    "exhibition_3_dQKkLk",
+    "page_form_YBE4bH",
+    "zhanhuibankuai_pew843"
+  ]
+}

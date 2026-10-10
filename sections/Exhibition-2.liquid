@@ -1,0 +1,868 @@
+{%- liquid
+  assign img = section.settings.image
+  assign heading_d = section.settings.heading
+  assign heading_m = section.settings.heading_mobile
+
+  case section.settings.font_family
+    when 'body'
+      assign font_stack = 'var(--font-body-family, inherit)'
+    when 'condensed'
+      assign font_stack = "'Oswald','Archivo Narrow','Arial Narrow','Helvetica Neue Condensed',Impact,var(--font-heading-family, sans-serif)"
+    when 'custom'
+      assign font_stack = section.settings.custom_font_family
+    else
+      assign font_stack = 'var(--font-heading-family, inherit)'
+  endcase
+
+  assign alt_text = section.settings.image_alt | default: img.alt | escape
+-%}
+
+{% style %}
+  #CFInfo--{{ section.id }} {
+    --ci-g1: {{ section.settings.gradient_color_1 }};
+    --ci-g2: {{ section.settings.gradient_color_2 }};
+    --ci-g3: {{ section.settings.gradient_color_3 }};
+    --ci-angle: {{ section.settings.gradient_angle_mobile }}deg;
+    --ci-font: {{ font_stack }};
+    --ci-label: {{ section.settings.label_color }};
+    --ci-value: {{ section.settings.value_color }};
+    --ci-note: {{ section.settings.note_color }};
+
+    --ci-fs-title: {{ section.settings.mobile_title_size }}px;
+    --ci-fs-label: {{ section.settings.mobile_label_size }}px;
+    --ci-fs-value: {{ section.settings.mobile_value_size }}px;
+    --ci-fs-note: {{ section.settings.mobile_note_size }}px;
+
+    --ci-gap-title: {{ section.settings.mobile_gap_title }}px;
+    --ci-gap-item: {{ section.settings.mobile_gap_item }}px;
+    --ci-gap-media: {{ section.settings.mobile_gap_media }}px;
+
+    background-color: {{ section.settings.background_color }};
+    padding: {{ section.settings.mobile_padding_top }}px {{ section.settings.mobile_padding_side }}px {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  #CFInfo--{{ section.id }} .ci__inner {
+    max-width: 1766px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "info"
+      "media"
+      "note";
+    row-gap: 0;
+  }
+
+  /* ---------- 标题（渐变字） ---------- */
+  #CFInfo--{{ section.id }} .ci__title {
+    grid-area: title;
+    margin: 0 0 var(--ci-gap-title);
+    font-family: MiSans-Bold;
+    font-weight: {{ section.settings.title_weight }};
+    font-size: var(--ci-fs-title);
+    line-height: {{ section.settings.title_line_height | divided_by: 100.0 }};
+    letter-spacing: {{ section.settings.title_letter_spacing | divided_by: 100.0 }}em;
+    text-align: {{ section.settings.mobile_align }};
+    color: var(--ci-g2);
+  }
+
+  @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    #CFInfo--{{ section.id }} .ci__title {
+      background-image: linear-gradient(
+        var(--ci-angle),
+        var(--ci-g1) 0%,
+        var(--ci-g2) 50%,
+        var(--ci-g3) 100%
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      width: fit-content;
+      {%- if section.settings.mobile_align == 'center' %}
+        margin-inline: auto;
+      {%- endif %}
+    }
+  }
+
+  #CFInfo--{{ section.id }} .ci__title--mobile { display: block; }
+  #CFInfo--{{ section.id }} .ci__title--desktop { display: none; }
+
+  /* ---------- 信息组 ---------- */
+  #CFInfo--{{ section.id }} .ci__info {
+    grid-area: info;
+    display: grid;
+    {%- if section.settings.mobile_info_layout == 'row' %}
+      grid-template-columns: repeat({{ section.blocks.size | at_most: 4 }}, minmax(0, 1fr));
+      column-gap: 12px;
+      row-gap: var(--ci-gap-item);
+    {%- else %}
+      grid-template-columns: 1fr;
+      row-gap: var(--ci-gap-item);
+      text-align: {{ section.settings.mobile_align }};
+    {%- endif %}
+  }
+
+  #CFInfo--{{ section.id }} .ci__label {
+    display: block;
+    margin: 0 0 0.25em;
+    font-size: var(--ci-fs-label);
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--ci-label);
+  }
+
+  #CFInfo--{{ section.id }} .ci__value {
+    display: block;
+    margin: 0;
+    font-size: var(--ci-fs-value);
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--ci-value);
+  }
+
+  /* ---------- 图片 ---------- */
+  #CFInfo--{{ section.id }} .ci__media {
+    grid-area: media;
+    margin-top: var(--ci-gap-media);
+    width: {{ section.settings.mobile_image_width }}%;
+    margin-inline: auto;
+  }
+
+  #CFInfo--{{ section.id }} .ci__media img,
+  #CFInfo--{{ section.id }} .ci__media svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: {{ section.settings.image_radius }}px;
+  }
+
+  /* ---------- 脚注 ---------- */
+  #CFInfo--{{ section.id }} .ci__note {
+    grid-area: note;
+    margin: {{ section.settings.mobile_gap_note }}px 0 0;
+    font-size: var(--ci-fs-note);
+    line-height: 1.5;
+    color: var(--ci-note);
+    text-align: center;
+  }
+
+  /* ================= PC 端 ================= */
+  @media screen and (min-width: 750px) {
+    #CFInfo--{{ section.id }} {
+      --ci-angle: {{ section.settings.gradient_angle }}deg;
+      --ci-fs-title: {{ section.settings.desktop_title_size }}px;
+      --ci-fs-label: {{ section.settings.desktop_label_size }}px;
+      --ci-fs-value: {{ section.settings.desktop_value_size }}px;
+      --ci-fs-note: {{ section.settings.desktop_note_size }}px;
+      --ci-gap-title: {{ section.settings.desktop_gap_title }}px;
+      --ci-gap-item: {{ section.settings.desktop_gap_item }}px;
+      padding: {{ section.settings.desktop_padding_top }}px {{ section.settings.desktop_padding_side }}px {{ section.settings.desktop_padding_bottom }}px;
+    }
+
+    #CFInfo--{{ section.id }} .ci__inner {
+      grid-template-columns: 1fr 59%;
+      grid-template-areas:
+        "title media"
+        "info  media"
+        "note  media";
+      grid-template-rows: auto auto 1fr;
+      column-gap: {{ section.settings.desktop_column_gap }}px;
+    }
+
+    #CFInfo--{{ section.id }} .ci__title {
+      text-align: left;
+      margin-inline: 0;
+    }
+
+    #CFInfo--{{ section.id }} .ci__title--mobile { display: none; }
+    #CFInfo--{{ section.id }} .ci__title--desktop { display: block; }
+
+    #CFInfo--{{ section.id }} .ci__info {
+      grid-template-columns: 1fr;
+      row-gap: var(--ci-gap-item);
+      text-align: left;
+      align-content: start;
+    }
+
+    #CFInfo--{{ section.id }} .ci__media {
+      margin-top: 0;
+      width: 100%;
+      align-self: {{ section.settings.desktop_image_align }};
+    }
+
+    #CFInfo--{{ section.id }} .ci__note {
+      margin: {{ section.settings.desktop_gap_note }}px 0 0;
+      text-align: left;
+      align-self: end;
+    }
+  }
+{% endstyle %}
+
+<div class="cf-info" id="CFInfo--{{ section.id }}">
+  <div class="ci__inner">
+    {%- if heading_d != blank -%}
+      {%- if heading_m != blank -%}
+        <{{ section.settings.heading_tag }} class="ci__title ci__title--desktop">
+          {{- heading_d | escape | newline_to_br -}}
+        </{{ section.settings.heading_tag }}>
+        <span class="ci__title ci__title--mobile" aria-hidden="true">
+          {{- heading_m | escape | newline_to_br -}}
+        </span>
+      {%- else -%}
+        <{{ section.settings.heading_tag }} class="ci__title">
+          {{- heading_d | escape | newline_to_br -}}
+        </{{ section.settings.heading_tag }}>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="ci__info">
+        {%- for block in section.blocks -%}
+          <div class="ci__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.label != blank -%}
+              <span class="ci__label">{{ block.settings.label | escape }}</span>
+            {%- endif -%}
+            {%- if block.settings.value != blank -%}
+              <span class="ci__value">{{ block.settings.value | escape }}</span>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    <div class="ci__media">
+      {%- if img != blank -%}
+        {%- if section.settings.image_link != blank -%}<a href="{{ section.settings.image_link }}">{%- endif -%}
+        {{
+          img
+          | image_url: width: 1600
+          | image_tag:
+            loading: 'lazy',
+            widths: '400,600,800,1000,1200,1400,1600',
+            sizes: '(min-width: 750px) 47vw, 90vw',
+            alt: alt_text
+        }}
+        {%- if section.settings.image_link != blank -%}</a>{%- endif -%}
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.note != blank -%}
+      <p class="ci__note">{{ section.settings.note }}</p>
+    {%- endif -%}
+  </div>
+</div>
+
+{%- if section.settings.enable_schema and section.settings.event_start != blank -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExhibitionEvent",
+      "name": {{ section.settings.event_name | default: heading_d | strip_newlines | json }},
+      "startDate": {{ section.settings.event_start | json }},
+      {% if section.settings.event_end != blank %}"endDate": {{ section.settings.event_end | json }},{% endif %}
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": {{ section.settings.event_place | json }}
+        {%- if section.settings.event_address != blank -%}
+          ,"address": {{ section.settings.event_address | json }}
+        {%- endif -%}
+      },
+      {% if img != blank %}"image": {{ img | image_url: width: 1600 | prepend: 'https:' | json }},{% endif %}
+      "organizer": {
+        "@type": "Organization",
+        "name": {{ section.settings.event_organizer | default: shop.name | json }},
+        "url": {{ shop.url | json }}
+      },
+      "url": {{ canonical_url | json }}
+    }
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "展会信息（图文）",
+  "tag": "section",
+  "class": "section-cf-info",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "header",
+      "content": "标题"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "PC 端标题（回车即换行）",
+      "default": "Ulefone\n140th Canton Fair"
+    },
+    {
+      "type": "textarea",
+      "id": "heading_mobile",
+      "label": "移动端标题（选填）",
+      "default": "Ulefone | 140th Canton Fair",
+      "info": "留空则移动端使用 PC 端标题。"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "标题标签（SEO）",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "div", "label": "DIV（不作为标题）" }
+      ],
+      "default": "h2"
+    },
+
+    {
+      "type": "header",
+      "content": "标题渐变色"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_1",
+      "label": "渐变起始色",
+      "default": "#FBE6B4"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_2",
+      "label": "渐变中间色",
+      "default": "#F5C87E"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_3",
+      "label": "渐变结束色",
+      "default": "#EFA04A"
+    },
+    {
+      "type": "range",
+      "id": "gradient_angle",
+      "label": "渐变角度（PC）",
+      "min": 0,
+      "max": 360,
+      "step": 5,
+      "unit": "°",
+      "default": 150
+    },
+    {
+      "type": "range",
+      "id": "gradient_angle_mobile",
+      "label": "渐变角度（移动端）",
+      "min": 0,
+      "max": 360,
+      "step": 5,
+      "unit": "°",
+      "default": 100
+    },
+
+    {
+      "type": "header",
+      "content": "展位图 / 场馆图"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "图片"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "图片 Alt 文本（SEO）",
+      "default": "Canton Fair Complex, Guangzhou"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "图片链接（选填）"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "label": "图片圆角",
+      "min": 0,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "底部说明文字",
+      "default": "*This map is for reference only. Final floor plan may vary."
+    },
+
+    {
+      "type": "header",
+      "content": "颜色"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "背景色",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "小标签颜色（Date / Booth / Venue）",
+      "default": "#D6D6D6"
+    },
+    {
+      "type": "color",
+      "id": "value_color",
+      "label": "内容文字颜色",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "note_color",
+      "label": "底部说明文字颜色",
+      "default": "#9A9A9A"
+    },
+
+    {
+      "type": "header",
+      "content": "标题字体"
+    },
+    {
+      "type": "select",
+      "id": "font_family",
+      "label": "字体",
+      "options": [
+        { "value": "heading", "label": "主题标题字体" },
+        { "value": "body", "label": "主题正文字体" },
+        { "value": "condensed", "label": "压缩黑体（Oswald / Arial Narrow）" },
+        { "value": "custom", "label": "自定义（下方填写）" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "text",
+      "id": "custom_font_family",
+      "label": "自定义 font-family",
+      "info": "例：'Ulefone Sans', Arial, sans-serif"
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "标题字重",
+      "options": [
+        { "value": "500", "label": "500" },
+        { "value": "600", "label": "600" },
+        { "value": "700", "label": "700" },
+        { "value": "800", "label": "800" },
+        { "value": "900", "label": "900" }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "title_line_height",
+      "label": "标题行高",
+      "min": 90,
+      "max": 180,
+      "step": 2,
+      "unit": "%",
+      "default": 124
+    },
+    {
+      "type": "range",
+      "id": "title_letter_spacing",
+      "label": "标题字间距",
+      "min": -5,
+      "max": 20,
+      "step": 1,
+      "unit": "‰",
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "PC 端排版（≥750px）"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "label": "内容最大宽度",
+      "min": 900,
+      "max": 1800,
+      "step": 20,
+      "unit": "px",
+      "default": 1340
+    },
+    {
+      "type": "range",
+      "id": "desktop_image_width",
+      "label": "图片占比（右栏宽度）",
+      "min": 25,
+      "max": 65,
+      "step": 1,
+      "unit": "%",
+      "default": 47
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_align",
+      "label": "图片垂直对齐",
+      "options": [
+        { "value": "start", "label": "顶部对齐" },
+        { "value": "center", "label": "垂直居中" },
+        { "value": "end", "label": "底部对齐" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "desktop_column_gap",
+      "label": "左右两栏间距",
+      "min": 20,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "desktop_title_size",
+      "label": "标题字号",
+      "min": 20,
+      "max": 72,
+      "step": 1,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "desktop_label_size",
+      "label": "小标签字号",
+      "min": 11,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "desktop_value_size",
+      "label": "内容字号",
+      "min": 13,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "desktop_note_size",
+      "label": "说明文字字号",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap_title",
+      "label": "标题与信息间距",
+      "min": 8,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap_item",
+      "label": "信息项之间的间距",
+      "min": 8,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap_note",
+      "label": "说明文字上间距",
+      "min": 8,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "label": "上内边距",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "label": "下内边距",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_side",
+      "label": "左右内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "移动端排版（<750px）"
+    },
+    {
+      "type": "select",
+      "id": "mobile_align",
+      "label": "标题对齐",
+      "options": [
+        { "value": "left", "label": "左对齐" },
+        { "value": "center", "label": "居中" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "mobile_info_layout",
+      "label": "信息项排列方式",
+      "options": [
+        { "value": "row", "label": "一行横排（Date / Booth / Venue）" },
+        { "value": "column", "label": "竖向堆叠" }
+      ],
+      "default": "row"
+    },
+    {
+      "type": "range",
+      "id": "mobile_image_width",
+      "label": "图片宽度",
+      "min": 60,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 88
+    },
+    {
+      "type": "range",
+      "id": "mobile_title_size",
+      "label": "标题字号",
+      "min": 16,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "mobile_label_size",
+      "label": "小标签字号",
+      "min": 9,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "mobile_value_size",
+      "label": "内容字号",
+      "min": 11,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "mobile_note_size",
+      "label": "说明文字字号",
+      "min": 9,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap_title",
+      "label": "标题与信息间距",
+      "min": 8,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap_item",
+      "label": "信息项之间的间距",
+      "min": 6,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap_media",
+      "label": "图片上间距",
+      "min": 8,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap_note",
+      "label": "说明文字上间距",
+      "min": 4,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "上内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "下内边距",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_side",
+      "label": "左右内边距",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+
+    {
+      "type": "header",
+      "content": "结构化数据（GEO / SEO，选填）"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_schema",
+      "label": "输出 Event 结构化数据",
+      "default": false,
+      "info": "填写下面的 ISO 日期后开启，有助于 Google 与 AI 搜索引擎理解展会信息。"
+    },
+    {
+      "type": "text",
+      "id": "event_name",
+      "label": "展会名称",
+      "default": "Ulefone at the 140th Canton Fair"
+    },
+    {
+      "type": "text",
+      "id": "event_start",
+      "label": "开始日期（YYYY-MM-DD）",
+      "default": "2026-10-15"
+    },
+    {
+      "type": "text",
+      "id": "event_end",
+      "label": "结束日期（YYYY-MM-DD）",
+      "default": "2026-10-19"
+    },
+    {
+      "type": "text",
+      "id": "event_place",
+      "label": "场馆名称",
+      "default": "Canton Fair Complex"
+    },
+    {
+      "type": "text",
+      "id": "event_address",
+      "label": "场馆地址",
+      "default": "No.380 Yuejiang Zhong Road, Guangzhou, China"
+    },
+    {
+      "type": "text",
+      "id": "event_organizer",
+      "label": "主办 / 参展品牌",
+      "default": "Ulefone"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "信息项",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "小标签",
+          "default": "Date"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "内容",
+          "default": "Oct. 15-19, 2026"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "展会信息（图文）",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": { "label": "Date", "value": "Oct. 15-19, 2026" }
+        },
+        {
+          "type": "item",
+          "settings": { "label": "Booth", "value": "展位号待定" }
+        },
+        {
+          "type": "item",
+          "settings": { "label": "Venue", "value": "Canton Fair Complex" }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

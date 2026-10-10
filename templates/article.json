@@ -12,6 +12,7 @@
     "main": {
       "type": "main-article",
       "custom_css": [
+        "table {border: 1px solid #ccc;}",
         "@media (min-width: 1100px) {.article-container {padding: 0 22% !important; }}",
         ".feature-subheader,#comments .comment .comment-date {text-transform: none;}",
         "p.MsoNormal {font-size: 1.2rem;}"

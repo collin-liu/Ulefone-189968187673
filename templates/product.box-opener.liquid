@@ -1,0 +1,316 @@
+
+<style>
+@font-face{font-family:MiSans-Semibold;src:url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Semibold.woff?v=1787910170')}
+@font-face{font-family:MiSans-Medium;src:url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Medium.woff2?v=1787938227')}
+@font-face{font-family:MiSans-Regular;src:url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.woff2?v=1787938227')}
+#speccontent{display:none}
+.bo-page {--bo-accent: #F5A623;--bo-dark: #1a1a1a;--bo-body: #5a5a5a;--bo-beige: #F8EDE3;--bo-light: #FAFAFA;--bo-grey: #EDEDED;/* --bo-max: 1200px; */--bo-radius: 14px;color: var(--bo-dark);line-height: 1.6;overflow-x: hidden;}
+.bo-page h1.bo-hero__title{font-family:MiSans-Semibold;font-weight:600}
+.bo-page p{font-family:MiSans-Regular}
+.bo-page *{box-sizing:border-box}
+.bo-page img{display:block;width:100%;height:auto}
+.bo-page picture {display: block;}
+.bo-page ul{list-style:none}
+.bo-wrap{max-width:var(--bo-max);margin:0 auto;padding:0 24px}
+.bo-hero{position:relative}
+.bo-hero__text{position:absolute;top:14%;left:0;right:0;z-index:2;text-align:center;padding:0 16px}
+.bo-hero__title{font-size:clamp(24px,2.25vw,44px);font-weight:700;letter-spacing:.2px;line-height:1.25}
+.bo-hero__sub{font-size:clamp(14px,2.28vw,31px);font-family:MiSans-Medium;font-weight:600;line-height:1.5;margin-top:.25em}
+.bo-intro{background:var(--bo-beige);padding:52px 0 58px;text-align:center}
+.bo-intro__lead{max-width:50vw;margin:0 auto;font-size:clamp(13px,2.02vw,22px);color:#4d4d4d;line-height:1.85}
+.bo-h2{font-size:clamp(22px,1.95vw,36px);font-weight:700;margin-top:3vw}
+.bo-intro__sub{font-size:clamp(15px,2.4vw,31px);font-weight:500;color:#2b2b2b;line-height:1.45;margin-top:10px}
+.bo-uses{display:flex;flex-wrap:wrap;justify-content:center;gap:34px 30px;margin-top:4vw}
+.bo-uses__item{width:calc(20% - 24px);max-width:258px}
+.bo-uses__item img{border-radius:50%}
+.bo-uses__cap{font-size:clamp(11px,.82vw,14px);color:#3d3d3d;line-height:1.5;margin-top:14px}
+.bo-features{padding:60px 0 66px;max-width:63vw;margin:0 auto}
+.bo-feature{display:flex;align-items:center;justify-content:space-between;gap:6%;margin-bottom:46px}
+.bo-feature:last-child{margin-bottom:0}
+.bo-feature--rev{flex-direction:row-reverse}
+.bo-feature__txt{flex:0 0 42%}
+.bo-feature__img{flex:0 0 52%}
+.bo-feature__img img{border-radius:var(--bo-radius)}
+.bo-feature__title{font-size:clamp(18px,1.5vw,28px);font-weight:700;line-height:1.3;text-align:left}
+.bo-feature__desc{font-size:clamp(12px,1.2vw,20px);color:var(--bo-body);line-height:1.75;margin-top:12px}
+.bo-grip{position:relative;display:flex;flex-direction:column}
+.bo-grip__txt{position:absolute;z-index:2;left:50%;top:25%;width:27%}
+.bo-grip__title{font-size:clamp(17px,1.5vw,29px);font-weight:700;line-height:1.3;text-align:left}
+.bo-grip__desc{font-size:clamp(11px,1.2vw,21px);color:#4d4d4d;line-height:1.75;margin-top:10px;text-align:left}
+.bo-spec{background:var(--bo-grey);padding:56px 0 64px}
+.bo-spec__inner{display:flex;align-items:center;justify-content:center;gap:9%}
+.bo-spec__pic{flex:0 0 22%;max-width:240px}
+.bo-spec__info{flex:0 0 42%}
+.bo-spec__title{font-size:clamp(20px,1.85vw,34px);font-weight:700;margin-bottom:22px;text-align:left}
+.bo-spec__item+.bo-spec__item{margin-top:22px}
+.bo-spec__label{display:block;font-size:clamp(13px,1.05vw,18px);font-weight:500;color:#2b2b2b}
+.bo-spec__val{display:block;font-size:clamp(18px,1.55vw,28px);font-weight:700;color:var(--bo-accent);line-height:1.35;margin-top:2px}
+.bo-spec__val em{font-style:normal;font-size:.55em;font-weight:600;margin-left:2px}
+@media (max-width:767px){
+    .wide {width: 96%;}
+    .bo-intro__lead {max-width: 88vw;}
+    .bo-features {max-width: 98vw;}
+    .bo-wrap{padding:0 18px}
+    .bo-hero {flex-direction: column;margin-top: 7vw;}
+    .bo-hero__text{padding:26px 18px 16px}
+    .bo-hero__title{font-size:23px}
+    .bo-hero__sub{font-size:14px}
+    .bo-intro{padding:26px 0 30px}
+    .bo-intro__lead{font-size:12.5px;line-height:1.8;padding:0 6px}
+    .bo-h2{font-size:20px;margin-top:22px}
+    .bo-intro__sub{font-size:15px;margin-top:8px}
+    .bo-uses{gap:20px 14px;margin-top:22px}
+    .bo-uses__item{width:calc(33.333% - 10px);max-width:none}
+    .bo-uses__cap{font-size:11px;margin-top:9px}
+    .bo-features{padding:30px 0 34px}
+    .bo-feature,.bo-feature--rev{flex-direction:column;gap:0;margin-bottom:30px}
+    .bo-feature__txt,.bo-feature__img{flex:0 0 auto;width:100%}
+    .bo-feature__txt{text-align:center;margin-bottom:14px}
+    .bo-feature__title{font-size:18px}
+    .bo-feature__desc{font-size:12.5px;margin-top:8px;text-align:left;}
+    .bo-grip{flex-direction:column-reverse;background:var(--bo-light)}
+    .bo-grip__txt {left: 5vw;width: 75vw;top: 6vw;}
+    .bo-grip__title{font-size:18px}
+    .bo-grip__desc{font-size:12.5px;margin-top:8px}
+    .bo-spec{padding:28px 0 34px}
+    .bo-spec__inner{flex-direction:column;gap:18px}
+    .bo-spec__pic{flex:0 0 auto;width:110px}
+    .bo-spec__info{flex:0 0 auto;width:100%;text-align:center}
+    .bo-spec__title{font-size:20px;margin-bottom:16px}
+    .bo-spec__grid{display:flex;justify-content:center;gap:34px}
+    .bo-spec__item{flex:0 0 auto;text-align:center}
+    .bo-spec__item+.bo-spec__item{margin-top:0}
+    .bo-spec__label{font-size:13px}
+    .bo-spec__val{font-size:17px}}
+@media (min-width:768px) and (max-width:1024px){
+    .bo-intro{padding:38px 0 42px}
+    .bo-features{padding:42px 0 46px}
+    .bo-feature{margin-bottom:34px}
+    .bo-uses{gap:24px 18px}
+    .bo-spec{padding:40px 0 46px}
+}
+</style>
+
+<div class="for_nav">
+    <div id="faq_nav" style="">
+        <div class="wide">
+            <div class="sub_nav">
+                <div class="ProName fl">Box Opener</div>
+                <ul class="nav fr">
+                    <li id="features" class="tab current"><a href="/products/box-opener">Features</a></li>
+                    <li id="armorspec" class="tab"><a href="#" class="gesture">Specs</a></li>
+                    <!--<li><a href="#" class="button">Buy Now</a></li>-->
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="featurescontent" class="bo-page">
+    <section class="bo-hero">
+        <div class="bo-hero__text">
+            <h1 class="bo-hero__title">Box Opener</h1>
+            <p class="bo-hero__sub">Mini Tape &amp; Envelope Cutter</p>
+        </div>
+        <picture class="bo-hero__pic">
+            <source media="(max-width:767px)"
+                    srcset="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-01.webp"
+                    width="750" height="1000">
+            <img class="bo-hero__img"
+                 src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-1s.webp?v=1789867887"
+                 alt="Ulefone Box Opener mini tape and envelope cutter slicing packing tape on a cardboard parcel"
+                 width="2000" height="1125">
+        </picture>
+    </section>
+    <section class="bo-intro">
+        <div class="bo-wrap">
+            <p class="bo-intro__lead">
+                Quickly open letters, parcels, cartons, and delivery packages with ease.
+                Keep it by your front door, in your bag, or attached to your keychain for
+                instant access whenever a package arrives.
+            </p>
+
+            <h2 class="bo-h2">Multiple Cutting Functions</h2>
+            <p class="bo-intro__sub">
+                Designed for versatile everyday use,<br>this cutter easily handles:
+            </p>
+
+            <ul class="bo-uses">
+                <li class="bo-uses__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-2-1.webp" alt="Opening envelopes and mail with the mini box opener" loading="lazy" width="335" height="335">
+                    <p class="bo-uses__cap">Envelopes<br>and mail</p>
+                </li>
+                <li class="bo-uses__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-2-2.webp" alt="Cutting packing tape on a sealed cardboard box" loading="lazy" width="335" height="335">
+                    <p class="bo-uses__cap">Cardboard boxes<br>sealed with<br>packing tape</p>
+                </li>
+                <li class="bo-uses__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-2-3.webp" alt="Slicing open a thick kraft paper envelope" loading="lazy" width="335" height="335">
+                    <p class="bo-uses__cap">Thick paper<br>envelopes</p>
+                </li>
+                <li class="bo-uses__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-2-4.webp" alt="Cutting vinyl and plastic packaging tape" loading="lazy" width="335" height="335">
+                    <p class="bo-uses__cap">Vinyl and<br>plastic tapes</p>
+                </li>
+                <li class="bo-uses__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-2-5.webp" alt="Cutting tag loops and packaging straps" loading="lazy" width="335" height="335">
+                    <p class="bo-uses__cap">Tag loops and<br>packaging straps</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bo-features">
+        <div class="bo-wrap">
+            <div class="bo-feature">
+                <div class="bo-feature__txt">
+                    <h3 class="bo-feature__title">Compact &amp; Portable Design</h3>
+                    <p class="bo-feature__desc">
+                        The lightweight mini-sized body folds neatly for convenient storage and
+                        transport. Easily attach it to a key ring, slip it into a pocket, or keep
+                        it in a drawer without taking up space.
+                    </p>
+                </div>
+                <div class="bo-feature__img">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-3-1.webp" alt="Compact box opener stored flat inside a wooden side table drawer" loading="lazy" width="942" height="520">
+                </div>
+            </div>
+            <div class="bo-feature bo-feature--rev">
+                <div class="bo-feature__txt">
+                    <h3 class="bo-feature__title">Safe Retractable Blade</h3>
+                    <p class="bo-feature__desc">
+                        The blade retracts completely when not in use, reducing the risk of
+                        accidental cuts and making it safe to carry in bags, pockets, or on a keychain.
+                    </p>
+                </div>
+                <div class="bo-feature__img">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-3-2.webp" alt="Box opener with retracted blade being slipped into a jeans pocket" loading="lazy" width="942" height="520">
+                </div>
+            </div>
+            <div class="bo-feature">
+                <div class="bo-feature__txt">
+                    <h3 class="bo-feature__title">Sharp &amp; Durable Steel Blade</h3>
+                    <p class="bo-feature__desc">
+                        Made from high-quality cutting steel, the blade delivers clean, precise cuts
+                        and maintains its sharpness through repeated use.
+                    </p>
+                </div>
+                <div class="bo-feature__img">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-3-3.webp" alt="Steel blade cutting a straight clean line through paper on a cutting mat" loading="lazy" width="942" height="520">
+                </div>
+            </div>
+            <div class="bo-feature bo-feature--rev">
+                <div class="bo-feature__txt">
+                    <h3 class="bo-feature__title">Comfortable Ergonomic Grip</h3>
+                    <p class="bo-feature__desc">
+                        Constructed from durable PC (Polycarbonate) material, the body is designed
+                        to fit comfortably in your hand, providing better control and reducing
+                        effort during cutting tasks.
+                    </p>
+                </div>
+                <div class="bo-feature__img">
+                    <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-3-4.webp" alt="Hand holding the ergonomic box opener while opening a padded parcel" loading="lazy" width="942" height="520">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="bo-grip">
+        <picture class="bo-hero__pic">
+            <source media="(max-width:767px)"
+                    srcset="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-04.webp"
+                    width="750" height="1000">
+            <img class="bo-hero__img"
+                 src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-4.webp"
+                 alt="Ulefone Box Opener mini tape and envelope cutter slicing packing tape on a cardboard parcel"
+                 width="2000" height="1125">
+        </picture>
+        <div class="bo-grip__txt">
+            <h3 class="bo-grip__title">Secure Anti-Slip Grip</h3>
+            <p class="bo-grip__desc">
+                Textured anti-slip dots on both sides provide a secure, comfortable grip,
+                reducing hand slippage for safer, more precise cutting.
+            </p>
+        </div>
+    </section>
+    <section class="bo-spec">
+        <div class="bo-wrap bo-spec__inner">
+            <div class="bo-spec__pic">
+                <img src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/box-opener-5-1.webp" alt="Ulefone Box Opener front view in black with yellow logo" loading="lazy" width="435" height="483">
+            </div>
+            <div class="bo-spec__info">
+                <h2 class="bo-spec__title">Specifications:</h2>
+                <div class="bo-spec__grid">
+                    <div class="bo-spec__item">
+                        <span class="bo-spec__label">Dimensions</span>
+                        <span class="bo-spec__val">31 x 34 x 8.6 <em>mm</em></span>
+                    </div>
+                    <div class="bo-spec__item">
+                        <span class="bo-spec__label">Material</span>
+                        <span class="bo-spec__val">Body: PC</span>
+                        <span class="bo-spec__val">Blade: Metal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% if request.page_type == 'product' %}
+<script src="{{ 'products-liu.js' | asset_url }}" defer></script>
+{% endif %}
+<div id="speccontent">
+    <div class="container spec">
+        <img style=" margin: 2vw auto;" src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Box-Opener-spec-1.webp" />
+        <p>Color: Black</p>
+        <!--<section class="section meta">
+            <div class="row">
+                <div class="span-title col-md-4">Box Opener</div>
+                <div class="col-md-6 size-spec1"><label>The Ulefone Box Opener is a tiny, lightweight tool with a retractable blade, designed for quick and easy everyday cutting. It effortlessly handles envelopes, mail, packing tape, cardboard boxes, and more. With its compact and lightweight design, it easily attaches to your keychain or slips into your pocket, keeping a handy cutting tool always within reach.</label></div>
+            </div>
+        </section>-->
+        <section class="section material">
+            <div class="row">
+                <div class="span-title col-md-4">Material</div>
+                <div class="col-md-6 size-spec1"><label>PC + Metal</label></div>
+            </div>
+        </section>
+        <section class="section sizeandweight">
+            <div class="row">
+                <div class="span-title col-md-12">Size and Weight</div>
+
+                <div class="col-md-offset-4 col-md-5" style="margin-top:4%;">
+                    <img class="ule-img2" src="https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Box-Opener-spec-2.webp" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-offset-4 col-md-8">
+
+                    <div class="col-md-4 size-spec1"><label>Dimensions: 31 x 34 x 8.6 mm</label></div>
+
+                    <div class="col-md-5 size-spec1"><label>Dimensions: 31 x 34 x 8.6 mm</label></div>
+
+                    <div class="col-md-4 size-spec1"><label>Weight: 5.2 g/ 0.18 ounces</label></div>
+
+                    <div class="col-md-6 size-spec3" style="opacity:.7;margin-top: 3%;">
+                        <label style="line-height: 23px;">*Size and weight vary by configuration and manufacturing process. Actual measurements between individual products may vary. All specifications are subject to the actual product.</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section compatibility">
+            <div class="row">
+                <div class="span-title col-md-4">Usage Scenarios</div>
+                <div class="col-md-6 size-spec1"><label>Opening envelopes</label></div>
+                <div class="col-md-offset-4 col-md-6 size-spec1"><label>Cutting packaging tape</label></div>
+                <div class="col-md-offset-4 col-md-6 size-spec1"><label>Opening cardboard boxes</label></div>
+                <div class="col-md-offset-4 col-md-6 size-spec1"><label>Unsealing mailers and parcels</label></div>
+            </div>
+        </section>
+        <section class="section processor">
+            <div class="row">
+                <div class="span-title col-md-4">In the Box</div>
+                <div class="col-md-6 size-spec1"><label>1 x Box Opener</label></div>
+            </div>
+        </section>
+    </div>
+</div>

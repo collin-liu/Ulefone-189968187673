@@ -12,14 +12,14 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_zP6GyQ": {
+        "image_h3atQV": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ifa-2026-banner-pc.webp",
-            "mobile_image": "shopify://shop_images/ifa-2026-banner-m.webp",
-            "tracking_name": "IFA-2026",
-            "slide_link": "shopify://pages/events-ulefone-ifa-2026",
+            "image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-m.webp",
+            "tracking_name": "RugOne众筹-xsnap-7-pro-Event",
+            "slide_link": "https://www.kickstarter.com/projects/rugone/rugone-xsnap-7-pro-rugged-phone-detachable-action-camera",
             "subheading": "",
             "title": "",
             "title_size": 60,
@@ -31,14 +31,13 @@
             "overlay_position": "position--hcenter position--vcenter"
           }
         },
-        "a131a2b0-6013-4c9a-8d86-eec5057cce62": {
+        "image_9EL9Ri": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/RugOne-IFA-2026-banner-pc-2.webp",
-            "mobile_image": "shopify://shop_images/RugOne-IFA-2026-banner-m.webp",
-            "tracking_name": "RugOne 新品发布",
-            "slide_link": "https://www.ulefone.com/blogs/newsroom/ulefone-ifa-2026",
+            "image": "shopify://shop_images/Omni-Sentinel-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/Omni-Sentinel-banner-m.webp",
+            "tracking_name": "Omni Sentinel 哨兵APP",
+            "slide_link": "shopify://pages/software-omni-sentinel",
             "subheading": "",
             "title": "",
             "title_size": 60,
@@ -47,16 +46,16 @@
             "text": "",
             "enlarge_text": true,
             "button_label": "",
-            "overlay_position": "position--right position--bottom"
+            "overlay_position": "position--hcenter position--vcenter"
           }
         },
-        "image_h3atQV": {
+        "image_zP6GyQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-pc.webp",
-            "mobile_image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-m.webp",
-            "tracking_name": "RugOne众筹-xsnap-7-pro-Event",
-            "slide_link": "https://www.kickstarter.com/projects/rugone/rugone-xsnap-7-pro-rugged-phone-detachable-action-camera",
+            "image": "shopify://shop_images/canton-fair-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/canton-fair-banner-m.webp",
+            "tracking_name": "140th-Canton-Fair-2026",
+            "slide_link": "https://www.ulefone.com/pages/canton-fair",
             "subheading": "",
             "title": "",
             "title_size": 60,
@@ -86,8 +85,27 @@
             "overlay_position": "position--hcenter position--vcenter"
           }
         },
+        "a131a2b0-6013-4c9a-8d86-eec5057cce62": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/armor-watch-ultra-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/armor-watch-ultra-banner-m.webp",
+            "tracking_name": "Armor Watch Ultra",
+            "slide_link": "shopify://products/armor-watch-ultra",
+            "subheading": "",
+            "title": "",
+            "title_size": 60,
+            "title_width": 12,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--right position--bottom"
+          }
+        },
         "image_3CmUcz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/community-ulefone-Life-pc.webp",
             "mobile_image": "shopify://shop_images/community-ulefone-Life-m.webp",
@@ -102,24 +120,6 @@
             "enlarge_text": true,
             "button_label": "",
             "overlay_position": "position--hcenter position--top"
-          }
-        },
-        "image_9EL9Ri": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/store-go-adventure-pc.webp",
-            "mobile_image": "shopify://shop_images/store-go-adventure-m.webp",
-            "tracking_name": "store-go-adventure-Event",
-            "slide_link": "https://bit.ly/go-adventure-campaign",
-            "subheading": "",
-            "title": "",
-            "title_size": 60,
-            "title_width": 12,
-            "heading_h1": false,
-            "text": "",
-            "enlarge_text": true,
-            "button_label": "",
-            "overlay_position": "position--hcenter position--vcenter"
           }
         },
         "image_fTkNm4": {
@@ -143,12 +143,12 @@
         }
       },
       "block_order": [
-        "image_zP6GyQ",
-        "a131a2b0-6013-4c9a-8d86-eec5057cce62",
         "image_h3atQV",
-        "image_AKF7Br",
-        "image_3CmUcz",
         "image_9EL9Ri",
+        "image_zP6GyQ",
+        "image_AKF7Br",
+        "a131a2b0-6013-4c9a-8d86-eec5057cce62",
+        "image_3CmUcz",
         "image_fTkNm4"
       ],
       "custom_css": [
