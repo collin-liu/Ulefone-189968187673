@@ -574,6 +574,9 @@
     margin-top: 7%;
 }
 @media (max-width: 768px) {
+    #speccontent .spec {
+    margin-top: 29%;
+}
     div #faq_nav {
         padding: 0 2vw;
     }
@@ -597,7 +600,7 @@
         width: 89%;
     }
 
-    .section {
+    #featurescontent .section {
         clear: both;
         margin: auto;
         width: 100%;

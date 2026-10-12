@@ -1,16 +1,7 @@
-  window.onscroll = function () {
-        var div1 = document.getElementById('faq_nav');
-        var div2 = document.getElementById('gs');
-        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollPosition > 0) {
-            div1.style.setProperty('top', '0', 'important');
-            div2.style.top = '86px';
-        } else {
-            div1.style.top = '86px';
-            div2.style.top = '86px';
-        }
-    };
+(function () {
+    var gs = document.getElementById('gs');
+    if (gs) { gs.style.top = '86px'; }
+})();
 
 
 document.addEventListener('DOMContentLoaded', function() {

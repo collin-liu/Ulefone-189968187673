@@ -2,7 +2,7 @@
   <div class="video-container video-container--background"
     {% if video_shopify != blank %}
       data-video-sources="{%- for source in video_shopify.sources -%}
-        {{ source.format }} {{ source.mime_type }} {{ source.url }}
+        {{ source.format }} {{ source.mime_type }} {{ source.url }} {{ source.width | default: 0 }}
         {%- unless forloop.last -%}|{%- endunless -%}
       {%- endfor -%}"
       data-video-type="mp4"

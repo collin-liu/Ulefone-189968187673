@@ -12,25 +12,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_h3atQV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-pc.webp",
-            "mobile_image": "shopify://shop_images/crowdfunding-rugone-xsnap-7-pro-banner-m.webp",
-            "tracking_name": "RugOne众筹-xsnap-7-pro-Event",
-            "slide_link": "https://www.kickstarter.com/projects/rugone/rugone-xsnap-7-pro-rugged-phone-detachable-action-camera",
-            "subheading": "",
-            "title": "",
-            "title_size": 60,
-            "title_width": 12,
-            "heading_h1": false,
-            "text": "",
-            "enlarge_text": true,
-            "button_label": "",
-            "overlay_position": "position--hcenter position--vcenter"
-          }
-        },
         "image_9EL9Ri": {
           "type": "image",
           "settings": {
@@ -103,28 +84,8 @@
             "overlay_position": "position--right position--bottom"
           }
         },
-        "image_3CmUcz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/community-ulefone-Life-pc.webp",
-            "mobile_image": "shopify://shop_images/community-ulefone-Life-m.webp",
-            "tracking_name": "Ulefone-Community-Event",
-            "slide_link": "https://bit.ly/AugustUlefoneLifeOW",
-            "subheading": "",
-            "title": "",
-            "title_size": 60,
-            "title_width": 12,
-            "heading_h1": false,
-            "text": "",
-            "enlarge_text": true,
-            "button_label": "",
-            "overlay_position": "position--hcenter position--top"
-          }
-        },
         "image_fTkNm4": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/armor-24-pro-banner-pc.webp",
             "mobile_image": "shopify://shop_images/armor-24-pro-banner-m.webp",
@@ -135,7 +96,7 @@
             "title_size": 60,
             "title_width": 12,
             "heading_h1": false,
-            "text": "<p> </p>",
+            "text": "<p>&nbsp;</p>",
             "enlarge_text": true,
             "button_label": "",
             "overlay_position": "position--hcenter position--vcenter"
@@ -143,12 +104,10 @@
         }
       },
       "block_order": [
-        "image_h3atQV",
         "image_9EL9Ri",
         "image_zP6GyQ",
         "image_AKF7Br",
         "a131a2b0-6013-4c9a-8d86-eec5057cce62",
-        "image_3CmUcz",
         "image_fTkNm4"
       ],
       "custom_css": [

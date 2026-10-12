@@ -173,12 +173,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     };
   </script>
   <style>
-        body:not(.nav-opaque):has(#page-content > .shopify-section:first-child.header-overlap-section){
-      padding-top: 0 !important;
-    }
-    .theme-modal.nav-uses-modal:not(.reveal) .btn_view_more{
-      display: none !important;
-    }
     
     @media (min-width: 1100px){
         .site-control.nav-inline-desktop .site-control__inner .nav-row .contains-children {
@@ -440,59 +434,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--ahrefs-->
 
 
-{% comment %}首页banner Slideshow first image preload {% endcomment %}
-{% if template == 'index' %}
-  {% for section in sections %}
-    {% if section.type == 'slideshow' %}
-      {% assign first_slide = section.blocks.first %}
-      {% if first_slide.settings.image != blank %}
-        <link rel="preload" as="image"
-          href="{{ first_slide.settings.image | image_url: width: 1200 }}"
-          imagesrcset="
-            {{ first_slide.settings.image | image_url: width: 800 }} 800w,
-            {{ first_slide.settings.image | image_url: width: 1200 }} 1200w,
-            {{ first_slide.settings.image | image_url: width: 1600 }} 1600w,
-            {{ first_slide.settings.image | image_url: width: 1920 }} 1920w，{{ first_slide.settings.image | image_url: width: 2560 }} 2560w
-          "
-          imagesizes="100vw"
-          fetchpriority="high"
-          media="(min-width: 768px)"
-        >
-        {% if first_slide.settings.mobile_image != blank %}
-          <link rel="preload" as="image"
-            href="{{ first_slide.settings.mobile_image | image_url: width: 750 }}"
-            imagesrcset="
-              {{ first_slide.settings.mobile_image | image_url: width: 480 }} 480w,
-              {{ first_slide.settings.mobile_image | image_url: width: 750 }} 750w,
-              {{ first_slide.settings.mobile_image | image_url: width: 960 }} 960w
-            "
-            imagesizes="100vw"
-            fetchpriority="high"
-            media="(max-width: 767px)"
-          >
-        {% else %}
-          <link rel="preload" as="image"
-            href="{{ first_slide.settings.image | image_url: width: 750 }}"
-            imagesrcset="
-              {{ first_slide.settings.image | image_url: width: 480 }} 480w,
-              {{ first_slide.settings.image | image_url: width: 750 }} 750w,
-              {{ first_slide.settings.image | image_url: width: 960 }} 960w
-            "
-            imagesizes="100vw"
-            fetchpriority="high"
-            media="(max-width: 767px)"
-          >
-        {% endif %}
-      {% endif %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
 
 
 {% unless template.name == 'index' %}
   {% include 'pagefly-app-header' %}
 {% endunless %}
+  {%- comment -%}
+    首屏防跳动：theme.js 加载后才给 body 加 header-section-overlap（去掉 body 顶部留白）和 .unreveal（隐藏菜单底部按钮），
+    导致手机端先渲染一次再跳动。这里用 CSS 提前得到最终状态。
+  {%- endcomment -%}
+  <style>
+    body:not(.nav-opaque):has(#page-content > .shopify-section:first-child.header-overlap-section){
+      padding-top: 0 !important;
+    }
+    .theme-modal.nav-uses-modal:not(.reveal) .btn_view_more{
+      display: none !important;
+    }
+  </style>
 </head>
 <body class="page-{{ page_title | handle }} {% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if template.suffix != blank %} template-suffix-{{ template.suffix }}{% endif %}{% if template contains 'customers' %} template-customer-area{% endif %}{% if logo_html contains 'img' %} has-logo{% endif %} animation-speed-{{ settings.animation_speed }}"
       {% if settings.animation_speed == "fast" %}data-cc-animate-timeout="0"{% endif %}>

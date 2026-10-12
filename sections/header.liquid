@@ -83,8 +83,6 @@
   .new-mega-menu-container .nav-rows-new{
     display:inline-block !important;
   }
-
-  /* New Mega Menu 子菜单图片（如 Solutions 下的 MDM / PoC / RFID） */
   .new-mega-menu-container--cards .nav-rows-new{
     display: flex !important;
     justify-content: center;
@@ -152,7 +150,27 @@
     opacity: 1;
     transform: translateX(0);
   }
-
+  @media (max-width: 767px){
+    #page-menu{ --ufo-yellow:#F7B500; --ufo-ink:#111; --ufo-line:#ededed; --ufo-muted:#8a8a8a; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li{ padding:0 !important; margin:0 !important; border-bottom:1px solid var(--ufo-line) !important; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a{ position:relative; align-items:center; gap:12px; padding:8px 4px !important; min-height:52px; box-sizing:border-box; font-size:16px !important; font-weight:600 !important; letter-spacing:.01em; line-height:1.2; color:var(--ufo-ink) !important; -webkit-tap-highlight-color:transparent; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a::after{ content:""; position:absolute; left:-14px; top:50%; width:4px; height:0; background:var(--ufo-yellow); transform:translateY(-50%); transition:height .2s ease; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a:active::after{ height:60%; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a .arr{ position:static !important; top:auto !important; transform:none !important; display:flex; align-items:center; justify-content:center; flex:0 0 32px; width:32px !important; height:32px !important; margin-left:auto; border:1px solid var(--ufo-line); border-radius:50%; transition:background-color .2s ease, border-color .2s ease; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a .arr svg{ width:18px; height:18px; }
+    #page-menu .nav-body.container.growth-area .main-nav > ul > li > a:active .arr{ background:var(--ufo-yellow); border-color:var(--ufo-yellow); }
+    #page-menu .cc-accordion-item__title{ align-items:center !important; gap:12px; min-height:52px; box-sizing:border-box; padding:8px 4px !important; }
+    #page-menu .cc-accordion-item__title .arr{ position:static !important; top:auto !important; right:auto !important; transform:none; display:flex; align-items:center; justify-content:center; flex:0 0 32px; width:32px !important; height:32px !important; margin-left:auto; border:1px solid var(--ufo-line); border-radius:50%; }
+    #page-menu .cc-accordion-item__title .arr svg{ width:18px; height:18px; max-width:none; margin:0; transition:transform .2s ease; }
+    #page-menu .cc-accordion-item__title:active .arr{ background:var(--ufo-yellow); border-color:var(--ufo-yellow); }
+    #page-menu .nav-body > .contains-children-new{ display:block !important; margin:24px 0 8px; }
+    #page-menu .nav-body > .contains-children-new .rugone-new{ display:flex !important; align-items:center; height:auto !important; line-height:1.2 !important; padding:18px 20px; border-radius:12px; background:var(--ufo-ink); color:#fff !important; font-size:16px !important; font-weight:700; letter-spacing:.02em; }
+    #page-menu .nav-body > .contains-children-new .rugone-new::after{ margin-left:auto; padding:4px 8px; border-radius:20px; background:var(--ufo-yellow); color:var(--ufo-ink); font-size:10px; font-weight:800; letter-spacing:.06em; }
+    @media (prefers-reduced-motion: no-preference){
+      #page-menu.reveal .nav-body.container .main-nav > ul > li{ animation:ufoNavIn .35s ease both; }
+    }
+  }
+  @keyframes ufoNavIn{ from{ opacity:0; transform:translateY(8px); } to{ opacity:1; transform:none; } }
   .mobile-sub-cards{
     list-style: none;
     border-bottom: none !important;
@@ -256,8 +274,6 @@
     padding-left:5px;
   }
 </style>
-<!--<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>-->
 <script>
  /**$(function(){
 
@@ -289,7 +305,6 @@
       curParent.querySelector('.content-' + curIndex).classList.add('active');
     });
   });
-
 document.querySelectorAll('.new-mega-menu-container').forEach(function(container) {
   var parentMenuItem = container.closest('.contains-children') || container;
   parentMenuItem.addEventListener('mouseenter', function() {
@@ -302,7 +317,6 @@ document.querySelectorAll('.new-mega-menu-container').forEach(function(container
     });
   }, { once: true }); 
 });
-
 var mobileMenuLoaded = false;
   
   function loadMobileImages() {
@@ -382,15 +396,9 @@ var mobileMenuLoaded = false;
     {% endif %}
   </a>
 
-
-
-
   <h1 class="visually-hidden">
     Rugged Phones for Extreme Environments
   </h1>
-
-
-
 
   {% endcapture %}
 
@@ -557,9 +565,6 @@ var mobileMenuLoaded = false;
                                             <div class="NavProItem fl">
                                                 <div class="Pic">
                                                     <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                        <!--<img src="{{ cur_product.featured_image | img_url:"800x" }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>-->
-                                                        <!--<img src="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;">-->
-                                                        <!--<img class="mega-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>-->
                                                         
                                                         <img class="mega-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-hover-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>
                                                       </a>
@@ -693,7 +698,7 @@ var mobileMenuLoaded = false;
             <span class="text-link">{{ 'layout.header.search' | t }}</span>
           </a> 
 
-       <!--   <a data-cc-animate-click class="cart cart-icon--{{ section.settings.nav_cart_icon }}" href="{{ routes.cart_url }}" aria-label="{{ 'layout.navigation.cart' | t | escape }}">
+       {%- comment -%} 购物车图标（已停用） <a data-cc-animate-click class="cart cart-icon--{{ section.settings.nav_cart_icon }}" href="{{ routes.cart_url }}" aria-label="{{ 'layout.navigation.cart' | t | escape }}">
             {% if section.settings.nav_cart_icon == "basket1" %}
               {% render 'svg-cart' %}
             {% elsif section.settings.nav_cart_icon == "basket2" %}
@@ -701,7 +706,7 @@ var mobileMenuLoaded = false;
             {% endif %}
             <div>{{ cart.item_count }}</div>
             <span class="text-link">{{ 'layout.navigation.cart' | t }} {% if cart.item_count > 0 %}({{ cart.item_count }}){% endif %}</span>
-          </a> -->
+          </a> {%- endcomment -%}
         </div>
       </div>
     </div>
@@ -889,7 +894,6 @@ var mobileMenuLoaded = false;
                                                 <div class="NavProItem fl">
                                                     <div class="Pic">
                                                         <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                            <!--<img src="{{ cur_product.featured_image | img_url:"140x" }}" alt="{{ cur_product.title }}"><span></span>-->
                                                             <img class="mobile-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-mobile-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>
                                                         </a>
                                                     </div>
@@ -911,8 +915,10 @@ var mobileMenuLoaded = false;
                   
                           {% endfor %}
                           {% endif %}
+{%- if cur_mobile_block.settings.button_label1 != blank or cur_mobile_block.settings.button_label2 != blank -%}
                              <div class="btn_view_more" series-type="latest">
                                 <div class="btn_more_wrap clearfix">
+                                    {%- if cur_mobile_block.settings.button_label1 != blank -%}
                                     <a href="{{ cur_mobile_block.settings.cta_link1 }}" series-type="latest" data-txtnameforga="More Products" style="float: left;">
 
                                       <svg class="ho-icon hicon-window" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-list" viewBox="0 0 16 16">
@@ -921,6 +927,8 @@ var mobileMenuLoaded = false;
                                      
                                       {{ cur_mobile_block.settings.button_label1 }}
                                     </a>
+                                    {%- endif -%}
+                                    {%- if cur_mobile_block.settings.button_label2 != blank -%}
                                     <span class="btn_space" style="float: left;margin: 5vw 2vw 0 0;">|</span>
                                     <a href="{{ cur_mobile_block.settings.cta_link2 }}" data-txtnameforga="Compare" style="float: left;">
                                       <svg class="ho-icon hicon-compare" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
@@ -930,8 +938,10 @@ var mobileMenuLoaded = false;
                                       
                                       {{ cur_mobile_block.settings.button_label2 }}
                                     </a>
+                                    {%- endif -%}
                                 </div>
                             </div>
+                          {%- endif -%}
                         {% endif %}
                         
                       {% endif %}
@@ -999,6 +1009,8 @@ var mobileMenuLoaded = false;
   
             <div class="nav-ctas">
               {% for block in section.blocks %}
+                {%- comment -%} 性能：New Mega Menu 和没有配图的推广区块不输出（原来会输出隐藏的占位 SVG，约 300KB） {%- endcomment -%}
+                {% if block.type == 'new_mega_menu' or block.settings.image1 == blank %}{% continue %}{% endif %}
                 {% assign nav_item = "_root" %}
                 {% if block.settings.menu_item != blank %}
                   {% assign nav_item = block.settings.menu_item %}

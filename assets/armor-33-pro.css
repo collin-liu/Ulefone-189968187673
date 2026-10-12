@@ -501,9 +501,9 @@
             font-size: 4vw;
         }
 
-        .section {
+        #featurescontent .section {
             clear: both;
-            margin: auto;
+         
             width: 100%;
             background-size: 100% 100%;
             overflow: hidden;
