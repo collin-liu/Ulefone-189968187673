@@ -1,5 +1,16 @@
-<div id="section-id-{{ section.id }}" data-section-type="slideshow" data-cc-animate {% if section.settings.full_width %}class="needs-alt-logo"{% endif %}>
+{%- comment -%}
+  性能：页面第一个区块不加 data-cc-animate。否则老访客在电脑端会先 opacity:0，等 theme.js 下载执行完才淡入，LCP 被 JS 卡住。
+{%- endcomment -%}
+<div id="section-id-{{ section.id }}" data-section-type="slideshow" {% unless section.index == 1 %}data-cc-animate{% endunless %} {% if section.settings.full_width %}class="needs-alt-logo"{% endif %}>
   {% style %}
+    {%- comment -%}
+      性能：电脑端 slide 过渡样式会把所有 .rimage-outer-wrapper 设为 opacity:0 + 位移，直到 slick 初始化加上 .slick-active。
+      在 slick 初始化前先让第一张直接显示，首屏图不再等 JS。
+    {%- endcomment -%}
+    #section-id-{{ section.id }} .slideshow:not(.slick-initialized) .slide:first-child .rimage-outer-wrapper {
+      opacity: 1;
+      transform: none;
+    }
     {%- if section.settings.height == 'fixed' -%}
       #section-id-{{ section.id }} .rimage-outer-wrapper,
       #section-id-{{ section.id }} .placeholder-image {

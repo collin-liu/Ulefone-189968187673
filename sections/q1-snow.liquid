@@ -1,27 +1,52 @@
 <ql-snow img="{{ section.settings.img | image_url:width:50 }}" snowNum="{{ section.settings.amount }}"></ql-snow>
 
 {% javascript %}
+/* 性能：
+ * 1. 等页面 load 完、浏览器空闲时才启动，不和首屏 Banner 抢主线程/带宽（原来脚本一执行就开始 60fps 绘制）
+ * 2. 手机滚动时地址栏伸缩会触发 resize，原来每次都销毁重建 canvas；现在只在宽度变化时重建，并做防抖
+ * 3. 标签页不可见时暂停动画；系统开启"减少动态效果"时不运行
+ */
 class Snow extends window.HTMLElement {
   constructor() {
     super();
-    this.img = this.getAttribute("img");
-    this.snowNum = this.getAttribute("snowNum");
     this.canvas = null;
     this.animationFrame = null;
-    this.init();
+    this.lastWidth = 0;
+    this.resizeTimer = null;
     this.handleResize = this.handleResize.bind(this);
-    window.addEventListener("resize", this.handleResize);
+    this.handleVisibility = this.handleVisibility.bind(this);
+  }
+
+  connectedCallback() {
+    this.img = this.getAttribute("img");
+    this.snowNum = this.getAttribute("snowNum");
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const start = () => {
+      const run = () => {
+        if (!this.isConnected) return;
+        this.init();
+        window.addEventListener("resize", this.handleResize);
+        document.addEventListener("visibilitychange", this.handleVisibility);
+      };
+      if ("requestIdleCallback" in window) requestIdleCallback(run, { timeout: 3000 });
+      else setTimeout(run, 1000);
+    };
+    if (document.readyState === "complete") start();
+    else window.addEventListener("load", start, { once: true });
   }
 
   init() {
     if (this.canvas) {
       cancelAnimationFrame(this.animationFrame);
-      document.body.removeChild(this.canvas);
+      this.canvas.remove();
     }
     const canvas = document.createElement("canvas");
     canvas.setAttribute("id", "snow");
+    canvas.setAttribute("aria-hidden", "true");
     canvas.style.position = "fixed";
     canvas.style.top = "0";
+    canvas.style.left = "0";
     canvas.style.width = "100vw";
     canvas.style.height = "100vh";
     canvas.style.zIndex = "100";
@@ -31,6 +56,7 @@ class Snow extends window.HTMLElement {
 
     const W = canvas.clientWidth;
     const H = canvas.clientHeight;
+    this.lastWidth = window.innerWidth;
     canvas.setAttribute("width", W);
     canvas.setAttribute("height", H);
 
@@ -41,7 +67,7 @@ class Snow extends window.HTMLElement {
       pic: this.img,
     };
 
-    let snowImg = new Image();
+    const snowImg = new Image();
     snowImg.src = config.pic;
 
     for (let i = 0; i < config.number; i++) {
@@ -57,29 +83,42 @@ class Snow extends window.HTMLElement {
     const dropAnimation = () => {
       ctx.clearRect(0, 0, W, H);
       for (let i = 0; i < config.snowArr.length; i++) {
-        let snow = config.snowArr[i];
+        const snow = config.snowArr[i];
         ctx.drawImage(snowImg, snow.x, snow.y, snow.size, snow.size);
         snow.x = snow.x > W ? 0 : snow.x + snow.toX;
         snow.y = snow.y > H ? 0 : snow.y + snow.toY;
       }
       this.animationFrame = requestAnimationFrame(dropAnimation);
     };
+    this.dropAnimation = dropAnimation;
 
-    this.animationFrame = requestAnimationFrame(dropAnimation);
+    snowImg.onload = () => {
+      this.animationFrame = requestAnimationFrame(dropAnimation);
+    };
   }
 
   handleResize() {
-    this.init();
+    clearTimeout(this.resizeTimer);
+    this.resizeTimer = setTimeout(() => {
+      if (window.innerWidth !== this.lastWidth) this.init();
+    }, 300);
+  }
+
+  handleVisibility() {
+    if (document.hidden) {
+      cancelAnimationFrame(this.animationFrame);
+      this.animationFrame = null;
+    } else if (this.dropAnimation && !this.animationFrame) {
+      this.animationFrame = requestAnimationFrame(this.dropAnimation);
+    }
   }
 
   disconnectedCallback() {
     window.removeEventListener("resize", this.handleResize);
-    if (this.animationFrame) {
-      cancelAnimationFrame(this.animationFrame);
-    }
-    if (this.canvas && this.canvas.parentElement) {
-      document.body.removeChild(this.canvas);
-    }
+    document.removeEventListener("visibilitychange", this.handleVisibility);
+    clearTimeout(this.resizeTimer);
+    if (this.animationFrame) cancelAnimationFrame(this.animationFrame);
+    if (this.canvas) this.canvas.remove();
   }
 }
 

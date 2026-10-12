@@ -17,24 +17,19 @@
   assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic'
 -%}
 
-{%- unless base_font.system? -%}
-  <link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
-{%- endunless -%}
-
+{%- comment -%}
+  性能：原来这里预加载 4 个字体 + vendor.min.js + theme.js（约 160KB gzip），都以高优先级抢在首屏 Banner 图前面下载。
+  - 正文实际用 MiSans（styles.css 里定义），base_font 只用在少数次要位置；Logo 是图片，logo_font 用不到 → 不再预加载
+  - 导航/标题字体相同时只预加载一次
+  - 两个 JS 本身在 body 底部 defer 加载，预加载扫描器会自动发现，不需要再提权
+{%- endcomment -%}
 {%- unless nav_font.system? -%}
   <link rel="preload" as="font" href="{{ nav_font | font_url }}" type="font/woff2" crossorigin>
 {%- endunless -%}
 
-{%- unless heading_font.system? -%}
+{%- unless heading_font.system? or heading_font.family == nav_font.family and heading_font.weight == nav_font.weight -%}
   <link rel="preload" as="font" href="{{ heading_font | font_url }}" type="font/woff2" crossorigin>
 {%- endunless -%}
-
-{%- unless logo_font.system? -%}
-  <link rel="preload" as="font" href="{{ logo_font | font_url }}" type="font/woff2" crossorigin>
-{%- endunless -%}
-
-<link rel="preload" href="{{ 'vendor.min.js' | asset_url }}" as="script">
-<link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
 
 {%- if canonical_url != blank  -%}
   <link rel="canonical" href="{{ canonical_url }}" />
