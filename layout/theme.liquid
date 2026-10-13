@@ -455,24 +455,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body class="page-{{ page_title | handle }} {% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if template.suffix != blank %} template-suffix-{{ template.suffix }}{% endif %}{% if template contains 'customers' %} template-customer-area{% endif %}{% if logo_html contains 'img' %} has-logo{% endif %} animation-speed-{{ settings.animation_speed }}"
       {% if settings.animation_speed == "fast" %}data-cc-animate-timeout="0"{% endif %}>
   {% if settings.animation_enabled_mobile %}
+    {%- comment -%}
+      性能：原代码在手机端老访客访问时把整个 body 设为 opacity:0，等 window.load（最长 3 秒）后再淡入，
+      透明内容不计入 FCP/LCP，直接把两项指标往后拖了 3 秒以上。这里改为立即启用动画类、不再隐藏页面。
+    {%- endcomment -%}
     <script>
-      if(window.innerWidth < 768 && window.localStorage.getItem('is_first_visit') !== null) {
-        var pageFadedIn = false;
-        document.body.style.opacity = 0;
-
-        function fadeInPageMob(){
-          if(!pageFadedIn) {
-            document.body.classList.add("cc-animate-enabled");
-            document.body.style.transition = 'opacity 0.{% if settings.animation_speed == "fast" %}2{% else %}4{% endif %}s';
-            setTimeout(function () {
-              document.body.style.opacity = 1;
-            }, {% if settings.animation_speed == "fast" %}50{% else %}200{% endif %});
-            pageFadedIn = true;
-          }
-        }
-
-        window.addEventListener("load", fadeInPageMob);
-        setTimeout(fadeInPageMob, 3000);
+      if(window.innerWidth < 768) {
+        document.body.classList.add("cc-animate-enabled");
       }
 
       window.addEventListener("pageshow", function(){
@@ -618,6 +607,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   {% render 'body-end-tag' %}
   <script>
+  {%- comment -%} jQuery 在 vendor.min.js 里以 defer 加载，内联脚本执行时 $ 还不存在；等 DOMContentLoaded（defer 脚本已执行完）再绑定 {%- endcomment -%}
+  document.addEventListener('DOMContentLoaded', function(){ if (!window.jQuery) return;
   $(function(){
     $(document).on("click",".cc-accordion-new.cc-accordion",function(){
       if( $(this).find(".cc-accordion-item").attr("open") != undefined ){
@@ -626,9 +617,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }else{
         $(this).parents("ul").find(".cc-accordion-item").removeAttr("open");
       }
-      
+
     })
   })
+  });
 </script>
 
   <!-- Google Tag Manager (noscript) -->

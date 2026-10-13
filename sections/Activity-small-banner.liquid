@@ -104,8 +104,8 @@ section#shopify-section-{{ section.id }} {
           width="{{ section.settings.image_desktop.width }}"
           height="{{ section.settings.image_desktop.height }}"
           alt="Banner Image"
-          loading="eager"
-          fetchpriority="high"
+          {%- comment -%} 性能：只有放在页面第一个区块时才抢首屏；在首页它位于下方，原来的 eager + high 会和首屏 Banner 抢带宽 {%- endcomment -%}
+          {% if section.index == 1 %}loading="eager" fetchpriority="high"{% else %}loading="lazy" decoding="async"{% endif %}
         >
       </picture>
 
