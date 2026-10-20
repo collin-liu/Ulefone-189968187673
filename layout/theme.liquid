@@ -69,6 +69,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   {% comment %}{{ content_for_header }}{% endcomment %}
 {% capture header_content %}{{ content_for_header }}{% endcapture %}
+{%- liquid
+  comment
+    性能：首页没有使用 PageFly 元素，但 PageFly 的 App Embed 仍在 <head> 注入 9 个脚本（约 75KB）和 A/B 测试代码，
+    手机端首屏加载时会抢带宽和主线程。只在首页、且能准确找到 PageFly App Embed 的起止标记时才移除；找不到标记就原样输出。
+  endcomment
+  if template.name == 'index'
+    assign pf_begin = '<!-- BEGIN app block: shopify://apps/pagefly-ai-page-builder/blocks/app-embed/'
+    assign pf_end = '<!-- END app block -->'
+    if header_content contains pf_begin
+      assign pf_parts = header_content | split: pf_begin
+      assign pf_after = pf_parts[1]
+      if pf_after contains pf_end
+        assign pf_after_parts = pf_after | split: pf_end
+        assign pf_block = pf_begin | append: pf_after_parts[0] | append: pf_end
+        assign header_content = header_content | remove_first: pf_block
+      endif
+    endif
+  endif
+-%}
 {{ header_content | replace: 'accelerated-checkout-backwards-compat.css', 'data:text/css,' }}
 
   <script>

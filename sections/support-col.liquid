@@ -69,10 +69,23 @@
                   {%- assign f_size = block.settings[size_key] -%}
                   {%- if f_name != blank and f_file != blank -%}
                     {%- assign file_count = file_count | plus: 1 -%}
+                    {%- comment -%} Google Drive "view" links only open a preview; link to Drive's direct-download URL instead (server sends it as an attachment, like Huawei's support page) {%- endcomment -%}
+                    {%- assign f_dl = '' -%}
+                    {%- if f_file contains 'drive.google.com' -%}
+                      {%- assign f_id = '' -%}
+                      {%- if f_file contains '/file/d/' -%}
+                        {%- assign f_id = f_file | split: '/file/d/' | last | split: '/' | first | split: '?' | first -%}
+                      {%- elsif f_file contains 'id=' -%}
+                        {%- assign f_id = f_file | split: 'id=' | last | split: '&' | first -%}
+                      {%- endif -%}
+                      {%- if f_id != blank -%}
+                        {%- assign f_dl = 'https://drive.google.com/uc?export=download&id=' | append: f_id -%}
+                      {%- endif -%}
+                    {%- endif -%}
                     <li class="pd-item">
                       <a
                         class="pd-item-link"
-                        href="{{ f_file }}"
+                        href="{% if f_dl != blank %}{{ f_dl }}{% else %}{{ f_file }}{% endif %}"
                         download
                         target="_blank"
                         rel="noopener"

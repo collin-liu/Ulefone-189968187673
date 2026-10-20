@@ -1,0 +1,278 @@
+/* Armor Pad 4 – product page
+   Desktop (>768px): 2560px-wide PC slices as backgrounds; every text position/size is in vw
+   measured from the PC design (1vw = 25.6 design px), so the layout scales 1:1 with the screen.
+   Mobile (<=768px): 1080px-wide mobile slices; positions/sizes measured from the mobile design (1vw = 10.8px). */
+@font-face {
+    font-family: MiSans-Demibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Demibold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: MiSans-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSans-Regular.ttf');
+    font-display: swap;
+}
+
+#speccontent { display: none; }
+.gesture { cursor: pointer; }
+
+.ap4 { width: 100%; overflow: hidden; }
+.ap4 .section { position: relative; display: block; clear: both; width: 100%; overflow: hidden; }
+.ap4 .section-1 { margin-top: 2vw; }
+.ap4 .ap4-bg { width: 100%; height: 0; background-repeat: no-repeat; background-position: center top; background-size: 100% 100%; }
+
+.ap4 .ap4-t, .ap4 .ap4-st, .ap4 .ap4-p, .ap4 .ap4-note {
+    position: absolute; z-index: 1; margin: 0; padding: 0;
+    white-space: nowrap; letter-spacing: 0; text-transform: none;
+}
+.ap4 .ap4-t    { font-family: MiSans-Demibold, sans-serif; font-weight: 400; font-size: 2.5vw;   line-height: 1.2; }
+.ap4 .ap4-st   { font-family: MiSans-Demibold, sans-serif; font-weight: 400; font-size: 2vw;     line-height: 1.2; }
+.ap4 .ap4-p    { font-family: MiSans-Regular,  sans-serif; font-weight: 400; font-size: 1.2vw;   line-height: 1.875vw; }
+.ap4 .ap4-note { font-family: MiSans-Regular,  sans-serif; font-weight: 400; font-size: 0.961vw; line-height: 1.46; }
+.ap4 .ap4-y { color: #ffd101; }
+.ap4 .ap4-w { color: #fff; }
+.ap4 .ap4-d { color: #000; }
+.ap4 .ap4-mo, .ap4 .ap4-bm { display: none; }   /* mobile-only text / mobile line breaks */
+
+@media (max-width: 768px) {
+    div #faq_nav { padding: 0 2vw; }
+    .ap4 .section-1 { margin-top: 5vw; }
+    .ap4 .ap4-do, .ap4 .ap4-bd { display: none; }  /* desktop-only text / desktop line breaks */
+    .ap4 .ap4-mo { display: block; }
+    .ap4 .ap4-bm { display: inline; }
+    .ap4 .ap4-my { color: #ffd101; }
+    .ap4 .ap4-mw { color: #fff; }
+    .ap4 .ap4-md { color: #000; }
+}
+
+/* ---------- desktop: positions measured from the 2560px PC design (1vw = 25.6px) ---------- */
+.ap4 .section-1 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-1.webp);padding-top:56.2500%}
+.ap4 .section-2 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-2.webp);padding-top:56.2500%}
+.ap4 .section-3 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-3.webp);padding-top:56.2500%}
+.ap4 .section-3 .e0{top:2.966vw;left:26.445vw;width:47.031vw;text-align:center}
+.ap4 .section-3 .e1{top:6.706vw;left:20.443vw;width:59.023vw;text-align:center}
+.ap4 .section-4 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-4.webp);padding-top:56.2500%}
+.ap4 .section-4 .e0{top:2.497vw;left:31.562vw;width:36.992vw;text-align:center}
+.ap4 .section-4 .e1{top:5.224vw;left:38.320vw;width:23.594vw;text-align:center}
+.ap4 .section-4 .e2{top:8.151vw;left:17.142vw;width:65.898vw;text-align:center}
+.ap4 .section-5 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-5.webp);padding-top:81.2500%}
+.ap4 .section-5 .e0{top:4.723vw;left:15.291vw;text-align:left}
+.ap4 .section-5 .e1{top:7.997vw;left:15.350vw;text-align:left}
+.ap4 .section-5 .e2{top:12.136vw;left:15.382vw;text-align:left}
+.ap4 .section-5 .e3{top:24.720vw;left:15.359vw;text-align:left;font-size:0.801vw}
+.ap4 .section-6 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-6.webp);padding-top:56.2500%}
+.ap4 .section-6 .e0{top:6.208vw;left:64.041vw;text-align:left}
+.ap4 .section-6 .e1{top:9.443vw;left:64.100vw;text-align:left}
+.ap4 .section-6 .e2{top:13.581vw;left:64.171vw;text-align:left}
+.ap4 .section-6 .e3{top:49.117vw;left:63.985vw;text-align:left}
+.ap4 .section-7 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-7.webp);padding-top:56.2500%}
+.ap4 .section-7 .e0{top:3.434vw;left:16.111vw;text-align:left}
+.ap4 .section-7 .e1{top:7.175vw;left:16.124vw;text-align:left}
+.ap4 .section-7 .e2{top:51.812vw;left:58.321vw;text-align:left}
+.ap4 .section-8 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-8.webp);padding-top:66.6016%}
+.ap4 .section-8 .e0{top:6.794vw;left:54.627vw;text-align:left}
+.ap4 .section-8 .e1{top:10.068vw;left:54.490vw;text-align:left}
+.ap4 .section-8 .e2{top:13.464vw;left:54.639vw;text-align:left}
+.ap4 .section-8 .e3{top:27.476vw;left:54.532vw;text-align:left}
+.ap4 .section-9 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-9.webp);padding-top:56.2500%}
+.ap4 .section-9 .e0{top:7.067vw;left:13.416vw;text-align:left}
+.ap4 .section-9 .e1{top:10.146vw;left:13.436vw;text-align:left}
+.ap4 .section-9 .e2{top:16.276vw;left:13.624vw;text-align:left}
+.ap4 .section-9 .e3{top:48.296vw;left:13.516vw;text-align:left}
+.ap4 .section-10 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-10.webp);padding-top:56.2500%}
+.ap4 .section-10 .e0{top:11.020vw;left:61.953vw;width:23.945vw;text-align:center;font-size:3.000vw}
+.ap4 .section-10 .e1{top:14.255vw;left:58.438vw;width:31.914vw;text-align:center;font-size:2.500vw}
+.ap4 .section-11 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-11.webp);padding-top:56.2500%}
+.ap4 .section-11 .e0{top:6.989vw;left:14.648vw;width:25.859vw;text-align:center}
+.ap4 .section-11 .e1{top:10.654vw;left:8.340vw;width:38.320vw;text-align:center}
+.ap4 .section-11 .e2{top:4.440vw;left:51.280vw;text-align:left}
+.ap4 .section-12 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-12.webp);padding-top:56.2500%}
+.ap4 .section-12 .e0{top:3.825vw;left:36.777vw;width:26.094vw;text-align:center}
+.ap4 .section-12 .e1{top:7.060vw;left:34.336vw;width:30.938vw;text-align:center}
+.ap4 .section-12 .e2{top:10.729vw;left:15.820vw;width:68.047vw;text-align:center}
+.ap4 .section-13 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-13.webp);padding-top:56.2500%}
+.ap4 .section-13 .e0{top:6.091vw;left:29.141vw;width:41.641vw;text-align:center}
+.ap4 .section-13 .e1{top:9.169vw;left:31.602vw;width:36.719vw;text-align:center}
+.ap4 .section-13 .e2{top:13.347vw;left:22.676vw;width:54.570vw;text-align:center}
+.ap4 .section-13 .e3{top:49.888vw;left:30.410vw;width:38.359vw;text-align:center;font-size:0.988vw}
+.ap4 .section-14 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-14.webp);padding-top:56.2500%}
+.ap4 .section-14 .e0{top:3.591vw;left:31.816vw;width:36.289vw;text-align:center}
+.ap4 .section-14 .e1{top:6.357vw;left:35.938vw;width:27.969vw;text-align:center}
+.ap4 .section-14 .e2{top:9.362vw;left:19.395vw;width:61.289vw;text-align:center}
+.ap4 .section-15 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-15.webp);padding-top:56.2500%}
+.ap4 .section-15 .e0{top:6.169vw;left:64.041vw;text-align:left}
+.ap4 .section-15 .e1{top:10.417vw;left:64.171vw;text-align:left}
+.ap4 .section-15 .e2{top:49.117vw;left:63.985vw;text-align:left}
+.ap4 .section-16 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-16.webp);padding-top:48.8281%}
+.ap4 .section-16 .e0{top:9.762vw;left:14.275vw;text-align:left}
+.ap4 .section-16 .e1{top:13.037vw;left:14.334vw;text-align:left}
+.ap4 .section-16 .e2{top:17.175vw;left:14.405vw;text-align:left}
+.ap4 .section-17 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-17.webp);padding-top:47.2656%}
+.ap4 .section-17 .e0{top:7.262vw;left:36.328vw;width:27.734vw;text-align:center}
+.ap4 .section-17 .e1{top:11.122vw;left:37.070vw;width:26.758vw;text-align:center}
+.ap4 .section-17 .e2{top:16.042vw;left:59.054vw;text-align:left}
+.ap4 .section-18 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-18.webp);padding-top:24.8438%}
+.ap4 .section-18 .e0{top:4.567vw;left:18.025vw;text-align:left}
+.ap4 .section-18 .e1{top:8.154vw;left:18.045vw;text-align:left}
+.ap4 .section-18 .e2{top:12.370vw;left:18.116vw;text-align:left}
+.ap4 .section-19 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-19.webp);padding-top:39.6094%}
+.ap4 .section-20 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-20.webp);padding-top:56.2500%}
+.ap4 .section-20 .e0{top:3.395vw;left:33.145vw;width:34.609vw;text-align:center}
+.ap4 .section-20 .e1{top:7.644vw;left:23.021vw;width:54.766vw;text-align:center}
+.ap4 .section-21 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-21.webp);padding-top:42.1875%}
+.ap4 .section-21 .e0{top:9.997vw;left:50.798vw;text-align:left}
+.ap4 .section-21 .e1{top:13.388vw;left:50.818vw;text-align:left}
+.ap4 .section-21 .e2{top:17.097vw;left:50.889vw;text-align:left}
+.ap4 .section-22 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-22.webp);padding-top:42.1875%}
+.ap4 .section-23 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-23.webp);padding-top:56.2500%}
+.ap4 .section-23 .e0{top:6.028vw;left:13.455vw;text-align:left;line-height:1.094}
+.ap4 .section-23 .e1{top:13.308vw;left:13.663vw;text-align:left}
+.ap4 .section-24 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-24.webp);padding-top:56.2500%}
+.ap4 .section-24 .e0{top:3.317vw;left:56.641vw;width:36.406vw;text-align:center}
+.ap4 .section-24 .e1{top:8.893vw;left:56.632vw;text-align:left}
+.ap4 .section-25 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-25.webp);padding-top:56.2500%}
+.ap4 .section-25 .e0{top:3.825vw;left:19.629vw;width:60.664vw;text-align:center}
+.ap4 .section-25 .e1{top:7.138vw;left:34.180vw;width:31.133vw;text-align:center}
+.ap4 .section-25 .e2{top:10.183vw;left:23.003vw;width:53.555vw;text-align:center}
+.ap4 .section-26 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-26.webp);padding-top:56.2500%}
+.ap4 .section-26 .e0{top:4.958vw;left:39.043vw;width:21.406vw;text-align:center}
+.ap4 .section-26 .e1{top:8.076vw;left:30.801vw;width:38.398vw;text-align:center}
+.ap4 .section-26 .e2{top:11.901vw;left:20.586vw;width:58.086vw;text-align:center}
+.ap4 .section-27 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-27.webp);padding-top:56.2500%}
+.ap4 .section-27 .e0{top:6.012vw;left:15.759vw;text-align:left}
+.ap4 .section-27 .e1{top:9.482vw;left:15.857vw;text-align:left}
+.ap4 .section-27 .e2{top:13.464vw;left:15.733vw;text-align:left}
+.ap4 .section-28 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-28.webp);padding-top:56.2500%}
+.ap4 .section-28 .e0{top:9.177vw;left:61.423vw;text-align:left}
+.ap4 .section-28 .e1{top:12.646vw;left:61.522vw;text-align:left}
+.ap4 .section-28 .e2{top:16.237vw;left:61.436vw;text-align:left}
+.ap4 .section-29 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-29.webp);padding-top:56.2500%}
+.ap4 .section-29 .e0{top:10.700vw;left:14.158vw;text-align:left}
+.ap4 .section-29 .e1{top:14.753vw;left:14.327vw;text-align:left}
+.ap4 .section-29 .e2{top:44.586vw;left:14.297vw;text-align:left}
+.ap4 .section-30 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-30.webp);padding-top:53.9062%}
+.ap4 .section-30 .e0{top:3.434vw;left:26.426vw;width:50.195vw;text-align:center}
+.ap4 .section-31 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-31.webp);padding-top:56.2500%}
+.ap4 .section-31 .e0{top:26.848vw;left:14.587vw;text-align:left;line-height:0.969}
+.ap4 .section-31 .e1{top:32.878vw;left:14.718vw;text-align:left}
+.ap4 .section-32 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-32.webp);padding-top:56.2500%}
+.ap4 .section-32 .e0{top:6.212vw;left:25.859vw;width:48.672vw;text-align:center;font-size:2.305vw}
+.ap4 .section-32 .e1{top:10.761vw;left:20.957vw;width:58.711vw;text-align:center;font-size:1.121vw}
+
+/* ---------- mobile: positions measured from the 1080px mobile design (1vw = 10.8px) ---------- */
+@media (max-width: 768px) {
+    .ap4 .section-1 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-01.webp);padding-top:111.5741%}
+    .ap4 .section-2 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-02.webp);padding-top:160.6481%}
+    .ap4 .section-3 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-03.webp);padding-top:123.1481%}
+    .ap4 .section-3 .e0{top:9.243vw;left:12.546vw;width:72.870vw;text-align:center;font-size:5.926vw;line-height:1.109}
+    .ap4 .section-3 .e1{top:25.248vw;left:10.241vw;width:79.537vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-4 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-04.webp);padding-top:128.2407%}
+    .ap4 .section-4 .e0{top:9.622vw;left:7.963vw;width:83.981vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-4 .e1{top:17.290vw;left:23.981vw;width:52.222vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-4 .e2{top:25.502vw;left:2.491vw;width:95.000vw;text-align:center;font-size:2.844vw;line-height:1.579}
+    .ap4 .section-5 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-05.webp);padding-top:140.2778%}
+    .ap4 .section-5 .e0{top:10.733vw;left:5.787vw;width:87.593vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-5 .e1{top:19.050vw;left:7.037vw;width:85.093vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-5 .e2{top:28.766vw;left:8.963vw;width:81.574vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-5 .e3{top:66.273vw;left:6.776vw;width:auto;text-align:left;font-size:1.889vw;line-height:1.765}
+    .ap4 .section-6 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-06.webp);padding-top:184.2593%}
+    .ap4 .section-6 .e0{top:7.215vw;left:31.204vw;width:38.056vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-6 .e1{top:14.790vw;left:19.537vw;width:61.574vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-6 .e2{top:22.007vw;left:8.426vw;width:83.704vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-6 .e3{top:50.795vw;left:24.074vw;width:52.500vw;text-align:center;font-size:2.278vw;line-height:1.200}
+    .ap4 .section-7 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-07.webp);padding-top:180.5556%}
+    .ap4 .section-7 .e0{top:9.252vw;left:10.833vw;width:81.019vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-7 .e1{top:18.025vw;left:5.660vw;width:91.389vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-7 .e2{top:39.499vw;left:21.389vw;width:59.722vw;text-align:center;font-size:2.278vw;line-height:1.200}
+    .ap4 .section-8 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-08.webp);padding-top:165.7407%}
+    .ap4 .section-8 .e0{top:74.807vw;left:22.500vw;width:58.056vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-8 .e1{top:82.568vw;left:16.389vw;width:69.907vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-8 .e2{top:90.711vw;left:7.620vw;width:87.500vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-8 .e3{top:156.721vw;left:28.056vw;width:46.296vw;text-align:center;font-size:2.278vw;line-height:1.200}
+    .ap4 .section-9 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-09.webp);padding-top:143.0556%}
+    .ap4 .section-9 .e0{top:9.437vw;left:19.028vw;width:61.574vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-9 .e1{top:16.642vw;left:-0.694vw;width:101.019vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-9 .e2{top:26.359vw;left:2.741vw;width:94.352vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-9 .e3{top:50.147vw;left:28.889vw;width:42.130vw;text-align:center;font-size:2.278vw;line-height:1.200}
+    .ap4 .section-10 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-010.webp);padding-top:68.0556%}
+    .ap4 .section-10 .e0{top:18.750vw;left:61.481vw;width:27.870vw;text-align:center;font-size:3.157vw;line-height:1.200}
+    .ap4 .section-10 .e1{top:22.197vw;left:57.778vw;width:36.296vw;text-align:center;font-size:2.639vw;line-height:1.200}
+    .ap4 .section-11 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-011.webp);padding-top:90.2778%}
+    .ap4 .section-11 .e0{top:5.178vw;left:21.111vw;width:57.593vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-11 .e1{top:13.864vw;left:6.157vw;width:87.130vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-11 .e2{top:21.451vw;left:2.188vw;width:95.370vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-12 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-012.webp);padding-top:141.6667%}
+    .ap4 .section-12 .e1{top:15.439vw;left:14.630vw;width:69.630vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-12 .e0{top:22.585vw;left:20.417vw;width:58.148vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-12 .e2{top:32.285vw;left:1.146vw;width:96.759vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-13 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-013.webp);padding-top:108.3333%}
+    .ap4 .section-13 .e1{top:8.124vw;left:8.241vw;width:83.333vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-13 .e0{top:15.919vw;left:2.870vw;width:94.352vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-13 .e2{top:24.414vw;left:-0.231vw;width:100.463vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-13 .e3{top:96.051vw;left:7.106vw;width:85.648vw;text-align:center;font-size:2.278vw;line-height:1.463}
+    .ap4 .section-14 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-014.webp);padding-top:118.5185%}
+    .ap4 .section-14 .e0{top:8.141vw;left:9.630vw;width:82.315vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-14 .e1{top:16.440vw;left:26.296vw;width:48.796vw;text-align:center;font-size:3.556vw;line-height:1.200}
+    .ap4 .section-14 .e2{top:22.655vw;left:1.565vw;width:97.500vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-15 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-015.webp);padding-top:118.5185%}
+    .ap4 .section-15 .e0{top:6.196vw;left:12.037vw;width:74.907vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-15 .e1{top:15.155vw;left:5.065vw;width:88.519vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-15 .e2{top:113.573vw;left:19.722vw;width:56.944vw;text-align:center;font-size:2.278vw;line-height:1.200}
+    .ap4 .section-16 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-016.webp);padding-top:123.6111%}
+    .ap4 .section-16 .e1{top:5.624vw;left:8.889vw;width:80.648vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-16 .e0{top:11.196vw;left:7.963vw;width:82.963vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-16 .e2{top:19.785vw;left:3.623vw;width:91.574vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-17 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-017.webp);padding-top:118.5185%}
+    .ap4 .section-17 .e1{top:6.272vw;left:21.019vw;width:57.685vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-17 .e0{top:12.956vw;left:21.806vw;width:55.833vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-17 .e2{top:21.266vw;left:3.125vw;width:93.333vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-18 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-018.webp);padding-top:118.5185%}
+    .ap4 .section-18 .e1{top:8.957vw;left:23.009vw;width:53.704vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-18 .e0{top:15.178vw;left:11.019vw;width:77.685vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-18 .e2{top:24.136vw;left:6.204vw;width:87.315vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-19 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-019.webp);padding-top:118.5185%}
+    .ap4 .section-19 .em0{top:7.383vw;left:9.537vw;width:80.556vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-19 .em1{top:14.344vw;left:13.935vw;width:71.574vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-19 .em2{top:23.025vw;left:6.481vw;width:86.574vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-20 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-020.webp);padding-top:88.8889%}
+    .ap4 .section-20 .e0{top:8.974vw;left:10.694vw;width:78.426vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-20 .e1{top:17.481vw;left:4.315vw;width:91.019vw;text-align:center;font-size:2.844vw;line-height:1.619}
+    .ap4 .section-21 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-021.webp);padding-top:135.1852%}
+    .ap4 .section-21 .e0{top:7.215vw;left:20.046vw;width:60.648vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-21 .e1{top:13.755vw;left:25.741vw;width:49.259vw;text-align:center;font-size:3.556vw;line-height:1.200}
+    .ap4 .section-21 .e2{top:19.576vw;left:7.324vw;width:86.111vw;text-align:center;font-size:2.844vw;line-height:1.579}
+    .ap4 .section-22 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-022.webp);padding-top:58.7963%}
+    .ap4 .section-23 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-023.webp);padding-top:114.8148%}
+    .ap4 .section-23 .e0{top:8.270vw;left:18.657vw;width:60.833vw;text-align:center;font-size:5.926vw;line-height:1.094}
+    .ap4 .section-23 .e1{top:22.840vw;left:3.583vw;width:92.963vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-24 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-024.webp);padding-top:104.1667%}
+    .ap4 .section-24 .e0{top:10.178vw;left:8.704vw;width:82.593vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-24 .e1{top:19.877vw;left:1.537vw;width:96.574vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-25 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-027.webp);padding-top:129.6296%}
+    .ap4 .section-25 .e1{top:11.718vw;left:22.593vw;width:54.444vw;text-align:center;font-size:3.556vw;line-height:1.200}
+    .ap4 .section-25 .e0{top:18.270vw;left:13.194vw;width:73.148vw;text-align:center;font-size:5.926vw;line-height:1.094}
+    .ap4 .section-25 .e2{top:33.581vw;left:2.824vw;width:94.074vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-26 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-028.webp);padding-top:105.0926%}
+    .ap4 .section-26 .e0{top:7.863vw;left:26.574vw;width:47.037vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-26 .e1{top:14.866vw;left:16.481vw;width:67.222vw;text-align:center;font-size:3.556vw;line-height:1.200}
+    .ap4 .section-26 .e2{top:21.266vw;left:4.109vw;width:91.852vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-27 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-026.webp);padding-top:114.9074%}
+    .ap4 .section-27 .e0{top:8.789vw;left:9.537vw;width:82.037vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-27 .e1{top:16.920vw;left:11.852vw;width:77.407vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-27 .e2{top:24.599vw;left:5.648vw;width:89.722vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-28 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-025.webp);padding-top:134.2593%}
+    .ap4 .section-28 .e0{top:7.493vw;left:15.000vw;width:72.130vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-28 .e1{top:15.624vw;left:16.852vw;width:68.241vw;text-align:center;font-size:4.741vw;line-height:1.200}
+    .ap4 .section-28 .e2{top:24.229vw;left:6.398vw;width:89.167vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-29 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-029.webp);padding-top:155.5556%}
+    .ap4 .section-29 .e0{top:7.122vw;left:10.741vw;width:76.389vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-29 .e1{top:15.988vw;left:6.130vw;width:86.204vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-30 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-030.webp);padding-top:84.2593%}
+    .ap4 .section-30 .e0{top:7.437vw;left:13.102vw;width:72.963vw;text-align:center;font-size:5.926vw;line-height:1.125}
+    .ap4 .section-31 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-031.webp);padding-top:145.3704%}
+    .ap4 .section-31 .e0{top:20.178vw;left:4.444vw;width:91.296vw;text-align:center;font-size:5.926vw;line-height:1.200}
+    .ap4 .section-31 .e1{top:28.118vw;left:2.426vw;width:95.463vw;text-align:center;font-size:2.844vw;line-height:1.562}
+    .ap4 .section-32 .ap4-bg{background-image:url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-armor-pad-4-032.webp);padding-top:141.6667%}
+    .ap4 .section-32 .e0{top:7.913vw;left:16.667vw;width:65.741vw;text-align:center;font-size:5.472vw;line-height:1.218}
+    .ap4 .section-32 .e1{top:23.322vw;left:2.917vw;width:93.611vw;text-align:center;font-size:2.611vw;line-height:1.690}
+}

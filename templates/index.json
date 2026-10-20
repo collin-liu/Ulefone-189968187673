@@ -30,13 +30,13 @@
             "overlay_position": "position--hcenter position--vcenter"
           }
         },
-        "image_zP6GyQ": {
+        "image_AKF7Br": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/canton-fair-banner-pc.webp",
-            "mobile_image": "shopify://shop_images/canton-fair-banner-m.webp",
-            "tracking_name": "140th-Canton-Fair-2026",
-            "slide_link": "https://www.ulefone.com/pages/canton-fair",
+            "image": "shopify://shop_images/Android-16-OTA-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/Android-16-OTA-banner-m.webp",
+            "tracking_name": "Android-16-OTA-Rollout-Event",
+            "slide_link": "shopify://pages/android-16-ota-rollout",
             "subheading": "",
             "title": "",
             "title_size": 60,
@@ -48,13 +48,13 @@
             "overlay_position": "position--hcenter position--vcenter"
           }
         },
-        "image_AKF7Br": {
+        "image_xpP7zD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Android-16-OTA-banner-pc.webp",
-            "mobile_image": "shopify://shop_images/Android-16-OTA-banner-m.webp",
-            "tracking_name": "Android-16-OTA-Rollout-Event",
-            "slide_link": "shopify://pages/android-16-ota-rollout",
+            "image": "shopify://shop_images/store-halloween-banner-pc.webp",
+            "mobile_image": "shopify://shop_images/store-halloween-banner-m.webp",
+            "tracking_name": "Store Halloween Event",
+            "slide_link": "https://bit.ly/trick-treat-toughness",
             "subheading": "",
             "title": "",
             "title_size": 60,
@@ -105,8 +105,8 @@
       },
       "block_order": [
         "image_9EL9Ri",
-        "image_zP6GyQ",
         "image_AKF7Br",
+        "image_xpP7zD",
         "a131a2b0-6013-4c9a-8d86-eec5057cce62",
         "image_fTkNm4"
       ],

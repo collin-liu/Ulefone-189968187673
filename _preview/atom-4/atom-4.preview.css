@@ -1,0 +1,426 @@
+/* ==========================================================
+   Ulefone Atom 4 Mini PC — product page
+   PC 设计稿基准宽度 2560px，所有尺寸用 vw，随屏幕等比缩放
+   ========================================================== */
+/* 只用拉丁子集 woff2（每个约 60KB），比完整 MiSans TTF 小很多，不拖慢加载 */
+@font-face {
+    font-family: Atom4-Demibold;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSansLatin-Demibold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Atom4-Regular;
+    src: url('https://cdn.shopify.com/s/files/1/0830/0573/5193/files/MiSansLatin-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+
+/* ---------- 通用 ---------- */
+#featurescontent.atom4 .section {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+/* 懒加载：图片 URL 先存在变量里，进入视口加 .atom4-in 后才真正请求 */
+#featurescontent .atom4-lazy.atom4-in {
+    background-image: var(--atom4-bg);
+}
+
+.atom4 h1,
+.atom4 h2,
+.atom4 p,
+.atom4 dl,
+.atom4 dd,
+.atom4 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.atom4 .atom4-h {
+    position: absolute;
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 3.6vw;
+    line-height: 4.6vw;
+    color: #fff;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.atom4 .atom4-p {
+    position: absolute;
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.8vw;
+    line-height: 2.42vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .88);
+}
+
+.atom4-stat-v {
+    font-family: Atom4-Demibold, sans-serif;
+    font-size: 2.7vw;
+    line-height: 3.2vw;
+    color: #ffd100;
+    white-space: nowrap;
+}
+
+.atom4-stat-l {
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.05vw;
+    line-height: 1.4vw;
+    letter-spacing: .02em;
+    color: rgba(255, 255, 255, .7);
+    white-space: nowrap;
+}
+
+.atom4-card-t {
+    position: absolute;
+    width: 23vw;
+    margin-left: -11.5vw;
+    text-align: center;
+    font-family: Atom4-Demibold, sans-serif;
+    font-size: 1.95vw;
+    line-height: 2.35vw;
+    color: #ffd100;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, .6);
+}
+
+/* 仅给搜索引擎 / AI 读取的文字 */
+.atom4-sr {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* ---------- 1. Hero ---------- */
+.atom4 .section-1 {
+    height: 56.25vw;
+    background-image: url(img/product-atom-4-1.webp);
+}
+
+.atom4 .atom4-hero-title {
+    position: absolute;
+    top: 16.7vw;
+    left: 0;
+    width: 100%;
+    height: 7.4vw;
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 6vw;
+    line-height: 7.4vw;
+    color: #fff;
+}
+
+.atom4-hero-l {
+    position: absolute;
+    right: 53.8vw;
+}
+
+.atom4-hero-r {
+    position: absolute;
+    left: 54.2vw;
+}
+
+.atom4 .atom4-hero-sub {
+    position: absolute;
+    top: 27.5vw;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Atom4-Regular, sans-serif;
+    letter-spacing: .02em;
+    font-size: 1.75vw;
+    line-height: 2.2vw;
+    color: rgba(255, 255, 255, .85);
+}
+
+/* ---------- 2. Highlights ---------- */
+.atom4 .section-2 {
+    height: 56.25vw;
+    background-image: url(img/product-atom-4-2.webp);
+}
+
+/* ---------- 3. CPU ---------- */
+.atom4 .section-3 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-3.webp);
+}
+
+.section-3 .atom4-h {
+    top: 5.95vw;
+    left: 12.6vw;
+}
+
+.section-3 .atom4-p {
+    top: 17.05vw;
+    left: 12.6vw;
+}
+
+.section-3 .atom4-stats {
+    position: absolute;
+    top: 36.7vw;
+    left: 12.6vw;
+    display: grid;
+    grid-template-columns: 20.4vw 20.4vw;
+    row-gap: 3.8vw;
+}
+
+/* ---------- 4. GPU ---------- */
+.atom4 .section-4 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-4.webp);
+}
+
+.section-4 .atom4-h {
+    top: 11.9vw;
+    left: 53.9vw;
+    line-height: 4.76vw;
+}
+
+.section-4 .atom4-stats {
+    position: absolute;
+    top: 26.1vw;
+    left: 53.9vw;
+}
+
+.section-4 .atom4-stat + .atom4-stat {
+    margin-top: 3.7vw;
+}
+
+/* ---------- 5. RAM / SSD ---------- */
+.atom4 .section-5 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-5.webp);
+}
+
+.section-5 .atom4-h {
+    top: 7.5vw;
+    left: 12.5vw;
+    font-size: 3.65vw;
+    line-height: 4vw;
+}
+
+.section-5 .atom4-p {
+    top: 19.1vw;
+    left: 12.5vw;
+}
+
+.atom4 .section-5 .atom4-note {
+    position: absolute;
+    top: 45.5vw;
+    left: 12.5vw;
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.05vw;
+    line-height: 1.35vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .7);
+}
+
+/* ---------- 6. Dual 4K ---------- */
+.atom4 .section-6 {
+    height: 70.04vw;
+    --atom4-bg: url(img/product-atom-4-6.webp);
+}
+
+.section-6 .atom4-h,
+.section-6 .atom4-p,
+.section-8 .atom4-h,
+.section-8 .atom4-p,
+.section-9 .atom4-h,
+.section-11 .atom4-h,
+.section-11 .atom4-p,
+.section-12 .atom4-h,
+.section-12 .atom4-p {
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-6 .atom4-h {
+    top: 3.4vw;
+}
+
+.section-6 .atom4-p {
+    top: 9.0vw;
+}
+
+/* ---------- 7. Cooling ---------- */
+.atom4 .section-7 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-7.webp);
+}
+
+.section-7 .atom4-h {
+    top: 13.2vw;
+    left: 49.7vw;
+    line-height: 4vw;
+}
+
+.section-7 .atom4-p {
+    top: 23.0vw;
+    left: 49.7vw;
+}
+
+.atom4-db {
+    position: absolute;
+    top: 41.9vw;
+    width: 12vw;
+    margin-left: -6vw;
+    text-align: center;
+}
+
+.atom4-db-1 { left: 53.1vw; }
+.atom4-db-2 { left: 66vw; }
+.atom4-db-3 { left: 80.1vw; }
+
+/* ---------- 8. Pocket ---------- */
+.atom4 .section-8 {
+    height: 41.33vw;
+    --atom4-bg: url(img/product-atom-4-8.webp);
+}
+
+.section-8 .atom4-h {
+    top: 3.2vw;
+}
+
+.section-8 .atom4-p {
+    top: 8.3vw;
+}
+
+.section-8 .atom4-card-t { top: 20.1vw; }
+.atom4-c1 { left: 24.2vw; }
+.atom4-c2 { left: 49.9vw; }
+.atom4-c3 { left: 75.9vw; }
+
+/* ---------- 9. Interfaces ---------- */
+.atom4 .section-9 {
+    height: 77.34vw;
+    --atom4-bg: url(img/product-atom-4-9.webp);
+}
+
+.section-9 .atom4-h {
+    top: 2.3vw;
+}
+
+.atom4-ports {
+    position: absolute;
+    top: 50.1vw;
+}
+
+.atom4-ports-1 { left: 12.5vw; }
+.atom4-ports-2 { left: 39.2vw; }
+.atom4-ports-3 { left: 65.6vw; }
+
+.atom4-ports dl + dl {
+    margin-top: 4vw;
+}
+
+.atom4-ports-2 dl + dl {
+    margin-top: 3.6vw;
+}
+
+.atom4-ports dt {
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 2.4vw;
+    line-height: 3.1vw;
+    color: #ffd100;
+}
+
+.atom4 .atom4-ports dd {
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.8vw;
+    line-height: 2.35vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .88);
+}
+
+/* ---------- 10. Connectivity ---------- */
+.atom4 .section-10 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-10.webp);
+}
+
+.section-10 .atom4-h {
+    top: 7.55vw;
+    left: 12.5vw;
+    font-size: 3.5vw;
+}
+
+.section-10 .atom4-p {
+    top: 13.2vw;
+    left: 12.5vw;
+    font-size: 1.72vw;
+    line-height: 2.34vw;
+}
+
+/* ---------- 11. Windows 11 Pro ---------- */
+.atom4 .section-11 {
+    height: 56.25vw;
+    --atom4-bg: url(img/product-atom-4-11.webp);
+}
+
+.section-11 .atom4-h {
+    top: 29.5vw;
+    font-size: 6.7vw;
+    line-height: 7.4vw;
+}
+
+.section-11 .atom4-p {
+    top: 38.37vw;
+    font-size: 1.13vw;
+    line-height: 1.86vw;
+}
+
+/* ---------- 12. Scenarios ---------- */
+.atom4 .section-12 {
+    height: 115.63vw;
+    --atom4-bg: url(img/product-atom-4-12.webp);
+}
+
+.section-12 .atom4-h {
+    top: 7vw;
+}
+
+.section-12 .atom4-p {
+    top: 12.15vw;
+    font-size: 1.65vw;
+    line-height: 2.3vw;
+}
+
+.atom4-s1 { top: 23.1vw; left: 37.4vw; }
+.atom4-s2 { top: 23.1vw; left: 75.3vw; }
+.atom4-s3 { top: 53.8vw; left: 24.8vw; }
+.atom4-s4 { top: 53.8vw; left: 50vw; }
+.atom4-s5 { top: 53.8vw; left: 75.3vw; }
+.atom4-s6 { top: 84.7vw; left: 24.8vw; }
+.atom4-s7 { top: 84.7vw; left: 50vw; }
+.atom4-s8 { top: 84.7vw; left: 75.3vw; }
+
+/* ==========================================================
+   移动端：等移动端设计稿和切图到了再补
+   ========================================================== */
+@media (max-width: 768px) {
+    div #faq_nav {
+        padding: 0 2vw;
+    }
+}

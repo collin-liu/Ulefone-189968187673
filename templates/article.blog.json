@@ -12,7 +12,8 @@
     "main": {
       "type": "main-article",
       "custom_css": [
-        "table {border: 1px solid #ccc;}",
+        "<!--.rte span {font-size: 20px;}",
+        "-->table {border: 1px solid #ccc;}",
         ".no-side-pad {margin-left: 0; margin-right: 0;}",
         "@media (min-width: 1100px) {.article-container {padding: 0 22% !important; }}",
         ".feature-subheader,#comments .comment .comment-date {text-transform: none;}",

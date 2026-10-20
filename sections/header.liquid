@@ -319,9 +319,16 @@ document.querySelectorAll('.new-mega-menu-container').forEach(function(container
 });
 var mobileMenuLoaded = false;
   
+  function hydrateMobileMenuProducts() {
+    document.querySelectorAll('#page-menu template.mobile-menu-products').forEach(function(tpl) {
+      tpl.replaceWith(tpl.content);
+    });
+  }
+
   function loadMobileImages() {
     if (mobileMenuLoaded) return;
     mobileMenuLoaded = true;
+    hydrateMobileMenuProducts();
     var mobileLazyImages = document.querySelectorAll('.mobile-menu-lazy-img');
     mobileLazyImages.forEach(function(img) {
       if (img.dataset.mobileImage) {
@@ -561,21 +568,10 @@ var mobileMenuLoaded = false;
                                    
                                     <div class="products-list-tube">
                                       {% if child_link.object != nil %}
-                                         {% for cur_product in child_link.object.products limit:6 %}
-                                            <div class="NavProItem fl">
-                                                <div class="Pic">
-                                                    <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                        
-                                                        <img class="mega-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-hover-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>
-                                                      </a>
-                                                </div>
-                                                <div class="ProName">
-                                                    <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                        {{ cur_product.title }}
-                                                    </a>
-                                                </div>
-                                            </div>
-                                         {% endfor %}
+                                         {%- comment -%} 性能：产品条目去掉缩进空白（原每条约 1.2KB，现约 0.45KB），结构和 class 不变；链接保留在 DOM 里供搜索引擎抓取 {%- endcomment -%}
+                                         {%- for cur_product in child_link.object.products limit:6 -%}
+<div class="NavProItem fl"><div class="Pic"><a href="{{ cur_product.url }}" title="{{ cur_product.title | escape }}"><img class="mega-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-hover-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title | escape }}" style="width: 140px; height: auto;"><span></span></a></div><div class="ProName"><a href="{{ cur_product.url }}" title="{{ cur_product.title | escape }}">{{ cur_product.title }}</a></div></div>
+                                         {%- endfor -%}
                                       {% endif %}
                                      
                                     </div>
@@ -889,23 +885,18 @@ var mobileMenuLoaded = false;
                                     <div class="cc-accordion-item__panel">
                                       <div class="cc-accordion-item__content">
                                          <div class="products-list-tube">
-                                          {% if child_link.object != nil %}
-                                             {% for cur_product in child_link.object.products %}
-                                                <div class="NavProItem fl">
-                                                    <div class="Pic">
-                                                        <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                            <img class="mobile-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-mobile-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title }}" style="width: 140px; height: auto;"><span></span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="ProName">
-                                                        <a href="{{ cur_product.url }}" title="{{ cur_product.title }}">
-                                                            {{ cur_product.title }}
-                                                        </a>
-                                                    </div>
-                                                    
-                                                </div>
-                                              {% endfor %}
-                                         {% endif %}
+                                          {%- comment -%}
+                                            性能：手机菜单的产品列表（首页约 200 个产品、287KB）原来直接写在 DOM 里，排在首屏 Banner 前面，
+                                            手机要先把它们全部解析、算样式才能首次绘制。现在放进 <template>：浏览器只做轻量解析，不建 DOM、不算样式；
+                                            用户第一次点开菜单时再由下方 hydrateMobileMenuProducts() 插入。同时去掉缩进空白。
+                                          {%- endcomment -%}
+                                          {%- if child_link.object != nil -%}
+<template class="mobile-menu-products">
+                                             {%- for cur_product in child_link.object.products -%}
+<div class="NavProItem fl"><div class="Pic"><a href="{{ cur_product.url }}" title="{{ cur_product.title | escape }}"><img class="mobile-menu-lazy-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-mobile-image="{{ cur_product.featured_image | image_url: width: 140, height: 140, crop: 'center' }}" alt="{{ cur_product.title | escape }}" style="width: 140px; height: auto;"><span></span></a></div><div class="ProName"><a href="{{ cur_product.url }}" title="{{ cur_product.title | escape }}">{{ cur_product.title }}</a></div></div>
+                                             {%- endfor -%}
+</template>
+                                          {%- endif -%}
                                         </div>
                                       </div>
                                     </div>

@@ -1,0 +1,928 @@
+/* ==========================================================
+   Ulefone Atom 4 Mini PC — product page
+   PC 设计稿基准宽度 2560px，所有尺寸用 vw，随屏幕等比缩放
+   ========================================================== */
+/* 字体声明写在 product.atom-4.liquid 里（woff2 放在主题 assets，用 asset_url 引用） */
+
+#speccontent {
+    display: none;
+}
+
+.gesture {
+    cursor: pointer;
+}
+
+/* ---------- 通用 ---------- */
+#featurescontent.atom4 .section {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+/* 懒加载：图片 URL 先存在变量里，进入视口加 .atom4-in 后才真正请求 */
+#featurescontent .atom4-lazy.atom4-in {
+    background-image: var(--atom4-bg);
+}
+
+.atom4 h1,
+.atom4 h2,
+.atom4 p,
+.atom4 dl,
+.atom4 dd,
+.atom4 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.atom4 .atom4-h {
+    position: absolute;
+    text-align: left; /* 主题 styles.css 给 h1/h2 设了 text-align:center，这里覆盖 */
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 3.6vw;
+    line-height: 4.6vw;
+    color: #fff;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.atom4 .atom4-p {
+    position: absolute;
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.8vw;
+    line-height: 2.42vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .88);
+}
+
+.atom4-stat-v {
+    font-family: Atom4-Demibold, sans-serif;
+    font-size: 2.7vw;
+    line-height: 3.2vw;
+    color: #ffd100;
+    white-space: nowrap;
+}
+
+.atom4-stat-l {
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.05vw;
+    line-height: 1.4vw;
+    letter-spacing: .02em;
+    color: rgba(255, 255, 255, .7);
+    white-space: nowrap;
+}
+
+.atom4-card-t {
+    position: absolute;
+    width: 23vw;
+    margin-left: -11.5vw;
+    text-align: center;
+    font-family: Atom4-Demibold, sans-serif;
+    font-size: 1.95vw;
+    line-height: 2.35vw;
+    color: #ffd100;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, .6);
+}
+
+/* 仅给搜索引擎 / AI 读取的文字 */
+.atom4-sr {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* ---------- 1. Hero ---------- */
+.atom4 .section-1 {
+    margin-top: 2vw; /* 让出固定的 Features/Specs 子导航 */
+    height: 56.25vw;
+    background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-1.webp);
+}
+
+.atom4 .atom4-hero-title {
+    position: absolute;
+    top: 16.7vw;
+    left: 0;
+    width: 100%;
+    height: 7.4vw;
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 6vw;
+    line-height: 7.4vw;
+    color: #fff;
+}
+
+.atom4-hero-l {
+    position: absolute;
+    right: 53.8vw;
+}
+
+.atom4-hero-r {
+    position: absolute;
+    left: 54.2vw;
+}
+
+.atom4 .atom4-hero-sub {
+    position: absolute;
+    top: 27.5vw;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Atom4-Regular, sans-serif;
+    letter-spacing: .02em;
+    font-size: 1.75vw;
+    line-height: 2.2vw;
+    color: rgba(255, 255, 255, .85);
+}
+
+/* ---------- 2. Highlights ---------- */
+.atom4 .section-2 {
+    height: 56.25vw;
+    background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-2.webp);
+}
+
+/* ---------- 3. CPU ---------- */
+.atom4 .section-3 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-3.webp);
+}
+
+.section-3 .atom4-h {
+    top: 5.95vw;
+    left: 12.6vw;
+}
+
+.section-3 .atom4-p {
+    top: 17.05vw;
+    left: 12.6vw;
+}
+
+.section-3 .atom4-stats {
+    position: absolute;
+    top: 36.7vw;
+    left: 12.6vw;
+    display: grid;
+    grid-template-columns: 20.4vw 20.4vw;
+    row-gap: 3.8vw;
+}
+
+/* ---------- 4. GPU ---------- */
+.atom4 .section-4 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-4.webp);
+}
+
+.section-4 .atom4-h {
+    top: 11.9vw;
+    left: 53.9vw;
+    line-height: 4.76vw;
+}
+
+.section-4 .atom4-stats {
+    position: absolute;
+    top: 26.1vw;
+    left: 53.9vw;
+}
+
+.section-4 .atom4-stat + .atom4-stat {
+    margin-top: 3.7vw;
+}
+
+/* ---------- 5. RAM / SSD ---------- */
+.atom4 .section-5 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-5.webp);
+}
+
+.section-5 .atom4-h {
+    top: 7.5vw;
+    left: 12.5vw;
+    font-size: 3.65vw;
+    line-height: 4vw;
+}
+
+.section-5 .atom4-p {
+    top: 19.1vw;
+    left: 12.5vw;
+}
+
+.atom4 .section-5 .atom4-note {
+    position: absolute;
+    top: 45.5vw;
+    left: 12.5vw;
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.05vw;
+    line-height: 1.35vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .7);
+}
+
+/* ---------- 6. Dual 4K ---------- */
+.atom4 .section-6 {
+    height: 70.04vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-6.webp);
+}
+
+.section-6 .atom4-h,
+.section-6 .atom4-p,
+.section-8 .atom4-h,
+.section-8 .atom4-p,
+.section-9 .atom4-h,
+.section-11 .atom4-h,
+.section-11 .atom4-p,
+.section-12 .atom4-h,
+.section-12 .atom4-p {
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-6 .atom4-h {
+    top: 3.4vw;
+}
+
+.section-6 .atom4-p {
+    top: 9.0vw;
+}
+
+/* ---------- 7. Cooling ---------- */
+.atom4 .section-7 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-7.webp);
+}
+
+.section-7 .atom4-h {
+    top: 13.2vw;
+    left: 49.7vw;
+    line-height: 4vw;
+}
+
+.section-7 .atom4-p {
+    top: 23.0vw;
+    left: 49.7vw;
+}
+
+.atom4-db {
+    position: absolute;
+    top: 41.9vw;
+    width: 12vw;
+    margin-left: -6vw;
+    text-align: center;
+}
+
+.atom4-db-1 { left: 53.1vw; }
+.atom4-db-2 { left: 66vw; }
+.atom4-db-3 { left: 80.1vw; }
+
+/* ---------- 8. Pocket ---------- */
+.atom4 .section-8 {
+    height: 41.33vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-8.webp);
+}
+
+.section-8 .atom4-h {
+    top: 3.2vw;
+}
+
+.section-8 .atom4-p {
+    top: 8.3vw;
+}
+
+.section-8 .atom4-card-t { top: 20.1vw; }
+.atom4-c1 { left: 24.2vw; }
+.atom4-c2 { left: 49.9vw; }
+.atom4-c3 { left: 75.9vw; }
+
+/* ---------- 9. Interfaces ---------- */
+.atom4 .section-9 {
+    height: 77.34vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-9.webp);
+}
+
+.section-9 .atom4-h {
+    top: 2.3vw;
+}
+
+.atom4-ports {
+    position: absolute;
+    top: 50.1vw;
+}
+
+.atom4-ports-1 { left: 12.5vw; }
+.atom4-ports-2 { left: 39.2vw; }
+.atom4-ports-3 { left: 65.6vw; }
+
+.atom4-ports dl + dl {
+    margin-top: 4vw;
+}
+
+.atom4-ports-2 dl + dl {
+    margin-top: 3.6vw;
+}
+
+.atom4-ports dt {
+    font-family: Atom4-Demibold, sans-serif;
+    font-weight: 400;
+    font-size: 2.4vw;
+    line-height: 3.1vw;
+    color: #ffd100;
+}
+
+.atom4 .atom4-ports dd {
+    font-family: Atom4-Regular, sans-serif;
+    font-size: 1.8vw;
+    line-height: 2.35vw;
+    letter-spacing: .03em;
+    color: rgba(255, 255, 255, .88);
+}
+
+/* ---------- 10. Connectivity ---------- */
+.atom4 .section-10 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-10.webp);
+}
+
+.section-10 .atom4-h {
+    top: 7.55vw;
+    left: 12.5vw;
+    font-size: 3.5vw;
+}
+
+.section-10 .atom4-p {
+    top: 13.2vw;
+    left: 12.5vw;
+    font-size: 1.72vw;
+    line-height: 2.34vw;
+}
+
+/* ---------- 11. Windows 11 Pro ---------- */
+.atom4 .section-11 {
+    height: 56.25vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-11.webp);
+}
+
+.section-11 .atom4-h {
+    top: 29.5vw;
+    font-size: 6.7vw;
+    line-height: 7.4vw;
+}
+
+.section-11 .atom4-p {
+    top: 38.37vw;
+    font-size: 1.13vw;
+    line-height: 1.86vw;
+}
+
+/* ---------- 12. Scenarios ---------- */
+.atom4 .section-12 {
+    height: 115.63vw;
+    --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-12.webp);
+}
+
+.section-12 .atom4-h {
+    top: 7vw;
+}
+
+.section-12 .atom4-p {
+    top: 12.15vw;
+    font-size: 1.65vw;
+    line-height: 2.3vw;
+}
+
+.atom4-s1 { top: 23.1vw; left: 37.4vw; }
+.atom4-s2 { top: 23.1vw; left: 75.3vw; }
+.atom4-s3 { top: 53.8vw; left: 24.8vw; }
+.atom4-s4 { top: 53.8vw; left: 50vw; }
+.atom4-s5 { top: 53.8vw; left: 75.3vw; }
+.atom4-s6 { top: 84.7vw; left: 24.8vw; }
+.atom4-s7 { top: 84.7vw; left: 50vw; }
+.atom4-s8 { top: 84.7vw; left: 75.3vw; }
+
+.m-br {
+    display: none;
+}
+
+/* ===== MOBILE START (generated) ===== */
+@media (max-width: 768px) {
+    .pc-br { display: none; }
+    .m-br { display: inline; }
+    
+div #faq_nav { padding: 0 2vw; }
+#featurescontent.atom4 .section-1 { margin-top: 52px; }
+.atom4 .atom4-stats, .atom4 .atom4-stat, .atom4 .atom4-db { position: static; display: block; margin: 0; width: auto; }
+.atom4 .atom4-stat-v, .atom4 .atom4-stat-l, .atom4 .atom4-card-t { position: absolute; margin: 0; white-space: nowrap; }
+.atom4 .atom4-hero-title { top: 49.333vw; height: 11.667vw; font-size: 9.722vw; line-height: 11.667vw; }
+.atom4-hero-l { right: 56.296vw; }
+.atom4-hero-r { left: 57.037vw; }
+.atom4 .atom4-p, .atom4 .atom4-stat-l, .atom4 .atom4-ports dd, .atom4 .atom4-hero-sub, .atom4 .section-5 .atom4-note { color: #fff; }
+.atom4 .atom4-ports { position: static; }
+.atom4 .atom4-ports dl { position: absolute; margin: 0; }
+.atom4 .atom4-ports dt { font-size: 4.648vw; line-height: 4.167vw; }
+.atom4 .atom4-ports dd { font-size: 2.806vw; line-height: 4.491vw; letter-spacing: 0; }
+.atom4 .atom4-ports-2 dl + dl dd, .atom4 .atom4-ports-3 dd { font-size: 3.37vw; }
+.atom4 .atom4-ports-1 dl { left: 4.815vw; }
+.atom4 .atom4-ports-2 dl { left: 38.704vw; }
+.atom4 .atom4-ports-3 dl { left: 76.204vw; }
+.atom4 .atom4-ports dl:first-child { top: 159.315vw; }
+.atom4 .atom4-ports dl + dl { top: 181.63vw; }
+
+    .atom4 .section-1 {
+        height: 106.481vw;
+        background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-01.webp);
+    }
+    .atom4 .section-2 {
+        height: 267.222vw;
+        background-image: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-02.webp);
+    }
+    .atom4 .section-3 {
+        height: 166.667vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-03.webp);
+    }
+    .atom4 .section-4 {
+        height: 157.407vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-04.webp);
+    }
+    .atom4 .section-5 {
+        height: 154.63vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-05.webp);
+    }
+    .atom4 .section-6 {
+        height: 121.852vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-06.webp);
+    }
+    .atom4 .section-7 {
+        height: 173.056vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-07.webp);
+    }
+    .atom4 .section-8 {
+        height: 85.185vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-08.webp);
+    }
+    .atom4 .section-9 {
+        height: 210.0vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-09.webp);
+    }
+    .atom4 .section-10 {
+        height: 133.333vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-010.webp);
+    }
+    .atom4 .section-11 {
+        height: 87.593vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-011.webp);
+    }
+    .atom4 .section-12 {
+        height: 153.704vw;
+        --atom4-bg: url(https://cdn.shopify.com/s/files/1/0830/0573/5193/files/product-atom-4-012.webp);
+    }
+    .atom4 .atom4-hero-sub {
+        top: 66.84vw;
+        font-size: 2.796vw;
+        line-height: 3.704vw;
+        letter-spacing: .02em;
+        left: 3.704vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-3 .atom4-h {
+        top: 7.149vw;
+        font-size: 7.898vw;
+        line-height: 11.019vw;
+        left: 6.667vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-p {
+        top: 33.975vw;
+        font-size: 3.583vw;
+        line-height: 5.556vw;
+        left: 6.852vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(1) .atom4-stat-v {
+        top: 64.656vw;
+        font-size: 7.019vw;
+        line-height: 8.704vw;
+        left: 6.667vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(1) .atom4-stat-l {
+        top: 73.037vw;
+        font-size: 2.778vw;
+        line-height: 3.704vw;
+        left: 6.759vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(2) .atom4-stat-v {
+        top: 64.656vw;
+        font-size: 7.019vw;
+        line-height: 8.704vw;
+        left: 55.556vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(2) .atom4-stat-l {
+        top: 73.037vw;
+        font-size: 2.778vw;
+        line-height: 3.704vw;
+        left: 55.37vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(3) .atom4-stat-v {
+        top: 84.841vw;
+        font-size: 7.019vw;
+        line-height: 8.704vw;
+        left: 6.852vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-3 .atom4-stat:nth-child(3) .atom4-stat-l {
+        top: 93.407vw;
+        font-size: 2.778vw;
+        line-height: 3.704vw;
+        left: 6.759vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-4 .atom4-h {
+        top: 7.503vw;
+        font-size: 7.852vw;
+        line-height: 8.981vw;
+        left: 1.667vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(1) .atom4-stat-v {
+        top: 32.837vw;
+        font-size: 6.852vw;
+        line-height: 8.519vw;
+        left: 1.204vw;
+        width: 55.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(1) .atom4-stat-l {
+        top: 41.172vw;
+        font-size: 2.741vw;
+        line-height: 3.704vw;
+        left: 1.204vw;
+        width: 55.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(2) .atom4-stat-v {
+        top: 32.837vw;
+        font-size: 6.852vw;
+        line-height: 8.519vw;
+        left: 52.87vw;
+        width: 46.296vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(2) .atom4-stat-l {
+        top: 41.172vw;
+        font-size: 2.741vw;
+        line-height: 3.704vw;
+        left: 52.87vw;
+        width: 46.296vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(3) .atom4-stat-v {
+        top: 50.244vw;
+        font-size: 6.852vw;
+        line-height: 8.519vw;
+        left: 22.222vw;
+        width: 55.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-4 .atom4-stat:nth-child(3) .atom4-stat-l {
+        top: 58.579vw;
+        font-size: 2.741vw;
+        line-height: 3.704vw;
+        left: 22.222vw;
+        width: 55.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-5 .atom4-h {
+        top: 8.019vw;
+        font-size: 7.87vw;
+        line-height: 9.259vw;
+        left: 6.481vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-5 .atom4-p {
+        top: 28.8vw;
+        font-size: 3.611vw;
+        line-height: 5.556vw;
+        left: 6.667vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-5 .atom4-note {
+        top: 142.448vw;
+        font-size: 2.685vw;
+        line-height: 4.444vw;
+        left: 0.926vw;
+        width: 98.148vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-6 .atom4-h {
+        top: 7.288vw;
+        font-size: 7.898vw;
+        line-height: 9.259vw;
+        left: 3.611vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-6 .atom4-p {
+        top: 19.028vw;
+        font-size: 3.407vw;
+        line-height: 5.509vw;
+        left: 0.0vw;
+        width: 100.0vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-h {
+        top: 7.545vw;
+        font-size: 8.741vw;
+        line-height: 9.537vw;
+        left: 8.056vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-7 .atom4-p {
+        top: 31.173vw;
+        font-size: 4.287vw;
+        line-height: 5.556vw;
+        left: 8.148vw;
+        width: auto;
+        right: auto;
+        text-align: left;
+    }
+    .atom4 .section-7 .atom4-db-1 .atom4-stat-v {
+        top: 72.367vw;
+        font-size: 6.833vw;
+        line-height: 8.519vw;
+        left: 1.481vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-db-1 .atom4-stat-l {
+        top: 80.795vw;
+        font-size: 2.722vw;
+        line-height: 3.704vw;
+        left: 1.481vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-db-2 .atom4-stat-v {
+        top: 72.367vw;
+        font-size: 6.833vw;
+        line-height: 8.519vw;
+        left: 31.944vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-db-2 .atom4-stat-l {
+        top: 80.795vw;
+        font-size: 2.722vw;
+        line-height: 3.704vw;
+        left: 31.944vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-db-3 .atom4-stat-v {
+        top: 72.367vw;
+        font-size: 6.833vw;
+        line-height: 8.519vw;
+        left: 65.37vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-7 .atom4-db-3 .atom4-stat-l {
+        top: 80.795vw;
+        font-size: 2.722vw;
+        line-height: 3.704vw;
+        left: 65.37vw;
+        width: 31.481vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-8 .atom4-h {
+        top: 7.969vw;
+        font-size: 7.991vw;
+        line-height: 9.259vw;
+        left: 3.611vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-8 .atom4-p {
+        top: 18.78vw;
+        font-size: 3.556vw;
+        line-height: 5.556vw;
+        left: 0.0vw;
+        width: 100.0vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-8 .atom4-c1 {
+        top: 57.646vw;
+        font-size: 2.463vw;
+        line-height: 3.333vw;
+        left: 2.407vw;
+        width: 30.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-8 .atom4-c2 {
+        top: 57.646vw;
+        font-size: 2.463vw;
+        line-height: 3.333vw;
+        left: 34.722vw;
+        width: 30.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-8 .atom4-c3 {
+        top: 57.646vw;
+        font-size: 2.463vw;
+        line-height: 3.333vw;
+        left: 66.852vw;
+        width: 30.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-9 .atom4-h {
+        top: 5.813vw;
+        font-size: 7.917vw;
+        line-height: 9.259vw;
+        left: 3.796vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-10 .atom4-h {
+        top: 7.434vw;
+        font-size: 8.046vw;
+        line-height: 9.259vw;
+        left: 0.648vw;
+        width: 100.0vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-10 .atom4-p {
+        top: 16.603vw;
+        font-size: 3.167vw;
+        line-height: 4.444vw;
+        left: 1.296vw;
+        width: 100.0vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-11 .atom4-h {
+        top: 39.709vw;
+        font-size: 8.194vw;
+        line-height: 9.259vw;
+        left: 3.704vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-11 .atom4-p {
+        top: 51.061vw;
+        font-size: 3.204vw;
+        line-height: 4.444vw;
+        left: 0.093vw;
+        width: 100.0vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-h {
+        top: 5.942vw;
+        font-size: 7.889vw;
+        line-height: 9.537vw;
+        left: 3.704vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-p {
+        top: 26.383vw;
+        font-size: 3.583vw;
+        line-height: 5.556vw;
+        left: 3.796vw;
+        width: 92.593vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s1 {
+        top: 45.802vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 8.889vw;
+        width: 55.556vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s2 {
+        top: 45.802vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 65.556vw;
+        width: 27.778vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s3 {
+        top: 80.802vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 7.315vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s4 {
+        top: 80.802vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 36.667vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s5 {
+        top: 80.802vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 64.722vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s6 {
+        top: 115.061vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 6.944vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s7 {
+        top: 115.061vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 36.852vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+    .atom4 .section-12 .atom4-s8 {
+        top: 115.061vw;
+        font-size: 2.87vw;
+        line-height: 3.426vw;
+        left: 65.833vw;
+        width: 26.852vw;
+        right: auto;
+        text-align: center;
+    }
+}

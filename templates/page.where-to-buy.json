@@ -1,0 +1,621 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "where_to_buy": {
+      "type": "where-to-buy",
+      "blocks": {
+        "amazon_01": {
+          "type": "amazon",
+          "settings": {
+            "label": "US",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.com.png",
+            "url": "https://amzn.to/amazon-us"
+          }
+        },
+        "amazon_02": {
+          "type": "amazon",
+          "settings": {
+            "label": "UK",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.co.uk.png",
+            "url": "https://amzn.to/amazon-UK"
+          }
+        },
+        "amazon_03": {
+          "type": "amazon",
+          "settings": {
+            "label": "Germany",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.de.png",
+            "url": "https://amzn.to/amazon-de"
+          }
+        },
+        "amazon_04": {
+          "type": "amazon",
+          "settings": {
+            "label": "France",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-Amazon.fr.png",
+            "url": "https://amzn.to/amazon-FR"
+          }
+        },
+        "amazon_05": {
+          "type": "amazon",
+          "settings": {
+            "label": "Spain",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.es.png",
+            "url": "https://amzn.to/amazon-ES"
+          }
+        },
+        "amazon_06": {
+          "type": "amazon",
+          "settings": {
+            "label": "Italy",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.it.png",
+            "url": "https://amzn.to/amazon-it"
+          }
+        },
+        "amazon_07": {
+          "type": "amazon",
+          "settings": {
+            "label": "Canada",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.ca.png",
+            "url": "https://amzn.to/amazon-ca"
+          }
+        },
+        "store_01": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon UK",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.co.uk.png",
+            "country": "United Kingdom",
+            "country_code": "gb",
+            "region": "Europe",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-UK"
+          }
+        },
+        "store_02": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Ireland",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Ireland",
+            "country_code": "ie",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-ireland"
+          }
+        },
+        "store_03": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon DE",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.de.png",
+            "country": "Germany",
+            "country_code": "de",
+            "region": "Europe",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-de"
+          }
+        },
+        "store_04": {
+          "type": "store",
+          "settings": {
+            "name": "alza.de",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-alza-de.png",
+            "country": "Germany",
+            "country_code": "de",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/alza-de"
+          }
+        },
+        "store_05": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon FR",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-Amazon.fr.png",
+            "country": "France",
+            "country_code": "fr",
+            "region": "Europe",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-FR"
+          }
+        },
+        "store_06": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Espa\u00f1a",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Spain",
+            "country_code": "es",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-spain"
+          }
+        },
+        "store_07": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon ES",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.es.png",
+            "country": "Spain",
+            "country_code": "es",
+            "region": "Europe",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-ES"
+          }
+        },
+        "store_08": {
+          "type": "store",
+          "settings": {
+            "name": "powerplanetonline.com",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-powerplanetonline.png",
+            "country": "Spain",
+            "country_code": "es",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/powerplanetonline-com"
+          }
+        },
+        "store_09": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon IT",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.it.png",
+            "country": "Italy",
+            "country_code": "it",
+            "region": "Europe",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-it"
+          }
+        },
+        "store_10": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Nederland",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Netherlands",
+            "country_code": "nl",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-nederland"
+          }
+        },
+        "store_11": {
+          "type": "store",
+          "settings": {
+            "name": "alza.at",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-alza-at.png",
+            "country": "Austria",
+            "country_code": "at",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/alza-at"
+          }
+        },
+        "store_12": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Polska",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Poland",
+            "country_code": "pl",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-polska"
+          }
+        },
+        "store_13": {
+          "type": "store",
+          "settings": {
+            "name": "alza.cz",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-alza-cz.png",
+            "country": "Czechia",
+            "country_code": "cz",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Alza-cz"
+          }
+        },
+        "store_14": {
+          "type": "store",
+          "settings": {
+            "name": "alza.sk",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-alza-sk.png",
+            "country": "Slovakia",
+            "country_code": "sk",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Alza-sk"
+          }
+        },
+        "store_15": {
+          "type": "store",
+          "settings": {
+            "name": "alza.hu",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-alza-hu.png",
+            "country": "Hungary",
+            "country_code": "hu",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Alza-hu"
+          }
+        },
+        "store_16": {
+          "type": "store",
+          "settings": {
+            "name": "Greenmobile.bg",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/green-mobile.png",
+            "country": "Bulgaria",
+            "country_code": "bg",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/greenmobile-bg"
+          }
+        },
+        "store_17": {
+          "type": "store",
+          "settings": {
+            "name": "mobiletech.com.cy",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/mobiletech.com.png",
+            "country": "Cyprus",
+            "country_code": "cy",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/cyprus-mobiletech"
+          }
+        },
+        "store_18": {
+          "type": "store",
+          "settings": {
+            "name": "darwin.md",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-darwin.png",
+            "country": "Moldova",
+            "country_code": "md",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/darwin-MD"
+          }
+        },
+        "store_19": {
+          "type": "store",
+          "settings": {
+            "name": "enter.online",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-enter.png",
+            "country": "Moldova",
+            "country_code": "md",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Ulefone-Enter-Online"
+          }
+        },
+        "store_20": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Sweden",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Sweden",
+            "country_code": "se",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-sweden"
+          }
+        },
+        "store_21": {
+          "type": "store",
+          "settings": {
+            "name": "NetOnNet",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/net-on-net.png",
+            "country": "Sweden",
+            "country_code": "se",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Netonnet-se"
+          }
+        },
+        "store_22": {
+          "type": "store",
+          "settings": {
+            "name": "POWER",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/power.jpg",
+            "country": "Sweden",
+            "country_code": "se",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/power-se"
+          }
+        },
+        "store_23": {
+          "type": "store",
+          "settings": {
+            "name": "Webhallen",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/webhallen.png",
+            "country": "Sweden",
+            "country_code": "se",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Webhallen"
+          }
+        },
+        "store_24": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Norway",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Norway",
+            "country_code": "no",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-norway"
+          }
+        },
+        "store_25": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Finland",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Finland",
+            "country_code": "fi",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-finland"
+          }
+        },
+        "store_26": {
+          "type": "store",
+          "settings": {
+            "name": "Verkkokauppa.com",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-verkkokauppa.png",
+            "country": "Finland",
+            "country_code": "fi",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/Ulefone-Verkkokauppa"
+          }
+        },
+        "store_27": {
+          "type": "store",
+          "settings": {
+            "name": "e-ville.com",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-e-ville.png",
+            "country": "Finland",
+            "country_code": "fi",
+            "region": "Europe",
+            "type": "retailer",
+            "url": "https://bit.ly/e-ville-com"
+          }
+        },
+        "store_28": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Denmark",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Denmark",
+            "country_code": "dk",
+            "region": "Europe",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-denmark"
+          }
+        },
+        "store_29": {
+          "type": "store",
+          "settings": {
+            "name": "Arbalest",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-WheretoBuy-Arbalest.png",
+            "country": "South Africa",
+            "country_code": "za",
+            "region": "Middle East & Africa",
+            "type": "retailer",
+            "url": "https://bit.ly/Ulefone-Arbalest"
+          }
+        },
+        "store_30": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon US",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.com.png",
+            "country": "United States",
+            "country_code": "us",
+            "region": "Americas",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-us"
+          }
+        },
+        "store_31": {
+          "type": "store",
+          "settings": {
+            "name": "Amazon CA",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-amazon.ca.png",
+            "country": "Canada",
+            "country_code": "ca",
+            "region": "Americas",
+            "type": "amazon",
+            "url": "https://amzn.to/amazon-ca"
+          }
+        },
+        "store_32": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Panama",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Panama",
+            "country_code": "pa",
+            "region": "Americas",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-panama"
+          }
+        },
+        "store_33": {
+          "type": "store",
+          "settings": {
+            "name": "intelec.co.cr",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/intelec.png",
+            "country": "Costa Rica",
+            "country_code": "cr",
+            "region": "Americas",
+            "type": "retailer",
+            "url": "https://bit.ly/intelec-co-cr"
+          }
+        },
+        "store_34": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Saudi Arabia",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Saudi Arabia",
+            "country_code": "sa",
+            "region": "Middle East & Africa",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-saudi-arabic"
+          }
+        },
+        "store_35": {
+          "type": "store",
+          "settings": {
+            "name": "yeniyeni",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/yeniyeni.png",
+            "country": "T\u00fcrkiye",
+            "country_code": "tr",
+            "region": "Middle East & Africa",
+            "type": "retailer",
+            "url": "https://bit.ly/turkiye-yeniyeni"
+          }
+        },
+        "store_36": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Maroc",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Morocco",
+            "country_code": "ma",
+            "region": "Middle East & Africa",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-maroc"
+          }
+        },
+        "store_37": {
+          "type": "store",
+          "settings": {
+            "name": "ruggedsa.co.za",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ruggedSA.png",
+            "country": "South Africa",
+            "country_code": "za",
+            "region": "Middle East & Africa",
+            "type": "retailer",
+            "url": "https://bit.ly/ruggedsa-co-za"
+          }
+        },
+        "store_38": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone HK",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Hong Kong",
+            "country_code": "hk",
+            "region": "Asia-Pacific",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-hk"
+          }
+        },
+        "store_39": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone Mongolia",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "Mongolia",
+            "country_code": "mn",
+            "region": "Asia-Pacific",
+            "type": "local",
+            "url": "https://bit.ly/ulefone-mongolia"
+          }
+        },
+        "store_40": {
+          "type": "store",
+          "settings": {
+            "name": "Ulefone New Zealand",
+            "logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/Page-PC-WheretoBuy-ulefone.png",
+            "country": "New Zealand",
+            "country_code": "nz",
+            "region": "Asia-Pacific",
+            "type": "local",
+            "url": "https://www.ulefone.co.nz/"
+          }
+        }
+      },
+      "block_order": [
+        "amazon_01",
+        "amazon_02",
+        "amazon_03",
+        "amazon_04",
+        "amazon_05",
+        "amazon_06",
+        "amazon_07",
+        "store_01",
+        "store_02",
+        "store_03",
+        "store_04",
+        "store_05",
+        "store_06",
+        "store_07",
+        "store_08",
+        "store_09",
+        "store_10",
+        "store_11",
+        "store_12",
+        "store_13",
+        "store_14",
+        "store_15",
+        "store_16",
+        "store_17",
+        "store_18",
+        "store_19",
+        "store_20",
+        "store_21",
+        "store_22",
+        "store_23",
+        "store_24",
+        "store_25",
+        "store_26",
+        "store_27",
+        "store_28",
+        "store_30",
+        "store_31",
+        "store_32",
+        "store_33",
+        "store_34",
+        "store_35",
+        "store_36",
+        "store_37",
+        "store_29",
+        "store_38",
+        "store_39",
+        "store_40"
+      ],
+      "settings": {
+        "heading": "Where to Buy",
+        "subheading": "Buy from the Ulefone Official Store, our Amazon storefronts, or authorized local stores and retailers in [COUNT] countries and regions.",
+        "search_placeholder": "Search your country or a store, e.g. Germany, Amazon, alza",
+        "official_url": "https://bit.ly/ulefone-store",
+        "official_logo_url": "https://cdn.shopify.com/s/files/1/0830/0573/5193/files/ulefone-logo.jpg",
+        "official_text": "The full lineup of phones, tablets, wearables and accessories, direct from Ulefone.",
+        "contact_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "where_to_buy"
+  ]
+}
