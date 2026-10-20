@@ -1,0 +1,51 @@
+{%- comment -%}
+  Newsroom article card. Used by sections/main-newsroom.liquid.
+  wide: true  -> featured layout (eager image, fetchpriority=high, preload header: this is the LCP image)
+  wide: false -> grid card (native lazy loading)
+{%- endcomment -%}
+{%- liquid
+  assign art_tag = ''
+  for t in article.tags
+    if all_tags contains t
+      assign art_tag = t
+      break
+    endif
+  endfor
+  assign img_alt = article.image.alt | default: article.title | escape
+-%}
+{%- capture meta -%}
+  <div class="nr-meta">
+    {%- if art_tag != '' -%}<span class="nr-tag">{{ art_tag }}</span>{%- endif -%}
+    <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%b %d, %Y' }}</time>
+  </div>
+{%- endcapture -%}
+
+{%- if wide -%}
+  <article class="nr-feat">
+    <div class="nr-media">
+      {%- if article.image -%}
+        {{ article.image | image_url: width: 1400 | image_tag: widths: '480,720,960,1200,1400', sizes: '(min-width: 990px) 58vw, 100vw', loading: 'eager', fetchpriority: 'high', preload: true, alt: img_alt }}
+      {%- endif -%}
+    </div>
+    <div>
+      {%- if show_latest -%}<p class="nr-feat__badge">Latest</p>{%- endif -%}
+      {{ meta }}
+      <h2 class="nr-title"><a class="nr-link" href="{{ article.url }}"><span>{{ article.title }}</span></a></h2>
+      <p class="nr-excerpt">{{ article.excerpt_or_content | strip_html | truncatewords: 45 }}</p>
+      <span class="nr-more" aria-hidden="true">Read the story {{ arrow }}</span>
+    </div>
+  </article>
+{%- else -%}
+  <li class="nr-card">
+    <div class="nr-media">
+      {%- if article.image -%}
+        {{ article.image | image_url: width: 900 | image_tag: widths: '320,460,640,900', sizes: '(min-width: 990px) 410px, (min-width: 640px) 46vw, 40vw', loading: 'lazy', alt: img_alt }}
+      {%- endif -%}
+    </div>
+    <div class="nr-card__body">
+      {{ meta }}
+      <h3 class="nr-title"><a class="nr-link" href="{{ article.url }}"><span>{{ article.title }}</span></a></h3>
+      <p class="nr-excerpt">{{ article.excerpt_or_content | strip_html | truncatewords: 28 }}</p>
+    </div>
+  </li>
+{%- endif -%}

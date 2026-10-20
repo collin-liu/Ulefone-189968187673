@@ -1,0 +1,274 @@
+{%- comment -%}
+  Ulefone Newsroom (blog listing) — performance-first rewrite.
+  - Zero JavaScript, no extra network requests: CSS is inlined (~5 KB) and only ships on this template.
+  - Native responsive <img> (srcset/sizes, width/height). The first image is eager + fetchpriority=high
+    + preload header (LCP); everything else uses native lazy loading. No lazysizes, no fade-in animations.
+  - Tag filtering uses plain links (/tagged/...) so it is crawlable and works without JS.
+  - Outputs Blog + BreadcrumbList JSON-LD.
+{%- endcomment -%}
+
+{%- liquid
+  assign is_filtered = false
+  if current_tags and current_tags.size > 0
+    assign is_filtered = true
+  endif
+  assign blog_url_down = blog.url | downcase
+-%}
+
+<style>
+  .nr{--nr-y:#FDB515;--nr-ink:#111;--nr-muted:#666;--nr-line:#e6e6e6;--nr-soft:#f5f5f3;--nr-r:12px;color:var(--nr-ink)}
+  .nr *{box-sizing:border-box}
+  .nr a{text-decoration:none;color:inherit}
+  .nr__wrap{max-width:1320px;margin:0 auto;padding:0 20px}
+  .nr-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  /* Hero */
+  .nr-hero{position:relative;background:#0d0d0d;color:#fff;overflow:hidden;padding:18px 0 44px}
+  .nr-hero::after{content:"";position:absolute;right:-60px;bottom:0;width:360px;height:10px;background:repeating-linear-gradient(-45deg,var(--nr-y) 0 14px,transparent 14px 28px);opacity:.9}
+  .nr-tabs{display:flex;gap:28px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:40px}
+  .nr-tabs::-webkit-scrollbar{display:none}
+  .nr-tabs a{flex:none;padding:12px 0;font-size:15px;color:rgba(255,255,255,.62);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .2s}
+  .nr-tabs a:hover{color:#fff}
+  .nr-tabs a[aria-current]{color:#fff;font-weight:600;border-bottom-color:var(--nr-y)}
+  .nr-hero__eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--nr-y);margin:0 0 12px}
+  .nr-hero__eyebrow::before{content:"";width:22px;height:2px;background:var(--nr-y)}
+  .nr-hero h1{margin:0;font-size:clamp(34px,5vw,60px);line-height:1.05;font-weight:700;letter-spacing:-.01em;color:#fff;text-transform:none}
+  .nr-hero__desc{max-width:620px;margin:16px 0 0;font-size:17px;line-height:1.6;color:rgba(255,255,255,.72)}
+  .nr-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .nr-btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;border-radius:999px;font-size:15px;font-weight:600;border:1px solid rgba(255,255,255,.28);color:#fff;transition:background .2s,border-color .2s,color .2s}
+  .nr-btn:hover{border-color:#fff}
+  .nr-btn--y{background:var(--nr-y);border-color:var(--nr-y);color:#111}
+  .nr-btn--y:hover{background:#ffc63d;border-color:#ffc63d}
+  .nr-btn--icon{width:44px;padding:0;justify-content:center}
+  .nr-btn svg{width:16px;height:16px;flex:none}
+  /* Toolbar */
+  .nr-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px 0 8px}
+  .nr-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px}
+  .nr-chips::-webkit-scrollbar{display:none}
+  .nr-chip{flex:none;height:38px;display:inline-flex;align-items:center;padding:0 18px;border:1px solid var(--nr-line);border-radius:999px;font-size:14px;color:#333;background:#fff;transition:border-color .2s,background .2s}
+  .nr-chip:hover{border-color:#111}
+  .nr-chip[aria-current]{background:#111;border-color:#111;color:#fff}
+  .nr-count{flex:none;font-size:14px;color:var(--nr-muted)}
+  /* Shared card bits */
+  .nr-meta{display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--nr-muted);margin-bottom:10px}
+  .nr-tag{display:inline-block;padding:3px 9px;border-radius:4px;background:#fff4d6;color:#7a5300;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+  .nr-media{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#e9e9e7;border-radius:var(--nr-r)}
+  .nr-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+  .nr-link::after{content:"";position:absolute;inset:0;z-index:1}
+  .nr-link:focus-visible{outline:none}
+  .nr-link:focus-visible::after{outline:3px solid var(--nr-y);outline-offset:4px;border-radius:var(--nr-r)}
+  .nr-title{margin:0;font-weight:700;color:var(--nr-ink);text-transform:none;letter-spacing:0}
+  .nr-title span{background:linear-gradient(var(--nr-y),var(--nr-y)) 0 100%/0 2px no-repeat;transition:background-size .3s}
+  .nr-excerpt{margin:10px 0 0;color:#555;line-height:1.6;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+  .nr-card:hover .nr-media img,.nr-feat:hover .nr-media img{transform:scale(1.04)}
+  .nr-card:hover .nr-title span,.nr-feat:hover .nr-title span{background-size:100% 2px}
+  /* Featured */
+  .nr-feat{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:center;padding:24px;margin:20px 0 12px;background:var(--nr-soft);border-radius:calc(var(--nr-r) + 6px)}
+  .nr-feat .nr-title{font-size:clamp(22px,2.4vw,32px);line-height:1.25}
+  .nr-feat .nr-excerpt{font-size:16px;-webkit-line-clamp:4}
+  .nr-feat__badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#111;margin-bottom:14px}
+  .nr-feat__badge::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--nr-y);box-shadow:0 0 0 4px rgba(253,181,21,.25)}
+  .nr-more{display:inline-flex;align-items:center;gap:8px;margin-top:22px;font-size:15px;font-weight:600}
+  .nr-more svg{width:16px;height:16px;transition:transform .2s}
+  .nr-feat:hover .nr-more svg{transform:translateX(4px)}
+  /* Grid */
+  .nr-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:44px 32px;margin:28px 0 0;padding:0;list-style:none}
+  .nr-card{position:relative;margin:0}
+  .nr-card__body{padding-top:16px}
+  .nr-card .nr-title{font-size:19px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+  .nr-card .nr-excerpt{font-size:15px;-webkit-line-clamp:2}
+  .nr-empty{padding:60px 0;text-align:center;color:var(--nr-muted)}
+  /* Pagination */
+  .nr-pag{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px;margin:56px 0 72px}
+  .nr-pag a,.nr-pag span{min-width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;padding:0 12px;border-radius:999px;font-size:15px;color:#333}
+  .nr-pag a{border:1px solid var(--nr-line)}
+  .nr-pag a:hover{border-color:#111}
+  .nr-pag [aria-current]{background:#111;color:#fff;font-weight:600}
+  .nr-pag .nr-pag__dir{gap:6px;padding:0 18px}
+  .nr-pag svg{width:14px;height:14px}
+  @media (max-width:989px){
+    .nr-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 24px}
+    .nr-feat{grid-template-columns:1fr;gap:20px;padding:16px}
+  }
+  @media (max-width:639px){
+    .nr__wrap{padding:0 16px}
+    .nr-hero{padding:8px 0 34px}
+    .nr-tabs{gap:22px;margin-bottom:28px}
+    .nr-hero__desc{font-size:15px}
+    .nr-hero__actions{gap:8px;margin-top:22px}
+    .nr-btn{height:42px;padding:0 16px;font-size:14px}
+    .nr-btn--icon{width:42px;padding:0}
+    .nr-hero::after{width:180px;height:8px}
+    .nr-bar{padding-top:20px}
+    .nr-count{display:none}
+    .nr-feat{margin-top:14px;padding:0;background:none;gap:14px}
+    .nr-feat .nr-excerpt{font-size:15px;-webkit-line-clamp:3}
+    .nr-grid{grid-template-columns:1fr;gap:0;margin-top:12px}
+    .nr-card{display:grid;grid-template-columns:42% 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--nr-line);align-items:start}
+    .nr-card .nr-media{border-radius:8px}
+    .nr-card__body{padding-top:0}
+    .nr-card .nr-meta{margin-bottom:6px;gap:8px;font-size:12px}
+    .nr-card .nr-tag{padding:2px 6px;font-size:10px}
+    .nr-card .nr-title{font-size:15px;line-height:1.35}
+    .nr-card .nr-excerpt{display:none}
+    .nr-pag{margin:36px 0 56px}
+    .nr-pag .nr-pag__num{display:none}
+    .nr-pag [aria-current]{display:inline-flex}
+  }
+  @media (prefers-reduced-motion:reduce){.nr *{transition:none!important}}
+</style>
+
+{%- capture arrow -%}<svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>{%- endcapture -%}
+
+<div class="nr">
+  <header class="nr-hero">
+    <div class="nr__wrap">
+      {%- if section.blocks.size > 0 -%}
+        <nav class="nr-tabs" aria-label="Blog sections">
+          {%- for block in section.blocks -%}
+            {%- assign tab_url = block.settings.link | downcase -%}
+            <a href="{{ block.settings.link }}" {% if tab_url == blog_url_down %}aria-current="page"{% endif %} {{ block.shopify_attributes }}>{{ block.settings.label | escape }}</a>
+          {%- endfor -%}
+        </nav>
+      {%- endif -%}
+
+      {%- if section.settings.eyebrow != blank -%}<p class="nr-hero__eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h1>{{ blog.title }}{% if is_filtered %}<span class="nr-sr"> – {{ current_tags | join: ', ' }}</span>{% endif %}</h1>
+      {%- if section.settings.description != blank -%}<p class="nr-hero__desc">{{ section.settings.description | escape }}</p>{%- endif -%}
+
+      <div class="nr-hero__actions">
+        {%- if section.settings.btn1_label != blank and section.settings.btn1_link != blank -%}
+          <a class="nr-btn nr-btn--y" href="{{ section.settings.btn1_link }}"{% if section.settings.btn1_new_tab %} target="_blank" rel="noopener"{% endif %}>{{ section.settings.btn1_label | escape }} {{ arrow }}</a>
+        {%- endif -%}
+        {%- if section.settings.btn2_label != blank and section.settings.btn2_link != blank -%}
+          <a class="nr-btn" href="{{ section.settings.btn2_link }}">{{ section.settings.btn2_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.show_rss -%}
+          <a class="nr-btn nr-btn--icon" href="{{ blog.url }}.atom" aria-label="{{ blog.title | escape }} RSS feed"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><circle cx="3" cy="13" r="1.8"/><path d="M1.5 6.2v2.2A6.1 6.1 0 0 1 7.6 14.5h2.2A8.3 8.3 0 0 0 1.5 6.2Zm0-4.7v2.2a10.8 10.8 0 0 1 10.8 10.8h2.2A13 13 0 0 0 1.5 1.5Z"/></svg></a>
+        {%- endif -%}
+      </div>
+    </div>
+  </header>
+
+  {%- paginate blog.articles by section.settings.per_page -%}
+    {%- liquid
+      # The first post of every page gets the wide layout so the 3-column grid below stays complete.
+      assign show_latest = false
+      if paginate.current_page == 1 and is_filtered == false
+        assign show_latest = true
+      endif
+    -%}
+    <div class="nr__wrap">
+      {%- if blog.all_tags.size > 0 -%}
+        <div class="nr-bar">
+          <nav class="nr-chips" aria-label="Filter by topic">
+            <a class="nr-chip" href="{{ blog.url }}" {% unless is_filtered %}aria-current="page"{% endunless %}>All</a>
+            {%- for tag in blog.all_tags -%}
+              <a class="nr-chip" href="{{ blog.url }}/tagged/{{ tag | handle }}" {% if current_tags contains tag %}aria-current="page"{% endif %}>{{ tag }}</a>
+            {%- endfor -%}
+          </nav>
+          <span class="nr-count">{{ paginate.items }} {% if paginate.items == 1 %}story{% else %}stories{% endif %}</span>
+        </div>
+      {%- endif -%}
+
+      {%- if blog.articles.size == 0 -%}
+        <p class="nr-empty">No stories in this topic yet. <a href="{{ blog.url }}"><u>See all news</u></a></p>
+      {%- endif -%}
+
+      {%- for article in blog.articles limit: 1 -%}
+        {%- render 'newsroom-card', article: article, all_tags: blog.all_tags, wide: true, show_latest: show_latest, arrow: arrow -%}
+      {%- endfor -%}
+
+      {%- if blog.articles.size > 1 -%}
+        <h2 class="nr-sr">More news</h2>
+        <ul class="nr-grid">
+          {%- for article in blog.articles offset: 1 -%}
+            {%- render 'newsroom-card', article: article, all_tags: blog.all_tags, wide: false -%}
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+
+      {%- if paginate.pages > 1 -%}
+        <nav class="nr-pag" aria-label="Pagination">
+          {%- if paginate.previous -%}
+            <a class="nr-pag__dir" href="{{ paginate.previous.url }}" rel="prev"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M14 8H3M7 4 3 8l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Newer</a>
+          {%- endif -%}
+          {%- for part in paginate.parts -%}
+            {%- if part.is_link -%}
+              <a class="nr-pag__num" href="{{ part.url }}">{{ part.title }}</a>
+            {%- elsif part.title == paginate.current_page -%}
+              <span aria-current="page">{{ part.title }}</span>
+            {%- else -%}
+              <span class="nr-pag__num">{{ part.title }}</span>
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if paginate.next -%}
+            <a class="nr-pag__dir" href="{{ paginate.next.url }}" rel="next">Older {{ arrow }}</a>
+          {%- endif -%}
+        </nav>
+      {%- else -%}
+        <div style="height:72px"></div>
+      {%- endif -%}
+    </div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Blog",
+            "@id": {{ canonical_url | append: '#blog' | json }},
+            "name": {{ blog.title | append: ' – Ulefone' | json }},
+            "url": {{ shop.url | append: blog.url | json }},
+            {%- if section.settings.description != blank %}"description": {{ section.settings.description | json }},{% endif %}
+            "publisher": {"@type": "Organization", "name": "Ulefone", "url": {{ shop.url | json }}},
+            "blogPost": [
+              {%- for article in blog.articles -%}
+                {
+                  "@type": "BlogPosting",
+                  "headline": {{ article.title | json }},
+                  "url": {{ shop.url | append: article.url | json }},
+                  "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }}
+                  {%- if article.image -%},"image": {{ article.image | image_url: width: 1200 | prepend: 'https:' | json }}{%- endif -%}
+                }{% unless forloop.last %},{% endunless %}
+              {%- endfor -%}
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Home", "item": {{ shop.url | json }}},
+              {"@type": "ListItem", "position": 2, "name": {{ blog.title | json }}, "item": {{ shop.url | append: blog.url | json }}}
+            ]
+          }
+        ]
+      }
+    </script>
+  {%- endpaginate -%}
+</div>
+
+{% schema %}
+{
+  "name": "Newsroom listing",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Ulefone Global" },
+    { "type": "textarea", "id": "description", "label": "Intro text", "default": "Product launches, trade-show appearances and company announcements from Ulefone, the rugged phone and tablet maker." },
+    { "type": "text", "id": "btn1_label", "label": "Primary button label", "default": "Press materials" },
+    { "type": "url", "id": "btn1_link", "label": "Primary button link" },
+    { "type": "checkbox", "id": "btn1_new_tab", "label": "Open primary button in new tab", "default": true },
+    { "type": "text", "id": "btn2_label", "label": "Secondary button label", "default": "Media inquiries" },
+    { "type": "url", "id": "btn2_link", "label": "Secondary button link" },
+    { "type": "checkbox", "id": "show_rss", "label": "Show RSS button", "default": true },
+    { "type": "range", "id": "per_page", "label": "Posts per page", "min": 6, "max": 24, "step": 1, "default": 13, "info": "The first post on each page is shown wide; 13 = 1 wide + 4 rows of 3." }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Blog tab",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ]
+}
+{% endschema %}
