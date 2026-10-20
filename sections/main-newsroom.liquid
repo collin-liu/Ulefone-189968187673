@@ -19,6 +19,8 @@
   .nr{--nr-y:#FDB515;--nr-ink:#111;--nr-muted:#666;--nr-line:#e6e6e6;--nr-soft:#f5f5f3;--nr-r:12px;color:var(--nr-ink)}
   .nr *{box-sizing:border-box}
   .nr a{text-decoration:none;color:inherit}
+  /* Theme resets: global h1-h3 are centered and <header> floats left */
+  .nr h1,.nr h2,.nr h3,.nr p{text-align:left}
   .nr__wrap{max-width:1320px;margin:0 auto;padding:0 20px}
   .nr-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
   /* Hero */
@@ -110,7 +112,7 @@
 {%- capture arrow -%}<svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>{%- endcapture -%}
 
 <div class="nr">
-  <header class="nr-hero">
+  <div class="nr-hero">
     <div class="nr__wrap">
       {%- if section.blocks.size > 0 -%}
         <nav class="nr-tabs" aria-label="Blog sections">
@@ -125,7 +127,7 @@
       <h1>{{ blog.title }}{% if is_filtered %}<span class="nr-sr"> – {{ current_tags | join: ', ' }}</span>{% endif %}</h1>
       {%- if section.settings.description != blank -%}<p class="nr-hero__desc">{{ section.settings.description | escape }}</p>{%- endif -%}
     </div>
-  </header>
+  </div>
 
   {%- paginate blog.articles by section.settings.per_page -%}
     {%- liquid
