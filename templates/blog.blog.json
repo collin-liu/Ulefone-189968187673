@@ -50,12 +50,6 @@
       "settings": {
         "eyebrow": "Ulefone Global",
         "description": "Product launches, trade-show appearances and company announcements from Ulefone, the rugged phone and tablet maker.",
-        "btn1_label": "Press materials",
-        "btn1_link": "https://drive.google.com/drive/folders/1mQs5G7mV_r03vmlOXPVkT6P47JHUEJbk?usp=sharing",
-        "btn1_new_tab": true,
-        "btn2_label": "Media inquiries",
-        "btn2_link": "/pages/contact-us",
-        "show_rss": true,
         "per_page": 13
       }
     }
