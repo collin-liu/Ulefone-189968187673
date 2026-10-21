@@ -39,7 +39,7 @@
   <li class="nr-card">
     <div class="nr-media">
       {%- if article.image -%}
-        {{ article.image | image_url: width: 900 | image_tag: widths: '320,460,640,900', sizes: '(min-width: 990px) 410px, (min-width: 640px) 46vw, 40vw', loading: 'lazy', alt: img_alt }}
+        {{ article.image | image_url: width: 1080 | image_tag: widths: '320,460,640,900,1080', sizes: '(min-width: 1600px) 23vw, (min-width: 990px) 31vw, (min-width: 640px) 46vw, 40vw', loading: 'lazy', alt: img_alt }}
       {%- endif -%}
     </div>
     <div class="nr-card__body">
