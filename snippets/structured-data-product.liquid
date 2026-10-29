@@ -1,43 +1,109 @@
+{%- comment -%}
+  Product 结构化数据（JSON-LD）
+  - 在 layout/theme.liquid 里对所有 product 模板统一调用一次（见 theme.liquid 中 'structured-data-product'）
+  - 纯 Liquid 服务端输出，不加载任何 JS，不发额外请求
+  - 参数：product（必填）、current_variant（可选，旧调用方式兼容）
+{%- endcomment -%}
+{%- liquid
+  assign sd_variant = current_variant | default: product.selected_or_first_available_variant
+  assign sd_url = shop.url | append: product.url
+
+  assign sd_brand = 'Ulefone'
+  assign sd_vendor = product.vendor | downcase
+  if sd_vendor contains 'rugone'
+    assign sd_brand = 'RugOne'
+  endif
+
+  assign sd_desc = product.description | strip_html | strip_newlines | strip
+  if sd_desc.size < 50
+    assign sd_seo_desc = product.metafields.global.description_tag | strip
+    if sd_seo_desc != blank
+      assign sd_desc = sd_seo_desc
+    endif
+  endif
+  if sd_desc == blank
+    assign sd_desc = sd_brand | append: ' ' | append: product.title
+  endif
+  assign sd_desc = sd_desc | truncate: 5000
+
+  assign sd_barcode = sd_variant.barcode | strip
+  assign sd_barcode_rest = sd_barcode | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
+
+  assign sd_has_offer = false
+  for v in product.variants
+    if v.price > 0
+      assign sd_has_offer = true
+      break
+    endif
+  endfor
+-%}
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "https://schema.org",
   "@type": "Product",
+  "@id": {{ sd_url | append: '#product' | json }},
   "name": {{ product.title | json }},
-  "url": {{ shop.url | append: product.url | json }},
-  {%- if product.featured_media.preview_image -%}
-    {%- assign image_size = product.featured_media.preview_image.width | append: 'x' -%}
-    "image": [
-      {{ product.featured_media.preview_image.src | img_url: image_size | prepend: "https:" | json }}
-    ],
-  {%- endif -%}
-  "description": {{ product.description | strip_html | json }},
-  {%- if current_variant.sku != blank -%}
-    "sku": {{ current_variant.sku | json }},
-  {%- endif -%}
+  "url": {{ sd_url | json }},
+  {%- if product.images.size > 0 %}
+  "image": [
+    {%- for img in product.images limit: 4 -%}
+      {{ img | image_url: width: 1200 | prepend: 'https:' | json }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  {%- endif %}
+  "description": {{ sd_desc | json }},
   "brand": {
     "@type": "Brand",
-    "name": {{ product.vendor | json }}
+    "name": {{ sd_brand | json }}
   },
-  {% if current_variant.barcode != blank %}
-    "mpn": {{ current_variant.barcode | json }},
-  {% endif %}
+  {%- if sd_variant.sku != blank %}
+  "sku": {{ sd_variant.sku | json }},
+  {%- endif %}
+  {%- if sd_barcode != blank %}
+    {%- if sd_barcode_rest == blank and sd_barcode.size == 13 %}
+  "gtin13": {{ sd_barcode | json }},
+    {%- elsif sd_barcode_rest == blank and sd_barcode.size == 12 %}
+  "gtin12": {{ sd_barcode | json }},
+    {%- elsif sd_barcode_rest == blank and sd_barcode.size == 14 %}
+  "gtin14": {{ sd_barcode | json }},
+    {%- else %}
+  "mpn": {{ sd_barcode | json }},
+    {%- endif %}
+  {%- endif %}
+  {%- if sd_has_offer %}
   "offers": [
-    {%- for variant in product.variants -%}
-      {
-        "@type" : "Offer",
-        {%- if variant.sku != blank -%}
-          "sku": {{ variant.sku | json }},
-        {%- endif -%}
-        "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
-        "price" : {{ variant.price | divided_by: 100.00 | json }},
-        "priceCurrency" : {{ cart.currency.iso_code | json }},
-        "url" : {{ shop.url | append: variant.url | json }},
-        "seller": {
-          "@type": "Organization",
-          "name": {{ shop.name | json }}
-        }
-      }{% unless forloop.last %},{% endunless %}
-    {%- endfor -%}
-  ]
+    {%- assign sd_first = true -%}
+    {%- for v in product.variants -%}
+      {%- if v.price > 0 -%}
+        {%- unless sd_first %},{% endunless -%}
+        {%- assign sd_first = false %}
+    {
+      "@type": "Offer",
+      {%- if v.sku != blank %}
+      "sku": {{ v.sku | json }},
+      {%- endif %}
+      {%- if product.variants.size > 1 %}
+      "name": {{ v.title | json }},
+      {%- endif %}
+      "url": {{ shop.url | append: v.url | json }},
+      "price": {{ v.price | divided_by: 100.0 | json }},
+      "priceCurrency": {{ cart.currency.iso_code | json }},
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/{% if v.available %}InStock{% else %}OutOfStock{% endif %}",
+      "seller": {
+        "@type": "Organization",
+        "name": "Ulefone",
+        "url": "https://www.ulefone.com/"
+      }
+    }
+      {%- endif -%}
+    {%- endfor %}
+  ],
+  {%- endif %}
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Ulefone",
+    "url": "https://www.ulefone.com/"
+  }
 }
 </script>
