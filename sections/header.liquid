@@ -403,9 +403,30 @@ var mobileMenuLoaded = false;
     {% endif %}
   </a>
 
-  <h1 class="visually-hidden">
-    Rugged Phones for Extreme Environments
-  </h1>
+  {%- comment -%}
+    页面 H1：原来全站每页都输出同一个隐藏 H1「Rugged Phones for Extreme Environments」，
+    等于 200 多个页面都在抢 rugged phone，也造成多页「多个 H1」。现在按页面输出：
+    - 首页：保留关键词 H1（首页是 rugged phone 的承接页）
+    - 产品页：输出产品名（与页面顶部型号一致）；自带 H1 的模板跳过
+    - /collections/all：主列表区块关闭，补集合名
+    - 其他页面：由页面自身的 H1 负责（collection 主区块、博客文章、rugged-phones 的 Rich text 已设为 H1）
+  {%- endcomment -%}
+  {%- liquid
+    assign page_h1 = ''
+    assign own_h1_templates = 'armor-35-pro,atom-4,box-opener' | split: ','
+    if template.name == 'index'
+      assign page_h1 = 'Rugged Phones for Extreme Environments'
+    elsif template.name == 'product'
+      unless own_h1_templates contains template.suffix
+        assign page_h1 = product.title
+      endunless
+    elsif template.name == 'collection' and template.suffix == 'all'
+      assign page_h1 = collection.title
+    endif
+  -%}
+  {%- if page_h1 != blank -%}
+  <h1 class="visually-hidden">{{ page_h1 | escape }}</h1>
+  {%- endif -%}
 
   {% endcapture %}
 

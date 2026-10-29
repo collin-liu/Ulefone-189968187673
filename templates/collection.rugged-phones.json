@@ -44,7 +44,7 @@
         "title": "Rugged Phones for Extreme Environments",
         "title_size": 48,
         "title_width": 40,
-        "heading_h1": false,
+        "heading_h1": true,
         "text": "<p>Certified with IP68/IP69K and MIL-STD-810H standards, our rugged phones are engineered to thrive in the harshest environments. From the professional flagship Armor Series and mid-range powerhouse Armor X Series to the value champion RugKing Series, we combine industry-leading toughness with cutting-edge technology for every professional and adventurer.</p>",
         "image_width": 120,
         "button_label": "",
