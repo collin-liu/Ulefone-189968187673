@@ -1090,7 +1090,17 @@
   {{ product | json }}
 </script>
 
-{% render 'structured-data-product', product: product, current_variant: current_variant %}
+{%- comment -%} Product 结构化数据：模板里有 Price 块（页面显示价格）才输出 offers {%- endcomment -%}
+{%- liquid
+  assign sd_show_offers = false
+  for sd_block in section.blocks
+    if sd_block.type == 'price'
+      assign sd_show_offers = true
+      break
+    endif
+  endfor
+-%}
+{% render 'structured-data-product', product: product, current_variant: current_variant, show_offers: sd_show_offers %}
 
 
 {% schema %}

@@ -1,8 +1,13 @@
 {%- comment -%}
   Product 结构化数据（JSON-LD）
-  - 在 layout/theme.liquid 里对所有 product 模板统一调用一次（见 theme.liquid 中 'structured-data-product'）
+  - 调用位置：
+    1) sections/main-product.liquid：用 main-product 的 JSON 模板（131 个）在这里输出；
+       只有模板里加了 Price 块（页面上看得到价格）才传 show_offers: true
+    2) layout/theme.liquid：兜底，给不用 main-product 的 .liquid 模板输出（不带 offers）；
+       靠 data-sd="product" 标记判断页面里是否已输出过，避免重复
   - 纯 Liquid 服务端输出，不加载任何 JS，不发额外请求
-  - 参数：product（必填）、current_variant（可选，旧调用方式兼容）
+  - 参数：product（必填）、current_variant（可选）、show_offers（可选，true 才输出价格 offers）
+  - offers 的价格必须和页面上显示的价格一致（Google 要求），所以页面不显示价格时不输出 offers
 {%- endcomment -%}
 {%- liquid
   assign sd_variant = current_variant | default: product.selected_or_first_available_variant
@@ -30,14 +35,16 @@
   assign sd_barcode_rest = sd_barcode | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
 
   assign sd_has_offer = false
-  for v in product.variants
-    if v.price > 0
-      assign sd_has_offer = true
-      break
-    endif
-  endfor
+  if show_offers
+    for v in product.variants
+      if v.price > 0
+        assign sd_has_offer = true
+        break
+      endif
+    endfor
+  endif
 -%}
-<script type="application/ld+json">
+<script type="application/ld+json" data-sd="product">
 {
   "@context": "https://schema.org",
   "@type": "Product",
