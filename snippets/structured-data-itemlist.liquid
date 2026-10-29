@@ -1,0 +1,36 @@
+{%- comment -%}
+  分类页 ItemList 结构化数据（JSON-LD）
+  - 列出当前页面上展示的产品：顺序位置 + 产品名 + 产品链接
+  - 按 Google 规定，分类页只标列表，不写 Product/价格（价格标记只用于产品详情页）
+  - 纯 Liquid 服务端输出，不加载 JS，不发额外请求
+  - 参数：
+    sd_products  必填，要列出的产品（collection.products；在 paginate 里就是当前页的产品）
+    sd_limit     可选，最多列几个，和区块里显示的数量保持一致（默认 50）
+    sd_offset    可选，分页时的起始位置（paginate.current_offset），保证第 2 页从 25 开始编号
+    sd_name      可选，列表名称，一般传系列/分类名
+{%- endcomment -%}
+{%- liquid
+  assign sd_max = sd_limit | default: 50
+  assign sd_start = sd_offset | default: 0
+-%}
+{%- if sd_products.size > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  {%- if sd_name != blank %}
+  "name": {{ sd_name | json }},
+  {%- endif %}
+  "itemListElement": [
+    {%- for p in sd_products limit: sd_max %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index | plus: sd_start }},
+      "name": {{ p.title | json }},
+      "url": {{ shop.url | append: p.url | json }}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- endif -%}

@@ -107,6 +107,19 @@
 
 {% if section.settings.layout == 'carousel' %}</div>{% endif %}
 
+{%- comment -%} 分类页（如 rugged-phones 的分系列区块）输出 ItemList；首页等其他页面不输出 {%- endcomment -%}
+{%- if template.name == 'collection' and section.settings.collection != blank -%}
+  {%- liquid
+    assign sd_fc = collections[section.settings.collection]
+    if section.settings.layout == 'carousel'
+      assign sd_fc_limit = 12
+    else
+      assign sd_fc_limit = max_products
+    endif
+  -%}
+  {%- render 'structured-data-itemlist', sd_products: sd_fc.products, sd_limit: sd_fc_limit, sd_name: sd_fc.title -%}
+{%- endif -%}
+
 
 {% schema %}
   {

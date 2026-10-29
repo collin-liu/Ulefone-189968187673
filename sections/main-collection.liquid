@@ -78,6 +78,9 @@
         </div>
       </div>
     {% endif %}
+
+    {%- comment -%} 分类页 ItemList 结构化数据：当前页显示的产品 {%- endcomment -%}
+    {%- render 'structured-data-itemlist', sd_products: collection.products, sd_offset: paginate.current_offset, sd_name: collection.title -%}
   {% endpaginate %}
 </div>
 
